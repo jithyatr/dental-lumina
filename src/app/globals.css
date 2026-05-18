@@ -1,26 +1,110 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), Georgia, serif;
+  --font-inter: var(--font-inter), system-ui, sans-serif;
+
+  --color-brand: #0076b8;
+  --color-brand-2: #329acf;
+  --color-brand-3: #63bee5;
+  --color-brand-deep: #075788;
+  --color-navy: #122031;
+  --color-ink: #0b050f;
+  --color-chip: #1d1d1d;
+  --color-chip-2: #131313;
+  --color-mute: #f6f6f6;
+  --color-line: #e2e2e2;
+  --color-line-dark: #303030;
+  --color-success: #00a693;
+  --color-teal: #00c3a2;
+  --color-gold: #fbb103;
+  --color-pale-blue: #cee1f7;
+  --color-icy: #cde4ff;
+  --color-stone: #828282;
+  --color-grey: #cacaca;
+
+  --radius-pill: 46px;
+  --radius-chip: 50px;
+
+  --shadow-glow-blue: inset -2px -2px 14px 4px #0076b8,
+    inset 4px -1px 17.9px 2px rgba(234, 0, 255, 0.25);
+  --shadow-glow-soft: inset -2px -2px 14px 4px rgba(255, 255, 255, 0.3);
+  --shadow-card: 0 24px 48px -24px rgba(7, 87, 136, 0.35);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-navy);
+}
+
+/* Display headings preset */
+.font-display {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01";
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+/* Common section gutter — Figma uses 200px L/R on a 1920 canvas (≈10.4%).
+   Scale to 5vw at smaller widths but cap at 200px. */
+.gutter-x {
+  padding-inline: clamp(20px, 5.5vw, 200px);
+}
+
+/* Brand gradient helpers */
+.bg-brand-gradient {
+  background: linear-gradient(120deg, #0076b8 10%, #329acf 59%, #63bee5 92%);
+}
+.bg-chip-gradient {
+  background: linear-gradient(130deg, #0076b8 0%, #329acf 42%, #63bee5 100%);
+}
+.bg-section-gradient {
+  background: linear-gradient(
+    180deg,
+    #0076b8 0%,
+    #479ccc 32%,
+    #b0d4e9 59%,
+    #ffffff 94%
+  );
+}
+
+/* Used for the dark glow card surfaces (AI cards) */
+.glow-card {
+  background: #0b050f;
+  box-shadow: var(--shadow-glow-blue);
+}
+
+/* Used for the booking widget */
+.glow-card-soft {
+  background: #0b050f;
+  box-shadow: var(--shadow-glow-soft);
+}
+
+/* Hide native scrollbars on horizontal carousels */
+.scroll-clean::-webkit-scrollbar {
+  display: none;
+}
+.scroll-clean {
+  scrollbar-width: none;
+}
+
+/* Marquee — slides the inner row by 50% (one duplicated set width) */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 32s linear infinite;
+}
+
+/* Subtle noise grain helper for blue panels */
+.grain-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
 }
