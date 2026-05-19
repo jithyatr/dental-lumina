@@ -1,9 +1,25 @@
+"use client";
+import { useEffect, useState } from "react";
 import { Phone } from "./icons";
 
 export function MobileStickyCTA() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setShow(window.scrollY > 480);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 lg:hidden">
-      {/* fade so content above stays legible behind the bar */}
+    <div
+      className={`fixed inset-x-0 bottom-0 z-40 transition-all duration-300 lg:hidden ${
+        show
+          ? "translate-y-0 opacity-100"
+          : "translate-y-full opacity-0 pointer-events-none"
+      }`}
+    >
       <div className="pointer-events-none absolute inset-x-0 -top-6 h-6 bg-gradient-to-b from-transparent to-white/85" />
       <div className="relative border-t border-line bg-white/95 px-4 pb-[max(env(safe-area-inset-bottom),12px)] pt-3 backdrop-blur-md shadow-[0_-10px_30px_-15px_rgba(7,87,136,0.25)]">
         <div className="flex items-center gap-3">
