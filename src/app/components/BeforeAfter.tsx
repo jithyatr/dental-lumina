@@ -47,13 +47,13 @@ function CompareCard({ card }: { card: Card }) {
   useEffect(() => {
     const onMove = (e: PointerEvent) => {
       if (!draggingRef.current) return;
-      e.preventDefault();
+      if (e.pointerType === "mouse" || e.cancelable) e.preventDefault();
       updateFromClientX(e.clientX);
     };
     const onUp = () => {
       draggingRef.current = false;
     };
-    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointermove", onMove, { passive: false });
     window.addEventListener("pointerup", onUp);
     window.addEventListener("pointercancel", onUp);
     return () => {
@@ -68,9 +68,12 @@ function CompareCard({ card }: { card: Card }) {
       <div
         ref={wrapRef}
         onPointerDown={(e) => {
+          // mouse: tap-to-jump enabled; touch: require explicit handle grab so page scroll still works
+          if (e.pointerType !== "mouse") return;
           draggingRef.current = true;
           updateFromClientX(e.clientX);
         }}
+        style={{ touchAction: "pan-y" }}
         className="relative aspect-[5/4] cursor-ew-resize overflow-hidden rounded-2xl bg-mute select-none"
       >
         {/* After (full background) */}
@@ -113,10 +116,12 @@ function CompareCard({ card }: { card: Card }) {
           aria-label="Drag to compare"
           onPointerDown={(e) => {
             e.stopPropagation();
+            e.currentTarget.setPointerCapture?.(e.pointerId);
             draggingRef.current = true;
+            updateFromClientX(e.clientX);
           }}
           className="absolute top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 cursor-ew-resize place-items-center rounded-full bg-white text-navy shadow-[0_8px_20px_-6px_rgba(0,0,0,0.35)] ring-1 ring-black/5 transition hover:scale-105"
-          style={{ left: `${pos}%` }}
+          style={{ left: `${pos}%`, touchAction: "none" }}
         >
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
             <path d="m9 6 6 6-6 6" />
