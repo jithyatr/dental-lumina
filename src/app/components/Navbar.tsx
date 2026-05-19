@@ -96,7 +96,7 @@ export function Navbar() {
 
       {/* Off-canvas mobile menu */}
       <div
-        className={`fixed inset-0 z-50 lg:hidden ${
+        className={`fixed inset-0 z-50 overflow-hidden lg:hidden ${
           open ? "pointer-events-auto" : "pointer-events-none"
         }`}
         aria-hidden={!open}
@@ -148,8 +148,8 @@ export function Navbar() {
               </button>
             ))}
 
-            <div className="mt-4 border-t border-white/10 pt-4">
-              <div className="mb-3 flex items-center gap-2 px-2 text-[13px] text-white/75">
+            <div className="mt-4 space-y-3 border-t border-white/10 pt-4 pb-[max(env(safe-area-inset-bottom),16px)]">
+              <div className="flex items-center gap-2 px-2 text-[13px] text-white/75">
                 <span className="h-1.5 w-1.5 rounded-full bg-success" />
                 Open. Closes At 8PM
               </div>
@@ -161,18 +161,15 @@ export function Navbar() {
                 <Phone className="h-4 w-4" />
                 (555) 123-4567
               </a>
+              <a
+                href="#booking"
+                onClick={() => setOpen(false)}
+                className="flex w-full items-center justify-center gap-2 rounded-pill bg-white px-5 py-3 text-[15px] font-medium text-brand"
+              >
+                Book Appointment
+              </a>
             </div>
           </nav>
-
-          <div className="border-t border-white/10 px-4 py-4 pb-[max(env(safe-area-inset-bottom),16px)]">
-            <a
-              href="#booking"
-              onClick={() => setOpen(false)}
-              className="flex w-full items-center justify-center gap-2 rounded-pill bg-white px-5 py-3 text-[15px] font-medium text-brand"
-            >
-              Book Appointment
-            </a>
-          </div>
         </aside>
       </div>
     </>

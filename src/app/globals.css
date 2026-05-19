@@ -42,6 +42,7 @@ html,
 body {
   background: #ffffff;
   color: var(--color-navy);
+  overflow-x: hidden;
 }
 
 /* Display headings preset */
