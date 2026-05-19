@@ -20,7 +20,7 @@ const options = [
 
 export function ImplantOptions() {
   return (
-    <section className="bg-white py-24 lg:py-32">
+    <section id="implant-options" className="bg-white py-24 lg:py-32">
       <div className="gutter-x">
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-flex items-center gap-2 rounded-pill bg-brand/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-brand">

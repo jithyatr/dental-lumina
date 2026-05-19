@@ -5,6 +5,7 @@ import { CounterStrip } from "./components/CounterStrip";
 import { Faq } from "./components/Faq";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
+import { MobileStickyCTA } from "./components/MobileStickyCTA";
 import { ImplantOptions } from "./components/ImplantOptions";
 import { Navbar } from "./components/Navbar";
 import { Payment } from "./components/Payment";
@@ -36,6 +37,9 @@ export default function ImplantsServicePage() {
       <Faq />
       <Payment />
       <Footer />
+      {/* spacer so the mobile sticky CTA doesn't cover footer content */}
+      <div className="h-20 lg:hidden" aria-hidden />
+      <MobileStickyCTA />
     </>
   );
 }

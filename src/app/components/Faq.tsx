@@ -30,7 +30,7 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="bg-white py-24 lg:py-32">
+    <section id="faq" className="bg-white py-24 lg:py-32">
       <div className="gutter-x grid gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <span className="text-[13px] uppercase tracking-[0.25em] text-navy/55">

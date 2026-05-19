@@ -189,6 +189,38 @@ export const Check = (props: IconProps) => (
   </svg>
 );
 
+export const Calendar = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <rect x="3" y="5" width="18" height="16" rx="3" />
+    <path d="M8 3v4M16 3v4M3 10h18" />
+  </svg>
+);
+
+export const Clock = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 7v5l3.2 2" />
+  </svg>
+);
+
+export const ArrowRight = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M5 12h14M13 5l7 7-7 7" />
+  </svg>
+);
+
+export const Menu = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M4 7h16M4 12h16M4 17h16" />
+  </svg>
+);
+
+export const Close = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M6 6l12 12M18 6 6 18" />
+  </svg>
+);
+
 export const Logo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 36 36" className={className} fill="none" aria-hidden>
     <circle cx="18" cy="18" r="17" stroke="currentColor" strokeWidth="1.5" />

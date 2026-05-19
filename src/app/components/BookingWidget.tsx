@@ -76,7 +76,7 @@ export function BookingWidget() {
     step === 0 ? "Choose Date & Time" : step === 1 ? "Continue to Details" : "Confirm Booking";
 
   return (
-    <section className="relative isolate overflow-hidden bg-section-gradient py-24 text-white lg:py-32">
+    <section id="booking" className="relative isolate overflow-hidden bg-section-gradient py-24 text-white lg:py-32">
       <div className="pointer-events-none absolute -left-32 top-1/4 h-[420px] w-[420px] rounded-full bg-white/10 blur-[180px]" />
       <div className="pointer-events-none absolute -right-32 bottom-1/4 h-[480px] w-[480px] rounded-full bg-white/10 blur-[200px]" />
 

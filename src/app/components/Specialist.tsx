@@ -11,7 +11,7 @@ const credentials = [
 
 export function Specialist() {
   return (
-    <section className="relative bg-white py-24 lg:py-32">
+    <section id="specialist" className="relative bg-white py-24 lg:py-32">
       <div className="gutter-x grid gap-12 lg:grid-cols-12 lg:items-center">
         <div className="lg:col-span-5">
           <div className="relative aspect-square overflow-hidden rounded-[28px] bg-mute">

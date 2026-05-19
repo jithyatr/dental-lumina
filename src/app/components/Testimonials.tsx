@@ -1,11 +1,9 @@
 "use client";
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { PlayCircle, Star } from "./icons";
+import { Star } from "./icons";
 import { Cta } from "./Cta";
 
 type Testimonial = {
-  image: string;
   headline: string;
   quote: string;
   author: string;
@@ -13,42 +11,36 @@ type Testimonial = {
 
 const items: Testimonial[] = [
   {
-    image: "/images/testimonial-1.png",
     headline: "They Brought My Smile Back",
     quote:
       '"After a complex dental procedure, I felt completely at ease. The dentists were incredibly patient and attentive. I walked out with renewed confidence and a healthier smile."',
     author: "LA, Rekha M",
   },
   {
-    image: "/images/testimonial-2.png",
     headline: "A Truly Comforting Practice",
     quote:
       '"From the moment I stepped in, every detail was considered. The team explained every step, and the results exceeded what I imagined."',
     author: "NY, Daniel K",
   },
   {
-    image: "/images/testimonial-1.png",
     headline: "Implants That Feel Natural",
     quote:
       '"I was nervous about getting implants, but the process was painless and the result is stunning. I keep forgetting they aren\'t my real teeth."',
     author: "TX, Marcus J",
   },
   {
-    image: "/images/testimonial-2.png",
     headline: "A Dentist I Finally Trust",
     quote:
       '"After years of dental anxiety, this team changed how I think about going to the dentist. Calm, kind, and incredibly skilled at what they do."',
     author: "FL, Priya S",
   },
   {
-    image: "/images/testimonial-1.png",
     headline: "Worth Every Single Visit",
     quote:
       '"The attention to detail is unmatched. From digital scans to the final fitting, every step felt premium and personal. I recommend them to everyone."',
     author: "CA, Helena R",
   },
   {
-    image: "/images/testimonial-2.png",
     headline: "Confidence In Every Smile",
     quote:
       '"My whitening treatment was quick, comfortable, and the results were beyond what I expected. I smile in photos again — that says everything."',
@@ -65,7 +57,6 @@ export function Testimonials() {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
 
-  // Sync the active dot with manual scroll position; pause on hover via ref
   useEffect(() => {
     const track = trackRef.current;
     if (!track) return;
@@ -95,7 +86,6 @@ export function Testimonials() {
     track.scrollTo({ left: clamped * slideWidth, behavior: "smooth" });
   };
 
-  // Auto-rotate; pause on hover/focus, on reduced-motion, or when off-screen
   useEffect(() => {
     if (paused) return;
     const prefersReduced = globalThis.matchMedia(
@@ -109,7 +99,6 @@ export function Testimonials() {
     return () => globalThis.clearInterval(id);
   }, [paused]);
 
-  // Pause when section is off-screen
   useEffect(() => {
     const el = sectionRef.current;
     if (!el) return;
@@ -152,43 +141,27 @@ export function Testimonials() {
           {items.map((t, i) => (
             <article
               key={`${t.author}-${i}`}
-              className="flex w-[min(95vw,1100px)] shrink-0 snap-start gap-6 md:flex-row flex-col"
+              className="flex w-[min(90vw,520px)] shrink-0 snap-start flex-col justify-between rounded-3xl bg-white p-8 shadow-[0_18px_40px_-30px_rgba(7,87,136,0.35)] ring-1 ring-black/4"
             >
-              <div className="relative aspect-16/10 flex-1 overflow-hidden rounded-3xl bg-black">
-                <Image
-                  src={t.image}
-                  alt={t.author}
-                  fill
-                  sizes="(min-width:1024px) 50vw, 100vw"
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-linear-to-b from-black/20 to-black/60" />
-                <button className="absolute right-5 top-5 inline-flex items-center gap-2 rounded-pill bg-white/15 px-4 py-2 text-sm text-white backdrop-blur-md ring-1 ring-white/30 hover:bg-white/25">
-                  <PlayCircle className="h-5 w-5" />
-                  Watch Now
-                </button>
-                <div className="absolute bottom-6 left-6 right-6">
-                  <div className="font-display text-[clamp(24px,3vw,40px)] leading-tight text-white">
-                    {t.headline}
-                  </div>
+              <div>
+                <div className="flex items-center gap-0.5 text-gold">
+                  {["s1", "s2", "s3", "s4", "s5"].map((k) => (
+                    <Star key={k} className="h-4 w-4" />
+                  ))}
                 </div>
-              </div>
-              <div className="flex w-full max-w-115 flex-col justify-between rounded-3xl bg-white p-8 md:max-w-105">
-                <blockquote className="font-display text-[24px] leading-[1.3] text-navy">
+                <h3 className="mt-5 font-display text-[26px] leading-tight text-navy">
+                  {t.headline}
+                </h3>
+                <blockquote className="mt-4 font-display text-[20px] leading-[1.4] text-navy/85">
                   {t.quote}
                 </blockquote>
-                <div className="mt-6 flex items-center justify-between border-t border-line pt-5">
-                  <div>
-                    <div className="text-[15px] font-medium">{t.author}</div>
-                    <div className="mt-1 flex items-center gap-0.5 text-gold">
-                      {["s1", "s2", "s3", "s4", "s5"].map((k) => (
-                        <Star key={k} className="h-4 w-4" />
-                      ))}
-                    </div>
-                  </div>
-                  <div className="text-[11px] uppercase tracking-wider text-navy/50">
-                    Verified · Google
-                  </div>
+              </div>
+              <div className="mt-8 flex items-center justify-between border-t border-line pt-5">
+                <div className="text-[15px] font-medium text-navy">
+                  {t.author}
+                </div>
+                <div className="text-[11px] uppercase tracking-wider text-navy/50">
+                  Verified · Google
                 </div>
               </div>
             </article>
