@@ -53,57 +53,134 @@ const AUTOPLAY_MS = 3000;
 export function Testimonials() {
   const trackRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
-  const activeRef = useRef(0);
-  const [active, setActive] = useState(0);
-  const [paused, setPaused] = useState(false);
+  const activePageRef = useRef(0);
+  const programmaticRef = useRef(false);
+  const programmaticTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [activePage, setActivePage] = useState(0);
+  const [pageCount, setPageCount] = useState(1);
+  const [hoverPaused, setHoverPaused] = useState(false);
+  const [offscreen, setOffscreen] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const paused = hoverPaused || offscreen || focused;
+
+  const getLayout = () => {
+    const track = trackRef.current;
+    if (!track) return null;
+    const first = track.children[0] as HTMLElement | undefined;
+    const second = track.children[1] as HTMLElement | undefined;
+    if (!first) return null;
+    const step =
+      second ? second.offsetLeft - first.offsetLeft : first.getBoundingClientRect().width;
+    if (!step) return null;
+    const cardsPerPage = Math.max(1, Math.floor(track.clientWidth / step));
+    const pages = Math.max(1, Math.ceil(items.length / cardsPerPage));
+    const maxScroll = Math.max(0, track.scrollWidth - track.clientWidth);
+    return { step, cardsPerPage, pages, maxScroll };
+  };
+
+  const pageScrollLeft = (page: number, layout: NonNullable<ReturnType<typeof getLayout>>) => {
+    const { step, cardsPerPage, pages, maxScroll } = layout;
+    if (page >= pages - 1) return maxScroll;
+    return Math.min(page * cardsPerPage * step, maxScroll);
+  };
 
   useEffect(() => {
     const track = trackRef.current;
     if (!track) return;
-    const onScroll = () => {
-      const slideWidth = track.scrollWidth / items.length;
-      const idx = Math.round(track.scrollLeft / slideWidth);
-      activeRef.current = idx;
-      setActive(idx);
+    const recompute = () => {
+      const layout = getLayout();
+      if (!layout) return;
+      setPageCount(layout.pages);
+      if (activePageRef.current > layout.pages - 1) {
+        activePageRef.current = layout.pages - 1;
+        setActivePage(layout.pages - 1);
+      }
     };
-    const onEnter = () => setPaused(true);
-    const onLeave = () => setPaused(false);
+    recompute();
+    const ro = new ResizeObserver(recompute);
+    ro.observe(track);
+    return () => ro.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track) return;
+    let raf = 0;
+    const onScroll = () => {
+      if (programmaticRef.current) return;
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = 0;
+        const layout = getLayout();
+        if (!layout) return;
+        const { step, cardsPerPage, pages, maxScroll } = layout;
+        const pageWidth = cardsPerPage * step;
+        let page: number;
+        if (track.scrollLeft >= maxScroll - 1) {
+          page = pages - 1;
+        } else {
+          page = Math.round(track.scrollLeft / pageWidth);
+        }
+        const clamped = Math.max(0, Math.min(pages - 1, page));
+        activePageRef.current = clamped;
+        setActivePage(clamped);
+      });
+    };
+    const onEnter = () => setHoverPaused(true);
+    const onLeave = () => setHoverPaused(false);
     track.addEventListener("scroll", onScroll, { passive: true });
     track.addEventListener("mouseenter", onEnter);
     track.addEventListener("mouseleave", onLeave);
     return () => {
+      if (raf) cancelAnimationFrame(raf);
+      if (programmaticTimerRef.current !== null) {
+        globalThis.clearTimeout(programmaticTimerRef.current);
+      }
       track.removeEventListener("scroll", onScroll);
       track.removeEventListener("mouseenter", onEnter);
       track.removeEventListener("mouseleave", onLeave);
     };
   }, []);
 
-  const goTo = (i: number) => {
+  const goToPage = (p: number) => {
     const track = trackRef.current;
     if (!track) return;
-    const clamped = (i + items.length) % items.length;
-    const slideWidth = track.scrollWidth / items.length;
-    track.scrollTo({ left: clamped * slideWidth, behavior: "smooth" });
+    const layout = getLayout();
+    if (!layout) return;
+    const { pages } = layout;
+    const clamped = ((p % pages) + pages) % pages;
+    programmaticRef.current = true;
+    activePageRef.current = clamped;
+    setActivePage(clamped);
+    track.scrollTo({ left: pageScrollLeft(clamped, layout), behavior: "smooth" });
+    if (programmaticTimerRef.current !== null) {
+      globalThis.clearTimeout(programmaticTimerRef.current);
+    }
+    programmaticTimerRef.current = globalThis.setTimeout(() => {
+      programmaticRef.current = false;
+      programmaticTimerRef.current = null;
+    }, 800);
   };
 
   useEffect(() => {
     if (paused) return;
+    if (pageCount <= 1) return;
     const prefersReduced = globalThis.matchMedia(
       "(prefers-reduced-motion: reduce)"
     ).matches;
     if (prefersReduced) return;
     const id = globalThis.setInterval(() => {
       if (document.hidden) return;
-      goTo(activeRef.current + 1);
+      goToPage(activePageRef.current + 1);
     }, AUTOPLAY_MS);
     return () => globalThis.clearInterval(id);
-  }, [paused]);
+  }, [paused, pageCount]);
 
   useEffect(() => {
     const el = sectionRef.current;
     if (!el) return;
     const io = new IntersectionObserver(
-      ([entry]) => setPaused((p) => (entry.isIntersecting ? p : true)),
+      ([entry]) => setOffscreen(!entry.isIntersecting),
       { threshold: 0.15 }
     );
     io.observe(el);
@@ -115,8 +192,8 @@ export function Testimonials() {
       ref={sectionRef}
       aria-roledescription="carousel"
       aria-label="Patient testimonials"
-      onFocusCapture={() => setPaused(true)}
-      onBlurCapture={() => setPaused(false)}
+      onFocusCapture={() => setFocused(true)}
+      onBlurCapture={() => setFocused(false)}
       className="bg-mute py-24 lg:py-32"
     >
       <div className="gutter-x">
@@ -141,6 +218,7 @@ export function Testimonials() {
           {items.map((t, i) => (
             <article
               key={`${t.author}-${i}`}
+              data-slide
               className="flex w-[min(90vw,520px)] shrink-0 snap-start flex-col justify-between rounded-3xl bg-white p-8 shadow-[0_18px_40px_-30px_rgba(7,87,136,0.35)] ring-1 ring-black/4"
             >
               <div>
@@ -168,25 +246,27 @@ export function Testimonials() {
           ))}
         </div>
 
-        {/* Pagination dots */}
-        <div className="mt-8 flex items-center justify-center gap-2">
-          {items.map((t, i) => (
-            <button
-              key={`dot-${t.author}-${i}`}
-              onClick={() => goTo(i)}
-              aria-label={`Go to slide ${i + 1}`}
-              className={`h-1.5 rounded-full transition-all ${
-                active === i ? "w-8 bg-brand" : "w-2 bg-navy/20 hover:bg-navy/40"
-              }`}
-            />
-          ))}
-        </div>
+        {pageCount > 1 && (
+          <div className="mt-8 flex items-center justify-center gap-2">
+            {Array.from({ length: pageCount }, (_, i) => (
+              <button
+                key={`dot-${i}`}
+                onClick={() => goToPage(i)}
+                aria-label={`Go to page ${i + 1}`}
+                className={`h-1.5 rounded-full transition-all ${
+                  activePage === i ? "w-8 bg-brand" : "w-2 bg-navy/20 hover:bg-navy/40"
+                }`}
+              />
+            ))}
+          </div>
+        )}
 
-        {/* Mobile arrows below */}
-        <div className="mt-6 flex items-center justify-center gap-3 md:hidden">
-          <SliderArrow direction="prev" onClick={() => goTo(active - 1)} />
-          <SliderArrow direction="next" onClick={() => goTo(active + 1)} />
-        </div>
+        {pageCount > 1 && (
+          <div className="mt-6 flex items-center justify-center gap-3 md:hidden">
+            <SliderArrow direction="prev" onClick={() => goToPage(activePage - 1)} />
+            <SliderArrow direction="next" onClick={() => goToPage(activePage + 1)} />
+          </div>
+        )}
       </div>
     </section>
   );
