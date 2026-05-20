@@ -217,16 +217,6 @@ export function SymptomChecker() {
                     </>
                   )}
                 </button>
-
-                <div className="mt-5 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-[11px] uppercase tracking-[0.2em] text-white/40">
-                  <span className="inline-flex items-center gap-1.5">
-                    <Shield className="h-3.5 w-3.5" /> Private & Secure
-                  </span>
-                  <span className="inline-flex items-center gap-1.5">
-                    <Phone className="h-3.5 w-3.5" /> Instant Triage
-                  </span>
-                  <span>Not a substitute for medical advice</span>
-                </div>
               </>
             )}
           </div>
