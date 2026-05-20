@@ -1,34 +1,51 @@
 import Image from "next/image";
 import { Plus } from "./icons";
+import type { Benefit } from "@/types/clinic";
 
-const benefits = [
+const DEFAULT_BENEFITS: Benefit[] = [
   {
     title: "Preserve Jawbone",
-    desc: "Implants stimulate the bone, preventing the bone loss that occurs with missing teeth.",
+    description:
+      "Implants stimulate the bone, preventing the bone loss that occurs with missing teeth.",
   },
   {
     title: "No Slips or Clicks",
-    desc: "Unlike dentures, implants are fixed and won't move while eating or speaking.",
+    description:
+      "Unlike dentures, implants are fixed and won't move while eating or speaking.",
   },
   {
     title: "Protect Healthy Teeth",
-    desc: "Implants don't require grinding down adjacent teeth like bridges do.",
+    description:
+      "Implants don't require grinding down adjacent teeth like bridges do.",
   },
   {
     title: "Youthful Appearance",
-    desc: "By preventing bone loss, implants help maintain your natural facial structure.",
+    description:
+      "By preventing bone loss, implants help maintain your natural facial structure.",
   },
 ];
 
-export function Benefits() {
+export function Benefits({
+  headline,
+  items,
+  image,
+}: Readonly<{ headline?: string; items?: Benefit[]; image?: string }>) {
+  const benefits = items && items.length > 0 ? items : DEFAULT_BENEFITS;
+  const title = headline ?? "Benefits Of Dental\nImplants";
+  const titleLines = title.split("\n");
+  const imageSrc = image ?? "/images/benefits-implant.png";
+
   return (
     <section className="bg-white py-24 lg:py-32">
       <div className="gutter-x grid gap-14 lg:grid-cols-12 lg:items-center">
         <div className="lg:col-span-6">
           <h2 className="font-display text-[clamp(32px,4vw,44px)] font-medium leading-[1.15] text-navy">
-            Benefits Of Dental
-            <br />
-            Implants
+            {titleLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < titleLines.length - 1 && <br />}
+              </span>
+            ))}
           </h2>
 
           <ul className="mt-10 space-y-7">
@@ -40,7 +57,7 @@ export function Benefits() {
                 <div>
                   <h3 className="text-[16px] font-medium text-navy">{b.title}</h3>
                   <p className="mt-1.5 max-w-md text-[14px] leading-[1.55] text-navy/60">
-                    {b.desc}
+                    {b.description}
                   </p>
                 </div>
               </li>
@@ -51,7 +68,7 @@ export function Benefits() {
         <div className="lg:col-span-6">
           <div className="relative w-full overflow-hidden rounded-2xl aspect-[6/5] bg-mute">
             <Image
-              src="/images/benefits-implant.png"
+              src={imageSrc}
               alt="Benefits of dental implants"
               fill
               sizes="(min-width:1024px) 50vw, 100vw"

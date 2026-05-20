@@ -2,55 +2,64 @@
 import { useEffect, useRef, useState } from "react";
 import { Star } from "./icons";
 import { Cta } from "./Cta";
+import type { Review } from "@/types/clinic";
 
-type Testimonial = {
-  headline: string;
-  quote: string;
-  author: string;
-};
-
-const items: Testimonial[] = [
+const DEFAULT_REVIEWS: Review[] = [
   {
     headline: "They Brought My Smile Back",
-    quote:
-      '"After a complex dental procedure, I felt completely at ease. The dentists were incredibly patient and attentive. I walked out with renewed confidence and a healthier smile."',
-    author: "LA, Rekha M",
+    text: '"After a complex dental procedure, I felt completely at ease. The dentists were incredibly patient and attentive. I walked out with renewed confidence and a healthier smile."',
+    name: "LA, Rekha M",
   },
   {
     headline: "A Truly Comforting Practice",
-    quote:
-      '"From the moment I stepped in, every detail was considered. The team explained every step, and the results exceeded what I imagined."',
-    author: "NY, Daniel K",
+    text: '"From the moment I stepped in, every detail was considered. The team explained every step, and the results exceeded what I imagined."',
+    name: "NY, Daniel K",
   },
   {
     headline: "Implants That Feel Natural",
-    quote:
-      '"I was nervous about getting implants, but the process was painless and the result is stunning. I keep forgetting they aren\'t my real teeth."',
-    author: "TX, Marcus J",
+    text: '"I was nervous about getting implants, but the process was painless and the result is stunning. I keep forgetting they aren\'t my real teeth."',
+    name: "TX, Marcus J",
   },
   {
     headline: "A Dentist I Finally Trust",
-    quote:
-      '"After years of dental anxiety, this team changed how I think about going to the dentist. Calm, kind, and incredibly skilled at what they do."',
-    author: "FL, Priya S",
+    text: '"After years of dental anxiety, this team changed how I think about going to the dentist. Calm, kind, and incredibly skilled at what they do."',
+    name: "FL, Priya S",
   },
   {
     headline: "Worth Every Single Visit",
-    quote:
-      '"The attention to detail is unmatched. From digital scans to the final fitting, every step felt premium and personal. I recommend them to everyone."',
-    author: "CA, Helena R",
+    text: '"The attention to detail is unmatched. From digital scans to the final fitting, every step felt premium and personal. I recommend them to everyone."',
+    name: "CA, Helena R",
   },
   {
     headline: "Confidence In Every Smile",
-    quote:
-      '"My whitening treatment was quick, comfortable, and the results were beyond what I expected. I smile in photos again — that says everything."',
-    author: "WA, Jonas P",
+    text: '"My whitening treatment was quick, comfortable, and the results were beyond what I expected. I smile in photos again — that says everything."',
+    name: "WA, Jonas P",
   },
 ];
 
 const AUTOPLAY_MS = 3000;
 
-export function Testimonials() {
+export function Testimonials({
+  headline,
+  subheading,
+  cta,
+  reviews,
+  clinicName,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  cta?: string;
+  reviews?: Review[];
+  clinicName?: string;
+}>) {
+  const items = reviews && reviews.length > 0 ? reviews : DEFAULT_REVIEWS;
+  const title = headline ?? "Kind Words From Our Patients";
+  const sub =
+    subheading ??
+    `Real stories from real patients who have experienced the ${
+      clinicName ?? "Lumina Dental"
+    } difference.`;
+  const ctaLabel = cta ?? "All Testimonials";
   const trackRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
   const activePageRef = useRef(0);
@@ -200,14 +209,13 @@ export function Testimonials() {
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-xl">
             <h2 className="font-display text-[clamp(32px,4.5vw,52px)] font-medium text-navy">
-              Kind Words From Our Patients
+              {title}
             </h2>
             <p className="mt-4 max-w-md text-[17px] text-navy/70">
-              Real stories from real patients who have experienced the Lumina
-              Dental difference.
+              {sub}
             </p>
           </div>
-          <Cta variant="blue">All Testimonials</Cta>
+          <Cta variant="blue">{ctaLabel}</Cta>
         </div>
 
         <div
@@ -217,7 +225,7 @@ export function Testimonials() {
         >
           {items.map((t, i) => (
             <article
-              key={`${t.author}-${i}`}
+              key={`${t.name}-${i}`}
               data-slide
               className="flex w-[min(90vw,520px)] shrink-0 snap-start flex-col justify-between rounded-3xl bg-white p-8 shadow-[0_18px_40px_-30px_rgba(7,87,136,0.35)] ring-1 ring-black/4"
             >
@@ -227,16 +235,18 @@ export function Testimonials() {
                     <Star key={k} className="h-4 w-4" />
                   ))}
                 </div>
-                <h3 className="mt-5 font-display text-[26px] leading-tight text-navy">
-                  {t.headline}
-                </h3>
+                {t.headline && (
+                  <h3 className="mt-5 font-display text-[26px] leading-tight text-navy">
+                    {t.headline}
+                  </h3>
+                )}
                 <blockquote className="mt-4 font-display text-[20px] leading-[1.4] text-navy/85">
-                  {t.quote}
+                  {t.text}
                 </blockquote>
               </div>
               <div className="mt-8 flex items-center justify-between border-t border-line pt-5">
                 <div className="text-[15px] font-medium text-navy">
-                  {t.author}
+                  {t.name}
                 </div>
                 <div className="text-[11px] uppercase tracking-wider text-navy/50">
                   Verified · Google

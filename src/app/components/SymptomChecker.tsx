@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import { ArrowDownRight, Check, Phone, Shield } from "./icons";
+import { ArrowDownRight, Check, Phone } from "./icons";
 
-const baseSymptoms = [
+const DEFAULT_SYMPTOMS = [
   "Severe Pain",
   "Swelling",
   "Bleeding",
@@ -15,9 +15,6 @@ const baseSymptoms = [
   "Cracked Tooth",
   "Loose Tooth",
   "Gum Swelling",
-];
-
-const implantSymptoms = [
   "Post-Op Bleeding",
   "Persistent Numbness",
   "Loose Implant",
@@ -27,7 +24,9 @@ const implantSymptoms = [
 ];
 
 const SERVICE_NAME = "Dental Implants";
-const ALL_SYMPTOMS = [...baseSymptoms, ...implantSymptoms];
+
+const AI_API_BASE = (process.env.NEXT_PUBLIC_AI_API_BASE ?? "").replace(/\/$/, "");
+const CHAT_ENDPOINT = AI_API_BASE ? `${AI_API_BASE}/api/chat` : "/api/chat";
 
 type Urgency = "Emergency" | "Urgent" | "Non-Urgent";
 type Triage = {
@@ -61,8 +60,32 @@ Urgency rules: Emergency=uncontrolled bleeding/swelling affecting breathing/knoc
 Patient on ${SERVICE_NAME} page. Symptoms: ${symptoms.join(", ") || "none"}. Description: ${description || "none"}`;
 }
 
-export function SymptomChecker() {
-  const [active, setActive] = useState<Set<string>>(new Set(["Severe Pain"]));
+export function SymptomChecker({
+  symptoms,
+  headline,
+  subheading,
+  phone,
+}: Readonly<{
+  symptoms?: string[];
+  headline?: string;
+  subheading?: string;
+  phone?: string;
+}>) {
+  const allSymptoms = symptoms && symptoms.length > 0 ? symptoms : DEFAULT_SYMPTOMS;
+  const sectionHeadline = headline ?? "Not sure what your symptoms mean?";
+  const sectionSub =
+    subheading ??
+    "Describe your symptoms and get instant triage guidance, no appointment needed.";
+  const fallbackPhone = phone ?? "5551234567";
+  const fallbackPhoneDigits = fallbackPhone.replace(/\D/g, "");
+  const fallbackPhoneDisplay =
+    fallbackPhoneDigits.length === 10
+      ? `(${fallbackPhoneDigits.slice(0, 3)}) ${fallbackPhoneDigits.slice(3, 6)}-${fallbackPhoneDigits.slice(6)}`
+      : fallbackPhone;
+
+  const [active, setActive] = useState<Set<string>>(
+    new Set([allSymptoms[0]])
+  );
   const [description, setDescription] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<Triage | null>(null);
@@ -86,7 +109,7 @@ export function SymptomChecker() {
     setResult(null);
     try {
       const message = buildPrompt(Array.from(active), description.trim());
-      const res = await fetch("/api/chat", {
+      const res = await fetch(CHAT_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message, history: [] }),
@@ -103,7 +126,7 @@ export function SymptomChecker() {
       setResult(parsed);
     } catch {
       setError(
-        "Failed to process symptoms. Please call us directly at (555) 123-4567 if you are in severe pain."
+        `Failed to process symptoms. Please call us directly at ${fallbackPhoneDisplay} if you are in severe pain.`
       );
     } finally {
       setLoading(false);
@@ -130,13 +153,12 @@ export function SymptomChecker() {
           AI Triage
         </span>
         <h2 className="mt-6 font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.1] text-navy">
-          Not sure what your symptoms mean?
+          {sectionHeadline}
           <br />
           <span className="text-brand">Ask our AI.</span>
         </h2>
         <p className="mx-auto mt-5 max-w-[560px] text-[17px] text-navy/70">
-          Describe your symptoms and get instant triage guidance, no
-          appointment needed.
+          {sectionSub}
         </p>
 
         <div className="relative mx-auto mt-12 w-full max-w-[760px]">
@@ -147,6 +169,7 @@ export function SymptomChecker() {
                 triage={result}
                 palette={palette!}
                 onReset={reset}
+                phone={fallbackPhone}
               />
             ) : (
               <>
@@ -163,7 +186,7 @@ export function SymptomChecker() {
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-2.5">
-                  {ALL_SYMPTOMS.map((s) => {
+                  {allSymptoms.map((s) => {
                     const on = active.has(s);
                     return (
                       <button
@@ -230,11 +253,14 @@ function ResultPanel({
   triage,
   palette,
   onReset,
+  phone,
 }: Readonly<{
   triage: Triage;
   palette: { ring: string; chip: string; label: string };
   onReset: () => void;
+  phone: string;
 }>) {
+  const telHref = `tel:${phone.replace(/\D/g, "")}`;
   return (
     <div className="animate-fade-up">
       <div className="flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
@@ -290,7 +316,7 @@ function ResultPanel({
           Check New Symptoms
         </button>
         <a
-          href="tel:5551234567"
+          href={telHref}
           className="flex-1 inline-flex items-center justify-center gap-2 rounded-chip bg-brand-gradient px-5 py-3 text-[14px] font-medium text-white shadow-[0_18px_40px_-18px_rgba(0,118,184,.8)] transition hover:-translate-y-0.5"
         >
           <Phone className="h-4 w-4" />

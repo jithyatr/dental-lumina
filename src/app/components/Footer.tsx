@@ -1,6 +1,7 @@
 import { Facebook, Instagram, LinkedIn, Logo, Youtube } from "./icons";
+import type { FooterColumn } from "@/types/clinic";
 
-const cols = [
+const DEFAULT_COLUMNS: FooterColumn[] = [
   {
     title: "Services",
     items: [
@@ -29,7 +30,25 @@ const cols = [
   },
 ];
 
-export function Footer() {
+const DEFAULT_ABOUT =
+  "Lumina Dental Care blends elegance and care, crafting confident smiles since 2004. Our certified team guarantees excellence and integrity throughout your journey.";
+
+export function Footer({
+  doctorName,
+  about,
+  columns,
+  copyright,
+}: Readonly<{
+  doctorName?: string;
+  about?: string;
+  columns?: FooterColumn[];
+  copyright?: string;
+}>) {
+  const headerName = doctorName ?? "Dr Sheila Dobee";
+  const aboutText = about ?? DEFAULT_ABOUT;
+  const cols = columns && columns.length > 0 ? columns : DEFAULT_COLUMNS;
+  const copy = copyright ?? "Copyright © 2026. All rights reserved.";
+
   return (
     <footer className="relative isolate overflow-hidden bg-black text-white">
       <div className="gutter-x pt-20 pb-10 lg:pt-24">
@@ -38,13 +57,11 @@ export function Footer() {
             <div className="flex items-center gap-2">
               <Logo className="h-8 w-8 text-white" />
               <span className="font-display text-[18px] font-medium uppercase tracking-[-0.03em]">
-                Dr Sheila Dobee
+                {headerName}
               </span>
             </div>
             <p className="mt-5 max-w-xs text-[14px] leading-[1.6] text-white/70">
-              Lumina Dental Care blends elegance and care, crafting confident
-              smiles since 2004. Our certified team guarantees excellence and
-              integrity throughout your journey.
+              {aboutText}
             </p>
             <div className="mt-7">
               <div className="text-[14px] font-medium text-white/90">
@@ -93,7 +110,7 @@ export function Footer() {
             <span className="hidden h-3 w-px bg-white/15 md:inline-block" />
             <a href="#" className="hover:text-white">Disclaimer</a>
             <span className="hidden h-3 w-px bg-white/15 md:inline-block" />
-            <span>Copyright © 2026. All rights reserved.</span>
+            <span>{copy}</span>
           </div>
           <div>
             Designed by{" "}

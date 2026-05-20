@@ -19,7 +19,10 @@ const CreditCard = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-const acceptedProviders = [
+import type { PaymentOption } from "@/types/clinic";
+import type { ComponentType } from "react";
+
+const DEFAULT_PROVIDERS = [
   "Delta Dental",
   "Cigna",
   "Aetna",
@@ -34,30 +37,58 @@ const acceptedProviders = [
   "Lincoln Financial",
 ];
 
-const cards = [
+const PAYMENT_ICONS: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
+  shield: Shield,
+  wallet: Wallet,
+  "credit-card": CreditCard,
+};
+const PAYMENT_ICON_ORDER = ["shield", "wallet", "credit-card"];
+
+const DEFAULT_OPTIONS: PaymentOption[] = [
   {
-    Icon: Shield,
+    iconName: "shield",
     title: "Insurance",
-    desc: "We work with most major PPO insurance providers to maximize your benefits.",
+    description:
+      "We work with most major PPO insurance providers to maximize your benefits.",
     badge: "Direct Billing Available",
   },
   {
-    Icon: Wallet,
+    iconName: "wallet",
     title: "In-House Financing",
-    desc: "Break up your treatment cost into predictable, interest-free monthly payments.",
+    description:
+      "Break up your treatment cost into predictable, interest-free monthly payments.",
     badge: "0% APR Options",
   },
   {
-    Icon: CreditCard,
+    iconName: "credit-card",
     title: "Third Party Credit",
-    desc: "We accept CareCredit and other financing for smile makeovers.",
+    description: "We accept CareCredit and other financing for smile makeovers.",
     badge: "Instant Approval",
   },
 ];
 
 type Result = { provider: string; accepted: boolean };
 
-export function Payment() {
+export function Payment({
+  headline,
+  subheading,
+  providers,
+  options,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  providers?: string[];
+  options?: PaymentOption[];
+}>) {
+  const acceptedProviders =
+    providers && providers.length > 0 ? providers : DEFAULT_PROVIDERS;
+  const cards = options && options.length > 0 ? options : DEFAULT_OPTIONS;
+  const title = headline ?? "Flexible Payment\nOptions";
+  const titleLines = title.split("\n");
+  const sub =
+    subheading ??
+    "We believe everyone deserves a healthy smile. We offer various financing plans to fit your budget.";
+
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
@@ -91,34 +122,47 @@ export function Payment() {
       <div className="gutter-x relative">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
-            Flexible Payment
-            <br />
-            Options
+            {titleLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < titleLines.length - 1 && <br />}
+              </span>
+            ))}
           </h2>
           <p className="mx-auto mt-5 max-w-md text-[15px] text-white/80">
-            We believe everyone deserves a healthy smile. We offer various
-            financing plans to fit your budget.
+            {sub}
           </p>
         </div>
 
         <div className="mx-auto mt-14 grid max-w-5xl gap-6 md:grid-cols-3">
-          {cards.map(({ Icon, title, desc, badge }) => (
-            <article
-              key={title}
-              className="group flex flex-col items-center rounded-3xl bg-white p-8 text-center text-navy shadow-[0_30px_70px_-30px_rgba(7,87,136,0.55)] transition hover:-translate-y-1"
-            >
-              <span className="grid h-12 w-12 place-items-center rounded-xl bg-brand text-white shadow-[0_10px_24px_-10px_rgba(0,118,184,0.6)]">
-                <Icon className="h-5 w-5" />
-              </span>
-              <h3 className="mt-6 text-[18px] font-medium text-navy">{title}</h3>
-              <p className="mt-3 max-w-[260px] text-[13.5px] leading-[1.6] text-navy/60">
-                {desc}
-              </p>
-              <span className="mt-auto inline-flex rounded-full bg-mute px-4 py-1.5 text-[12px] font-medium text-navy/70">
-                {badge}
-              </span>
-            </article>
-          ))}
+          {cards.map((option, i) => {
+            const iconKey =
+              option.iconName && option.iconName in PAYMENT_ICONS
+                ? option.iconName
+                : PAYMENT_ICON_ORDER[i % PAYMENT_ICON_ORDER.length];
+            const Icon = PAYMENT_ICONS[iconKey];
+            return (
+              <article
+                key={option.title}
+                className="group flex flex-col items-center rounded-3xl bg-white p-8 text-center text-navy shadow-[0_30px_70px_-30px_rgba(7,87,136,0.55)] transition hover:-translate-y-1"
+              >
+                <span className="grid h-12 w-12 place-items-center rounded-xl bg-brand text-white shadow-[0_10px_24px_-10px_rgba(0,118,184,0.6)]">
+                  <Icon className="h-5 w-5" />
+                </span>
+                <h3 className="mt-6 text-[18px] font-medium text-navy">
+                  {option.title}
+                </h3>
+                <p className="mt-3 max-w-[260px] text-[13.5px] leading-[1.6] text-navy/60">
+                  {option.description}
+                </p>
+                {option.badge && (
+                  <span className="mt-auto inline-flex rounded-full bg-mute px-4 py-1.5 text-[12px] font-medium text-navy/70">
+                    {option.badge}
+                  </span>
+                )}
+              </article>
+            );
+          })}
         </div>
 
         {/* Insurance Checker */}

@@ -1,4 +1,6 @@
-const stats = [
+import type { Stat } from "@/types/clinic";
+
+const DEFAULT_STATS: Stat[] = [
   { value: "20+", label: "Years Serving Community" },
   { value: "500+", label: "Projects Completed Successfully" },
   { value: "1500+", label: "Satisfied Clients Worldwide" },
@@ -7,8 +9,9 @@ const stats = [
   { value: "85%", label: "Employee Satisfied" },
 ];
 
-export function CounterStrip() {
-  const loop = [...stats, ...stats];
+export function CounterStrip({ stats }: Readonly<{ stats?: Stat[] }>) {
+  const items = stats && stats.length > 0 ? stats : DEFAULT_STATS;
+  const loop = [...items, ...items];
   return (
     <section className="relative bg-brand pb-14 text-white">
       <div className="relative overflow-hidden pt-6">

@@ -4,9 +4,37 @@ import { useEffect, useState } from "react";
 import { ChevronDown, Close, Logo, Menu, Phone } from "./icons";
 import { Cta } from "./Cta";
 
-const links = ["About", "Services", "Patients", "Media"];
+const DEFAULT_LINKS = ["About", "Services", "Patients", "Media"];
 
-export function Navbar() {
+function formatPhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "");
+  if (digits.length === 10) {
+    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+  }
+  return raw;
+}
+
+export function Navbar({
+  doctorName,
+  phone,
+  hours,
+  navLinks,
+  bookingCta,
+}: Readonly<{
+  doctorName?: string;
+  phone?: string;
+  hours?: string;
+  navLinks?: string[];
+  bookingCta?: string;
+}>) {
+  const name = doctorName ?? "Dr Sheila Dobee";
+  const rawPhone = phone ?? "5551234567";
+  const displayPhone = formatPhone(rawPhone);
+  const telHref = `tel:${rawPhone.replace(/\D/g, "")}`;
+  const status = hours ?? "Open. Closes At 8PM";
+  const links = navLinks && navLinks.length > 0 ? navLinks : DEFAULT_LINKS;
+  const ctaLabel = bookingCta ?? "Book Appointment";
+
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -46,7 +74,7 @@ export function Navbar() {
             <Link href="/" className="flex items-center gap-2.5">
               <Logo className="h-9 w-9 text-white" />
               <span className="font-display text-[18px] font-medium uppercase tracking-[0.04em]">
-                Dr Sheila Dobee
+                {name}
               </span>
             </Link>
             <nav className="hidden items-center gap-7 lg:flex">
@@ -65,19 +93,19 @@ export function Navbar() {
 
           <div className="flex items-center gap-6">
             <a
-              href="tel:5551234567"
+              href={telHref}
               className="hidden items-center gap-2 text-[14px] text-white/90 transition hover:text-white md:inline-flex"
             >
               <Phone className="h-4 w-4" />
-              (555) 123-4567
+              {displayPhone}
             </a>
             <div className="hidden items-center gap-2 text-[14px] text-white/90 xl:inline-flex">
               <span className="h-1.5 w-1.5 rounded-full bg-success" />
-              Open. Closes At 8PM
+              {status}
             </div>
             <div className="hidden lg:block">
               <Cta variant="blue" href="#booking">
-                Book Appointment
+                {ctaLabel}
               </Cta>
             </div>
 
@@ -122,7 +150,7 @@ export function Navbar() {
             <div className="flex items-center gap-2.5">
               <Logo className="h-8 w-8 text-white" />
               <span className="font-display text-[16px] font-medium uppercase tracking-[0.04em]">
-                Dr Sheila Dobee
+                {name}
               </span>
             </div>
             <button
@@ -151,22 +179,22 @@ export function Navbar() {
             <div className="mt-4 space-y-3 border-t border-white/10 pt-4 pb-[max(env(safe-area-inset-bottom),16px)]">
               <div className="flex items-center gap-2 px-2 text-[13px] text-white/75">
                 <span className="h-1.5 w-1.5 rounded-full bg-success" />
-                Open. Closes At 8PM
+                {status}
               </div>
               <a
-                href="tel:5551234567"
+                href={telHref}
                 onClick={() => setOpen(false)}
                 className="flex items-center gap-2 rounded-2xl bg-white/10 px-4 py-3 text-[15px] font-medium text-white ring-1 ring-white/15"
               >
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                {displayPhone}
               </a>
               <a
                 href="#booking"
                 onClick={() => setOpen(false)}
                 className="flex w-full items-center justify-center gap-2 rounded-pill bg-white px-5 py-3 text-[15px] font-medium text-brand"
               >
-                Book Appointment
+                {ctaLabel}
               </a>
             </div>
           </nav>

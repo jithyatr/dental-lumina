@@ -1,37 +1,35 @@
 "use client";
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
+import type { BeforeAfterCase } from "@/types/clinic";
 
-const tabs = ["All", "Orthopaedics", "Whitening", "Makeover"] as const;
-type Tab = (typeof tabs)[number];
-
-const cards = [
+const DEFAULT_CASES: BeforeAfterCase[] = [
   {
-    tag: "Whitening" as Tab,
+    tag: "Whitening",
     title: "Full Smile Makeover",
-    sub: "Completed in 4 months",
-    before: "/images/smile-makeover-before.png",
-    after: "/images/smile-makeover-after.png",
+    subtitle: "Completed in 4 months",
+    beforeImage: "/images/smile-makeover-before.png",
+    afterImage: "/images/smile-makeover-after.png",
   },
   {
-    tag: "Orthopaedics" as Tab,
+    tag: "Orthopaedics",
     title: "Dental Implant Placement",
-    sub: "Procedure duration: 2 hours",
-    before: "/images/implant-placement-before.png",
-    after: "/images/implant-placement-after.png",
+    subtitle: "Procedure duration: 2 hours",
+    beforeImage: "/images/implant-placement-before.png",
+    afterImage: "/images/implant-placement-after.png",
   },
   {
-    tag: "Makeover" as Tab,
+    tag: "Makeover",
     title: "Teeth Whitening Treatment",
-    sub: "Results visible after 1 session",
-    before: "/images/whitening-before.png",
-    after: "/images/whitening-after.png",
+    subtitle: "Results visible after 1 session",
+    beforeImage: "/images/whitening-before.png",
+    afterImage: "/images/whitening-after.png",
   },
 ];
 
-type Card = (typeof cards)[number];
+type Card = BeforeAfterCase;
 
-function CompareCard({ card }: { card: Card }) {
+function CompareCard({ card }: Readonly<{ card: Card }>) {
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const [pos, setPos] = useState(50);
   const draggingRef = useRef(false);
@@ -78,7 +76,7 @@ function CompareCard({ card }: { card: Card }) {
       >
         {/* After (full background) */}
         <Image
-          src={card.after}
+          src={card.afterImage}
           alt={`${card.title} after`}
           fill
           sizes="(min-width: 1024px) 400px, (min-width: 768px) 360px, 320px"
@@ -92,7 +90,7 @@ function CompareCard({ card }: { card: Card }) {
           style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
         >
           <Image
-            src={card.before}
+            src={card.beforeImage}
             alt={`${card.title} before`}
             fill
             sizes="(min-width: 1024px) 400px, (min-width: 768px) 360px, 320px"
@@ -131,26 +129,40 @@ function CompareCard({ card }: { card: Card }) {
 
       <div className="px-1 pt-5">
         <h3 className="font-display text-[20px] text-navy">{card.title}</h3>
-        <p className="mt-1 text-[13px] text-navy/60">{card.sub}</p>
+        <p className="mt-1 text-[13px] text-navy/60">{card.subtitle}</p>
       </div>
     </article>
   );
 }
 
-export function BeforeAfter() {
-  const [tab, setTab] = useState<Tab>("All");
-  const visible = cards.filter((c) => tab === "All" || c.tag === tab);
+export function BeforeAfter({
+  headline,
+  subheading,
+  cases,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  cases?: BeforeAfterCase[];
+}>) {
+  const items = cases && cases.length > 0 ? cases : DEFAULT_CASES;
+  const title = headline ?? "See the Smiles We've Crafted With Precision";
+  const sub =
+    subheading ??
+    "Real transformations, real people, every smile tells a story of renewed confidence.";
+
+  const tabs = ["All", ...Array.from(new Set(items.map((c) => c.tag)))];
+  const [tab, setTab] = useState<string>("All");
+  const visible = items.filter((c) => tab === "All" || c.tag === tab);
 
   return (
     <section className="bg-white py-24 lg:py-32">
       <div className="gutter-x">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-[clamp(34px,5vw,56px)] font-medium text-navy">
-            See the Smiles We've Crafted With Precision
+            {title}
           </h2>
           <p className="mx-auto mt-4 max-w-[560px] text-[15px] text-navy/65">
-            Real transformations, real people, every smile tells a story of
-            renewed confidence.
+            {sub}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-2">
             {tabs.map((t) => (

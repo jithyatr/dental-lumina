@@ -1,58 +1,81 @@
 "use client";
 import { useEffect, useState } from "react";
+import type { TreatmentStep } from "@/types/clinic";
 
-const steps = [
+const DEFAULT_STEPS: TreatmentStep[] = [
   {
     title: "Initial Consultation & Assessment",
-    desc: "Comprehensive oral examination, 3D cone beam CT imaging, and personalized treatment planning to determine the best approach for your smile.",
+    description:
+      "Comprehensive oral examination, 3D cone beam CT imaging, and personalized treatment planning to determine the best approach for your smile.",
   },
   {
     title: "Preparation & Foundation",
-    desc: "Any necessary preparatory work — bone grafting, extractions, or gum treatment — to ensure a stable, long-lasting foundation for your implants.",
+    description:
+      "Any necessary preparatory work — bone grafting, extractions, or gum treatment — to ensure a stable, long-lasting foundation for your implants.",
   },
   {
     title: "Implant Placement",
-    desc: "Precise surgical placement of titanium implant posts into the jawbone under local anesthesia, using guided surgery for optimal positioning.",
+    description:
+      "Precise surgical placement of titanium implant posts into the jawbone under local anesthesia, using guided surgery for optimal positioning.",
   },
   {
     title: "Healing & Osseointegration",
-    desc: "A period of 3–6 months as the implant naturally fuses with your jawbone — the biological process that makes implants permanent.",
+    description:
+      "A period of 3–6 months as the implant naturally fuses with your jawbone — the biological process that makes implants permanent.",
   },
   {
     title: "Abutment Placement & Impressions",
-    desc: "Once healed, an abutment connector is attached and detailed impressions are taken to craft your custom-fit restoration.",
+    description:
+      "Once healed, an abutment connector is attached and detailed impressions are taken to craft your custom-fit restoration.",
   },
   {
     title: "Final Restoration",
-    desc: "Your custom crown, bridge, or implant-supported denture is securely placed — completing your new, natural-looking smile.",
+    description:
+      "Your custom crown, bridge, or implant-supported denture is securely placed — completing your new, natural-looking smile.",
   },
 ];
 
 const INTERVAL_MS = 2000;
 
-export function Process() {
+export function Process({
+  headline,
+  subheading,
+  steps,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  steps?: TreatmentStep[];
+}>) {
+  const items = steps && steps.length > 0 ? steps : DEFAULT_STEPS;
+  const title = headline ?? "The Implant Process,\nstep by step.";
+  const titleLines = title.split("\n");
+  const sub =
+    subheading ??
+    "Every implant journey is different, but here's what most patients experience — from first consultation to a fully restored, confident smile.";
+
   const [active, setActive] = useState(0);
 
   useEffect(() => {
     const id = setInterval(() => {
-      setActive((i) => (i + 1) % steps.length);
+      setActive((i) => (i + 1) % items.length);
     }, INTERVAL_MS);
     return () => clearInterval(id);
-  }, [active]);
+  }, [active, items.length]);
 
   return (
     <section className="bg-mute py-24 lg:py-32">
       <div className="gutter-x">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-[clamp(32px,4.5vw,52px)] font-medium leading-[1.1] text-navy">
-            The Implant Process,
-            <br />
-            step by step.
+            {titleLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < titleLines.length - 1 && <br />}
+              </span>
+            ))}
           </h2>
           <p className="mx-auto mt-5 max-w-[640px] text-[15px] text-navy/65">
-            Every implant journey is different, but here's what most patients
-            experience — from first consultation to a fully restored, confident
-            smile.
+            {sub}
           </p>
         </div>
 
@@ -63,12 +86,12 @@ export function Process() {
           <div
             className="absolute left-2 top-2 w-px bg-brand transition-[height] duration-700 ease-out"
             style={{
-              height: `calc(${(active / Math.max(1, steps.length - 1)) * 100}% - 4px)`,
+              height: `calc(${(active / Math.max(1, items.length - 1)) * 100}% - 4px)`,
             }}
           />
 
           <ol className="space-y-10">
-            {steps.map((s, i) => {
+            {items.map((s, i) => {
               const on = active === i;
               const passed = i < active;
               return (
@@ -101,7 +124,7 @@ export function Process() {
                       on ? "font-medium text-navy" : "text-navy/35"
                     }`}
                   >
-                    {s.desc}
+                    {s.description}
                   </p>
                 </li>
               );

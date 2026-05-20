@@ -1,8 +1,9 @@
 "use client";
 import { useRef, useState } from "react";
 import { ArrowDownRight, Check, Sparkle, Upload } from "./icons";
+import type { SimulatorStep } from "@/types/clinic";
 
-const goals = [
+const DEFAULT_GOALS = [
   "Whiter teeth & brighter smile",
   "Straighten crooked teeth",
   "Achieve a confident smile",
@@ -10,18 +11,21 @@ const goals = [
   "Repair chipped edges",
 ];
 
-const steps = [
+const DEFAULT_STEPS: SimulatorStep[] = [
   {
     title: "Upload or take a photo",
-    desc: "A clear, front-facing selfie is all we need. No special lighting required.",
+    description:
+      "A clear, front-facing selfie is all we need. No special lighting required.",
   },
   {
     title: "Select your concern or goal",
-    desc: "Whitening, alignment, veneers, implants — choose what matters most to you.",
+    description:
+      "Whitening, alignment, veneers, implants — choose what matters most to you.",
   },
   {
     title: "Receive your AI smile report",
-    desc: "Instant assessment with a smile score, treatment estimate and recommendations.",
+    description:
+      "Instant assessment with a smile score, treatment estimate and recommendations.",
   },
 ];
 
@@ -32,9 +36,30 @@ type Suggestions = {
 
 const MAX_BYTES = 5 * 1024 * 1024;
 
-export function SmileSimulator() {
+const AI_API_BASE = (process.env.NEXT_PUBLIC_AI_API_BASE ?? "").replace(/\/$/, "");
+const SMILE_ENDPOINT = AI_API_BASE ? `${AI_API_BASE}/api/smile` : "/api/smile";
+
+export function SmileSimulator({
+  headline,
+  subheading,
+  goals,
+  steps,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  goals?: string[];
+  steps?: SimulatorStep[];
+}>) {
+  const goalOptions = goals && goals.length > 0 ? goals : DEFAULT_GOALS;
+  const stepItems = steps && steps.length > 0 ? steps : DEFAULT_STEPS;
+  const title = headline ?? "See Your New Smile\nBefore You Start";
+  const titleLines = title.split("\n");
+  const sub =
+    subheading ??
+    "Upload a photo and tell us what you'd like to improve. Our AI-driven simulator will analyze your unique features and suggest the best path for your Digital Smile Design.";
+
   const fileInput = useRef<HTMLInputElement>(null);
-  const [active, setActive] = useState(goals[0]);
+  const [active, setActive] = useState(goalOptions[0]);
   const [description, setDescription] = useState("");
   const [preview, setPreview] = useState<string | null>(null);
   const [imageBase64, setImageBase64] = useState<string | null>(null);
@@ -66,7 +91,7 @@ export function SmileSimulator() {
     setError(null);
     try {
       const promptText = description.trim() || active;
-      const res = await fetch("/api/smile", {
+      const res = await fetch(SMILE_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageBase64, prompt: promptText }),
@@ -106,18 +131,19 @@ export function SmileSimulator() {
         {/* Left — copy + steps */}
         <div className="lg:col-span-6">
           <h2 className="font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
-            See Your New Smile
-            <br />
-            Before You Start
+            {titleLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < titleLines.length - 1 && <br />}
+              </span>
+            ))}
           </h2>
           <p className="mt-5 max-w-[520px] text-[15px] leading-[1.6] text-white/75">
-            Upload a photo and tell us what you&apos;d like to improve. Our
-            AI-driven simulator will analyze your unique features and suggest
-            the best path for your Digital Smile Design.
+            {sub}
           </p>
 
           <ol className="mt-10 space-y-7">
-            {steps.map((s, i) => (
+            {stepItems.map((s, i) => (
               <li key={s.title} className="flex gap-4">
                 <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-white/15 text-[13px] font-medium text-white ring-1 ring-white/25">
                   {i + 1}
@@ -125,7 +151,7 @@ export function SmileSimulator() {
                 <div>
                   <h3 className="text-[17px] font-medium">{s.title}</h3>
                   <p className="mt-1 max-w-md text-[14px] text-white/70">
-                    {s.desc}
+                    {s.description}
                   </p>
                 </div>
               </li>
@@ -175,7 +201,7 @@ export function SmileSimulator() {
                     How can we improve it?
                   </h3>
                   <div className="mt-4 flex flex-wrap gap-2">
-                    {goals.map((g) => {
+                    {goalOptions.map((g) => {
                       const on = active === g;
                       return (
                         <button

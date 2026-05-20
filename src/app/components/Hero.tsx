@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Cta } from "./Cta";
 import { ArrowRight, Calendar, Check, Clock } from "./icons";
+import type { ClinicInfo, DoctorInfo } from "@/types/clinic";
 
 const dates = [
   { day: "MON", date: 14 },
@@ -18,16 +19,39 @@ const slots = [
   { time: "2:30 PM", state: "open" as const },
 ];
 
-const assurances = [
+const DEFAULT_ASSURANCES = [
   "No Insurance? No problem",
   "0% financing",
   "Same day quote",
 ];
 
+const DEFAULT_HEADLINE_LINES = ["Strong, Natural,", "Long-Lasting", "Implants."];
+
+const DEFAULT_SUBTITLE =
+  "Restore your confidence and oral health with dental implants that look, feel, and function just like your natural teeth.";
+
 const STEP_KEYS = ["date", "slot", "review", "confirmed"] as const;
 
-export function Hero() {
+export function Hero({
+  clinic,
+  doctor,
+}: Readonly<{ clinic?: ClinicInfo; doctor?: DoctorInfo }>) {
   const [step, setStep] = useState(0);
+
+  const headlineLines = clinic?.heroHeadline
+    ? clinic.heroHeadline.split("\n")
+    : DEFAULT_HEADLINE_LINES;
+  const subtitle = clinic?.heroSubtitle ?? DEFAULT_SUBTITLE;
+  const ctaLabel = clinic?.heroCta ?? "Book Free Consultation";
+  const heroImage =
+    clinic?.heroImagePath ?? "/images/dr-sheila-dobee-hero.png";
+  const heroImageAlt = doctor?.name
+    ? `${doctor.name} treating a patient`
+    : "Dr Sheila Dobee treating a patient";
+  const assurances =
+    clinic?.heroAssurances && clinic.heroAssurances.length > 0
+      ? clinic.heroAssurances
+      : DEFAULT_ASSURANCES;
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -59,18 +83,18 @@ export function Hero() {
         {/* Heading + CTA */}
         <div className="lg:col-span-6 xl:col-span-6">
           <h1 className="font-display text-[clamp(44px,7vw,80px)] font-medium leading-[1.05] tracking-[-0.03em]">
-            Strong, Natural,
-            <br />
-            Long-Lasting
-            <br />
-            Implants.
+            {headlineLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < headlineLines.length - 1 && <br />}
+              </span>
+            ))}
           </h1>
           <p className="mt-6 max-w-[520px] text-[17px] leading-[1.55] text-white/85">
-            Restore your confidence and oral health with dental implants that
-            look, feel, and function just like your natural teeth.
+            {subtitle}
           </p>
           <div className="mt-9">
-            <Cta variant="white">Book Free Consultation</Cta>
+            <Cta variant="white">{ctaLabel}</Cta>
           </div>
 
           {/* assurance pills */}
@@ -90,8 +114,8 @@ export function Hero() {
         <div className="relative lg:col-span-6 xl:col-span-6">
           <div className="relative ml-auto aspect-[4/3] w-full max-w-[620px] overflow-hidden rounded-[28px] ring-1 ring-white/15 shadow-[0_24px_60px_-12px_rgba(0,0,0,0.45)]">
             <Image
-              src="/images/dr-sheila-dobee-hero.png"
-              alt="Dr Sheila Dobee treating a patient"
+              src={heroImage}
+              alt={heroImageAlt}
               fill
               priority
               sizes="(min-width: 1024px) 50vw, 100vw"
