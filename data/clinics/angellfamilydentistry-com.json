@@ -1,0 +1,91 @@
+{
+  "clinic": {
+    "name": "Angell Family Dentistry",
+    "tagline": "Best Dentist in Columbia Heights, MN",
+    "city": "Columbia Heights",
+    "phone": "(763) 878-7953",
+    "address": "423 40th Ave NE #3719, Minneapolis, MN 55421, United States",
+    "logoPath": "/clinics/angellfamilydentistry-com/logo.webp",
+    "logoIsLight": false,
+    "heroSubtitle": "Providing gentle family dentistry in Columbia Heights with advanced same-day crowns, Invisalign®, and flexible financing options for a healthy, confident smile.",
+    "differentiators": [
+      {
+        "title": "Advanced Technology",
+        "description": "We utilize digital X-rays, 3D imaging, and CEREC same-day crown technology to enhance accuracy and shorten treatment times."
+      },
+      {
+        "title": "Flexible Financing",
+        "description": "Our practice offers bi-weekly and monthly payment plans with low down payments to make quality dental care affordable."
+      },
+      {
+        "title": "A Practice For All Ages",
+        "description": "From a child’s very first tooth to maintaining senior smiles, we are dedicated to creating positive experiences for the whole family."
+      },
+      {
+        "title": "Multilingual Team",
+        "description": "Our friendly, multilingual staff ensures a comfortable and stress-free environment for families from diverse backgrounds."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Welcome And Initial Exam",
+        "description": "We welcome you into our state-of-the-art facility where we use digital X-rays and intraoral cameras to thoroughly assess your oral health."
+      },
+      {
+        "title": "Personalized Care Planning",
+        "description": "Our team explains your procedures in detail, creating a custom plan that fits your health goals and dental needs."
+      },
+      {
+        "title": "Preventive Care And Education",
+        "description": "We focus on thorough cleanings and patient-focused guidance to help you maintain a healthy, vibrant smile year-round."
+      },
+      {
+        "title": "Expert Restorative Treatment",
+        "description": "From precise fillings to advanced CEREC same-day crowns, we restore strength and function to damaged teeth in a single visit."
+      },
+      {
+        "title": "Cosmetic Smile Enhancements",
+        "description": "Achieve the smile of your dreams through personalized cosmetic treatments including professional teeth whitening and veneers."
+      },
+      {
+        "title": "Ongoing Wellness Maintenance",
+        "description": "We partner with you for long-term health, providing regular checkups and support for patients of all ages."
+      }
+    ],
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Broken Teeth",
+      "Missing Teeth",
+      "Yellow Teeth",
+      "Gum Disease",
+      "Infected Root",
+      "Loose Filling",
+      "Kids' First Visit",
+      "Slipped Dentures",
+      "Emergency Trauma"
+    ]
+  },
+  "doctor": {
+    "name": "Steven Angell",
+    "bio": "Dr. Steven Angell joined Angell Family Dentistry in 2008. He earned his undergraduate degree from St. John’s University and his dental degree from the University of Minnesota. Passionate about all areas of family dentistry, he is active in the Minnesota and American Dental Associations and participates in Give Kids a Smile. He stays current through continuing education as a member of the OMS Study Club, ensuring every patient receives skilled and precise care.",
+    "photoPath": "/clinics/angellfamilydentistry-com/doctor.webp"
+  },
+  "reviews": [
+    {
+      "name": "Dianne Lutz",
+      "text": "In a word the team and Dr Steve are CARING. They are dedicated to excellent dentistry for us patients. Dr. Steve is so thorough with explaining the procedure. Angell Dentistry is simply the best!",
+      "rating": 5
+    },
+    {
+      "name": "Shana Jackson",
+      "text": "The energy was amazing, you felt at home. They were so friendly especially with my kids they were hands on with us. I am 100% happy with my choice I made picking them.",
+      "rating": 5
+    },
+    {
+      "name": "Mark R.",
+      "text": "The same-day crown technology is incredible. I was able to get my tooth fixed in one visit without any hassle. Highly recommend their skilled team!",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}
