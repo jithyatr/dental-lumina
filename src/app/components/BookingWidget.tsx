@@ -1,50 +1,32 @@
 "use client";
 import { useState } from "react";
-import type { ComponentType, SVGProps } from "react";
-import { Carousel, MapPin, Sparkle, Stethoscope } from "./icons";
+import { Carousel, MapPin, Phone, Sparkle, Stethoscope } from "./icons";
 import { CtaWide } from "./Cta";
-import type { BookingLocation, BookingService } from "@/types/clinic";
 
-const DEFAULT_LOCATIONS: BookingLocation[] = [
+export const locations = [
   {
     name: "Gallery District",
     address: "123 Aesthetic Ave, NY 10001",
     hours: "Mon-Fri 8AM to 8PM",
   },
-  {
-    name: "Midtown",
-    address: "123 Aesthetic Ave, NY 10001",
-    hours: "Mon-Fri 8AM to 8PM",
-  },
-  {
-    name: "Brooklyn Heights",
-    address: "123 Aesthetic Ave, NY 10001",
-    hours: "Mon-Fri 8AM to 8PM",
-  },
-  {
-    name: "Lower Manhattan",
-    address: "456 Serenity Lane, NY 10002",
-    hours: "Weekdays 9AM to 6PM",
-  },
 ];
 
-const SERVICE_ICONS: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
-  stethoscope: Stethoscope,
-  sparkle: Sparkle,
-  carousel: Carousel,
-};
-const SERVICE_ICON_ORDER = ["stethoscope", "sparkle", "carousel"];
-
-const DEFAULT_SERVICES: BookingService[] = [
-  { iconName: "stethoscope", name: "General Consultation", subtitle: "Exam & Treatment Plan", duration: "30 min" },
-  { iconName: "sparkle", name: "Dental Implants", subtitle: "Full Implant Procedure", duration: "90 min" },
-  { iconName: "carousel", name: "Teeth Whitening", subtitle: "Cosmetic Brightening Treatment", duration: "45 min" },
-  { iconName: "sparkle", name: "Root Canal Therapy", subtitle: "Infection Removal & Sealing", duration: "60 min" },
-  { iconName: "stethoscope", name: "Orthodontic Consultation", subtitle: "Braces and Aligners Assessment", duration: "30 min" },
-  { iconName: "sparkle", name: "Cosmetic Consultation", subtitle: "Smile Design Planning Session", duration: "30 min" },
+export const services = [
+  { Icon: Stethoscope, name: "General Consultation", sub: "Exam & Treatment Plan", duration: "30 min" },
+  { Icon: Sparkle, name: "Dental Implants", sub: "Full Implant Procedure", duration: "90 min" },
+  { Icon: Carousel, name: "Teeth Whitening", sub: "Cosmetic Brightening Treatment", duration: "45 min" },
+  { Icon: Sparkle, name: "Root Canal Therapy", sub: "Infection Removal & Sealing", duration: "60 min" },
+  { Icon: Stethoscope, name: "Orthodontic Consultation", sub: "Braces and Aligners Assessment", duration: "30 min" },
+  { Icon: Sparkle, name: "Cosmetic Consultation", sub: "Smile Design Planning Session", duration: "30 min" },
 ];
 
-const DEFAULT_SLOTS = [
+export const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
+export const dates = Array.from({ length: 14 }, (_, i) => ({
+  day: days[i % 7],
+  date: 12 + i,
+  month: "May",
+}));
+export const slots = [
   "9:00 AM",
   "9:30 AM",
   "10:00 AM",
@@ -59,35 +41,9 @@ const DEFAULT_SLOTS = [
   "3:30 PM",
 ];
 
-const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
-const dates = Array.from({ length: 14 }, (_, i) => ({
-  day: days[i % 7],
-  date: 12 + i,
-  month: "May",
-}));
-
 const stepTitles = ["Choose Place & Service", "Select Date & Time", "Your Details"];
 
-export function BookingWidget({
-  headline,
-  subheading,
-  locations,
-  services,
-  timeSlots,
-}: Readonly<{
-  headline?: string;
-  subheading?: string;
-  locations?: BookingLocation[];
-  services?: BookingService[];
-  timeSlots?: string[];
-}>) {
-  const locs = locations && locations.length > 0 ? locations : DEFAULT_LOCATIONS;
-  const svcs = services && services.length > 0 ? services : DEFAULT_SERVICES;
-  const slots = timeSlots && timeSlots.length > 0 ? timeSlots : DEFAULT_SLOTS;
-  const title = headline ?? "Book Your Visit";
-  const sub =
-    subheading ??
-    "Select a date and time that works for you. Our real-time booking system shows current availability for all our services.";
+export function BookingWidget() {
   const [step, setStep] = useState(0);
   const [loc, setLoc] = useState(0);
   const [svc, setSvc] = useState(1);
@@ -115,10 +71,11 @@ export function BookingWidget({
             Book Online
           </span>
           <h2 className="mt-5 font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
-            {title}
+            Book Your Visit
           </h2>
           <p className="mx-auto mt-5 max-w-[640px] text-[17px] text-white/85">
-            {sub}
+            Select a date and time that works for you. Our real-time booking
+            system shows current availability for all our services.
           </p>
         </div>
 
@@ -153,25 +110,27 @@ export function BookingWidget({
                     <div className="text-[12px] uppercase tracking-[0.25em] text-white/45">
                       Choose Your Location
                     </div>
-                    <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-                      {locs.map((l, i) => {
+                    <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                      {locations.map((l, i) => {
                         const on = loc === i;
                         return (
                           <button
                             key={l.name}
                             onClick={() => setLoc(i)}
                             className={`text-left rounded-2xl p-4 transition ${
-                              on
-                                ? "bg-brand ring-1 ring-[#1E6FD9] shadow-[0_18px_40px_-18px_rgba(0,118,184,.7)]"
-                                : "bg-chip hover:bg-chip-2"
+                              on ? "bg-brand ring-1 ring-[#1E6FD9]" : "bg-chip hover:bg-chip-2"
                             }`}
                           >
-                            <div className="flex items-center gap-2">
-                              <MapPin className="h-4 w-4 text-white/70" />
-                              <span className="text-[16px] font-medium">{l.name}</span>
+                            <div className="flex items-start justify-between gap-3">
+                              <span className="grid h-9 w-9 place-items-center rounded-xl bg-white/10 text-white">
+                                <MapPin className="h-4 w-4" />
+                              </span>
+                              <span className="rounded-full bg-teal/15 px-2.5 py-1 text-[10px] uppercase tracking-wider text-teal">
+                                {l.hours}
+                              </span>
                             </div>
-                            <div className="mt-2 text-[12px] text-white/65">{l.address}</div>
-                            <div className="mt-1 text-[12px] text-white/55">{l.hours}</div>
+                            <div className="mt-3 text-[16px] font-medium">{l.name}</div>
+                            <div className="mt-1 text-[12px] text-white/60">{l.address}</div>
                           </button>
                         );
                       })}
@@ -183,16 +142,11 @@ export function BookingWidget({
                       Choose Your Service
                     </div>
                     <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                      {svcs.map((service, i) => {
+                      {services.map(({ Icon, name: n, sub, duration }, i) => {
                         const on = svc === i;
-                        const iconKey =
-                          service.iconName && service.iconName in SERVICE_ICONS
-                            ? service.iconName
-                            : SERVICE_ICON_ORDER[i % SERVICE_ICON_ORDER.length];
-                        const Icon = SERVICE_ICONS[iconKey];
                         return (
                           <button
-                            key={service.name}
+                            key={n}
                             onClick={() => setSvc(i)}
                             className={`text-left rounded-2xl p-4 transition ${
                               on ? "bg-brand ring-1 ring-[#1E6FD9]" : "bg-chip hover:bg-chip-2"
@@ -203,11 +157,11 @@ export function BookingWidget({
                                 <Icon className="h-4 w-4" />
                               </span>
                               <span className="rounded-full bg-teal/15 px-2.5 py-1 text-[10px] uppercase tracking-wider text-teal">
-                                {service.duration}
+                                {duration}
                               </span>
                             </div>
-                            <div className="mt-3 text-[16px] font-medium">{service.name}</div>
-                            <div className="mt-1 text-[12px] text-white/60">{service.subtitle}</div>
+                            <div className="mt-3 text-[16px] font-medium">{n}</div>
+                            <div className="mt-1 text-[12px] text-white/60">{sub}</div>
                           </button>
                         );
                       })}
@@ -333,14 +287,14 @@ export function BookingWidget({
                     <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                       <SummaryCard
                         label="Location"
-                        value={locs[loc].name}
-                        sub={locs[loc].address}
+                        value={locations[loc].name}
+                        sub={locations[loc].address}
                         icon={<MapPin className="h-4 w-4" />}
                       />
                       <SummaryCard
                         label="Service"
-                        value={svcs[svc].name}
-                        sub={svcs[svc].duration}
+                        value={services[svc].name}
+                        sub={services[svc].duration}
                         icon={<Sparkle className="h-4 w-4" />}
                       />
                       <SummaryCard

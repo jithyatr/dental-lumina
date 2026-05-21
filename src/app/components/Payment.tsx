@@ -19,10 +19,7 @@ const CreditCard = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-import type { PaymentOption } from "@/types/clinic";
-import type { ComponentType } from "react";
-
-const DEFAULT_PROVIDERS = [
+const acceptedProviders = [
   "Delta Dental",
   "Cigna",
   "Aetna",
@@ -37,58 +34,30 @@ const DEFAULT_PROVIDERS = [
   "Lincoln Financial",
 ];
 
-const PAYMENT_ICONS: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
-  shield: Shield,
-  wallet: Wallet,
-  "credit-card": CreditCard,
-};
-const PAYMENT_ICON_ORDER = ["shield", "wallet", "credit-card"];
-
-const DEFAULT_OPTIONS: PaymentOption[] = [
+const cards = [
   {
-    iconName: "shield",
+    Icon: Shield,
     title: "Insurance",
-    description:
-      "We work with most major PPO insurance providers to maximize your benefits.",
+    desc: "We work with most major PPO insurance providers to maximize your benefits.",
     badge: "Direct Billing Available",
   },
   {
-    iconName: "wallet",
+    Icon: Wallet,
     title: "In-House Financing",
-    description:
-      "Break up your treatment cost into predictable, interest-free monthly payments.",
+    desc: "Break up your treatment cost into predictable, interest-free monthly payments.",
     badge: "0% APR Options",
   },
   {
-    iconName: "credit-card",
+    Icon: CreditCard,
     title: "Third Party Credit",
-    description: "We accept CareCredit and other financing for smile makeovers.",
+    desc: "We accept CareCredit and other financing for smile makeovers.",
     badge: "Instant Approval",
   },
 ];
 
 type Result = { provider: string; accepted: boolean };
 
-export function Payment({
-  headline,
-  subheading,
-  providers,
-  options,
-}: Readonly<{
-  headline?: string;
-  subheading?: string;
-  providers?: string[];
-  options?: PaymentOption[];
-}>) {
-  const acceptedProviders =
-    providers && providers.length > 0 ? providers : DEFAULT_PROVIDERS;
-  const cards = options && options.length > 0 ? options : DEFAULT_OPTIONS;
-  const title = headline ?? "Flexible Payment\nOptions";
-  const titleLines = title.split("\n");
-  const sub =
-    subheading ??
-    "We believe everyone deserves a healthy smile. We offer various financing plans to fit your budget.";
-
+export function Payment() {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
@@ -118,51 +87,53 @@ export function Payment({
   };
 
   return (
-    <section className="relative z-10 bg-brand py-24 text-white lg:py-32">
+    <section
+      className="relative z-10 py-24 text-white lg:py-32"
+      style={{
+        background:
+          "linear-gradient(180deg, #0076B8 0%, #479CCC 50%, #B0D4E9 85%, #FFFFFF 100%)",
+      }}
+    >
       <div className="gutter-x relative">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
-            {titleLines.map((line, i) => (
-              <span key={`${line}-${i}`}>
-                {line}
-                {i < titleLines.length - 1 && <br />}
-              </span>
-            ))}
+            Flexible Payment
+            <br />
+            Options
           </h2>
           <p className="mx-auto mt-5 max-w-md text-[15px] text-white/80">
-            {sub}
+            We believe everyone deserves a healthy smile. We offer various
+            financing plans to fit your budget.
           </p>
         </div>
 
         <div className="mx-auto mt-14 grid max-w-5xl gap-6 md:grid-cols-3">
-          {cards.map((option, i) => {
-            const iconKey =
-              option.iconName && option.iconName in PAYMENT_ICONS
-                ? option.iconName
-                : PAYMENT_ICON_ORDER[i % PAYMENT_ICON_ORDER.length];
-            const Icon = PAYMENT_ICONS[iconKey];
-            return (
-              <article
-                key={option.title}
-                className="group flex flex-col items-center rounded-3xl bg-white p-8 text-center text-navy shadow-[0_30px_70px_-30px_rgba(7,87,136,0.55)] transition hover:-translate-y-1"
+          {cards.map(({ Icon, title, desc, badge }) => (
+            <article
+              key={title}
+              className="group flex flex-col rounded-3xl bg-white p-4 text-center text-navy shadow-[0_30px_70px_-30px_rgba(7,87,136,0.55)] transition hover:-translate-y-1"
+            >
+              <div
+                className="flex h-40 items-center justify-center rounded-2xl text-white"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #0076B8 0%, #479CCC 60%, #6FB4DC 100%)",
+                }}
               >
-                <span className="grid h-12 w-12 place-items-center rounded-xl bg-brand text-white shadow-[0_10px_24px_-10px_rgba(0,118,184,0.6)]">
-                  <Icon className="h-5 w-5" />
-                </span>
-                <h3 className="mt-6 text-[18px] font-medium text-navy">
-                  {option.title}
-                </h3>
-                <p className="mt-3 max-w-[260px] text-[13.5px] leading-[1.6] text-navy/60">
-                  {option.description}
+                <Icon className="h-8 w-8" />
+              </div>
+              <div className="flex flex-1 flex-col px-4 pb-2 pt-6">
+                <h3 className="text-[18px] font-medium text-navy">{title}</h3>
+                <p className="mt-3 text-[13.5px] leading-[1.6] text-navy/60">
+                  {desc}
                 </p>
-                {option.badge && (
-                  <span className="mt-auto inline-flex rounded-full bg-mute px-4 py-1.5 text-[12px] font-medium text-navy/70">
-                    {option.badge}
-                  </span>
-                )}
-              </article>
-            );
-          })}
+                <div className="mt-auto w-full pt-5">
+                  <div className="mb-4 h-px w-full bg-navy/10" />
+                  <p className="text-[12px] font-medium text-navy/55">{badge}</p>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
 
         {/* Insurance Checker */}
