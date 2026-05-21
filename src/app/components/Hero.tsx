@@ -2,7 +2,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Cta } from "./Cta";
-import { ArrowRight, Calendar, Check, ChevronDown, Clock, Star } from "./icons";
+import { ArrowRight, Check, MapPin, Star } from "./icons";
+import { dates, locations, services, slots } from "./BookingWidget";
 
 const avatars = [
   { src: "/images/review-1.jpg", name: "Rekha M" },
@@ -11,78 +12,48 @@ const avatars = [
   { src: "/images/review-4.jpg", name: "Marcus J" },
 ];
 
-const DAY_LABELS = ["S", "M", "T", "W", "T", "F", "S"];
-const MONTH_LABELS = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
-const WEEKDAY_LONG = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-
-function stripTime(d: Date) {
-  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
-}
-
-const slots = [
-  { time: "9:00 AM", booked: true },
-  { time: "10:30 AM", booked: false },
-  { time: "1:00 PM", booked: false },
-  { time: "2:30 PM", booked: false },
-];
-
 const assurances = [
   "No Insurance? No problem",
   "0% financing",
   "Same day quote",
 ];
 
-const STEP_KEYS = ["date", "slot", "review", "confirmed"] as const;
+const STEP_KEYS = ["place", "datetime", "details", "confirmed"] as const;
+const STEP_TITLES = ["Place & Service", "Date & Time", "Your Details"];
 
 export function Hero() {
   const [step, setStep] = useState(0);
-  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
-  const [selectedSlotIdx, setSelectedSlotIdx] = useState<number | null>(null);
+  const [locIdx, setLocIdx] = useState<number | null>(0);
+  const [svcIdx, setSvcIdx] = useState<number | null>(null);
+  const [dateIdx, setDateIdx] = useState<number | null>(null);
+  const [slot, setSlot] = useState<string | null>(null);
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const step0Done = locIdx !== null && svcIdx !== null;
+  const step1Done = dateIdx !== null && slot !== null;
+  const step2Done = name.trim() !== "" && phone.trim() !== "";
+
+  const advance = () => {
+    if (step === 0 && step0Done) setStep(1);
+    else if (step === 1 && step1Done) setStep(2);
+    else if (step === 2 && step2Done) setStep(3);
+  };
 
   const goToStep = (i: number) => {
-    if (i === 1 && selectedDate === null) return;
-    if (i === 2 && (selectedDate === null || selectedSlotIdx === null)) return;
     if (i === 3) return;
+    if (i === 1 && !step0Done) return;
+    if (i === 2 && (!step0Done || !step1Done)) return;
     setStep(i);
   };
 
-  const pickDate = (d: Date) => {
-    setSelectedDate(d);
-    setStep(1);
-  };
-
-  const pickSlot = (i: number) => {
-    if (slots[i].booked) return;
-    setSelectedSlotIdx(i);
-    setStep(2);
-  };
-
-  const confirm = () => setStep(3);
-
   const reset = () => {
-    setSelectedDate(null);
-    setSelectedSlotIdx(null);
+    setLocIdx(0);
+    setSvcIdx(null);
+    setDateIdx(null);
+    setSlot(null);
+    setName("");
+    setPhone("");
     setStep(0);
   };
 
@@ -180,7 +151,7 @@ export function Hero() {
             />
           </div>
 
-          {/* floating booking card — anchored below image so it doesn't cover the photo */}
+          {/* floating booking card — mirrors BookingWidget steps */}
           <div className="pointer-events-auto absolute -bottom-24 right-2 w-[260px] rounded-[20px] bg-white p-3.5 text-navy shadow-[0_24px_60px_-12px_rgba(0,0,0,0.35)] ring-1 ring-white/40 sm:-bottom-20 sm:right-4 sm:w-[280px] md:w-[300px]">
             {/* Header — Live + progress dots */}
             <div className="flex items-center justify-between">
@@ -193,7 +164,11 @@ export function Hero() {
               </div>
               <div className="flex items-center gap-1">
                 {STEP_KEYS.map((key, i) => {
-                  const reachable = i <= step;
+                  const reachable =
+                    i === 0 ||
+                    (i === 1 && step0Done) ||
+                    (i === 2 && step0Done && step1Done) ||
+                    (i === 3 && step === 3);
                   return (
                     <button
                       key={key}
@@ -213,22 +188,41 @@ export function Hero() {
             {/* Step body — fixed-height frame so the card doesn't jitter */}
             <div className="mt-3 flex min-h-32 flex-col">
               {step === 0 && (
-                <StepPickDate
-                  selectedDate={selectedDate}
-                  onPick={pickDate}
+                <StepPlace
+                  locIdx={locIdx}
+                  svcIdx={svcIdx}
+                  onPickLoc={setLocIdx}
+                  onPickSvc={setSvcIdx}
+                  canAdvance={step0Done}
+                  onNext={advance}
                 />
               )}
               {step === 1 && (
-                <StepPickSlot
-                  selectedIdx={selectedSlotIdx}
-                  onPick={pickSlot}
+                <StepDateTime
+                  dateIdx={dateIdx}
+                  slot={slot}
+                  onPickDate={setDateIdx}
+                  onPickSlot={setSlot}
+                  canAdvance={step1Done}
+                  onNext={advance}
                 />
               )}
-              {step === 2 && selectedDate && selectedSlotIdx !== null && (
-                <StepReview
-                  date={selectedDate}
-                  slotIdx={selectedSlotIdx}
-                  onConfirm={confirm}
+              {step === 2 && (
+                <StepDetails
+                  name={name}
+                  phone={phone}
+                  onName={setName}
+                  onPhone={setPhone}
+                  summary={{
+                    service: svcIdx !== null ? services[svcIdx].name : "",
+                    location: locIdx !== null ? locations[locIdx].name : "",
+                    when:
+                      dateIdx !== null && slot
+                        ? `${dates[dateIdx].day} ${dates[dateIdx].date} · ${slot}`
+                        : "",
+                  }}
+                  canAdvance={step2Done}
+                  onConfirm={advance}
                 />
               )}
               {step === 3 && <StepConfirmed onReset={reset} />}
@@ -243,204 +237,250 @@ export function Hero() {
 function StepHeader({ index, title }: { readonly index: number; readonly title: string }) {
   return (
     <div>
-      <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-navy/40">
-        Step {index}
+      <p className="text-[9px] font-semibold uppercase tracking-[0.22em] text-navy/40">
+        Step {index} of 3
       </p>
-      <h3 className="mt-1 text-[16px] font-medium text-brand">{title}</h3>
+      <h3 className="mt-0.5 text-[13px] font-medium text-brand">{title}</h3>
     </div>
   );
 }
 
-type StepPickDateProps = {
-  readonly selectedDate: Date | null;
-  readonly onPick: (d: Date) => void;
+function PrimaryBtn({
+  label,
+  disabled,
+  onClick,
+}: {
+  readonly label: string;
+  readonly disabled: boolean;
+  readonly onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      disabled={disabled}
+      onClick={onClick}
+      className={`mt-auto inline-flex w-full items-center justify-center gap-1.5 rounded-lg py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] transition ${
+        disabled
+          ? "bg-mute text-navy/35 cursor-not-allowed"
+          : "bg-brand text-white shadow-[0_10px_24px_-12px_rgba(0,118,184,0.7)] hover:-translate-y-0.5"
+      }`}
+    >
+      {label}
+      <ArrowRight className="h-3 w-3" />
+    </button>
+  );
+}
+
+type StepPlaceProps = {
+  readonly locIdx: number | null;
+  readonly svcIdx: number | null;
+  readonly onPickLoc: (i: number) => void;
+  readonly onPickSvc: (i: number) => void;
+  readonly canAdvance: boolean;
+  readonly onNext: () => void;
 };
 
-function StepPickDate({ selectedDate, onPick }: StepPickDateProps) {
-  const today = stripTime(new Date());
-  const initialMonth = selectedDate ?? today;
-  const [view, setView] = useState(
-    new Date(initialMonth.getFullYear(), initialMonth.getMonth(), 1),
-  );
-
-  const firstWeekday = new Date(view.getFullYear(), view.getMonth(), 1).getDay();
-  const daysInMonth = new Date(
-    view.getFullYear(),
-    view.getMonth() + 1,
-    0,
-  ).getDate();
-
-  const cells: (Date | null)[] = [];
-  for (let i = 0; i < firstWeekday; i++) cells.push(null);
-  for (let d = 1; d <= daysInMonth; d++) {
-    cells.push(new Date(view.getFullYear(), view.getMonth(), d));
-  }
-
-  const shift = (delta: number) => {
-    setView(new Date(view.getFullYear(), view.getMonth() + delta, 1));
-  };
-
+function StepPlace({
+  locIdx,
+  svcIdx,
+  onPickLoc,
+  onPickSvc,
+  canAdvance,
+  onNext,
+}: StepPlaceProps) {
   return (
     <div className="flex flex-1 flex-col gap-2 animate-fade-up">
-      <div className="flex items-center justify-between">
-        <StepHeader index={1} title="Pick a date" />
-        <div className="flex items-center gap-1">
-          <button
-            type="button"
-            aria-label="Previous month"
-            onClick={() => shift(-1)}
-            className="grid h-6 w-6 place-items-center rounded-md border border-line text-navy/60 transition hover:border-brand/40 hover:text-brand"
-          >
-            <ChevronDown className="h-3 w-3 rotate-90" />
-          </button>
-          <button
-            type="button"
-            aria-label="Next month"
-            onClick={() => shift(1)}
-            className="grid h-6 w-6 place-items-center rounded-md border border-line text-navy/60 transition hover:border-brand/40 hover:text-brand"
-          >
-            <ChevronDown className="h-3 w-3 -rotate-90" />
-          </button>
+      <StepHeader index={1} title={STEP_TITLES[0]} />
+
+      <div>
+        <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
+          Location
+        </p>
+        <div className="mt-1 grid gap-1">
+          {locations.map((l, i) => {
+            const on = locIdx === i;
+            return (
+              <button
+                key={l.name}
+                type="button"
+                onClick={() => onPickLoc(i)}
+                className={`flex items-center gap-1 rounded-md border px-1.5 py-1 text-left text-[9px] font-semibold transition ${
+                  on
+                    ? "border-brand bg-brand text-white"
+                    : "border-line bg-white text-navy hover:border-brand/40"
+                }`}
+              >
+                <MapPin className="h-2.5 w-2.5 shrink-0" />
+                <span className="truncate">{l.name}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
-      <p className="text-[11px] font-semibold text-navy">
-        {MONTH_LABELS[view.getMonth()]} {view.getFullYear()}
-      </p>
-      <div className="grid grid-cols-7 gap-0.5 text-center">
-        {DAY_LABELS.map((d, i) => (
-          <span
-            key={`${d}-${i}`}
-            className="text-[8px] font-semibold uppercase tracking-wider text-navy/40"
-          >
-            {d}
-          </span>
-        ))}
-        {cells.map((cell, i) => {
-          if (!cell) return <span key={`pad-${i}`} className="h-6" />;
-          const past = cell < today;
-          const selected =
-            selectedDate !== null &&
-            cell.getTime() === stripTime(selectedDate).getTime();
-          const isToday = cell.getTime() === today.getTime();
-          let style = "text-navy hover:bg-brand/10";
-          if (past) style = "text-navy/25 cursor-not-allowed";
-          else if (selected)
-            style =
-              "bg-brand text-white shadow-[0_6px_14px_-8px_rgba(0,118,184,0.7)]";
-          else if (isToday) style = "text-brand ring-1 ring-brand/40";
-          return (
-            <button
-              type="button"
-              key={cell.toISOString()}
-              onClick={() => !past && onPick(cell)}
-              disabled={past}
-              className={`grid h-6 place-items-center rounded-md text-[10px] font-medium transition ${style}`}
-            >
-              {cell.getDate()}
-            </button>
-          );
-        })}
+
+      <div>
+        <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
+          Service
+        </p>
+        <div className="mt-1 grid grid-cols-2 gap-1">
+          {services.slice(0, 4).map((s, i) => {
+            const on = svcIdx === i;
+            const Icon = s.Icon;
+            return (
+              <button
+                key={s.name}
+                type="button"
+                onClick={() => onPickSvc(i)}
+                className={`flex items-center gap-1 rounded-md border px-1.5 py-1 text-left text-[9px] font-semibold transition ${
+                  on
+                    ? "border-brand bg-brand text-white"
+                    : "border-line bg-white text-navy hover:border-brand/40"
+                }`}
+              >
+                <Icon className="h-2.5 w-2.5 shrink-0" />
+                <span className="truncate">{s.name}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
+
+      <PrimaryBtn label="Next" disabled={!canAdvance} onClick={onNext} />
     </div>
   );
 }
 
-type StepPickSlotProps = {
-  readonly selectedIdx: number | null;
-  readonly onPick: (i: number) => void;
+type StepDateTimeProps = {
+  readonly dateIdx: number | null;
+  readonly slot: string | null;
+  readonly onPickDate: (i: number) => void;
+  readonly onPickSlot: (s: string) => void;
+  readonly canAdvance: boolean;
+  readonly onNext: () => void;
 };
 
-function StepPickSlot({ selectedIdx, onPick }: StepPickSlotProps) {
+function StepDateTime({
+  dateIdx,
+  slot,
+  onPickDate,
+  onPickSlot,
+  canAdvance,
+  onNext,
+}: StepDateTimeProps) {
   return (
-    <div className="flex flex-1 flex-col gap-2.5 animate-fade-up">
-      <StepHeader index={2} title="Choose a slot" />
-      <div className="grid grid-cols-2 gap-1.5">
-        {slots.map((s, i) => {
-          const selected = i === selectedIdx;
-          let style = "border-line bg-white text-navy hover:border-brand/40";
-          let labelOpacity = "opacity-40";
-          let label = "Open";
-          if (s.booked) {
-            style = "border-line bg-mute text-navy/35 line-through cursor-not-allowed";
-            labelOpacity = "opacity-60";
-            label = "Booked";
-          } else if (selected) {
-            style =
-              "border-brand bg-brand text-white shadow-[0_8px_20px_-10px_rgba(0,118,184,0.7)]";
-            labelOpacity = "opacity-85";
-            label = "Selected";
-          }
-          return (
-            <button
-              type="button"
-              key={s.time}
-              onClick={() => onPick(i)}
-              disabled={s.booked}
-              className={`rounded-lg border px-2.5 py-1.5 text-left transition ${style}`}
-            >
-              <div className="text-[11px] font-semibold">{s.time}</div>
-              <div
-                className={`mt-0.5 text-[8px] font-semibold uppercase tracking-[0.18em] ${labelOpacity}`}
+    <div className="flex flex-1 flex-col gap-2 animate-fade-up">
+      <StepHeader index={2} title={STEP_TITLES[1]} />
+
+      <div>
+        <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
+          Pick a Date
+        </p>
+        <div className="mt-1 grid grid-cols-4 gap-1">
+          {dates.slice(0, 4).map((d, i) => {
+            const on = dateIdx === i;
+            return (
+              <button
+                key={`${d.day}-${d.date}`}
+                type="button"
+                onClick={() => onPickDate(i)}
+                className={`rounded-md border px-1 py-1 text-center transition ${
+                  on
+                    ? "border-brand bg-brand text-white"
+                    : "border-line bg-white text-navy hover:border-brand/40"
+                }`}
               >
-                {label}
-              </div>
-            </button>
-          );
-        })}
+                <div className="text-[7px] font-semibold uppercase tracking-wider opacity-70">
+                  {d.day}
+                </div>
+                <div className="font-display text-[14px] leading-none">
+                  {d.date}
+                </div>
+              </button>
+            );
+          })}
+        </div>
       </div>
+
+      <div>
+        <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
+          Time Slot
+        </p>
+        <div className="mt-1 grid grid-cols-3 gap-1">
+          {slots.slice(0, 6).map((s) => {
+            const on = slot === s;
+            return (
+              <button
+                key={s}
+                type="button"
+                onClick={() => onPickSlot(s)}
+                className={`rounded-md border py-1 text-center text-[9px] font-semibold transition ${
+                  on
+                    ? "border-brand bg-brand text-white"
+                    : "border-line bg-white text-navy hover:border-brand/40"
+                }`}
+              >
+                {s}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <PrimaryBtn label="Next" disabled={!canAdvance} onClick={onNext} />
     </div>
   );
 }
 
-type StepReviewProps = {
-  readonly date: Date;
-  readonly slotIdx: number;
+type StepDetailsProps = {
+  readonly name: string;
+  readonly phone: string;
+  readonly onName: (v: string) => void;
+  readonly onPhone: (v: string) => void;
+  readonly summary: { service: string; location: string; when: string };
+  readonly canAdvance: boolean;
   readonly onConfirm: () => void;
 };
 
-function StepReview({ date, slotIdx, onConfirm }: StepReviewProps) {
-  const s = slots[slotIdx];
+function StepDetails({
+  name,
+  phone,
+  onName,
+  onPhone,
+  summary,
+  canAdvance,
+  onConfirm,
+}: StepDetailsProps) {
   return (
     <div className="flex flex-1 flex-col gap-2 animate-fade-up">
-      <StepHeader index={3} title="Review & confirm" />
-      <div className="space-y-1.5 rounded-lg border border-line bg-mute p-2.5">
-        <div className="flex items-center gap-2">
-          <span className="grid h-7 w-7 place-items-center rounded-md bg-white text-brand">
-            <Calendar className="h-3.5 w-3.5" />
-          </span>
-          <div>
-            <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
-              Date
-            </p>
-            <p className="text-[11px] font-semibold text-brand">
-              {WEEKDAY_LONG[date.getDay()].slice(0, 3)},{" "}
-              {MONTH_LABELS[date.getMonth()].slice(0, 3)} {date.getDate()},{" "}
-              {date.getFullYear()}
-            </p>
-          </div>
+      <StepHeader index={3} title={STEP_TITLES[2]} />
+
+      <div className="space-y-1">
+        <input
+          type="text"
+          placeholder="Full Name"
+          value={name}
+          onChange={(e) => onName(e.target.value)}
+          className="w-full rounded-md border border-line bg-white px-2 py-1 text-[10px] text-navy placeholder:text-navy/35 outline-none focus:border-brand"
+        />
+        <input
+          type="tel"
+          placeholder="Phone"
+          value={phone}
+          onChange={(e) => onPhone(e.target.value)}
+          className="w-full rounded-md border border-line bg-white px-2 py-1 text-[10px] text-navy placeholder:text-navy/35 outline-none focus:border-brand"
+        />
+      </div>
+
+      <div className="rounded-md border border-line bg-mute px-2 py-1.5 text-[9px] leading-tight">
+        <div className="truncate font-semibold text-brand">
+          {summary.service || "—"}
         </div>
-        <div className="flex items-center gap-2">
-          <span className="grid h-7 w-7 place-items-center rounded-md bg-white text-gold">
-            <Clock className="h-3.5 w-3.5" />
-          </span>
-          <div>
-            <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
-              Time
-            </p>
-            <p className="text-[11px] font-semibold text-brand">
-              {s.time} · 60 min
-            </p>
-          </div>
+        <div className="truncate text-navy/60">
+          {summary.location} · {summary.when}
         </div>
       </div>
-      <button
-        type="button"
-        onClick={onConfirm}
-        className="mt-auto inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-brand py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-white shadow-[0_10px_24px_-12px_rgba(0,118,184,0.7)] transition hover:-translate-y-0.5"
-      >
-        Confirm
-        <ArrowRight className="h-3 w-3" />
-      </button>
+
+      <PrimaryBtn label="Confirm" disabled={!canAdvance} onClick={onConfirm} />
     </div>
   );
 }

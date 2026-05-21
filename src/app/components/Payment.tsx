@@ -87,7 +87,13 @@ export function Payment() {
   };
 
   return (
-    <section className="relative z-10 bg-brand py-24 text-white lg:py-32">
+    <section
+      className="relative z-10 py-24 text-white lg:py-32"
+      style={{
+        background:
+          "linear-gradient(180deg, #0076B8 0%, #479CCC 50%, #B0D4E9 85%, #FFFFFF 100%)",
+      }}
+    >
       <div className="gutter-x relative">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
@@ -105,18 +111,27 @@ export function Payment() {
           {cards.map(({ Icon, title, desc, badge }) => (
             <article
               key={title}
-              className="group flex flex-col items-center rounded-3xl bg-white p-8 text-center text-navy shadow-[0_30px_70px_-30px_rgba(7,87,136,0.55)] transition hover:-translate-y-1"
+              className="group flex flex-col rounded-3xl bg-white p-4 text-center text-navy shadow-[0_30px_70px_-30px_rgba(7,87,136,0.55)] transition hover:-translate-y-1"
             >
-              <span className="grid h-12 w-12 place-items-center rounded-xl bg-brand text-white shadow-[0_10px_24px_-10px_rgba(0,118,184,0.6)]">
-                <Icon className="h-5 w-5" />
-              </span>
-              <h3 className="mt-6 text-[18px] font-medium text-navy">{title}</h3>
-              <p className="mt-3 max-w-[260px] text-[13.5px] leading-[1.6] text-navy/60">
-                {desc}
-              </p>
-              <span className="mt-auto inline-flex rounded-full bg-mute px-4 py-1.5 text-[12px] font-medium text-navy/70">
-                {badge}
-              </span>
+              <div
+                className="flex h-40 items-center justify-center rounded-2xl text-white"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #0076B8 0%, #479CCC 60%, #6FB4DC 100%)",
+                }}
+              >
+                <Icon className="h-8 w-8" />
+              </div>
+              <div className="flex flex-1 flex-col px-4 pb-2 pt-6">
+                <h3 className="text-[18px] font-medium text-navy">{title}</h3>
+                <p className="mt-3 text-[13.5px] leading-[1.6] text-navy/60">
+                  {desc}
+                </p>
+                <div className="mt-auto w-full pt-5">
+                  <div className="mb-4 h-px w-full bg-navy/10" />
+                  <p className="text-[12px] font-medium text-navy/55">{badge}</p>
+                </div>
+              </div>
             </article>
           ))}
         </div>

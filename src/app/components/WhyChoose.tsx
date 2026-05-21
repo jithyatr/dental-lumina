@@ -2,26 +2,24 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+const HERO_IMAGE = "/images/why-choose-image.png";
+
 const pillars = [
   {
     title: "Strong & Natural",
     desc: "Implants that mimic the strength and appearance of natural teeth.",
-    image: "/images/why-choose-image.png",
   },
   {
     title: "Long-Term Stability",
     desc: "Designed to last for decades with proper care and maintenance.",
-    image: "/images/benefits-implant.png",
   },
   {
     title: "Advanced Tech",
     desc: "Using 3D imaging and guided surgery for precision placement.",
-    image: "/images/implant-placement-after.png",
   },
   {
     title: "Daily Function",
     desc: "Eat, speak, and smile with complete confidence every day.",
-    image: "/images/smile-makeover-after.png",
   },
 ];
 
@@ -93,34 +91,15 @@ export function WhyChoose() {
 
         <div className="lg:col-span-6">
           <div className="relative w-full overflow-hidden rounded-2xl aspect-[6/5] bg-mute">
-            {pillars.map((p, i) => (
-              <Image
-                key={p.title}
-                src={p.image}
-                alt={p.title}
-                fill
-                sizes="(min-width:1024px) 55vw, 100vw"
-                className={`object-cover transition-opacity duration-700 ease-out ${
-                  active === i ? "opacity-100" : "opacity-0"
-                }`}
-                priority={i === 0}
-              />
-            ))}
+            <Image
+              src={HERO_IMAGE}
+              alt="Why choose Lumina"
+              fill
+              sizes="(min-width:1024px) 55vw, 100vw"
+              className="object-cover"
+              priority
+            />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-            <div className="absolute right-7 top-7 font-display text-[clamp(48px,8vw,96px)] font-semibold text-white/95 leading-none tracking-[-0.03em]">
-              0{active + 1}
-            </div>
-            <div className="absolute bottom-7 left-7 right-7 text-white">
-              <div className="text-[13px] uppercase tracking-[0.25em] text-white/75">
-                Reason {active + 1} of {pillars.length}
-              </div>
-              <div className="mt-2 font-display text-[26px] font-medium leading-tight">
-                {pillars[active].title}
-              </div>
-              <p className="mt-2 max-w-md text-[14px] text-white/80">
-                {pillars[active].desc}
-              </p>
-            </div>
           </div>
         </div>
       </div>

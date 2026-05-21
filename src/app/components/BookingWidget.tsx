@@ -3,30 +3,15 @@ import { useState } from "react";
 import { Carousel, MapPin, Phone, Sparkle, Stethoscope } from "./icons";
 import { CtaWide } from "./Cta";
 
-const locations = [
+export const locations = [
   {
     name: "Gallery District",
     address: "123 Aesthetic Ave, NY 10001",
     hours: "Mon-Fri 8AM to 8PM",
   },
-  {
-    name: "Midtown",
-    address: "123 Aesthetic Ave, NY 10001",
-    hours: "Mon-Fri 8AM to 8PM",
-  },
-  {
-    name: "Brooklyn Heights",
-    address: "123 Aesthetic Ave, NY 10001",
-    hours: "Mon-Fri 8AM to 8PM",
-  },
-  {
-    name: "Lower Manhattan",
-    address: "456 Serenity Lane, NY 10002",
-    hours: "Weekdays 9AM to 6PM",
-  },
 ];
 
-const services = [
+export const services = [
   { Icon: Stethoscope, name: "General Consultation", sub: "Exam & Treatment Plan", duration: "30 min" },
   { Icon: Sparkle, name: "Dental Implants", sub: "Full Implant Procedure", duration: "90 min" },
   { Icon: Carousel, name: "Teeth Whitening", sub: "Cosmetic Brightening Treatment", duration: "45 min" },
@@ -35,13 +20,13 @@ const services = [
   { Icon: Sparkle, name: "Cosmetic Consultation", sub: "Smile Design Planning Session", duration: "30 min" },
 ];
 
-const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
-const dates = Array.from({ length: 14 }, (_, i) => ({
+export const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
+export const dates = Array.from({ length: 14 }, (_, i) => ({
   day: days[i % 7],
   date: 12 + i,
   month: "May",
 }));
-const slots = [
+export const slots = [
   "9:00 AM",
   "9:30 AM",
   "10:00 AM",
@@ -125,7 +110,7 @@ export function BookingWidget() {
                     <div className="text-[12px] uppercase tracking-[0.25em] text-white/45">
                       Choose Your Location
                     </div>
-                    <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+                    <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                       {locations.map((l, i) => {
                         const on = loc === i;
                         return (
@@ -133,17 +118,19 @@ export function BookingWidget() {
                             key={l.name}
                             onClick={() => setLoc(i)}
                             className={`text-left rounded-2xl p-4 transition ${
-                              on
-                                ? "bg-brand ring-1 ring-[#1E6FD9] shadow-[0_18px_40px_-18px_rgba(0,118,184,.7)]"
-                                : "bg-chip hover:bg-chip-2"
+                              on ? "bg-brand ring-1 ring-[#1E6FD9]" : "bg-chip hover:bg-chip-2"
                             }`}
                           >
-                            <div className="flex items-center gap-2">
-                              <MapPin className="h-4 w-4 text-white/70" />
-                              <span className="text-[16px] font-medium">{l.name}</span>
+                            <div className="flex items-start justify-between gap-3">
+                              <span className="grid h-9 w-9 place-items-center rounded-xl bg-white/10 text-white">
+                                <MapPin className="h-4 w-4" />
+                              </span>
+                              <span className="rounded-full bg-teal/15 px-2.5 py-1 text-[10px] uppercase tracking-wider text-teal">
+                                {l.hours}
+                              </span>
                             </div>
-                            <div className="mt-2 text-[12px] text-white/65">{l.address}</div>
-                            <div className="mt-1 text-[12px] text-white/55">{l.hours}</div>
+                            <div className="mt-3 text-[16px] font-medium">{l.name}</div>
+                            <div className="mt-1 text-[12px] text-white/60">{l.address}</div>
                           </button>
                         );
                       })}
