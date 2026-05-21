@@ -13,18 +13,18 @@ export function CounterStrip({ stats }: Readonly<{ stats?: Stat[] }>) {
   const items = stats && stats.length > 0 ? stats : DEFAULT_STATS;
   const loop = [...items, ...items];
   return (
-    <section className="relative bg-brand pb-14 text-white">
-      <div className="relative overflow-hidden pt-6">
+    <section className="relative bg-white pb-14 pt-10 text-navy">
+      <div className="relative overflow-hidden">
         <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           {loop.map((s, i) => (
             <div
               key={`${s.label}-${i}`}
               className="flex w-[220px] shrink-0 flex-col justify-center px-6"
             >
-              <div className="font-display text-[40px] leading-none tracking-[-0.02em]">
+              <div className="font-display text-[40px] leading-none tracking-[-0.02em] text-brand">
                 {s.value}
               </div>
-              <div className="mt-2 text-[13px] text-white/80">{s.label}</div>
+              <div className="mt-2 text-[13px] text-navy/60">{s.label}</div>
             </div>
           ))}
         </div>
