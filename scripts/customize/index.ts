@@ -258,12 +258,18 @@ async function main() {
       city: profile.clinic.city,
       phone: firstPhone ?? profile.clinic.phone,
       address: profile.clinic.address,
+      hours: profile.clinic.hours,
       logoPath,
       logoIsLight,
       heroSubtitle: profile.clinic.heroSubtitle,
       differentiators: profile.clinic.differentiators?.slice(0, 4),
       treatmentJourney: profile.clinic.treatmentJourney?.slice(0, 6),
       commonSymptoms: profile.clinic.commonSymptoms?.slice(0, 10),
+      stats: profile.clinic.stats?.slice(0, 4),
+      benefits: profile.clinic.benefits?.slice(0, 6),
+      implantOptions: profile.clinic.implantOptions?.slice(0, 4),
+      faqItems: profile.clinic.faqItems?.slice(0, 6),
+      footerAbout: profile.clinic.footerAbout,
     },
     doctor: {
       name: profile.doctor.name,
@@ -352,6 +358,30 @@ async function main() {
       console.log(`      benefits → ${benefitsImagePath}`);
     } else {
       console.log("      benefits → falling back to default stock photo");
+    }
+
+    let whyChooseImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+      scene: "whychoose",
+      doctorPhotoLocalPath: doctorLocal,
+    });
+    if (!whyChooseImagePath && specialistLocal && specialistLocal !== doctorLocal) {
+      console.log("      whychoose → retrying with AI specialist headshot as reference");
+      whyChooseImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+        scene: "whychoose",
+        doctorPhotoLocalPath: specialistLocal,
+      });
+    }
+    if (!whyChooseImagePath && (doctorLocal || specialistLocal)) {
+      console.log("      whychoose → retrying text-only");
+      whyChooseImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+        scene: "whychoose",
+      });
+    }
+    if (whyChooseImagePath) {
+      config.clinic.whyChooseImagePath = whyChooseImagePath;
+      console.log(`      whychoose → ${whyChooseImagePath}`);
+    } else {
+      console.log("      whychoose → falling back to default stock photo");
     }
   } else {
     console.log(

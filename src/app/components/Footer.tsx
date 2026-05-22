@@ -1,5 +1,14 @@
-import { Facebook, Instagram, LinkedIn, Logo, Youtube } from "./icons";
+import Image from "next/image";
+import { Clock, Facebook, Instagram, LinkedIn, Logo, MapPin, Phone, Youtube } from "./icons";
 import type { FooterColumn } from "@/types/clinic";
+
+function formatPhoneDigits(raw: string): string {
+  const digits = raw.replace(/\D/g, "");
+  if (digits.length === 10) {
+    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+  }
+  return raw;
+}
 
 const DEFAULT_COLUMNS: FooterColumn[] = [
   {
@@ -34,20 +43,55 @@ const DEFAULT_ABOUT =
   "Lumina Dental Care blends elegance and care, crafting confident smiles since 2004. Our certified team guarantees excellence and integrity throughout your journey.";
 
 export function Footer({
+  clinicName,
   doctorName,
+  logoPath,
+  logoIsLight,
+  address,
+  phone,
+  hours,
   about,
   columns,
   copyright,
 }: Readonly<{
+  clinicName?: string;
   doctorName?: string;
+  logoPath?: string;
+  logoIsLight?: boolean;
+  address?: string;
+  phone?: string;
+  hours?: string;
   about?: string;
   columns?: FooterColumn[];
   copyright?: string;
 }>) {
-  const headerName = doctorName ?? "Dr Sheila Dobee";
+  const headerName = clinicName ?? doctorName ?? "Dr Sheila Dobee";
   const aboutText = about ?? DEFAULT_ABOUT;
   const cols = columns && columns.length > 0 ? columns : DEFAULT_COLUMNS;
   const copy = copyright ?? "Copyright © 2026. All rights reserved.";
+  const phoneDisplay = phone ? formatPhoneDigits(phone) : undefined;
+  const phoneHref = phone ? `tel:${phone.replace(/\D/g, "")}` : undefined;
+  const hasContact = Boolean(address || phoneDisplay || hours);
+
+  const renderLogo = () => {
+    if (logoPath) {
+      const wrap = logoIsLight
+        ? ""
+        : "rounded-md bg-white/95 ring-1 ring-white/10 p-1";
+      return (
+        <span className={`relative inline-grid h-8 w-8 place-items-center ${wrap}`}>
+          <Image
+            src={logoPath}
+            alt={`${headerName} logo`}
+            fill
+            sizes="32px"
+            className="object-contain"
+          />
+        </span>
+      );
+    }
+    return <Logo className="h-8 w-8 text-white" />;
+  };
 
   return (
     <footer className="relative isolate overflow-hidden bg-black text-white">
@@ -55,7 +99,7 @@ export function Footer({
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-3">
             <div className="flex items-center gap-2">
-              <Logo className="h-8 w-8 text-white" />
+              {renderLogo()}
               <span className="font-display text-[18px] font-medium uppercase tracking-[-0.03em]">
                 {headerName}
               </span>
@@ -83,6 +127,37 @@ export function Footer({
               </div>
             </div>
           </div>
+
+          {hasContact && (
+            <div className="lg:col-span-3">
+              <div className="text-[15px] font-medium text-white/95">Visit Us</div>
+              <ul className="mt-5 space-y-3 text-[13px] text-white/65">
+                {address && (
+                  <li className="flex items-start gap-2.5">
+                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-white/45" />
+                    <span className="leading-[1.55]">{address}</span>
+                  </li>
+                )}
+                {phoneDisplay && (
+                  <li className="flex items-start gap-2.5">
+                    <Phone className="mt-0.5 h-4 w-4 shrink-0 text-white/45" />
+                    <a
+                      href={phoneHref}
+                      className="leading-[1.55] transition hover:text-white"
+                    >
+                      {phoneDisplay}
+                    </a>
+                  </li>
+                )}
+                {hours && (
+                  <li className="flex items-start gap-2.5">
+                    <Clock className="mt-0.5 h-4 w-4 shrink-0 text-white/45" />
+                    <span className="leading-[1.55]">{hours}</span>
+                  </li>
+                )}
+              </ul>
+            </div>
+          )}
 
           {cols.map((c) => (
             <div key={c.title} className="lg:col-span-3">

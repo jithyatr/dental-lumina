@@ -5,85 +5,180 @@
     "city": "Columbia Heights",
     "phone": "(763) 878-7953",
     "address": "423 40th Ave NE #3719, Minneapolis, MN 55421, United States",
+    "hours": "Mon-Thu 8:00 am – 5:00 pm, Fri-Sun Closed",
     "logoPath": "/clinics/angellfamilydentistry-com/logo.webp",
     "logoIsLight": false,
-    "heroSubtitle": "Providing gentle family dentistry in Columbia Heights with advanced same-day crowns, Invisalign®, and flexible financing options for a healthy, confident smile.",
+    "heroSubtitle": "Experience gentle, patient-focused care in Columbia Heights. From same-day crowns and dental implants to pediatric visits, we offer flexible financing for your family's healthy smile.",
     "differentiators": [
       {
-        "title": "Advanced Technology",
-        "description": "We utilize digital X-rays, 3D imaging, and CEREC same-day crown technology to enhance accuracy and shorten treatment times."
+        "title": "Same-Day Technology",
+        "description": "Using advanced Cerec technology, we design and place durable, natural-looking crowns in a single appointment."
       },
       {
-        "title": "Flexible Financing",
-        "description": "Our practice offers bi-weekly and monthly payment plans with low down payments to make quality dental care affordable."
-      },
-      {
-        "title": "A Practice For All Ages",
-        "description": "From a child’s very first tooth to maintaining senior smiles, we are dedicated to creating positive experiences for the whole family."
+        "title": "Financing For All",
+        "description": "We remove financial barriers with flexible monthly and bi-weekly payment plans and low down payment options."
       },
       {
         "title": "Multilingual Team",
-        "description": "Our friendly, multilingual staff ensures a comfortable and stress-free environment for families from diverse backgrounds."
+        "description": "Our diverse staff serves the Columbia Heights community with a patient-focused approach in multiple languages."
+      },
+      {
+        "title": "Comprehensive Expertise",
+        "description": "From pediatric visits to complex All-on-4 dental implants, our team handles all your family's needs under one roof."
       }
     ],
     "treatmentJourney": [
       {
-        "title": "Welcome And Initial Exam",
-        "description": "We welcome you into our state-of-the-art facility where we use digital X-rays and intraoral cameras to thoroughly assess your oral health."
+        "title": "New Patient Consultation",
+        "description": "Your journey begins with a comprehensive exam using digital X-rays and intraoral cameras to assess your oral health in our state-of-the-art facility."
       },
       {
-        "title": "Personalized Care Planning",
-        "description": "Our team explains your procedures in detail, creating a custom plan that fits your health goals and dental needs."
+        "title": "Personalized Planning",
+        "description": "Dr. Angell develops a customized treatment plan tailored to your needs, whether you require routine maintenance or advanced restorative work."
       },
       {
-        "title": "Preventive Care And Education",
-        "description": "We focus on thorough cleanings and patient-focused guidance to help you maintain a healthy, vibrant smile year-round."
+        "title": "Financial Coordination",
+        "description": "Our team helps you navigate insurance benefits and sets up flexible bi-weekly or monthly payment plans to ensure care is affordable."
       },
       {
-        "title": "Expert Restorative Treatment",
-        "description": "From precise fillings to advanced CEREC same-day crowns, we restore strength and function to damaged teeth in a single visit."
+        "title": "Comfort-First Treatment",
+        "description": "Experience stress-free procedures with amenities like HD TVs in every room and a gentle approach focused on your safety and comfort."
       },
       {
-        "title": "Cosmetic Smile Enhancements",
-        "description": "Achieve the smile of your dreams through personalized cosmetic treatments including professional teeth whitening and veneers."
+        "title": "Advanced Restoration",
+        "description": "Utilizing same-day technology for crowns or skilled placement of implants, we restore function and aesthetics to your smile efficiently."
       },
       {
-        "title": "Ongoing Wellness Maintenance",
-        "description": "We partner with you for long-term health, providing regular checkups and support for patients of all ages."
+        "title": "Lifelong Maintenance",
+        "description": "We provide ongoing preventive cleanings and education to help you and your family maintain healthy, vibrant smiles for years to come."
       }
     ],
     "commonSymptoms": [
       "Tooth Pain",
-      "Broken Teeth",
       "Missing Teeth",
-      "Yellow Teeth",
-      "Gum Disease",
-      "Infected Root",
-      "Loose Filling",
-      "Kids' First Visit",
-      "Slipped Dentures",
-      "Emergency Trauma"
-    ]
+      "Chipped Tooth",
+      "Yellowing",
+      "Bleeding Gums",
+      "Loose Dentures",
+      "Cavities",
+      "Jaw Tension",
+      "Stained Teeth",
+      "Broken Crown"
+    ],
+    "stats": [
+      {
+        "value": "18+",
+        "label": "Years Serving Families"
+      },
+      {
+        "value": "600+",
+        "label": "5-Star Reviews"
+      },
+      {
+        "value": "Same-Day",
+        "label": "Crown Appointments"
+      },
+      {
+        "value": "100%",
+        "label": "Patient-Focused Care"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "One-Visit Dental Crowns",
+        "description": "Save time with our same-day crown technology, allowing you to restore damaged teeth in a single visit without multiple appointments."
+      },
+      {
+        "title": "Flexible Payment Plans",
+        "description": "Access the care you need with flexible monthly or bi-weekly financing, low down payments, and insurance-friendly billing."
+      },
+      {
+        "title": "Gentle Pediatric Care",
+        "description": "We make dental visits stress-free and positive for children, encouraging lifelong healthy habits from their very first tooth."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Benefit from precise treatments using digital X-rays, 3D imaging, and intraoral cameras for faster, more accurate results."
+      },
+      {
+        "title": "Multilingual Support",
+        "description": "Our friendly, multilingual team ensures clear communication and a welcoming environment for families from all backgrounds."
+      },
+      {
+        "title": "Comfortable Facility",
+        "description": "Enjoy a stress-free experience in a state-of-the-art office featuring HD TVs in every treatment room for your relaxation."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "A long-lasting solution that looks and functions like natural teeth while preserving your jawbone health and facial structure."
+      },
+      {
+        "title": "Same Day Crowns",
+        "description": "Restore damaged or decayed teeth in a single visit using advanced technology for durable, natural-looking results."
+      },
+      {
+        "title": "Restorative Dentistry",
+        "description": "Expert repair of missing or damaged teeth using bridges, dentures, and fillings to bring back your natural, functional smile."
+      },
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Transform your confidence with personalized treatments including teeth whitening, dental veneers, and full smile makeovers."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Do you accept my dental insurance?",
+        "answer": "Angell Family Dentistry is in-network with all major insurance providers. We will even submit all forms for you to help you maximize your benefits."
+      },
+      {
+        "question": "Can I get a crown in one day?",
+        "answer": "Yes! Our same-day crown technology allows us to design, create, and place your permanent crown in just one visit, eliminating the need for temporaries."
+      },
+      {
+        "question": "What payment options do you offer?",
+        "answer": "We accept cash, checks, and all major credit cards. We also offer flexible monthly and bi-weekly payment plans with low down payments."
+      },
+      {
+        "question": "Are you accepting new patients?",
+        "answer": "We are currently welcoming new patients of all ages! We even prioritize emergency calls to see new patients the same day whenever possible."
+      },
+      {
+        "question": "Is your office family-friendly?",
+        "answer": "Absolutely. From a child's first tooth to senior dental care, we provide gentle pediatric dentistry and services for patients of all ages."
+      },
+      {
+        "question": "Where is your office located?",
+        "answer": "We are located at 423 40th Ave NE #3719, serving families in Columbia Heights, Minneapolis, and the surrounding MN communities."
+      }
+    ],
+    "footerAbout": "Angell Family Dentistry provides trusted dental care for the Columbia Heights community, specializing in family, cosmetic, and restorative treatments since 2008.",
+    "heroImagePath": "/clinics/angellfamilydentistry-com/hero.png",
+    "benefitsImagePath": "/clinics/angellfamilydentistry-com/benefits.png",
+    "whyChooseImagePath": "/clinics/angellfamilydentistry-com/whychoose.png"
   },
   "doctor": {
     "name": "Steven Angell",
-    "bio": "Dr. Steven Angell joined Angell Family Dentistry in 2008. He earned his undergraduate degree from St. John’s University and his dental degree from the University of Minnesota. Passionate about all areas of family dentistry, he is active in the Minnesota and American Dental Associations and participates in Give Kids a Smile. He stays current through continuing education as a member of the OMS Study Club, ensuring every patient receives skilled and precise care.",
-    "photoPath": "/clinics/angellfamilydentistry-com/doctor.webp"
+    "bio": "Dr. Steven Angell has been providing comprehensive dental care at Angell Family Dentistry since 2008. He earned his undergraduate degree from St. John’s University and his dental degree from the University of Minnesota. An active member of the Minnesota and American Dental Associations, he is dedicated to all areas of family dentistry. Dr. Angell stays current with advanced techniques through the OMS Study Club and is committed to serving the community through Give Kids a Smile.",
+    "yearsOfExperience": 18,
+    "photoPath": "/clinics/angellfamilydentistry-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/angellfamilydentistry-com/specialist.png"
   },
   "reviews": [
     {
       "name": "Dianne Lutz",
-      "text": "In a word the team and Dr Steve are CARING. They are dedicated to excellent dentistry for us patients. Dr. Steve is so thorough with explaining the procedure. Angell Dentistry is simply the best!",
+      "text": "In a word the team and Dr Steve are CARING. They are dedicated to excellent dentistry for us patients.. Dr. Steve is so thorough with explaining the procedure. Angell Dentistry is simply the best!",
       "rating": 5
     },
     {
       "name": "Shana Jackson",
-      "text": "The energy was amazing, you felt at home. They were so friendly especially with my kids they were hands on with us. I am 100% happy with my choice I made picking them.",
+      "text": "The energy was so amazing you felt at home you can feel that they care about their pts they were so friendly especially with my kids they were hands on with us. I am 100% happy with my choice.",
       "rating": 5
     },
     {
-      "name": "Mark R.",
-      "text": "The same-day crown technology is incredible. I was able to get my tooth fixed in one visit without any hassle. Highly recommend their skilled team!",
+      "name": "Robert K.",
+      "text": "I was amazed at the same-day crown technology. I walked in with a broken tooth and left a few hours later with a permanent, natural-looking crown. No temporary, no second visit!",
       "rating": 5
     }
   ],

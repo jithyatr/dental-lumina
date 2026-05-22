@@ -1,15 +1,24 @@
 "use client";
 import { useState } from "react";
-import { Carousel, MapPin, Phone, Sparkle, Stethoscope } from "./icons";
+import type { ComponentType, SVGProps } from "react";
+import { Carousel, MapPin, Sparkle, Stethoscope } from "./icons";
 import { CtaWide } from "./Cta";
+import type { BookingLocation, BookingService } from "@/types/clinic";
 
-export const locations = [
+export const locations: BookingLocation[] = [
   {
     name: "Gallery District",
     address: "123 Aesthetic Ave, NY 10001",
     hours: "Mon-Fri 8AM to 8PM",
   },
 ];
+
+const SERVICE_ICONS: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
+  stethoscope: Stethoscope,
+  sparkle: Sparkle,
+  carousel: Carousel,
+};
+const SERVICE_ICON_ORDER = ["stethoscope", "sparkle", "carousel"];
 
 export const services = [
   { Icon: Stethoscope, name: "General Consultation", sub: "Exam & Treatment Plan", duration: "30 min" },
@@ -19,6 +28,22 @@ export const services = [
   { Icon: Stethoscope, name: "Orthodontic Consultation", sub: "Braces and Aligners Assessment", duration: "30 min" },
   { Icon: Sparkle, name: "Cosmetic Consultation", sub: "Smile Design Planning Session", duration: "30 min" },
 ];
+
+export function buildServices(custom: BookingService[] | undefined) {
+  if (!custom || custom.length === 0) return services;
+  return custom.map((s, i) => {
+    const iconKey =
+      s.iconName && s.iconName in SERVICE_ICONS
+        ? s.iconName
+        : SERVICE_ICON_ORDER[i % SERVICE_ICON_ORDER.length];
+    return {
+      Icon: SERVICE_ICONS[iconKey],
+      name: s.name,
+      sub: s.subtitle,
+      duration: s.duration,
+    };
+  });
+}
 
 export const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
 export const dates = Array.from({ length: 14 }, (_, i) => ({
@@ -43,12 +68,33 @@ export const slots = [
 
 const stepTitles = ["Choose Place & Service", "Select Date & Time", "Your Details"];
 
-export function BookingWidget() {
+export function BookingWidget({
+  headline,
+  subheading,
+  locations: customLocations,
+  services: customServices,
+  timeSlots,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  locations?: BookingLocation[];
+  services?: BookingService[];
+  timeSlots?: string[];
+}> = {}) {
+  const locs =
+    customLocations && customLocations.length > 0 ? customLocations : locations;
+  const svcs = buildServices(customServices);
+  const slotList = timeSlots && timeSlots.length > 0 ? timeSlots : slots;
+  const title = headline ?? "Book Your Visit";
+  const sub =
+    subheading ??
+    "Select a date and time that works for you. Our real-time booking system shows current availability for all our services.";
+
   const [step, setStep] = useState(0);
   const [loc, setLoc] = useState(0);
-  const [svc, setSvc] = useState(1);
+  const [svc, setSvc] = useState(Math.min(1, svcs.length - 1));
   const [dateIdx, setDateIdx] = useState(2);
-  const [slot, setSlot] = useState("10:00 AM");
+  const [slot, setSlot] = useState(slotList[2] ?? slotList[0] ?? "");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -71,11 +117,10 @@ export function BookingWidget() {
             Book Online
           </span>
           <h2 className="mt-5 font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
-            Book Your Visit
+            {title}
           </h2>
           <p className="mx-auto mt-5 max-w-[640px] text-[17px] text-white/85">
-            Select a date and time that works for you. Our real-time booking
-            system shows current availability for all our services.
+            {sub}
           </p>
         </div>
 
@@ -111,7 +156,7 @@ export function BookingWidget() {
                       Choose Your Location
                     </div>
                     <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                      {locations.map((l, i) => {
+                      {locs.map((l, i) => {
                         const on = loc === i;
                         return (
                           <button
@@ -142,7 +187,7 @@ export function BookingWidget() {
                       Choose Your Service
                     </div>
                     <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                      {services.map(({ Icon, name: n, sub, duration }, i) => {
+                      {svcs.map(({ Icon, name: n, sub: svcSub, duration }, i) => {
                         const on = svc === i;
                         return (
                           <button
@@ -161,7 +206,7 @@ export function BookingWidget() {
                               </span>
                             </div>
                             <div className="mt-3 text-[16px] font-medium">{n}</div>
-                            <div className="mt-1 text-[12px] text-white/60">{sub}</div>
+                            <div className="mt-1 text-[12px] text-white/60">{svcSub}</div>
                           </button>
                         );
                       })}
@@ -216,7 +261,7 @@ export function BookingWidget() {
                       Available Time Slots
                     </div>
                     <div className="mt-3 grid gap-3 sm:grid-cols-3 lg:grid-cols-4">
-                      {slots.map((s) => {
+                      {slotList.map((s) => {
                         const on = slot === s;
                         return (
                           <button
@@ -287,14 +332,14 @@ export function BookingWidget() {
                     <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                       <SummaryCard
                         label="Location"
-                        value={locations[loc].name}
-                        sub={locations[loc].address}
+                        value={locs[loc]?.name ?? ""}
+                        sub={locs[loc]?.address}
                         icon={<MapPin className="h-4 w-4" />}
                       />
                       <SummaryCard
                         label="Service"
-                        value={services[svc].name}
-                        sub={services[svc].duration}
+                        value={svcs[svc]?.name ?? ""}
+                        sub={svcs[svc]?.duration}
                         icon={<Sparkle className="h-4 w-4" />}
                       />
                       <SummaryCard

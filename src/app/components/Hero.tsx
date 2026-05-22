@@ -1,9 +1,28 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import type { ComponentType, SVGProps } from "react";
 import { Cta } from "./Cta";
 import { ArrowRight, Check, MapPin, Star } from "./icons";
-import { dates, locations, services, slots } from "./BookingWidget";
+import {
+  buildServices,
+  dates,
+  locations as defaultLocations,
+  slots,
+} from "./BookingWidget";
+import type {
+  BookingLocation,
+  BookingService,
+  ClinicInfo,
+  DoctorInfo,
+} from "@/types/clinic";
+
+type HeroService = {
+  Icon: ComponentType<SVGProps<SVGSVGElement>>;
+  name: string;
+  sub: string;
+  duration: string;
+};
 
 const avatars = [
   { src: "/images/review-1.jpg", name: "Rekha M" },
@@ -12,19 +31,59 @@ const avatars = [
   { src: "/images/review-4.jpg", name: "Marcus J" },
 ];
 
-const assurances = [
+const DEFAULT_ASSURANCES = [
   "No Insurance? No problem",
   "0% financing",
   "Same day quote",
 ];
 
+const DEFAULT_HEADLINE_LINES = ["Strong, Natural,", "Long-Lasting", "Implants."];
+const DEFAULT_SUBTITLE =
+  "Restore your confidence and oral health with dental implants that look, feel, and function just like your natural teeth.";
+
 const STEP_KEYS = ["place", "datetime", "details", "confirmed"] as const;
 const STEP_TITLES = ["Place & Service", "Date & Time", "Your Details"];
 
-export function Hero() {
+export function Hero({
+  clinic,
+  doctor,
+  services: customServices,
+}: Readonly<{
+  clinic?: ClinicInfo;
+  doctor?: DoctorInfo;
+  services?: BookingService[];
+}> = {}) {
+  const bookingServices: HeroService[] = buildServices(customServices);
+  const headlineLines = clinic?.heroHeadline
+    ? clinic.heroHeadline.split("\n")
+    : DEFAULT_HEADLINE_LINES;
+  const subtitle = clinic?.heroSubtitle ?? DEFAULT_SUBTITLE;
+  const ctaLabel = clinic?.heroCta ?? "Book Free Consultation";
+  const heroImage =
+    clinic?.heroImagePath ?? "/images/dr-sheila-dobee-hero.png";
+  const heroImageAlt = doctor?.name
+    ? `${doctor.name} treating a patient`
+    : "Dr Sheila Dobee treating a patient";
+  const assurances =
+    clinic?.heroAssurances && clinic.heroAssurances.length > 0
+      ? clinic.heroAssurances
+      : DEFAULT_ASSURANCES;
+
+  const bookingLocations: BookingLocation[] = clinic?.address
+    ? [
+        {
+          name: clinic.name,
+          address: clinic.address,
+          hours: clinic.hours ?? "Call for hours",
+        },
+      ]
+    : defaultLocations;
+
   const [step, setStep] = useState(0);
   const [locIdx, setLocIdx] = useState<number | null>(0);
-  const [svcIdx, setSvcIdx] = useState<number | null>(null);
+  const [svcIdx, setSvcIdx] = useState<number | null>(
+    bookingServices.length > 0 ? Math.min(1, bookingServices.length - 1) : null,
+  );
   const [dateIdx, setDateIdx] = useState<number | null>(null);
   const [slot, setSlot] = useState<string | null>(null);
   const [name, setName] = useState("");
@@ -49,7 +108,9 @@ export function Hero() {
 
   const reset = () => {
     setLocIdx(0);
-    setSvcIdx(null);
+    setSvcIdx(
+      bookingServices.length > 0 ? Math.min(1, bookingServices.length - 1) : null,
+    );
     setDateIdx(null);
     setSlot(null);
     setName("");
@@ -80,18 +141,18 @@ export function Hero() {
         {/* Heading + CTA */}
         <div className="lg:col-span-6 xl:col-span-6">
           <h1 className="font-display text-[clamp(44px,7vw,80px)] font-medium leading-[1.05] tracking-[-0.03em]">
-            Strong, Natural,
-            <br />
-            Long-Lasting
-            <br />
-            Implants.
+            {headlineLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < headlineLines.length - 1 && <br />}
+              </span>
+            ))}
           </h1>
           <p className="mt-6 max-w-[520px] text-[17px] leading-[1.55] text-white/85">
-            Restore your confidence and oral health with dental implants that
-            look, feel, and function just like your natural teeth.
+            {subtitle}
           </p>
           <div className="mt-9">
-            <Cta variant="white">Book Free Consultation</Cta>
+            <Cta variant="white">{ctaLabel}</Cta>
           </div>
 
           {/* assurance pills */}
@@ -142,12 +203,12 @@ export function Hero() {
         <div className="relative lg:col-span-6 xl:col-span-6">
           <div className="relative ml-auto aspect-[4/3] w-full max-w-[620px] overflow-hidden rounded-[28px] ring-1 ring-white/15 shadow-[0_24px_60px_-12px_rgba(0,0,0,0.45)]">
             <Image
-              src="/images/dr-sheila-dobee-hero.png"
-              alt="Dr Sheila Dobee treating a patient"
+              src={heroImage}
+              alt={heroImageAlt}
               fill
               priority
               sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
 
@@ -189,6 +250,8 @@ export function Hero() {
             <div className="mt-3 flex min-h-32 flex-col">
               {step === 0 && (
                 <StepPlace
+                  bookingLocations={bookingLocations}
+                  bookingServices={bookingServices}
                   locIdx={locIdx}
                   svcIdx={svcIdx}
                   onPickLoc={setLocIdx}
@@ -214,8 +277,10 @@ export function Hero() {
                   onName={setName}
                   onPhone={setPhone}
                   summary={{
-                    service: svcIdx !== null ? services[svcIdx].name : "",
-                    location: locIdx !== null ? locations[locIdx].name : "",
+                    service:
+                      svcIdx !== null ? bookingServices[svcIdx]?.name ?? "" : "",
+                    location:
+                      locIdx !== null ? bookingLocations[locIdx]?.name ?? "" : "",
                     when:
                       dateIdx !== null && slot
                         ? `${dates[dateIdx].day} ${dates[dateIdx].date} · ${slot}`
@@ -272,6 +337,8 @@ function PrimaryBtn({
 }
 
 type StepPlaceProps = {
+  readonly bookingLocations: BookingLocation[];
+  readonly bookingServices: HeroService[];
   readonly locIdx: number | null;
   readonly svcIdx: number | null;
   readonly onPickLoc: (i: number) => void;
@@ -281,6 +348,8 @@ type StepPlaceProps = {
 };
 
 function StepPlace({
+  bookingLocations,
+  bookingServices,
   locIdx,
   svcIdx,
   onPickLoc,
@@ -297,21 +366,30 @@ function StepPlace({
           Location
         </p>
         <div className="mt-1 grid gap-1">
-          {locations.map((l, i) => {
+          {bookingLocations.map((l, i) => {
             const on = locIdx === i;
             return (
               <button
                 key={l.name}
                 type="button"
                 onClick={() => onPickLoc(i)}
-                className={`flex items-center gap-1 rounded-md border px-1.5 py-1 text-left text-[9px] font-semibold transition ${
+                className={`rounded-md border px-1.5 py-1 text-left transition ${
                   on
                     ? "border-brand bg-brand text-white"
                     : "border-line bg-white text-navy hover:border-brand/40"
                 }`}
               >
-                <MapPin className="h-2.5 w-2.5 shrink-0" />
-                <span className="truncate">{l.name}</span>
+                <span className="flex items-center gap-1 text-[9px] font-semibold">
+                  <MapPin className="h-2.5 w-2.5 shrink-0" />
+                  <span className="truncate">{l.name}</span>
+                </span>
+                <span
+                  className={`mt-0.5 block truncate text-[8px] leading-tight ${
+                    on ? "text-white/85" : "text-navy/55"
+                  }`}
+                >
+                  {l.address}
+                </span>
               </button>
             );
           })}
@@ -323,7 +401,7 @@ function StepPlace({
           Service
         </p>
         <div className="mt-1 grid grid-cols-2 gap-1">
-          {services.slice(0, 4).map((s, i) => {
+          {bookingServices.slice(0, 4).map((s, i) => {
             const on = svcIdx === i;
             const Icon = s.Icon;
             return (

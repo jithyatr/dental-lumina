@@ -1,4 +1,8 @@
-import type { ClinicConfig } from "@/types/clinic";
+import type {
+  BookingLocation,
+  BookingService,
+  ClinicConfig,
+} from "@/types/clinic";
 import { BeforeAfter } from "./components/BeforeAfter";
 import { Benefits } from "./components/Benefits";
 import { BookingWidget } from "./components/BookingWidget";
@@ -17,20 +21,56 @@ import { SymptomChecker } from "./components/SymptomChecker";
 import { Testimonials } from "./components/Testimonials";
 import { WhyChoose } from "./components/WhyChoose";
 
+function shortenForBooking(text: string): string {
+  const firstSentence = text.split(/(?<=\.)\s+/)[0] ?? text;
+  if (firstSentence.length <= 60) return firstSentence.replace(/\.$/, "");
+  const truncated = firstSentence.slice(0, 60);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return (lastSpace > 30 ? truncated.slice(0, lastSpace) : truncated).replace(/[.,]$/, "");
+}
+
 export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
   const { clinic, doctor, reviews } = config;
+
+  const bookingLocations: BookingLocation[] | undefined =
+    clinic.bookingLocations && clinic.bookingLocations.length > 0
+      ? clinic.bookingLocations
+      : clinic.address
+        ? [
+            {
+              name: clinic.name,
+              address: clinic.address,
+              hours: clinic.hours ?? "Call for hours",
+            },
+          ]
+        : undefined;
+
+  const bookingServices: BookingService[] | undefined =
+    clinic.bookingServices && clinic.bookingServices.length > 0
+      ? clinic.bookingServices
+      : clinic.implantOptions && clinic.implantOptions.length > 0
+        ? clinic.implantOptions.map((opt) => ({
+            iconName: opt.iconName,
+            name: opt.title,
+            subtitle: shortenForBooking(opt.description),
+            duration: "30 min",
+          }))
+        : undefined;
 
   return (
     <>
       <div className="relative">
         <Navbar
+          clinicName={clinic.name}
           doctorName={doctor.name}
+          logoPath={clinic.logoPath}
+          logoIsLight={clinic.logoIsLight}
           phone={clinic.phone}
           hours={clinic.hours}
           navLinks={clinic.navLinks}
           bookingCta={clinic.bookingCta}
         />
-        <Hero clinic={clinic} doctor={doctor} />
+        <Hero clinic={clinic} doctor={doctor} services={bookingServices} />
       </div>
       <CounterStrip stats={clinic.stats} />
       <SymptomChecker
@@ -68,6 +108,8 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
         label={clinic.whyChooseLabel}
         headline={clinic.whyChooseHeadline}
         subheading={clinic.whyChooseSubheading}
+        clinicName={clinic.name}
+        image={clinic.whyChooseImagePath}
         pillars={clinic.whyChoosePillars}
         differentiators={clinic.differentiators}
       />
@@ -84,8 +126,8 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
       <BookingWidget
         headline={clinic.bookingHeadline}
         subheading={clinic.bookingSubheading}
-        locations={clinic.bookingLocations}
-        services={clinic.bookingServices}
+        locations={bookingLocations}
+        services={bookingServices}
         timeSlots={clinic.bookingTimeSlots}
       />
       <Faq
@@ -102,7 +144,13 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
         options={clinic.paymentOptions}
       />
       <Footer
+        clinicName={clinic.name}
         doctorName={doctor.name}
+        logoPath={clinic.logoPath}
+        logoIsLight={clinic.logoIsLight}
+        address={clinic.address}
+        phone={clinic.phone}
+        hours={clinic.hours}
         about={clinic.footerAbout}
         columns={clinic.footerColumns}
         copyright={clinic.footerCopyright}

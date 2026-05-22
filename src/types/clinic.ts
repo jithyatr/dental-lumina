@@ -122,6 +122,7 @@ export interface ClinicInfo {
   whyChooseLabel?: string;
   whyChooseHeadline?: string;
   whyChooseSubheading?: string;
+  whyChooseImagePath?: string;
   differentiators?: Differentiator[];
   whyChoosePillars?: WhyChoosePillar[];
 

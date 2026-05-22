@@ -1,7 +1,8 @@
 "use client";
 import { useMemo, useState } from "react";
-import type { SVGProps } from "react";
+import type { ComponentType, SVGProps } from "react";
 import { Check, Search, Shield } from "./icons";
+import type { PaymentOption } from "@/types/clinic";
 
 const Wallet = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
@@ -19,7 +20,14 @@ const CreditCard = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-const acceptedProviders = [
+const PAYMENT_ICONS: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
+  shield: Shield,
+  wallet: Wallet,
+  "credit-card": CreditCard,
+};
+const PAYMENT_ICON_ORDER = ["shield", "wallet", "credit-card"];
+
+const DEFAULT_PROVIDERS = [
   "Delta Dental",
   "Cigna",
   "Aetna",
@@ -34,7 +42,7 @@ const acceptedProviders = [
   "Lincoln Financial",
 ];
 
-const cards = [
+const DEFAULT_CARDS = [
   {
     Icon: Shield,
     title: "Insurance",
@@ -55,9 +63,44 @@ const cards = [
   },
 ];
 
+function buildCards(custom: PaymentOption[] | undefined) {
+  if (!custom || custom.length === 0) return DEFAULT_CARDS;
+  return custom.map((o, i) => {
+    const iconKey =
+      o.iconName && o.iconName in PAYMENT_ICONS
+        ? o.iconName
+        : PAYMENT_ICON_ORDER[i % PAYMENT_ICON_ORDER.length];
+    return {
+      Icon: PAYMENT_ICONS[iconKey],
+      title: o.title,
+      desc: o.description,
+      badge: o.badge ?? "",
+    };
+  });
+}
+
 type Result = { provider: string; accepted: boolean };
 
-export function Payment() {
+export function Payment({
+  headline,
+  subheading,
+  providers,
+  options,
+}: Readonly<{
+  headline?: string;
+  subheading?: string;
+  providers?: string[];
+  options?: PaymentOption[];
+}> = {}) {
+  const acceptedProviders =
+    providers && providers.length > 0 ? providers : DEFAULT_PROVIDERS;
+  const cards = buildCards(options);
+  const titleText = headline ?? "Flexible Payment\nOptions";
+  const titleLines = titleText.split("\n");
+  const sub =
+    subheading ??
+    "We believe everyone deserves a healthy smile. We offer various financing plans to fit your budget.";
+
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
@@ -68,7 +111,7 @@ export function Payment() {
     return acceptedProviders
       .filter((p) => p.toLowerCase().includes(q))
       .slice(0, 5);
-  }, [query]);
+  }, [query, acceptedProviders]);
 
   const checkCoverage = (raw?: string) => {
     const name = (raw ?? query).trim();
@@ -97,13 +140,15 @@ export function Payment() {
       <div className="gutter-x relative">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-[clamp(34px,5vw,56px)] font-medium leading-[1.08]">
-            Flexible Payment
-            <br />
-            Options
+            {titleLines.map((line, i) => (
+              <span key={`${line}-${i}`}>
+                {line}
+                {i < titleLines.length - 1 && <br />}
+              </span>
+            ))}
           </h2>
           <p className="mx-auto mt-5 max-w-md text-[15px] text-white/80">
-            We believe everyone deserves a healthy smile. We offer various
-            financing plans to fit your budget.
+            {sub}
           </p>
         </div>
 

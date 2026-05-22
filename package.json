@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "customize": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/index.ts",
-    "rebuild-site": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/rebuild.ts"
+    "rebuild-site": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/rebuild.ts",
+    "regen": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/regen.ts"
   },
   "dependencies": {
     "@google/genai": "^1.50.1",
