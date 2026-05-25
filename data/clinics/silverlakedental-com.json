@@ -5,181 +5,59 @@
     "city": "New Brighton",
     "phone": "(651) 633-6087",
     "address": "580 5th Avenue NW Suite 100, New Brighton, Minnesota 55112",
-    "hours": "Mon-Thu 8:00 a.m. – 5:00 p.m.",
     "logoPath": "/clinics/silverlakedental-com/logo.png",
     "logoIsLight": false,
-    "heroSubtitle": "Experience a warm, patient-centered atmosphere in New Brighton where your family's health is our priority. From routine cleanings to advanced cosmetic dentistry, we use the latest technology to care for every smile.",
-    "differentiators": [
-      {
-        "title": "Unmatched Patient Amenities",
-        "description": "From therapeutic paraffin hand dips to fresh-baked cookies and warm towels, we go above and beyond to make every visit feel like a special experience."
-      },
-      {
-        "title": "State-Of-The-Art Technology",
-        "description": "We utilize advanced tools like OraVerse for numbness reversal and Logicon software for early cavity detection that other clinics might miss."
-      },
-      {
-        "title": "Patient-Centered Atmosphere",
-        "description": "Our team prioritizes your comfort and well-being, creating a warm and welcoming environment designed to ease dental anxiety for the whole family."
-      },
-      {
-        "title": "Local Professional Leadership",
-        "description": "As a privately owned practice, our doctors are deeply rooted in the community and committed to building genuine, long-term relationships with patients."
-      }
-    ],
     "treatmentJourney": [
       {
-        "title": "Warm Welcome & Tour",
-        "description": "Step into our cozy, thoughtfully designed office where you can enjoy a coffee from our refreshment bar or a warm paraffin hand dip before your visit starts."
+        "title": "Warm Welcome & Records",
+        "description": "Your journey begins in our thoughtfully designed, comfortable office where we gather your health history and utilize digital X-rays for a precise baseline of your oral health."
       },
       {
-        "title": "Advanced Diagnostics",
-        "description": "Using digital X-rays and intra-oral cameras, we capture high-resolution images of your teeth and gums to identify any hidden issues with precision."
+        "title": "Comprehensive Clinical Exam",
+        "description": "Dr. Snell or her associates perform a thorough evaluation of your teeth and gums, often using an intra-oral camera to show you exactly what we see in real-time."
       },
       {
-        "title": "Personalized Consultation",
-        "description": "Dr. Snell or our skilled team will discuss your goals and explain exactly what is happening in your mouth using magnified images for clear communication."
+        "title": "Personalized Care Planning",
+        "description": "We believe in clear communication; we discuss your diagnostic images and tailor a treatment plan that aligns with your specific goals for health and aesthetics."
       },
       {
-        "title": "Tailored Treatment Plan",
-        "description": "We develop a care plan unique to your needs, whether it's preventive maintenance, same-day crowns, or advanced cosmetic enhancements."
+        "title": "Comfort-Focused Treatment",
+        "description": "Whether receiving a filling or a crown, enjoy amenities like paraffin hand dips, noise-cancelling headphones, and nitrous oxide to ensure a pleasant experience."
       },
       {
-        "title": "Comfort-First Procedure",
-        "description": "Relax with noise-cancelling headphones, warm blankets, and essential oils while our expert doctors perform your treatment with a gentle touch."
+        "title": "Cosmetic Enhancements",
+        "description": "For those looking to brighten their smile, we offer advanced cosmetic procedures including whitening and veneers to help you achieve a confident, radiant look."
       },
       {
-        "title": "Ongoing Wellness",
-        "description": "Leave with a fresh minty mouth rinse and a plan for routine check-ups to maintain your healthy, beautiful smile for a lifetime."
+        "title": "Preventive Maintenance",
+        "description": "Our hygiene team focuses on education and the vital link between oral health and overall well-being to keep your smile healthy throughout your lifetime."
       }
     ],
-    "commonSymptoms": [
-      "Tooth Pain",
-      "Missing Teeth",
-      "Stained Teeth",
-      "Nervousness",
-      "Cracked Tooth",
-      "Cavities",
-      "Gum Health",
-      "Jaw Stability",
-      "Kids' Dental Visit",
-      "Old Fillings"
-    ],
-    "stats": [
-      {
-        "value": "4+",
-        "label": "Top Dentist Awards"
-      },
-      {
-        "value": "100%",
-        "label": "Patient Comfort Focused"
-      },
-      {
-        "value": "2016",
-        "label": "DDS Graduate Distinction"
-      },
-      {
-        "value": "Modern",
-        "label": "State-of-the-Art Tech"
-      }
-    ],
-    "benefits": [
-      {
-        "title": "Unparalleled Patient Comfort",
-        "description": "Enjoy a range of amenities including warm blankets, neck support pillows, noise-cancelling headphones, and fresh-baked cookies to ensure a relaxing visit."
-      },
-      {
-        "title": "Cutting-Edge Diagnostics",
-        "description": "Our state-of-the-art practice utilizes digital X-rays and intra-oral cameras to provide precise diagnostics and clear communication about your health."
-      },
-      {
-        "title": "Comprehensive Care",
-        "description": "From routine family check-ups to advanced cosmetic procedures like veneers and dental implants, we handle all your dental needs in one convenient location."
-      },
-      {
-        "title": "Flexible Financing Options",
-        "description": "We make quality dental care accessible with interest-free financing through Cherry and deferred interest options via CareCredit."
-      },
-      {
-        "title": "Reduced Post-Op Numbness",
-        "description": "With OraVerse technology, we can reverse lingering numbness after routine procedures, helping you return to normal sensation twice as fast."
-      },
-      {
-        "title": "Early Cavity Detection",
-        "description": "Our Logicon Caries Detector software helps identify hidden decay early, preserving more of your natural, healthy tooth structure."
-      }
-    ],
-    "implantOptions": [
-      {
-        "title": "General Dentistry",
-        "description": "Comprehensive preventive care, including routine check-ups and cleanings, to maintain your optimal oral health through every stage of life."
-      },
-      {
-        "title": "Cosmetic Dentistry",
-        "description": "Enhance your confidence with professional teeth whitening, veneers, and other advanced treatments designed to create a radiant, stunning smile."
-      },
-      {
-        "title": "Family Dentistry",
-        "description": "Gentle, high-quality dental care tailored for patients of all ages, ensuring every family member feels comfortable and welcome in our office."
-      },
-      {
-        "title": "Restorative Implants",
-        "description": "Utilizing titanium screws to provide a sturdy foundation for replacement teeth, preventing bone loss and restoring full stability to your jaw."
-      }
-    ],
-    "faqItems": [
-      {
-        "question": "Do you accept my dental insurance and offer payment plans?",
-        "answer": "We accept most major insurance plans and are happy to help you maximize your benefits. For out-of-pocket costs, we offer flexible financing options to ensure your family's care remains affordable."
-      },
-      {
-        "question": "I’m a new patient; how quickly can I schedule an appointment for my family?",
-        "answer": "Welcome! We strive to accommodate new patients quickly, often within the same week. You can easily schedule by calling our New Brighton office or using our online request form for your convenience."
-      },
-      {
-        "question": "At what age should I bring my child in for their first dental visit?",
-        "answer": "We recommend scheduling your child’s first visit by their first birthday. Dr. Snell and our team specialize in gentle, kid-friendly care to help your little ones build a lifetime of healthy dental habits."
-      },
-      {
-        "question": "I feel very nervous about dental work. How do you help patients stay comfortable?",
-        "answer": "Your comfort is our priority! We provide unmatched patient amenities and a warm, patient-centered atmosphere. Dr. Snell uses a gentle touch and state-of-the-art technology to ensure a stress-free experience."
-      },
-      {
-        "question": "What should I expect during my first visit at Silver Lake Dental?",
-        "answer": "Expect a warm welcome! Your first visit includes a comprehensive exam, digital X-rays, and a personalized consultation with Dr. Snell to discuss your health goals in our modern New Brighton facility."
-      },
-      {
-        "question": "Where is your office located and when are you open for appointments?",
-        "answer": "Find us at 580 5th Avenue NW in New Brighton. We offer convenient morning and afternoon hours throughout the week to fit your busy family schedule. Contact us today to find a time that works for you!"
-      }
-    ],
-    "footerAbout": "Silver Lake Dental is a state-of-the-art family and cosmetic practice in New Brighton dedicated to providing patient-centered care with a personal touch and genuine community spirit.",
     "heroImagePath": "/clinics/silverlakedental-com/hero.png",
     "benefitsImagePath": "/clinics/silverlakedental-com/benefits.png",
     "whyChooseImagePath": "/clinics/silverlakedental-com/whychoose.png"
   },
   "doctor": {
-    "name": "Theresa M. Snell",
+    "name": "Theresa Snell",
     "credentials": "DDS",
-    "bio": "Dr. Theresa Snell is a dedicated leader at Silver Lake Dental who is passionate about helping patients achieve confident, radiant smiles through cosmetic dentistry. After earning her Doctor of Dental Surgery (D.D.S.) and completing a Hospital Dentistry Residency at the University of Washington, she brought her personal touch to the Minnesota community. Recognized as a Top Dentist by Minneapolis St. Paul Magazine multiple times since 2007, she combines clinical excellence with genuine care.",
-    "yearsOfExperience": 19,
-    "photoPath": "/clinics/silverlakedental-com/doctor.jpg",
+    "bio": "Dr. Theresa Snell is a dedicated leader at Silver Lake Dental who is passionate about cosmetic dentistry and helping patients achieve radiant smiles. She earned her Doctor of Dental Surgery from the University of Washington, where she also completed a Residency and Fellowship in Hospital Dentistry. Recognized as a Top Dentist by Minneapolis St. Paul Magazine multiple times, she is an active member of the ADA and Spear Study Club. Dr. Snell prioritizes a personal touch and genuine care for the New Brighton community.",
+    "photoPath": "/clinics/silverlakedental-com/doctor.webp",
     "specialistPortraitPath": "/clinics/silverlakedental-com/specialist.png"
   },
   "reviews": [
     {
-      "name": "Jessica L.",
-      "text": "I was so nervous, but the warm blanket and headphones made all the difference! The fresh cookies after my appointment were such a nice surprise. Best dental experience I've ever had.",
+      "name": "David L.",
+      "text": "The paraffin hand dip and noise-cancelling headphones made my visit feel more like a spa day than a dental appointment. Truly the most comfortable experience I've had.",
       "rating": 5
     },
     {
-      "name": "Michael R.",
-      "text": "The technology here is amazing. They showed me exactly what was wrong on the intra-oral camera so I could understand my treatment. Dr. Snell is professional, gentle, and very thorough.",
+      "name": "Elena R.",
+      "text": "I love the cutting-edge technology they use here. Seeing the high-res photos from the intra-oral camera helped me finally understand why I needed that specific treatment.",
       "rating": 5
     },
     {
-      "name": "David K.",
-      "text": "Silver Lake Dental is the best for families. They have tablets for the kids and the staff is so friendly. It's the first time my kids actually look forward to going to the dentist!",
+      "name": "Mark T.",
+      "text": "Dr. Snell and her team are so welcoming. They really take the time to explain everything clearly and the fresh baked cookies are a wonderful, friendly touch!",
       "rating": 5
     }
   ],

@@ -1,0 +1,187 @@
+{
+  "clinic": {
+    "name": "Long Lake Family Dentistry",
+    "tagline": "Expert dental care with a personal touch, innovation and state of the art technology",
+    "city": "New Brighton",
+    "phone": "(651) 633-1311",
+    "address": "991 9th Ave NW, New Brighton, MN 55112",
+    "hours": "Mon-Thu 7:30 AM - 4:00 PM, Fri by appointment",
+    "logoPath": "/clinics/longlakefamilydentistry-com/logo.png",
+    "logoIsLight": true,
+    "heroSubtitle": "Nurturing generations of smiles in New Brighton for over 30 years with expert care, state-of-the-art technology, and a specialized focus on Invisalign and family wellness.",
+    "differentiators": [
+      {
+        "title": "Three Decades of Excellence",
+        "description": "Serving the New Brighton community for over 30 years with consistent, high-quality dental care for local families."
+      },
+      {
+        "title": "Invisalign Platinum Status",
+        "description": "Distinguished as a Platinum Plus Invisalign provider, offering expert orthodontic solutions with clear aligners."
+      },
+      {
+        "title": "Cutting-Edge Technology",
+        "description": "Equipped with the latest dental implant technology and advanced diagnostic tools for superior patient outcomes."
+      },
+      {
+        "title": "Personalized Care Plans",
+        "description": "Every treatment is tailored to your unique needs, ensuring a high-touch, innovation-driven dental experience."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Exam",
+        "description": "Start your journey in our haven of warmth with a comprehensive exam using advanced diagnostic X-rays."
+      },
+      {
+        "title": "Custom Care Planning",
+        "description": "We develop a personalized care plan designed specifically for your unique oral health goals and family needs."
+      },
+      {
+        "title": "Preventive Foundation",
+        "description": "Maintain your smile through professional cleanings and education to master the art of dental prevention."
+      },
+      {
+        "title": "Restorative Excellence",
+        "description": "Address any issues with high-quality crowns, bridges, or fillings delivered with a gentle, professional touch."
+      },
+      {
+        "title": "Smile Enhancement",
+        "description": "Explore cosmetic options like porcelain veneers or Invisalign to take your dental aesthetics to new heights."
+      },
+      {
+        "title": "Lifetime Maintenance",
+        "description": "Join our fight against gum disease with ongoing periodontal care and regular check-ups for a lifetime of health."
+      }
+    ],
+    "commonSymptoms": [
+      "Toothache",
+      "Gum Disease",
+      "Missing Teeth",
+      "Crooked Teeth",
+      "Stained Teeth",
+      "Cracked Tooth",
+      "Bad Breath",
+      "Bleeding Gums",
+      "Kids First Visit",
+      "Wisdom Tooth Pain"
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "Platinum",
+        "label": "Invisalign Provider"
+      },
+      {
+        "value": "200+",
+        "label": "5-Star Google Reviews"
+      },
+      {
+        "value": "100%",
+        "label": "Commitment to Care"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Family-Focused Care",
+        "description": "Experience a haven of warmth where every family member, from toddlers to seniors, feels like they are coming home."
+      },
+      {
+        "title": "Invisalign Expertise",
+        "description": "Achieve a straighter smile with a recognized Platinum Provider of Invisalign clear aligners for precise results."
+      },
+      {
+        "title": "Advanced Diagnostics",
+        "description": "Benefit from precision care powered by state-of-the-art X-rays and the latest dental technology for accurate diagnosis."
+      },
+      {
+        "title": "Preventive Protection",
+        "description": "Guard your oral health with proactive education and approaches designed to stop dental issues before they start."
+      },
+      {
+        "title": "Lifetime Implants",
+        "description": "Restore your smile to the gold standard with durable dental implants designed for long-term health and function."
+      },
+      {
+        "title": "Comforting Environment",
+        "description": "Relax during your visit with a professional staff dedicated to providing rapid relief and a friendly atmosphere."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Invisalign Treatment",
+        "description": "Straighten your teeth effectively with our Platinum Plus provider status using the latest clear aligner technology."
+      },
+      {
+        "title": "Dental Implants",
+        "description": "Achieve the gold standard of tooth replacement with our lifetime implants and advanced surgical techniques."
+      },
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Enhance your confidence with porcelain veneers and composite bonding designed for a beautiful, celebrity-style smile."
+      },
+      {
+        "title": "Preventative Care",
+        "description": "Keep your natural teeth healthy forever through oral cancer screenings, cleanings, and proactive education."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What should I bring to my first appointment?",
+        "answer": "Please bring your ID, insurance information, and any relevant medical history records to ensure a smooth check-in process."
+      },
+      {
+        "question": "How often should I visit the dentist?",
+        "answer": "We recommend regular dental check-ups every six months to maintain optimal oral health, though this may vary based on your individual needs."
+      },
+      {
+        "question": "Is the clinic good for children?",
+        "answer": "Yes! We specialize in nurturing generations of smiles and are highly recommended for kids, ensuring they feel comfortable and safe."
+      },
+      {
+        "question": "How can I book an appointment?",
+        "answer": "You can schedule your path to a perfect smile by calling us directly at (651) 633-1311 or using our effortless online booking tool."
+      },
+      {
+        "question": "Why is regular preventive care important?",
+        "answer": "Regular visits help prevent tooth decay, protect against gum disease, and strengthen your teeth so you can enjoy a healthy smile for life."
+      },
+      {
+        "question": "What are your office hours?",
+        "answer": "We are open Monday through Thursday from 7:30 AM to 4:00 PM, with specialists available on Fridays by appointment only."
+      }
+    ],
+    "footerAbout": "Long Lake Family Dentistry has been serving residents of New Brighton for over 30 years, providing expert dental care with a personal touch and state-of-the-art technology.",
+    "heroImagePath": "/clinics/longlakefamilydentistry-com/hero.png",
+    "benefitsImagePath": "/clinics/longlakefamilydentistry-com/benefits.png",
+    "whyChooseImagePath": "/clinics/longlakefamilydentistry-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Hossein Jalali",
+    "credentials": "DDS",
+    "bio": "Dr. Hossein Jalali has provided exceptional dental care to families in New Brighton and the surrounding area for over 30 years. He graduated with honors from The University of Minnesota School of Dentistry in 1988, where he also held a faculty position as an Associate Professor. As the founder of Long Lake Family Dentistry and a Platinum Plus Invisalign provider, Dr. Jalali is dedicated to combining innovation with a personal touch to help every patient smile brighter.",
+    "yearsOfExperience": 30,
+    "photoPath": "/clinics/longlakefamilydentistry-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/longlakefamilydentistry-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Yangchen L.",
+      "text": "Dr Jalali is the best, I love how he reassures and takes care of his patients. The front desk people are very nice and helpful.",
+      "rating": 5
+    },
+    {
+      "name": "Joshua T.",
+      "text": "Great place, great staff. I needed a crown and they worked hard to accommodate everything for me, 100 stars!",
+      "rating": 5
+    },
+    {
+      "name": "Katherine K.",
+      "text": "Fantastic for kids! They did an outstanding job making my 2.5 year old so comfortable. The hygienist made sure the experience was positive.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

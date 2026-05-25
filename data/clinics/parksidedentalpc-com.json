@@ -1,0 +1,187 @@
+{
+  "clinic": {
+    "name": "Parkside Dental",
+    "tagline": "Quality Dental Care for You and Yours",
+    "city": "New Brighton",
+    "phone": "(612) 332-0559",
+    "address": "2677 Innsbruck Drive, New Brighton, MN 55112",
+    "hours": "Mon-Thu 7:00 AM — 5:00 PM",
+    "logoPath": "/clinics/parksidedentalpc-com/logo.png",
+    "logoIsLight": false,
+    "heroSubtitle": "Providing gentle, advanced care for New Brighton families. From Invisalign and dental implants to pediatric visits, we combine modern technology with a personalized touch.",
+    "differentiators": [
+      {
+        "title": "Painless Injection Rate",
+        "description": "Our practice takes pride in being exceptionally gentle, achieving a 97 percent pain-free injection rate based on patient feedback."
+      },
+      {
+        "title": "Advanced Implant Specialization",
+        "description": "We specialize in complex implant dentistry and smile makeover procedures to rebuild healthy, beautiful smiles in one location."
+      },
+      {
+        "title": "Lifelong Learning Commitment",
+        "description": "Dr. Weber completes 70 to 90 continuing education credits annually to master the latest techniques like Full Mouth Rehab."
+      },
+      {
+        "title": "Individualized Attention",
+        "description": "We provide personalized care tailored to your specific goals and requests rather than a one-size-fits-all approach."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Assessment",
+        "description": "Begin your journey with a comprehensive exam where we use state-of-the-art equipment to assess your dental health in a comfortable environment."
+      },
+      {
+        "title": "Personalized Care Planning",
+        "description": "Dr. Weber develops an individualized treatment plan tailored to your goals, whether you need simple prevention or a full mouth reconstruction."
+      },
+      {
+        "title": "Comfort-First Care",
+        "description": "If you experience dental anxiety, we integrate sedation options like nitrous gas to ensure your procedure is as stress-free as possible."
+      },
+      {
+        "title": "Expert Treatment Delivery",
+        "description": "Receive high-quality care using fine materials, from gentle fillings and crowns to advanced CO2 laser treatments and implant placement."
+      },
+      {
+        "title": "Cosmetic Refinements",
+        "description": "Enhance your results with specialized options like Invisalign® or Lumineers® to ensure your smile is as beautiful as it is healthy."
+      },
+      {
+        "title": "Ongoing Family Wellness",
+        "description": "We provide continuous preventive care for the whole family, maintaining your results and supporting your child’s dental health as they grow."
+      }
+    ],
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Missing Tooth",
+      "Gum Disease",
+      "Crooked Teeth",
+      "Dental Anxiety",
+      "Loose Dentures",
+      "Stained Teeth",
+      "Broken Tooth",
+      "First Kids Visit",
+      "Sensitive Gums"
+    ],
+    "stats": [
+      {
+        "value": "7+",
+        "label": "Years in Practice"
+      },
+      {
+        "value": "97%",
+        "label": "Pain-Free Injection Rate"
+      },
+      {
+        "value": "70+",
+        "label": "Annual CE Credits"
+      },
+      {
+        "value": "3",
+        "label": "Languages Spoken"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Gentle Anxiety Management",
+        "description": "Experience peace of mind with our specialized sedation dentistry services, including oral sedation and nitrous gas for a comfortable visit."
+      },
+      {
+        "title": "Comprehensive Implant Care",
+        "description": "Receive full tooth replacement, including both placement and restoration of dental implants, all within our modern office."
+      },
+      {
+        "title": "State-Of-The-Art Technology",
+        "description": "Benefit from the latest modern dental equipment and advanced techniques like CO2 laser training for high-quality care."
+      },
+      {
+        "title": "Flexible Payment Options",
+        "description": "Access the treatments you need with individualized payment plans, CareCredit financing, and our own dental memberships."
+      },
+      {
+        "title": "Multilingual Communication",
+        "description": "Feel heard and understood with our team that proudly serves patients in English, Russian, and Ukrainian."
+      },
+      {
+        "title": "Family-Focused Dentistry",
+        "description": "From pediatric care for your child’s grin to restorative treatments for seniors, we provide thorough care for all generations."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "The highest quality treatment for full tooth replacement, including both the placement and restoration of the implant in one office."
+      },
+      {
+        "title": "Invisalign® Clear Aligners",
+        "description": "Align the beauty of your smile with discreet clear braces, supported by individualized payment options to fit your budget."
+      },
+      {
+        "title": "Smile Makeovers",
+        "description": "Comprehensive full mouth reconstructions and cosmetic enhancements designed to rebuild a healthy, glowing, and confident smile."
+      },
+      {
+        "title": "General & Family Care",
+        "description": "Thorough, comprehensive dentistry for all generations, ranging from routine cleanings to advanced gum disease treatment."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What financing options do you offer for major procedures?",
+        "answer": "We offer a variety of payment plans, including CareCredit and specialized membership options to ensure you can afford necessary care like implants or Invisalign."
+      },
+      {
+        "question": "Can you help with dental anxiety or fear?",
+        "answer": "Yes, patient comfort is our top priority. We offer sedation dentistry options, including oral sedation and nitrous gas, to help conquer dental fears."
+      },
+      {
+        "question": "Do you treat children at Parkside Dental?",
+        "answer": "Absolutely. We focus on the whole family and provide preventive and pediatric dental care to help children develop a lifelong love for their smiles."
+      },
+      {
+        "question": "What makes your injections different?",
+        "answer": "Dr. Weber has advanced training in painless anesthesia and utilizes gentle techniques that have resulted in a 97 percent pain-free injection rate."
+      },
+      {
+        "question": "Which languages does your staff speak?",
+        "answer": "To better serve our diverse community, our office is multilingual, with staff members fluent in English, Russian, and Ukrainian."
+      },
+      {
+        "question": "When is the office open for appointments?",
+        "answer": "We are available to serve you Monday through Thursday, from 7:00 AM until 5:00 PM each day."
+      }
+    ],
+    "footerAbout": "Parkside Dental serves families in New Brighton and Fridley with advanced implant and cosmetic dentistry, led by the gentle and highly-trained Dr. Anna Weber.",
+    "heroImagePath": "/clinics/parksidedentalpc-com/hero.png",
+    "benefitsImagePath": "/clinics/parksidedentalpc-com/benefits.png",
+    "whyChooseImagePath": "/clinics/parksidedentalpc-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Anna Weber",
+    "credentials": "DDS",
+    "bio": "Dr. Anna Weber has been in practice for over seven years, providing high-quality care with a personal touch. A dedicated member of the American Dental Association and the Academy of General Dentistry, she completes 70 to 90 continuing education credits annually to stay current with the latest techniques. Her advanced training includes Full Mouth Rehab and CO2 Laser Training. Dr. Weber is committed to gentle dentistry, having even presented research on painless anesthesia.",
+    "yearsOfExperience": 7,
+    "photoPath": "/clinics/parksidedentalpc-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/parksidedentalpc-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Marge W.",
+      "text": "Dr. Weber saw me immediately for a concern. She is brilliant, kind, and gentle. I was quite relieved and also incredibly impressed. I have found my new dentist and highly recommend her!",
+      "rating": 5
+    },
+    {
+      "name": "Rolf E, MD",
+      "text": "I am 100% pleased with the care. She has state-of-the-art equipment and individualizes care to meet my requests. I am glad to drive the extra distance to have a dentist with whom I am totally comfortable.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah K.",
+      "text": "As someone with dental anxiety, the sedation options and gentle approach here made a huge difference. The staff is so welcoming and the pain-free injections are the real deal!",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

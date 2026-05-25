@@ -1,7 +1,11 @@
+import { statSync } from "node:fs";
+import path from "node:path";
 import type {
   BookingLocation,
   BookingService,
   ClinicConfig,
+  ClinicInfo,
+  DoctorInfo,
 } from "@/types/clinic";
 import { BeforeAfter } from "./components/BeforeAfter";
 import { Benefits } from "./components/Benefits";
@@ -21,6 +25,43 @@ import { SymptomChecker } from "./components/SymptomChecker";
 import { Testimonials } from "./components/Testimonials";
 import { WhyChoose } from "./components/WhyChoose";
 
+const PUBLIC_DIR = path.join(process.cwd(), "public");
+
+function withVersion(publicPath: string): string;
+function withVersion(publicPath: undefined): undefined;
+function withVersion(publicPath: string | undefined): string | undefined;
+function withVersion(publicPath: string | undefined): string | undefined {
+  if (!publicPath || !publicPath.startsWith("/") || publicPath.startsWith("//")) {
+    return publicPath;
+  }
+  const [pathPart, queryPart] = publicPath.split("?", 2);
+  try {
+    const mtime = Math.floor(statSync(path.join(PUBLIC_DIR, pathPart)).mtimeMs);
+    const sep = queryPart ? "&" : "?";
+    return `${publicPath}${sep}v=${mtime}`;
+  } catch {
+    return publicPath;
+  }
+}
+
+function versionClinicImages(clinic: ClinicInfo): ClinicInfo {
+  return {
+    ...clinic,
+    logoPath: withVersion(clinic.logoPath),
+    heroImagePath: withVersion(clinic.heroImagePath),
+    whyChooseImagePath: withVersion(clinic.whyChooseImagePath),
+    benefitsImagePath: withVersion(clinic.benefitsImagePath),
+  };
+}
+
+function versionDoctorImages(doctor: DoctorInfo): DoctorInfo {
+  return {
+    ...doctor,
+    photoPath: withVersion(doctor.photoPath),
+    specialistPortraitPath: withVersion(doctor.specialistPortraitPath),
+  };
+}
+
 function shortenForBooking(text: string): string {
   const firstSentence = text.split(/(?<=\.)\s+/)[0] ?? text;
   if (firstSentence.length <= 60) return firstSentence.replace(/\.$/, "");
@@ -30,7 +71,9 @@ function shortenForBooking(text: string): string {
 }
 
 export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
-  const { clinic, doctor, reviews } = config;
+  const clinic = versionClinicImages(config.clinic);
+  const doctor = versionDoctorImages(config.doctor);
+  const { reviews } = config;
 
   const bookingLocations: BookingLocation[] | undefined =
     clinic.bookingLocations && clinic.bookingLocations.length > 0

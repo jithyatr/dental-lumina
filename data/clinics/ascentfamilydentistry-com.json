@@ -1,0 +1,63 @@
+{
+  "clinic": {
+    "name": "Ascent Family Dentistry",
+    "tagline": "Where many have found their Minnesota smile.",
+    "phone": "(763) 572-8040",
+    "logoPath": "/clinics/ascentfamilydentistry-com/logo.png",
+    "logoIsLight": false,
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome and Registration",
+        "description": "Patients are greeted by a caring and professional staff dedicated to making every visit a pleasant experience from the moment you walk through the door."
+      },
+      {
+        "title": "Comprehensive Oral Examination",
+        "description": "Dr. Heinlein performs a thorough evaluation of your dental health, incorporating the latest research on periodontal disease and oral hygiene."
+      },
+      {
+        "title": "Personalized Care Planning",
+        "description": "We build your trust by discussing your specific needs and creating a tailored treatment plan focused on your long-term health and loyalty."
+      },
+      {
+        "title": "Advanced Dental Treatment",
+        "description": "Utilizing modern technology and techniques, we provide high-quality care whether you need general dentistry, complex implants, or restorative work."
+      },
+      {
+        "title": "Patient Education and Wellness",
+        "description": "Our hygienists provide detailed insights into the effects of good oral hygiene and how it relates to your overall health and science-based wellness."
+      },
+      {
+        "title": "Ongoing Preventive Maintenance",
+        "description": "We focus on cleaning and prevention to maintain your first-class smile and ensure your continued comfort and health for years to come."
+      }
+    ],
+    "heroImagePath": "/clinics/ascentfamilydentistry-com/hero.png",
+    "benefitsImagePath": "/clinics/ascentfamilydentistry-com/benefits.png",
+    "whyChooseImagePath": "/clinics/ascentfamilydentistry-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Taylor Heinlein",
+    "credentials": "DDS",
+    "bio": "Dr. Taylor Heinlein is a lifelong learner who received his B.S. in chemistry with honors at the University of St. Thomas and his Doctor of Dental Surgery degree with honors from the University of Minnesota. Driven by a love for science and helping others, he enjoys incorporating the newest technology and techniques, including implant placement and clear aligner therapy. He is an active member of the Academy of General Dentistry. Outside the clinic, Dr. Heinlein resides in Robbinsdale and enjoys time with his family, cooking, and visiting the ice rink or golf course.",
+    "photoPath": "/clinics/ascentfamilydentistry-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/ascentfamilydentistry-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Mark S.",
+      "text": "Dr. Heinlein and the entire staff are incredibly professional and thorough. I really appreciated how detailed the hygienist was during my cleaning.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica R.",
+      "text": "A first-class dental office! They truly care about your comfort and building trust. My family has found our forever Minnesota smile here.",
+      "rating": 5
+    },
+    {
+      "name": "David L.",
+      "text": "Highly recommend Ascent Family Dentistry for complex implants. They use the latest technology and make the whole experience very pleasant.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

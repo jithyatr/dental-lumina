@@ -1,0 +1,187 @@
+{
+  "clinic": {
+    "name": "Mounds View Family Dental",
+    "tagline": "Comprehensive, Compassionate Dental Care",
+    "city": "Mounds View",
+    "phone": "(763) 432-3399",
+    "address": "2436 Mounds View Blvd. STE 110, Mounds View, MN 55112",
+    "hours": "Mon-Thu: 7am–5pm, Fri: 7am–1pm",
+    "logoPath": "/clinics/moundsviewfamilydental-com/logo.png",
+    "logoIsLight": false,
+    "heroSubtitle": "Experience comprehensive, compassionate dental care for your whole family. From same-day CEREC crowns to gentle laser dentistry, we provide personalized treatments in a comfortable environment.",
+    "differentiators": [
+      {
+        "title": "Family-Owned Continuity",
+        "description": "As a family-owned and operated practice with no corporate restrictions, we prioritize building lasting, trusted relationships with our patients."
+      },
+      {
+        "title": "State-of-the-Art Tech",
+        "description": "We invest in the latest advancements including CEREC same-day crowns, iTero digital scanners, and Fotona laser dentistry for superior outcomes."
+      },
+      {
+        "title": "Comprehensive In-House Care",
+        "description": "Our team brings diverse expertise in oral surgery, periodontics, and orthodontics to minimize referrals and save you valuable time."
+      },
+      {
+        "title": "Transparent Financial Options",
+        "description": "We offer dedicated in-house dental savings plans for patients without insurance to ensure quality care remains accessible to everyone."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Exam",
+        "description": "Your journey begins with a comprehensive new-patient exam where we use 3D X-rays and digital impressions to assess your unique oral health needs."
+      },
+      {
+        "title": "Personalized Consultation",
+        "description": "We take the time to listen to your goals and explain your diagnosis thoroughly, empowering you to be an active partner in your care decisions."
+      },
+      {
+        "title": "Custom Care Planning",
+        "description": "Our experts develop a customized treatment plan addressing your individual needs, whether you require preventive, restorative, or cosmetic care."
+      },
+      {
+        "title": "Advanced Treatment",
+        "description": "Receive high-quality care using state-of-the-art technology like CEREC for same-day results and dental lasers for minimally invasive procedures."
+      },
+      {
+        "title": "Comfort-First Care",
+        "description": "Throughout your treatment, we prioritize your comfort with sedation options and a friendly team focused on creating a stress-free environment."
+      },
+      {
+        "title": "Ongoing Wellness",
+        "description": "We focus on long-term wellness with regular recall visits and maintenance to keep your healthy, confident smile appearing years younger."
+      }
+    ],
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Cavities",
+      "Missing Teeth",
+      "Gum Disease",
+      "Crooked Teeth",
+      "Stained Teeth",
+      "Dental Anxiety",
+      "Broken Crown",
+      "Kids' First Visit",
+      "Emergency Dental"
+    ],
+    "stats": [
+      {
+        "value": "24+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "Same-Day",
+        "label": "CEREC Dental Crowns"
+      },
+      {
+        "value": "5-Star",
+        "label": "Patient Experience"
+      },
+      {
+        "value": "4",
+        "label": "Expert Dentists on Staff"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Same-Day Restorations",
+        "description": "Save valuable time with CEREC technology which allows for high-quality, same-day dental crowns and restorations in a single visit."
+      },
+      {
+        "title": "Technology-Driven Care",
+        "description": "Experience precise treatments through advanced tools like the iTero Intraoral Scanner and Diagnodent early cavity detection."
+      },
+      {
+        "title": "Family-Owned Continuity",
+        "description": "Build lasting relationships with a family-owned practice where you see the same friendly, familiar faces at every appointment."
+      },
+      {
+        "title": "In-Office Savings Plan",
+        "description": "Access affordable dental care without insurance through our membership programs, offering 15% off normal office fees."
+      },
+      {
+        "title": "Comprehensive Services",
+        "description": "Receive a full range of care from preventive cleanings to complex reconstructive and cosmetic procedures all under one roof."
+      },
+      {
+        "title": "Gentle Laser Dentistry",
+        "description": "Benefit from minimally invasive treatments using the Fotona dental laser for more comfortable and precise dental procedures."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Preventive Care",
+        "description": "Essential exams, cleanings, and technology-driven screenings to maintain your oral health and catch issues early."
+      },
+      {
+        "title": "Restorative Dentistry",
+        "description": "Repairing damaged teeth with same-day crowns, fillings, and root canal therapy to restore your smile's function."
+      },
+      {
+        "title": "Dental Implants",
+        "description": "Advanced tooth replacement solutions including single implants and overdentures to provide a permanent, natural-looking smile."
+      },
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Transformative procedures like Invisalign clear aligners and whitening to help you achieve a healthy, confident smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Are you accepting new patients?",
+        "answer": "Yes! Mounds View Family Dental is always welcoming new patients of all ages, from children having their first visit to seniors maintaining their smiles."
+      },
+      {
+        "question": "What if I don't have dental insurance?",
+        "answer": "We offer an In-Office Dental Savings Plan for individuals and families, providing annual memberships that include discounts of 15% off our normal fees."
+      },
+      {
+        "question": "Can I get a crown in one day?",
+        "answer": "Absolutely. We utilize CEREC technology to design, create, and place high-quality dental restorations during a single appointment."
+      },
+      {
+        "question": "Do you treat children?",
+        "answer": "Yes, we are a family-oriented practice providing pediatric care, including cleanings for young children and education on good brushing habits."
+      },
+      {
+        "question": "What are your office hours?",
+        "answer": "We are open Monday through Thursday from 7am to 5pm, and Friday from 7am to 1pm to accommodate your busy schedule."
+      },
+      {
+        "question": "Do you offer cosmetic treatments?",
+        "answer": "We provide a variety of cosmetic services including Invisalign clear aligners, Zoom whitening, and complete smile makeovers to boost your confidence."
+      }
+    ],
+    "footerAbout": "Mounds View Family Dental is a family-owned practice providing comprehensive, compassionate care to the Mounds View community using advanced technology and personalized treatment plans.",
+    "heroImagePath": "/clinics/moundsviewfamilydental-com/hero.png",
+    "benefitsImagePath": "/clinics/moundsviewfamilydental-com/benefits.png",
+    "whyChooseImagePath": "/clinics/moundsviewfamilydental-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Sabry M. Sharara",
+    "credentials": "DDS",
+    "bio": "Dr. Sabry Sharara has practiced dentistry since 2000, specializing in everything from general care to complex reconstructive and cosmetic procedures. He holds prestigious fellowship status with the International Congress of Oral Implantologists and the Academy of Gp Orthodontics. Dr. Sharara is dedicated to empowering patients through education and advanced technology like CEREC single-visit crowns and 3D imaging to help them take control of their oral health.",
+    "yearsOfExperience": 26,
+    "photoPath": "/clinics/moundsviewfamilydental-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/moundsviewfamilydental-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Michael R.",
+      "text": "I love that I see the same friendly faces every time I visit. The family-owned atmosphere makes me feel much more comfortable than corporate offices.",
+      "rating": 5
+    },
+    {
+      "name": "Elena G.",
+      "text": "The same-day crown technology is a lifesaver! I was able to get my restoration finished in one visit without needing to come back for a second appointment.",
+      "rating": 5
+    },
+    {
+      "name": "David S.",
+      "text": "As someone without dental insurance, their in-office savings plan made it possible for me to get the care I needed at a price I could actually afford.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

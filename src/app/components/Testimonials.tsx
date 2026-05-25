@@ -227,7 +227,7 @@ export function Testimonials({
             <article
               key={`${t.name}-${i}`}
               data-slide
-              className="flex w-[min(90vw,520px)] shrink-0 snap-start flex-col justify-between rounded-3xl bg-white p-8 shadow-[0_18px_40px_-30px_rgba(7,87,136,0.35)] ring-1 ring-black/4"
+              className="flex min-h-[300px] w-[86vw] shrink-0 snap-start flex-col justify-between rounded-3xl bg-white p-8 shadow-[0_18px_40px_-30px_rgba(7,87,136,0.35)] ring-1 ring-black/4 sm:w-[400px] lg:w-[460px]"
             >
               <div>
                 <div className="flex items-center gap-0.5 text-gold">

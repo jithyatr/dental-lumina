@@ -39,8 +39,8 @@ const DEFAULT_COLUMNS: FooterColumn[] = [
   },
 ];
 
-const DEFAULT_ABOUT =
-  "Lumina Dental Care blends elegance and care, crafting confident smiles since 2004. Our certified team guarantees excellence and integrity throughout your journey.";
+const buildDefaultAbout = (name: string) =>
+  `${name} blends elegance and care, crafting confident smiles since 2004. Our certified team guarantees excellence and integrity throughout your journey.`;
 
 export function Footer({
   clinicName,
@@ -66,7 +66,7 @@ export function Footer({
   copyright?: string;
 }>) {
   const headerName = clinicName ?? doctorName ?? "Dr Sheila Dobee";
-  const aboutText = about ?? DEFAULT_ABOUT;
+  const aboutText = about ?? buildDefaultAbout(headerName);
   const cols = columns && columns.length > 0 ? columns : DEFAULT_COLUMNS;
   const copy = copyright ?? "Copyright © 2026. All rights reserved.";
   const phoneDisplay = phone ? formatPhoneDigits(phone) : undefined;

@@ -1,0 +1,186 @@
+{
+  "clinic": {
+    "name": "Palani Center for Dental Implants",
+    "tagline": "Advanced Dental Implant Solutions With Compassionate Care",
+    "city": "Rancho Palos Verdes",
+    "phone": "(310) 894-8337",
+    "address": "29050 S. Western Ave, Suite 108B, Rancho Palos Verdes, CA 90275",
+    "hours": "Mon-Fri: Open Weekdays",
+    "logoPath": "/clinics/drpalani-com/logo.png",
+    "logoIsLight": false,
+    "heroSubtitle": "Experience specialized implant solutions and comprehensive family care in Rancho Palos Verdes. We combine advanced 3D technology with compassionate, personalized attention for every smile.",
+    "differentiators": [
+      {
+        "title": "Judgment-Free Care",
+        "description": "The team meets you where you are to help you move forward with your oral health without any shame."
+      },
+      {
+        "title": "All-In-One Solutions",
+        "description": "Handle all your needs from general exams to specialized oral surgery without bouncing between different offices."
+      },
+      {
+        "title": "Advanced Implant Expertise",
+        "description": "Led by a highly experienced specialist who has restored hundreds of smiles using innovative technology."
+      },
+      {
+        "title": "Convenient Weekday Hours",
+        "description": "Open Monday through Friday, making it easy to find an appointment time that fits your busy schedule."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "Dr. Palani evaluates your dental needs and uses advanced imaging like 3D CT scans to discuss your personalized options."
+      },
+      {
+        "title": "Custom Treatment Planning",
+        "description": "We create a uniquely tailored plan that addresses your specific oral health goals, budget, and comfort requirements."
+      },
+      {
+        "title": "Preventive & Preparatory Care",
+        "description": "From gum health checks to necessary cleanings, we ensure your mouth is healthy and ready for restorative success."
+      },
+      {
+        "title": "Precision Implant Placement",
+        "description": "Using computer-guided systems, we perform your procedure with a focus on minimally invasive techniques and accuracy."
+      },
+      {
+        "title": "Restorative Refinements",
+        "description": "We craft and place your final restorations, such as crowns or veneers, to ensure a natural-looking and functional result."
+      },
+      {
+        "title": "Ongoing Maintenance",
+        "description": "Regular follow-up visits every six months help monitor your healing and ensure the long-term longevity of your new smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Tooth Decay",
+      "Gum Health",
+      "Stained Teeth",
+      "Loose Implant",
+      "Dental Pain",
+      "Sleep Apnea",
+      "Cracked Tooth",
+      "Dental Emergency",
+      "Jawbone Loss"
+    ],
+    "stats": [
+      {
+        "value": "113",
+        "label": "5-Star Patient Reviews"
+      },
+      {
+        "value": "95%",
+        "label": "Implant Success Rate"
+      },
+      {
+        "value": "Hundreds",
+        "label": "Smiles Restored"
+      },
+      {
+        "value": "100%",
+        "label": "Personalized Patient Care"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Stress-Free Experience",
+        "description": "Enjoy a uniquely tailored dental experience designed to be enjoyable, stress-free, and comfortable for every guest."
+      },
+      {
+        "title": "Advanced Implant Technology",
+        "description": "Benefit from state-of-the-art imaging like 3D cone beam CT scans and computer-guided placement for precise results."
+      },
+      {
+        "title": "Comprehensive Smile Care",
+        "description": "Receive everything from routine cleanings to complex full-arch restorations in one convenient location."
+      },
+      {
+        "title": "Flexible Financing Options",
+        "description": "Access various payment methods including credit cards, cash, and tailored financing plans to fit your budget."
+      },
+      {
+        "title": "Personalized Treatment Plans",
+        "description": "Dr. Palani assesses your specific dental health needs to create a customized plan for lasting oral health."
+      },
+      {
+        "title": "Compassionate Sedation Care",
+        "description": "Relax during your procedure with options ranging from nitrous oxide to oral and IV sedation tailored to your needs."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Full Mouth Implants",
+        "description": "Permanently replace missing teeth to restore your confidence and quality of life with a gorgeous functional smile."
+      },
+      {
+        "title": "Dental Veneers",
+        "description": "Thin restorations that cover the front of your teeth to correct imperfections in as little as two visits."
+      },
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Custom-crafted smiles using a combination of bridges, Invisalign, crowns, and composite fillings."
+      },
+      {
+        "title": "Advanced Oral Surgery",
+        "description": "Expert surgical care including zygomatic implants and full arch restorations for complex dental cases."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How can I schedule an appointment at the Palani Center?",
+        "answer": "Scheduling is easy. You can call the office directly at (310) 894-8337 or use the online appointment request form available on the website."
+      },
+      {
+        "question": "What should I expect during my first visit?",
+        "answer": "You can expect a comprehensive consultation where Dr. Giri Palani will assess your dental health, discuss concerns, and create a personalized treatment plan."
+      },
+      {
+        "question": "How long does a dental implant procedure take?",
+        "answer": "The duration typically ranges from one to two hours, depending on the complexity of the case and the number of implants being placed."
+      },
+      {
+        "question": "Are there financing options for my treatment?",
+        "answer": "Yes, the center offers flexible payment plans and assists in exploring third-party financing options to make procedures more affordable."
+      },
+      {
+        "question": "What sedation options are available?",
+        "answer": "Options include local anesthesia, nitrous oxide (laughing gas), and oral or IV sedation for a comfortable experience tailored to your needs."
+      },
+      {
+        "question": "Do you handle dental emergencies?",
+        "answer": "Yes, the Palani Center prioritizes dental emergencies by offering prompt and compassionate care to alleviate pain and restore health."
+      }
+    ],
+    "footerAbout": "Palani Center for Dental Implants provides advanced dental implant solutions and cosmetic dentistry to the Rancho Palos Verdes community with a focus on compassion and clinical excellence.",
+    "heroImagePath": "/clinics/drpalani-com/hero.png",
+    "benefitsImagePath": "/clinics/drpalani-com/benefits.png",
+    "whyChooseImagePath": "/clinics/drpalani-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Giri Palani",
+    "credentials": "DDS",
+    "bio": "Dr. Giri Palani is a highly qualified dental professional specializing in advanced dental implant solutions and cosmetic dentistry. With years of experience and extensive training, he is dedicated to restoring oral health, function, and esthetics for every patient. His commitment to ongoing education ensures he stays at the forefront of modern dental technology, including 3D imaging and computer-guided surgery. Dr. Palani combines clinical skill with genuine compassion to create a stress-free experience for his guests.",
+    "photoPath": "/clinics/drpalani-com/doctor.png",
+    "specialistPortraitPath": "/clinics/drpalani-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "R. Kent Thomson",
+      "text": "My experience at Palani Center for Dental Implants was fantastic! EXCELLENT quality of work and service.",
+      "rating": 5
+    },
+    {
+      "name": "L. Moore",
+      "text": "Dr. Palani and staff put me at ease at a place I was not comfortable being. They are kind, accommodating, and the quality of work is great.",
+      "rating": 5
+    },
+    {
+      "name": "Joan Marie Sarmiento",
+      "text": "I’m so grateful to this amazing dental staff! Everyone is always welcoming, patient, and attentive. I couldn’t be happier with the service.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

@@ -140,11 +140,15 @@ function StatusBadge({
   status,
   fallback,
 }: Readonly<{ status: ClinicStatus; fallback: string }>) {
-  const isOpen = status.kind === "open";
-  const isClosed = status.kind === "closed";
+  const text = statusBadgeText(status, fallback);
+  const isOpen =
+    status.kind === "open" ||
+    (status.kind === "unknown" && /^open\b/i.test(text));
+  const isClosed =
+    status.kind === "closed" ||
+    (status.kind === "unknown" && /^closed\b/i.test(text));
   const dotColor = isOpen ? "bg-success" : isClosed ? "bg-red-500" : "bg-white/40";
   const pingColor = isOpen ? "bg-success/50" : "bg-red-500/50";
-  const text = statusBadgeText(status, fallback);
   return (
     <span className="inline-flex items-center gap-2 rounded-pill bg-white/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-white/90 ring-1 ring-white/20 backdrop-blur">
       <span className="relative grid h-2 w-2 place-items-center">
@@ -227,9 +231,21 @@ export function Navbar({
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
+    if (!open) return;
+    const scrollY = window.scrollY;
+    const { body } = document;
+    body.style.position = "fixed";
+    body.style.top = `-${scrollY}px`;
+    body.style.left = "0";
+    body.style.right = "0";
+    body.style.width = "100%";
     return () => {
-      document.body.style.overflow = "";
+      body.style.position = "";
+      body.style.top = "";
+      body.style.left = "";
+      body.style.right = "";
+      body.style.width = "";
+      window.scrollTo(0, scrollY);
     };
   }, [open]);
 
@@ -250,7 +266,7 @@ export function Navbar({
             : "bg-transparent"
         }`}
       >
-        <div className="gutter-x flex items-center justify-between gap-6 py-5 text-white lg:py-6">
+        <div className="gutter-x flex items-center justify-between gap-6 py-3 text-white lg:py-4">
           <div className="flex items-center gap-10">
             <Link href="/" className="flex items-center gap-2.5">
               {renderLogo("md")}

@@ -193,24 +193,26 @@ export function Payment({
             }}
             className="relative mt-5"
           >
-            <div className="flex items-center gap-2 rounded-full bg-white p-2 pl-5 shadow-[0_18px_40px_-18px_rgba(7,87,136,0.55)]">
-              <Search className="h-4 w-4 shrink-0 text-navy/50" />
-              <input
-                type="text"
-                value={query}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  setOpen(true);
-                  if (result) setResult(null);
-                }}
-                onFocus={() => setOpen(true)}
-                onBlur={() => setTimeout(() => setOpen(false), 150)}
-                placeholder="e.g, Delta Dental, Cigna"
-                className="flex-1 bg-transparent py-2 text-[14px] text-navy placeholder:text-navy/50 outline-none"
-              />
+            <div className="flex flex-col gap-2 rounded-3xl bg-white p-2 shadow-[0_18px_40px_-18px_rgba(7,87,136,0.55)] sm:flex-row sm:items-center sm:rounded-full sm:pl-5">
+              <div className="flex flex-1 items-center gap-2 pl-3 sm:pl-0">
+                <Search className="h-4 w-4 shrink-0 text-navy/50" />
+                <input
+                  type="text"
+                  value={query}
+                  onChange={(e) => {
+                    setQuery(e.target.value);
+                    setOpen(true);
+                    if (result) setResult(null);
+                  }}
+                  onFocus={() => setOpen(true)}
+                  onBlur={() => setTimeout(() => setOpen(false), 150)}
+                  placeholder="e.g, Delta Dental, Cigna"
+                  className="w-full flex-1 bg-transparent py-2 text-[14px] text-navy placeholder:text-navy/50 outline-none"
+                />
+              </div>
               <button
                 type="submit"
-                className="inline-flex h-10 shrink-0 items-center justify-center rounded-full bg-brand px-5 text-[13px] font-medium text-white transition hover:bg-brand-deep"
+                className="inline-flex h-11 w-full shrink-0 items-center justify-center rounded-full bg-brand px-5 text-[13px] font-medium text-white transition hover:bg-brand-deep sm:h-10 sm:w-auto"
               >
                 Check Your Coverage
               </button>
