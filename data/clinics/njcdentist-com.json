@@ -1,0 +1,186 @@
+{
+  "clinic": {
+    "name": "NJC Dentistry",
+    "tagline": "health • integrity • smiles",
+    "city": "Columbia Heights",
+    "phone": "(763) 781-6976",
+    "address": "3844 Central Avenue NE, Columbia Heights, MN 55421",
+    "hours": "Mon-Thurs: 8 a.m. – 5 p.m.",
+    "logoPath": "/clinics/njcdentist-com/logo.png",
+    "logoIsLight": false,
+    "heroSubtitle": "Experience honest, personal dental care in a welcoming, art-filled atmosphere. From pediatric visits to advanced restorative treatments, we serve all ages with a gentle touch.",
+    "differentiators": [
+      {
+        "title": "Artful Patient Experience",
+        "description": "Our practice showcases local artists and a comfortable, home-like environment to replace clinical stress with beauty."
+      },
+      {
+        "title": "Environmentally Conscious",
+        "description": "We prioritize digital X-rays and mercury-safe practices to minimize our impact on the local water and environment."
+      },
+      {
+        "title": "Independent & Non-Corporate",
+        "description": "As a small, independently owned practice, we focus on ethical providers and honest, personal patient care."
+      },
+      {
+        "title": "Community Rooted",
+        "description": "Dr. Cashman is a resident and neighbor of the community she serves, treating patients like friends and family."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Consultation",
+        "description": "Enter our comfortable, art-filled office for a complimentary smile consultation to discuss your needs and concerns without judgment."
+      },
+      {
+        "title": "Comprehensive Examination",
+        "description": "We perform a thorough evaluation including digital radiographs with low radiation and oral cancer screenings to assess your health."
+      },
+      {
+        "title": "Personalized Care Plan",
+        "description": "Dr. Cashman listens to your goals to create a conservative treatment plan tailored specifically to your health and aesthetic preferences."
+      },
+      {
+        "title": "Gentle Treatment Phase",
+        "description": "Whether receiving a filling or a crown, we use high-quality materials and offer mild sedation to ensure you remain relaxed and comfortable."
+      },
+      {
+        "title": "Smile Refinement",
+        "description": "For those seeking enhancements, we offer cosmetic services like whitening or veneers to restore the confidence in your smile."
+      },
+      {
+        "title": "Lifelong Maintenance",
+        "description": "Stay healthy with routine cleanings and preventative education from our friendly hygienists to ensure your smile lasts a lifetime."
+      }
+    ],
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Stained Teeth",
+      "Missing Tooth",
+      "Loose Filling",
+      "Chipped Tooth",
+      "Jaw Pain",
+      "Bleeding Gums",
+      "Dental Anxiety",
+      "Broken Denture",
+      "Sensitive Teeth"
+    ],
+    "stats": [
+      {
+        "value": "2005",
+        "label": "Year Graduated U of M"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Care for Patients"
+      },
+      {
+        "value": "100%",
+        "label": "Independently Owned"
+      },
+      {
+        "value": "18mo-101",
+        "label": "Patient Ages Served"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Comfortable Atmosphere",
+        "description": "Relax in our art-filled practice located in a converted stucco house full of natural light and laughter."
+      },
+      {
+        "title": "Eco-Friendly Care",
+        "description": "We use paperless charting, digital radiographs for less radiation, and BPA-free composite fillings."
+      },
+      {
+        "title": "Gentle Anxiety Relief",
+        "description": "We offer nitrous oxide 'laughing gas' and mild sedation to help patients feel like they are floating on a cloud."
+      },
+      {
+        "title": "Comprehensive Services",
+        "description": "From preventative cleanings to complex restorative work and implants, we handle all your dental needs."
+      },
+      {
+        "title": "Family Focused",
+        "description": "We welcome patients of all ages, from children as young as 18 months to seniors in their 100s."
+      },
+      {
+        "title": "Convenient Location",
+        "description": "Enjoy free parking in our back lot or accessible street parking right where NE Minneapolis meets Columbia Heights."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Preventative Care",
+        "description": "Professional cleanings, sealants, and oral cancer screenings designed to maintain oral health and prevent disease before it starts."
+      },
+      {
+        "title": "Restorative Dentistry",
+        "description": "Strong, healthy solutions including BPA-free composite fillings, crowns, bridges, and root canal treatments to save damaged teeth."
+      },
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Beautify your smile with professional teeth whitening, porcelain veneers, and artistic composite resin bonding."
+      },
+      {
+        "title": "Implant & Denture Solutions",
+        "description": "Long-lasting tooth replacement via dental implant crowns or custom dentures designed for maximum functionality and a natural look."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Are you accepting new patients?",
+        "answer": "Yes! NJC Dentistry welcomes new patients of all ages, from infants at 18 months old to seniors. We look forward to helping you achieve your brightest smile."
+      },
+      {
+        "question": "What should I expect at my first visit?",
+        "answer": "You will notice a judgment-free atmosphere where Dr. Cashman listens to your individual needs to provide personalized, high-quality dental care."
+      },
+      {
+        "question": "Do you offer services for dental anxiety?",
+        "answer": "Absolutely. We provide nitrous oxide and mild sedation options to ensure your appointment is relaxing, comfortable, and stress-free."
+      },
+      {
+        "question": "What insurance and payment options do you have?",
+        "answer": "We offer a full range of dental services and accept most major insurance policies. Please contact our office to discuss your specific coverage."
+      },
+      {
+        "question": "What if I have a dental emergency?",
+        "answer": "We provide 24/7 emergency service for our existing patients to address issues like knocked-out teeth, loose fillings, or sudden dental pain."
+      },
+      {
+        "question": "Where can I park when I visit?",
+        "answer": "We offer free parking in our back lot accessible via the alley, as well as handicap-accessible street parking on Central Avenue NE."
+      }
+    ],
+    "footerAbout": "NJC Dentistry provides comprehensive, eco-friendly dental care to the Northeast Minneapolis and Columbia Heights community with a focus on integrity, health, and beautiful smiles.",
+    "heroImagePath": "/clinics/njcdentist-com/hero.png",
+    "benefitsImagePath": "/clinics/njcdentist-com/benefits.png",
+    "whyChooseImagePath": "/clinics/njcdentist-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. Nancy Jane Cashman",
+    "credentials": "DDS, University of Minnesota Dental School",
+    "bio": "Dr. Nancy Jane Cashman graduated from the University of Minnesota Dental School in 2005 and completed a residency at the Minneapolis V.A. Hospital. She is an independent practitioner who views dentistry as a perfect meld of science, art, and people. She is dedicated to conservative care and stays current through Spear study clubs and continuing education. Outside the office, she enjoys painting, cooking, and serving the underserved through local volunteering.",
+    "photoPath": "/clinics/njcdentist-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/njcdentist-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Local Resident",
+      "text": "Everyone smiles in the same language. The team at NJC Dentistry are skilled professionals who put my family at ease.",
+      "rating": 5
+    },
+    {
+      "name": "Patient Review",
+      "text": "The atmosphere is full of light and laughter. It's a small, non-corporate practice where you really notice the difference in care.",
+      "rating": 5
+    },
+    {
+      "name": "Community Member",
+      "text": "Service with a smile! Their hygienists and assistants are gentle, experienced, and friendly. They make coming to the dentist fun.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

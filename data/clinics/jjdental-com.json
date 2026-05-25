@@ -1,0 +1,63 @@
+{
+  "clinic": {
+    "name": "JJ Dental",
+    "tagline": "Innovative General & Cosmetic Dentistry In Fort Lauderdale, Lauderdale-By-The-Sea, & Pompano",
+    "phone": "(954) 463-7262",
+    "logoPath": "/clinics/jjdental-com/logo.webp",
+    "logoIsLight": false,
+    "treatmentJourney": [
+      {
+        "title": "Welcome & In-Depth Exam",
+        "description": "Your journey begins with a warm greeting and a comprehensive exam that is more in-depth than a standard visit to ensure we understand your unique oral health needs."
+      },
+      {
+        "title": "Personalized Care Plan",
+        "description": "Our specialized doctors work creatively with you to find a treatment path that aligns with your goals and budget, including flexible financing options."
+      },
+      {
+        "title": "Preventive Care & Education",
+        "description": "Maintain your foundation with routine check-ups and thorough teeth cleanings designed to support overall dental health and long-term wellness."
+      },
+      {
+        "title": "Modern Restorative Treatment",
+        "description": "Utilizing state-of-the-art medical equipment, we provide efficient repairs like fillings, crowns, or root canals to restore function and comfort."
+      },
+      {
+        "title": "Cosmetic Smile Refinements",
+        "description": "Transform your appearance with advanced aesthetic options including veneers, whitening, or Invisalign to elevate your confidence and well-being."
+      },
+      {
+        "title": "Ongoing Health Maintenance",
+        "description": "We provide efficient post-treatment advice and guidelines, building a lifetime relationship to ensure your smile stays healthy and beautiful."
+      }
+    ],
+    "heroImagePath": "/clinics/jjdental-com/hero.png",
+    "benefitsImagePath": "/clinics/jjdental-com/benefits.png",
+    "whyChooseImagePath": "/clinics/jjdental-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Jonathan Cook",
+    "credentials": "DMD",
+    "bio": "Dr. Jonathan Cook is a highly skilled dentist who graduated with honors from Florida State University before earning his Doctorate of Dental Medicine at Nova Southeastern University School of Dentistry. During his training, he participated in dental mission trips to Jamaica and was inducted into the Omicron Kappa Upsilon National Dental Honor Society. Dr. Cook has been recognized with The Southern Academy of Prosthodontics Award and The American Academy of Implant Dentistry Award. He is dedicated to continuous education and uses modern equipment to ensure every patient receives the best possible treatment.",
+    "photoPath": "/clinics/jjdental-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/jjdental-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Sue H.",
+      "text": "Everyone I’ve dealt with at JJ from the front desk to the surgeon and implant specialists are a pleasure to work with. Vanessa gave me excellent advice about dry mouth.",
+      "rating": 5
+    },
+    {
+      "name": "Silvia S.",
+      "text": "JJ Dental is the best dental service provider that you can get. Amazing people, highly qualified professionals and very competitive prices. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Christopher R.",
+      "text": "JJ Dental is a very professional dental office with a competent, attentive and friendly staff. The office is modern and extremely clean.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

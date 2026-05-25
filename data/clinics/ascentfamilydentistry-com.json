@@ -7,28 +7,28 @@
     "logoIsLight": false,
     "treatmentJourney": [
       {
-        "title": "Warm Welcome and Registration",
-        "description": "Patients are greeted by a caring and professional staff dedicated to making every visit a pleasant experience from the moment you walk through the door."
-      },
-      {
-        "title": "Comprehensive Oral Examination",
-        "description": "Dr. Heinlein performs a thorough evaluation of your dental health, incorporating the latest research on periodontal disease and oral hygiene."
+        "title": "Warm Welcome & Assessment",
+        "description": "Begin your journey with a caring, professional greeting followed by a detailed and thorough examination of your current oral health status."
       },
       {
         "title": "Personalized Care Planning",
-        "description": "We build your trust by discussing your specific needs and creating a tailored treatment plan focused on your long-term health and loyalty."
+        "description": "Dr. Heinlein and his staff develop a custom treatment plan focused on building trust, loyalty, and your perfect smile."
       },
       {
-        "title": "Advanced Dental Treatment",
-        "description": "Utilizing modern technology and techniques, we provide high-quality care whether you need general dentistry, complex implants, or restorative work."
+        "title": "Preventive Hygiene Care",
+        "description": "Our hygienists use the latest research on periodontal disease to provide detailed cleanings that improve your overall health."
       },
       {
-        "title": "Patient Education and Wellness",
-        "description": "Our hygienists provide detailed insights into the effects of good oral hygiene and how it relates to your overall health and science-based wellness."
+        "title": "Advanced Restorative Treatment",
+        "description": "Using modern technology and techniques, we perform necessary restorative care such as fillings or root canals with incomparable quality."
       },
       {
-        "title": "Ongoing Preventive Maintenance",
-        "description": "We focus on cleaning and prevention to maintain your first-class smile and ensure your continued comfort and health for years to come."
+        "title": "Aesthetic & Specialty Care",
+        "description": "Enhance your smile with options like clear aligner therapy or dental implants to restore full function and confidence."
+      },
+      {
+        "title": "Long-Term Maintenance",
+        "description": "We provide ongoing support through our Oral Health Plan to ensure your results last and your oral hygiene remains excellent."
       }
     ],
     "heroImagePath": "/clinics/ascentfamilydentistry-com/hero.png",
@@ -38,24 +38,24 @@
   "doctor": {
     "name": "Taylor Heinlein",
     "credentials": "DDS",
-    "bio": "Dr. Taylor Heinlein is a lifelong learner who received his B.S. in chemistry with honors at the University of St. Thomas and his Doctor of Dental Surgery degree with honors from the University of Minnesota. Driven by a love for science and helping others, he enjoys incorporating the newest technology and techniques, including implant placement and clear aligner therapy. He is an active member of the Academy of General Dentistry. Outside the clinic, Dr. Heinlein resides in Robbinsdale and enjoys time with his family, cooking, and visiting the ice rink or golf course.",
+    "bio": "Dr. Taylor Heinlein received his Doctor of Dental Surgery degree with honors from the University of Minnesota. A lifelong learner and member of the Academy of General Dentistry, he loves incorporating the newest technology to better treat patients, including implant placement and clear aligner therapy. He is dedicated to providing caring, professional, and incomparable quality care. Dr. Heinlein credits his early love for science to his 5th grade teacher and is committed to helping others through healthcare.",
     "photoPath": "/clinics/ascentfamilydentistry-com/doctor.jpg",
     "specialistPortraitPath": "/clinics/ascentfamilydentistry-com/specialist.png"
   },
   "reviews": [
     {
-      "name": "Mark S.",
-      "text": "Dr. Heinlein and the entire staff are incredibly professional and thorough. I really appreciated how detailed the hygienist was during my cleaning.",
+      "name": "Michael R.",
+      "text": "Dr. Heinlein is professional and caring. The clinic is first class and they really take pride in making your visit a pleasant experience.",
       "rating": 5
     },
     {
-      "name": "Jessica R.",
-      "text": "A first-class dental office! They truly care about your comfort and building trust. My family has found our forever Minnesota smile here.",
+      "name": "Jennifer L.",
+      "text": "The hygienists here are so detailed and thorough. They use the latest research to help with my periodontal health and overall wellness.",
       "rating": 5
     },
     {
-      "name": "David L.",
-      "text": "Highly recommend Ascent Family Dentistry for complex implants. They use the latest technology and make the whole experience very pleasant.",
+      "name": "David K.",
+      "text": "I came in for dental implants and was impressed by the modern technology and techniques used. This is a practice built on reputation.",
       "rating": 5
     }
   ],
