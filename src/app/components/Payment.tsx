@@ -134,7 +134,7 @@ export function Payment({
       className="relative z-10 py-24 text-white lg:py-32"
       style={{
         background:
-          "linear-gradient(180deg, #0076B8 0%, #479CCC 50%, #B0D4E9 85%, #FFFFFF 100%)",
+          "linear-gradient(180deg, var(--color-brand) 0%, var(--color-brand-2) 50%, var(--color-pale-blue) 85%, #FFFFFF 100%)",
       }}
     >
       <div className="gutter-x relative">
@@ -162,7 +162,7 @@ export function Payment({
                 className="flex h-40 items-center justify-center rounded-2xl text-white"
                 style={{
                   background:
-                    "linear-gradient(135deg, #0076B8 0%, #479CCC 60%, #6FB4DC 100%)",
+                    "linear-gradient(135deg, var(--color-brand) 0%, var(--color-brand-2) 60%, var(--color-brand-3) 100%)",
                 }}
               >
                 <Icon className="h-8 w-8" />

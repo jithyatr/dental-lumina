@@ -1,0 +1,277 @@
+{
+  "clinic": {
+    "name": "Tampa Advanced Dental Solutions",
+    "tagline": "Tampa Bay's Premier Center for Prosthodontics & Maxillofacial Rehabilitation",
+    "city": "Tampa",
+    "phone": "(813) 872-9313",
+    "address": "4712 N Armenia Ave STE 100, Tampa, FL 33603",
+    "hours": "Mon-Thu 8:30am - 5:00pm, Fri 8:30am - 1:00pm",
+    "logoPath": "/clinics/tampasmiles-net/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Experience a comprehensive approach to full mouth restoration led by a board-certified team. We combine prosthodontic expertise with an in-house digital lab to rebuild your health, comfort, and confidence.",
+    "differentiators": [
+      {
+        "title": "Multispecialty Team Synergy",
+        "description": "Our board-certified prosthodontists and periodontists collaborate in real-time to solve complex dental challenges."
+      },
+      {
+        "title": "On-Site Lab Precision",
+        "description": "We utilize an in-house digital design and fabrication lab to ensure every restoration meets our meticulous standards."
+      },
+      {
+        "title": "Thirty-Year Family Legacy",
+        "description": "Founded by Dr. C. Edgar Davila, our practice combines decades of clinical expertise with modern innovation."
+      },
+      {
+        "title": "Jaw-In-A-Day Innovation",
+        "description": "We provide advanced, immediate-load implant solutions that can reconstruct your entire smile in a single visit."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Specialist Consultation",
+        "description": "Your journey begins with a thorough evaluation by our specialists using digital diagnostics and photography to assess your unique needs."
+      },
+      {
+        "title": "Collaborative Digital Planning",
+        "description": "Our team collaborates under one roof to create a personalized treatment mockup, ensuring your new bite and smile are perfectly balanced."
+      },
+      {
+        "title": "Foundation & Surgical Phase",
+        "description": "Our board-certified clinicians perform necessary extractions, implant placement, or gum work with precision and sedation for your comfort."
+      },
+      {
+        "title": "Provisional Restoration",
+        "description": "We provide high-quality temporary restorations that allow you to test the aesthetics and function of your new smile during the healing process."
+      },
+      {
+        "title": "In-House Lab Fabrication",
+        "description": "Our on-site digital lab meticulously crafts your final permanent restorations to our exact specifications for a perfect fit."
+      },
+      {
+        "title": "Final Delivery & Care",
+        "description": "We place your final restorations and establish a long-term maintenance plan to protect your investment and ensure lasting oral health."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Missing Teeth",
+      "Failing Crowns",
+      "Jaw Pain",
+      "Difficulty Chewing",
+      "Cracked Teeth",
+      "Old Dentures",
+      "Acid Erosion",
+      "Grinding Damage",
+      "Receding Gums"
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years of Specialty Care"
+      },
+      {
+        "value": "In-House",
+        "label": "Digital Fabrication Lab"
+      },
+      {
+        "value": "Board",
+        "label": "Certified Specialists"
+      },
+      {
+        "value": "100%",
+        "label": "Patient-Centered Focus"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Comprehensive Specialty Care",
+        "description": "Access prosthodontics, periodontics, and implant dentistry under one roof for seamless coordination of your full mouth restoration."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Benefit from precision-crafted restorations designed and fabricated on-site for superior aesthetics and a more predictable outcome."
+      },
+      {
+        "title": "Advanced Implant Solutions",
+        "description": "Restore your smile's function and appearance with specialized treatments like Jaw-In-A-Day and full-arch rehabilitation."
+      },
+      {
+        "title": "Compassionate Family Values",
+        "description": "Experience personalized care rooted in integrity and a 30-year legacy of treating every patient like a member of our own family."
+      },
+      {
+        "title": "Multi-Lingual Support",
+        "description": "Communicate comfortably with our team during your complex reconstruction journey with services available in both English and Spanish."
+      },
+      {
+        "title": "Sedation Options",
+        "description": "Ensure your comfort during long or complex restorative appointments with our specialized sedation dentistry services."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Jaw-In-A-Day Reconstruction",
+        "description": "An advanced protocol providing immediate implant placement and restoration for a complete smile transformation in one visit."
+      },
+      {
+        "title": "Implant & Full Arch Solutions",
+        "description": "Comprehensive strategies using dental implants to support full-arch bridges or prosthetics for total oral rehabilitation."
+      },
+      {
+        "title": "Maxillofacial Prosthodontics",
+        "description": "Specialized prosthetic care for complex structural needs, ensuring your restorations fit naturally and function perfectly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is a full mouth restoration?",
+        "answer": "It is a comprehensive rehabilitation of your smile using a combination of implants, crowns, and bridges to restore health, function, and aesthetics to your entire mouth."
+      },
+      {
+        "question": "Why should I see a prosthodontist for my reconstruction?",
+        "answer": "Prosthodontists are specialists in restoring and replacing teeth; our team has the advanced training required for complex bite alignment and aesthetic outcomes."
+      },
+      {
+        "question": "How long does the restoration process take?",
+        "answer": "Timelines vary based on complexity, but our in-house lab and Jaw-In-A-Day technology allow us to streamline many phases of your treatment plan."
+      },
+      {
+        "question": "Do you offer sedation for long appointments?",
+        "answer": "Yes, we provide sedation dentistry to ensure you remain comfortable and relaxed throughout your specialized restorative or surgical procedures."
+      },
+      {
+        "question": "Will I be without teeth during treatment?",
+        "answer": "No, we provide functional provisional restorations that allow you to eat and smile confidently while your final custom prosthetics are being fabricated."
+      },
+      {
+        "question": "Do you offer financing for full mouth reconstruction?",
+        "answer": "We offer various insurance and financing options to make advanced specialty care accessible for our patients' long-term health."
+      }
+    ],
+    "footerAbout": "Tampa Advanced Dental Solutions is Tampa Bay’s premier center for prosthodontics and maxillofacial rehabilitation, serving the community with specialist-driven family values for over 30 years.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/tampasmiles-net/hero.png",
+    "benefitsImagePath": "/clinics/tampasmiles-net/benefits.jpg",
+    "whyChooseImagePath": "/clinics/tampasmiles-net/hero.png"
+  },
+  "doctor": {
+    "name": "C. Edgar Davila",
+    "credentials": "DDS, MS, CDT",
+    "bio": "Dr. C. Edgar Davila is the founding specialist of Tampa Advanced Dental Solutions, bringing over 30 years of clinical expertise to the Tampa Bay community. As a leader in maxillofacial prosthodontics and implant dentistry, he established a practice rooted in integrity, intention, and exceptional outcomes. He works alongside a dedicated team of specialists, including his children, to provide advanced, purpose-driven care for complex oral rehabilitation. His vision for compassionate, specialty-driven dentistry remains the foundation of the practice's success.",
+    "yearsOfExperience": 30,
+    "photoPath": "/clinics/tampasmiles-net/doctor.jpg",
+    "specialistPortraitPath": "/clinics/tampasmiles-net/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Maria G.",
+      "text": "The team at TADS truly treated me like family. My full mouth restoration has completely changed my confidence and how I feel every day.",
+      "rating": 5
+    },
+    {
+      "name": "Robert S.",
+      "text": "Having prosthodontists and periodontists in one office made my implant surgery so much easier. The Jaw-In-A-Day was life-changing.",
+      "rating": 5
+    },
+    {
+      "name": "Linda P.",
+      "text": "The in-house lab is incredible. My new teeth look so natural and they fit perfectly from day one. I couldn't be happier.",
+      "rating": 5
+    },
+    {
+      "name": "Carlos M.",
+      "text": "Me sentí muy cómodo hablando con el personal en español. El Dr. Davila explicó todo el proceso de reconstrucción con mucha paciencia.",
+      "rating": 5
+    },
+    {
+      "name": "Susan W.",
+      "text": "I was very nervous about such a big procedure, but the sedation dentistry made my long appointments stress-free and painless.",
+      "rating": 5
+    },
+    {
+      "name": "David L.",
+      "text": "Expertise you can trust. They fixed complex issues that other dentists couldn't handle. Best specialty clinic in Tampa Bay.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "sage"
+}

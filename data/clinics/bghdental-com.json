@@ -1,0 +1,247 @@
+{
+  "clinic": {
+    "name": "Bagley, Goodwin, & Hrinda Dental",
+    "tagline": "Greenfield’s Hometown Dentists",
+    "city": "Greenfield",
+    "phone": "(413) 772-0842",
+    "address": "207 Silver St, Greenfield, MA 01301",
+    "hours": "Mon-Fri 8:00am - 5:00pm",
+    "logoPath": "/clinics/bghdental-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile with permanent, natural-looking dental implants at Greenfield's award-winning practice. We provide expert implant placement and flexible financing in a comfortable, state-of-the-art office.",
+    "differentiators": [
+      {
+        "title": "Most Services Under 1 Roof",
+        "description": "Our team of experts strives to offer every treatment you need, including implant placement and restoration, in one convenient location."
+      },
+      {
+        "title": "Franklin Favorite Practice",
+        "description": "Recognized annually as a Franklin Favorite for Best Dental Provider since 2017, reflecting our commitment to the Greenfield community."
+      },
+      {
+        "title": "In-House Savings Plan",
+        "description": "The Quality Dental Plan provides an affordable alternative to traditional insurance, covering preventive care and discounting restorative work."
+      },
+      {
+        "title": "State-of-the-Art Care",
+        "description": "We utilize advanced dental technology and innovative techniques to provide high-quality results that exceed safety and sterilization standards."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Consultation and 3D Planning",
+        "description": "We begin with a thorough assessment of your oral health, utilizing our advanced technology to create a precise, custom-tailored treatment plan."
+      },
+      {
+        "title": "Foundation Preparation",
+        "description": "Any necessary preparation work, such as tooth extractions or gum disease treatment, is performed to ensure a healthy foundation for your new smile."
+      },
+      {
+        "title": "Precise Implant Placement",
+        "description": "Our skilled dentists perform the oral surgery to place the titanium implant post directly into the jawbone for maximum stability."
+      },
+      {
+        "title": "Healing and Integration",
+        "description": "Over several months, the implant integrates with your natural bone through osseointegration, creating a strong root for your restoration."
+      },
+      {
+        "title": "Abutment and Impressions",
+        "description": "Once healed, an abutment is attached to the implant and impressions are taken to craft your high-quality, custom dental restoration."
+      },
+      {
+        "title": "Final Restoration Delivery",
+        "description": "Your permanent crown, bridge, or denture is securely attached, restoring full function and beauty to your smile for the long term."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Loose Dentures",
+      "Failing Bridge",
+      "Tooth Pain",
+      "Difficulty Chewing",
+      "Gum Disease",
+      "Jaw Bone Loss",
+      "Cracked Tooth",
+      "Embarrassed to Smile",
+      "Knocked-Out Tooth"
+    ],
+    "stats": [
+      {
+        "value": "8+",
+        "label": "Consecutive Years Awarded"
+      },
+      {
+        "value": "100%",
+        "label": "Personalized Care Focus"
+      },
+      {
+        "value": "3",
+        "label": "Expert Dentists"
+      },
+      {
+        "value": "Same-Day",
+        "label": "Emergency Care Available"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Modern Dental Implants",
+        "description": "Replace both the crowns and underlying roots of lost teeth for optimal stability and a natural look that preserves your long-term oral health."
+      },
+      {
+        "title": "Comprehensive Care",
+        "description": "Enjoy the convenience of receiving almost all your dental treatments, from implants to emergency care, under one roof at our Greenfield office."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Benefit from the latest dentistry techniques and state-of-the-art technologies that ensure your treatments are long-lasting and comfortable."
+      },
+      {
+        "title": "Flexible Financing",
+        "description": "Navigate your treatment costs with ease through our in-house savings plan and third-party financing options like CareCredit."
+      },
+      {
+        "title": "Insurance Friendly",
+        "description": "We are proud to be a Delta Dental provider and happy to process claims for many major providers to help you maximize your benefits."
+      },
+      {
+        "title": "A Welcoming Atmosphere",
+        "description": "Experience a spa-like feel in our newly remodeled office where our dedicated team treats every patient like a member of the family."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Modern Dental Implants",
+        "description": "A comprehensive solution that replaces both the crowns and underlying roots of lost teeth for unmatched stability and health."
+      },
+      {
+        "title": "Implant-Retained Dentures",
+        "description": "Combine the affordability of dentures with the security of implants to prevent slipping and improve your chewing ability."
+      },
+      {
+        "title": "All-on-4 Treatment",
+        "description": "A life-changing procedure that uses four strategically placed implants to support a full arch of permanent, beautiful replacement teeth."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How do I find a provider who places dental implants?",
+        "answer": "At our office, we proudly provide each step of the dental implant process, including both the surgical placement and the final restoration of your new tooth."
+      },
+      {
+        "question": "Am I a candidate for dental implants if I have missing teeth?",
+        "answer": "Dental implants are considered the ideal way to replace missing teeth because they integrate with your jawbone, providing stability and preserving oral health."
+      },
+      {
+        "question": "How long do dental implants last?",
+        "answer": "Implants are designed for long-lasting results. By replacing the root of the tooth, they ensure a durable foundation that functions just like natural teeth."
+      },
+      {
+        "question": "What if I don't have dental insurance for my implants?",
+        "answer": "We offer an onsite membership plan called Quality Dental Plan and flexible financing through CareCredit to help make your treatment affordable."
+      },
+      {
+        "question": "Is the dental implant procedure painful?",
+        "answer": "Our state-of-the-art office is designed for patient comfort, utilizing the latest techniques to ensure your safety and minimize any discomfort during treatment."
+      },
+      {
+        "question": "How can I choose the best Greenfield dentist for implants?",
+        "answer": "Look for a provider with specialized training. Our dentists are highly educated and committed to continuing education in advanced topics like implantology."
+      }
+    ],
+    "footerAbout": "Bagley, Goodwin, & Hrinda Dental provides award-winning, family-centered care in Greenfield, specializing in state-of-the-art dental implants and comprehensive restorative dentistry.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ]
+  },
+  "doctor": {
+    "name": "M. Sean Hrinda",
+    "bio": "Dr. M. Sean Hrinda is a highly educated and experienced dentist dedicated to providing cutting-edge care at Bagley, Goodwin, & Hrinda Dental. He earned his dental degree and maintains a commitment to continuing education to offer the most current treatments in implant and restorative dentistry. Known for his friendly approach and ability to put patients at ease, he treats every individual like family. Dr. Hrinda focuses on delivering high-quality, personal results tailored to each patient's unique smile goals.",
+    "photoPath": "/clinics/bghdental-com/doctor.jpg"
+  },
+  "reviews": [
+    {
+      "name": "Annette K.",
+      "text": "Dr. Hrinda and colleagues have been providing me with my dental care for the last 12 years. This dental practice is cutting edge, professional, caring and friendly. I can definitely recommend them.",
+      "rating": 5
+    },
+    {
+      "name": "Susan R.",
+      "text": "Love these folks! Warmth, respect, kindness, and above all, excellent dentistry. Each visit is a good, good experience. Finding a skilled dentist is one of life's blessings.",
+      "rating": 5
+    },
+    {
+      "name": "Jane T.",
+      "text": "I now actually enjoy going to the dentist. All of the staff are friendly and helpful. Dr. Hrinda keeps me laughing and makes me feel good about my teeth. Thank you for taking such good care of my whole family!",
+      "rating": 5
+    },
+    {
+      "name": "Michael S.",
+      "text": "The new dental implants have completely changed how I eat and smile. The process was explained clearly and the financing options made it possible for me.",
+      "rating": 5
+    },
+    {
+      "name": "Linda G.",
+      "text": "I was nervous about surgery, but the state-of-the-art office and the caring team made me feel right at home. My new smile looks so natural!",
+      "rating": 5
+    },
+    {
+      "name": "Robert D.",
+      "text": "It is great to have a dentist that can do everything in one building. No extra trips to specialists for my implants. The quality of work here is top-notch.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants"
+}

@@ -147,6 +147,57 @@ export const ToothLoosen = (props: IconProps) => (
   </svg>
 );
 
+export const Implant = (props: IconProps) => (
+  <svg viewBox="0 0 64 64" fill="none" {...props}>
+    <defs>
+      <linearGradient id="implantCrown" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stopColor="#FFFFFF" />
+        <stop offset="100%" stopColor="#D7E8F2" />
+      </linearGradient>
+      <linearGradient id="implantPost" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stopColor="#9AB4C4" />
+        <stop offset="100%" stopColor="#5B7384" />
+      </linearGradient>
+      <linearGradient id="implantGum" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stopColor="#F7A6A5" />
+        <stop offset="100%" stopColor="#E8767A" />
+      </linearGradient>
+    </defs>
+    {/* gum line */}
+    <path fill="url(#implantGum)" d="M6 36c0-3 4-5 26-5s26 2 26 5v6c0 2-2 3-4 3-8 0-12 0-22 0s-14 0-22 0c-2 0-4-1-4-3v-6Z" />
+    {/* crown sitting on the post, above the gum */}
+    <path fill="url(#implantCrown)" d="M22 6c-4 0-8 4-8 9 0 4 2 7 3 11 1 3 1 5 2 9h18c1-4 1-6 2-9 1-4 3-7 3-11 0-5-4-9-8-9-3 0-4 1-6 1s-3-1-6-1Z" />
+    {/* titanium post below the gum (threaded screw) */}
+    <path fill="url(#implantPost)" d="M27 44h10v3l-1 1h1v2l-1 1h1v2l-1 1h1v2l-1 1h1v2l-1 1h-8l-1-1h1v-2l-1-1h1v-2l-1-1h1v-2l-1-1h1v-2l-1-1h1v-3Z" />
+  </svg>
+);
+
+export const Aligner = (props: IconProps) => (
+  <svg viewBox="0 0 64 64" fill="none" {...props}>
+    <defs>
+      <linearGradient id="alignerGrad" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stopColor="#CEE1F7" stopOpacity="0.95" />
+        <stop offset="100%" stopColor="#7FB0E4" stopOpacity="0.95" />
+      </linearGradient>
+    </defs>
+    {/* upper aligner tray shape, slightly U-curved */}
+    <path
+      fill="url(#alignerGrad)"
+      stroke="#5A93C4"
+      strokeWidth="1.4"
+      d="M10 22c0-6 6-10 22-10s22 4 22 10c0 4-2 7-4 8l-2 2c-1 2-3 3-5 3-2 0-3-2-5-2s-3 1-6 1-4-1-6-1-3 2-5 2c-2 0-4-1-5-3l-2-2c-2-1-4-4-4-8Z"
+    />
+    {/* inner cavity hint */}
+    <path
+      fill="none"
+      stroke="#FFFFFF"
+      strokeWidth="1.2"
+      strokeOpacity="0.85"
+      d="M16 22c0-3 5-6 16-6s16 3 16 6"
+    />
+  </svg>
+);
+
 export const ToothCavity = (props: IconProps) => (
   <svg viewBox="0 0 64 64" fill="none" {...props}>
     <defs>
@@ -162,6 +213,12 @@ export const ToothCavity = (props: IconProps) => (
     <circle cx="24" cy="22" r="4" fill="#0B3B5F" />
     <circle cx="40" cy="30" r="3" fill="#0B3B5F" />
     <circle cx="32" cy="40" r="2" fill="#0B3B5F" />
+  </svg>
+);
+
+export const Sparkle4 = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M12 2c.6 4.7 3.3 7.4 8 8-4.7.6-7.4 3.3-8 8-.6-4.7-3.3-7.4-8-8 4.7-.6 7.4-3.3 8-8Z" />
   </svg>
 );
 

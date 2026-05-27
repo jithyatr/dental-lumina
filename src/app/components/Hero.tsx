@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { ComponentType, SVGProps } from "react";
 import { Cta } from "./Cta";
 import { ArrowRight, Check, MapPin, Star } from "./icons";
@@ -88,6 +88,21 @@ export function Hero({
   const [slot, setSlot] = useState<string | null>(null);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [compact, setCompact] = useState(false);
+
+  // Mobile: skip the Place & Service step since location + service are
+  // pre-selected. The user starts directly at Date & Time.
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 639px)");
+    const update = () => setCompact(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  useEffect(() => {
+    if (compact && step === 0) setStep(1);
+  }, [compact, step]);
 
   const step0Done = locIdx !== null && svcIdx !== null;
   const step1Done = dateIdx !== null && slot !== null;
@@ -101,6 +116,7 @@ export function Hero({
 
   const goToStep = (i: number) => {
     if (i === 3) return;
+    if (compact && i === 0) return; // place & service is skipped on mobile
     if (i === 1 && !step0Done) return;
     if (i === 2 && (!step0Done || !step1Done)) return;
     setStep(i);
@@ -212,8 +228,9 @@ export function Hero({
             />
           </div>
 
-          {/* floating booking card — mirrors BookingWidget steps */}
-          <div className="pointer-events-auto absolute -bottom-24 right-2 w-[260px] rounded-[20px] bg-white p-3.5 text-navy shadow-[0_24px_60px_-12px_rgba(0,0,0,0.35)] ring-1 ring-white/40 sm:-bottom-20 sm:right-4 sm:w-[280px] md:w-[300px]">
+          {/* floating booking card — on mobile, sits below the image with
+              just a slight overlap at the top. On sm+ it floats over the image. */}
+          <div className="pointer-events-auto relative -mt-10 ml-auto mr-3 w-[210px] rounded-[16px] bg-white p-2 text-navy shadow-[0_24px_60px_-12px_rgba(0,0,0,0.35)] ring-1 ring-white/40 sm:absolute sm:-bottom-20 sm:right-4 sm:ml-0 sm:mr-0 sm:mt-0 sm:w-[280px] sm:rounded-[20px] sm:p-3.5 md:w-[300px]">
             {/* Header — Live + progress dots */}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand">
@@ -225,6 +242,7 @@ export function Hero({
               </div>
               <div className="flex items-center gap-1">
                 {STEP_KEYS.map((key, i) => {
+                  if (compact && i === 0) return null;
                   const reachable =
                     i === 0 ||
                     (i === 1 && step0Done) ||
@@ -268,6 +286,7 @@ export function Hero({
                   onPickSlot={setSlot}
                   canAdvance={step1Done}
                   onNext={advance}
+                  compact={compact}
                 />
               )}
               {step === 2 && (
@@ -288,6 +307,7 @@ export function Hero({
                   }}
                   canAdvance={step2Done}
                   onConfirm={advance}
+                  compact={compact}
                 />
               )}
               {step === 3 && <StepConfirmed onReset={reset} />}
@@ -299,11 +319,19 @@ export function Hero({
   );
 }
 
-function StepHeader({ index, title }: { readonly index: number; readonly title: string }) {
+function StepHeader({
+  index,
+  total = 3,
+  title,
+}: {
+  readonly index: number;
+  readonly total?: number;
+  readonly title: string;
+}) {
   return (
     <div>
       <p className="text-[9px] font-semibold uppercase tracking-[0.22em] text-navy/40">
-        Step {index} of 3
+        Step {index} of {total}
       </p>
       <h3 className="mt-0.5 text-[13px] font-medium text-brand">{title}</h3>
     </div>
@@ -435,6 +463,7 @@ type StepDateTimeProps = {
   readonly onPickSlot: (s: string) => void;
   readonly canAdvance: boolean;
   readonly onNext: () => void;
+  readonly compact?: boolean;
 };
 
 function StepDateTime({
@@ -444,16 +473,24 @@ function StepDateTime({
   onPickSlot,
   canAdvance,
   onNext,
+  compact = false,
 }: StepDateTimeProps) {
+  const slotCount = compact ? 4 : 6;
   return (
     <div className="flex flex-1 flex-col gap-2 animate-fade-up">
-      <StepHeader index={2} title={STEP_TITLES[1]} />
+      <StepHeader
+        index={compact ? 1 : 2}
+        total={compact ? 2 : 3}
+        title={STEP_TITLES[1]}
+      />
 
       <div>
-        <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
-          Pick a Date
-        </p>
-        <div className="mt-1 grid grid-cols-4 gap-1">
+        {!compact && (
+          <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
+            Pick a Date
+          </p>
+        )}
+        <div className={`grid grid-cols-4 gap-1 ${compact ? "" : "mt-1"}`}>
           {dates.slice(0, 4).map((d, i) => {
             const on = dateIdx === i;
             return (
@@ -480,11 +517,15 @@ function StepDateTime({
       </div>
 
       <div>
-        <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
-          Time Slot
-        </p>
-        <div className="mt-1 grid grid-cols-3 gap-1">
-          {slots.slice(0, 6).map((s) => {
+        {!compact && (
+          <p className="text-[8px] font-semibold uppercase tracking-[0.2em] text-navy/40">
+            Time Slot
+          </p>
+        )}
+        <div
+          className={`grid gap-1 ${compact ? "grid-cols-4" : "mt-1 grid-cols-3"}`}
+        >
+          {slots.slice(0, slotCount).map((s) => {
             const on = slot === s;
             return (
               <button
@@ -517,6 +558,7 @@ type StepDetailsProps = {
   readonly summary: { service: string; location: string; when: string };
   readonly canAdvance: boolean;
   readonly onConfirm: () => void;
+  readonly compact?: boolean;
 };
 
 function StepDetails({
@@ -527,10 +569,15 @@ function StepDetails({
   summary,
   canAdvance,
   onConfirm,
+  compact = false,
 }: StepDetailsProps) {
   return (
     <div className="flex flex-1 flex-col gap-2 animate-fade-up">
-      <StepHeader index={3} title={STEP_TITLES[2]} />
+      <StepHeader
+        index={compact ? 2 : 3}
+        total={compact ? 2 : 3}
+        title={STEP_TITLES[2]}
+      />
 
       <div className="space-y-1">
         <input
@@ -554,7 +601,7 @@ function StepDetails({
           {summary.service || "—"}
         </div>
         <div className="truncate text-navy/60">
-          {summary.location} · {summary.when}
+          {compact ? summary.when : `${summary.location} · ${summary.when}`}
         </div>
       </div>
 

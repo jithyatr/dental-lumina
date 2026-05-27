@@ -90,6 +90,7 @@ export interface ClinicInfo {
 
   logoPath?: string;
   logoIsLight?: boolean;
+  logoIsWordmark?: boolean;
 
   heroHeadline?: string;
   heroSubtitle?: string;
@@ -182,6 +183,9 @@ export interface ClinicConfig {
   doctor: DoctorInfo;
   reviews?: Review[];
   template?: TemplateKind;
+  procedure?: string;
+  // Brand palette preset id (see src/lib/themes.ts). Unset → "ocean".
+  themeId?: string;
 }
 
 export interface Branding {

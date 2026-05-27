@@ -156,7 +156,8 @@
     "footerAbout": "Angell Family Dentistry has been serving Columbia Heights families since 2008, providing gentle, patient-focused dental care backed by advanced technology and flexible financing.",
     "heroImagePath": "/clinics/angellfamilydentistry-com/hero.png",
     "benefitsImagePath": "/clinics/angellfamilydentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/angellfamilydentistry-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/angellfamilydentistry-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Steven Angell",

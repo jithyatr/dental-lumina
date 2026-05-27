@@ -156,7 +156,8 @@
     "footerAbout": "Palani Center for Dental Implants provides advanced dental implant solutions and cosmetic dentistry to the Rancho Palos Verdes community with a focus on compassion and clinical excellence.",
     "heroImagePath": "/clinics/drpalani-com/hero.png",
     "benefitsImagePath": "/clinics/drpalani-com/benefits.png",
-    "whyChooseImagePath": "/clinics/drpalani-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/drpalani-com/whychoose.png",
+    "logoIsWordmark": false
   },
   "doctor": {
     "name": "Giri Palani",

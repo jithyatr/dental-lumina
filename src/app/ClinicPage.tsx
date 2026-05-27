@@ -7,6 +7,7 @@ import type {
   ClinicInfo,
   DoctorInfo,
 } from "@/types/clinic";
+import { getTheme } from "@/lib/themes";
 import { BeforeAfter } from "./components/BeforeAfter";
 import { Benefits } from "./components/Benefits";
 import { BookingWidget } from "./components/BookingWidget";
@@ -100,14 +101,19 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
           }))
         : undefined;
 
+  const theme = getTheme(config.themeId);
+  const themeCss = `:root{--color-brand:${theme.palette.brand};--color-brand-2:${theme.palette.brand2};--color-brand-3:${theme.palette.brand3};--color-brand-deep:${theme.palette.brandDeep};--color-pale-blue:${theme.palette.paleBlue};--color-icy:${theme.palette.icy};}`;
+
   return (
     <>
+      <style dangerouslySetInnerHTML={{ __html: themeCss }} />
       <div className="relative">
         <Navbar
           clinicName={clinic.name}
           doctorName={doctor.name}
           logoPath={clinic.logoPath}
           logoIsLight={clinic.logoIsLight}
+          logoIsWordmark={clinic.logoIsWordmark}
           phone={clinic.phone}
           hours={clinic.hours}
           navLinks={clinic.navLinks}
@@ -191,9 +197,6 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
         doctorName={doctor.name}
         logoPath={clinic.logoPath}
         logoIsLight={clinic.logoIsLight}
-        address={clinic.address}
-        phone={clinic.phone}
-        hours={clinic.hours}
         about={clinic.footerAbout}
         columns={clinic.footerColumns}
         copyright={clinic.footerCopyright}

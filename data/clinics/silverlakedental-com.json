@@ -35,7 +35,8 @@
     ],
     "heroImagePath": "/clinics/silverlakedental-com/hero.png",
     "benefitsImagePath": "/clinics/silverlakedental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/silverlakedental-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/silverlakedental-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Theresa Snell",

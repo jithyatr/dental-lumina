@@ -10,6 +10,7 @@ import {
   Sparkle,
   Star,
 } from "../components/icons";
+import { Footer } from "../components/Footer";
 
 const CALENDLY_URL = "https://calendly.com/renish-tw-webandcrafts/30min";
 
@@ -145,9 +146,9 @@ export default function CtaPreviewPage() {
             </PreviewFrame>
           </VariantCase>
         </div>
-
-        <PageFooter />
       </div>
+
+      <Footer clinicName="Lumina Dental Care" />
     </main>
   );
 }
@@ -220,34 +221,6 @@ function PageHeader() {
         </aside>
       </div>
     </header>
-  );
-}
-
-function PageFooter() {
-  return (
-    <footer className="mt-32 border-t border-line pt-10 text-[13px] text-navy/55">
-      <div className="flex flex-wrap items-baseline justify-between gap-6">
-        <p>
-          Pick one and tell me{" "}
-          <span className="font-semibold text-navy">A</span>,{" "}
-          <span className="font-semibold text-navy">B</span>,{" "}
-          <span className="font-semibold text-navy">C</span>,{" "}
-          <span className="font-semibold text-navy">D</span>,{" "}
-          <span className="font-semibold text-navy">E</span>,{" "}
-          <span className="font-semibold text-navy">F</span>,{" "}
-          <span className="font-semibold text-navy">G</span>, or{" "}
-          <span className="font-semibold text-navy">H</span>. I&rsquo;ll wire it
-          into{" "}
-          <code className="rounded bg-white px-1.5 py-0.5 ring-1 ring-line">
-            ClinicPage.tsx
-          </code>{" "}
-          and remove this preview route.
-        </p>
-        <p className="font-display text-[18px] italic text-navy/55">
-          /cta-preview
-        </p>
-      </div>
-    </footer>
   );
 }
 

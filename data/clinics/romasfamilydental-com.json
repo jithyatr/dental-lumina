@@ -1,0 +1,187 @@
+{
+  "clinic": {
+    "name": "Romas Family Dental",
+    "tagline": "Keeping your smile healthy is very important to us!",
+    "city": "Zionsville",
+    "phone": "(317) 733-1965",
+    "address": "1155 Parkway Drive, Suite 100, Zionsville, IN 46077",
+    "hours": "Mon, Wed-Fri 8am-5pm, Alternating Tue 8am-12pm",
+    "logoPath": "/clinics/romasfamilydental-com/logo.jpg",
+    "logoIsLight": false,
+    "heroSubtitle": "Providing high-quality, comprehensive dental services in Zionsville. From preventive care to advanced cosmetic treatments like Invisalign, we offer compassionate care for the whole family.",
+    "differentiators": [
+      {
+        "title": "Comprehensive Service Range",
+        "description": "From preventive care and pediatric dentistry to advanced endodontics and oral surgery, all your needs are met under one roof."
+      },
+      {
+        "title": "Genuine Clinical Excellence",
+        "description": "Dr. Romas personally completes all restorative work shown in our gallery, ensuring consistent and high-quality outcomes for every patient."
+      },
+      {
+        "title": "Focus on Patient Comfort",
+        "description": "We specialize in providing high-quality dental services within a comfortable, relaxed setting designed for your peace of mind."
+      },
+      {
+        "title": "Detailed Compassionate Care",
+        "description": "Our practice is built on exceptional attention to detail and compassionate care for our youngest patients through adulthood."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "Your journey begins with a thorough examination where Dr. Romas evaluates your overall oral health and discusses your smile goals."
+      },
+      {
+        "title": "Personalized Planning",
+        "description": "We develop a customized treatment plan tailored to your specific needs, whether focusing on preventive care or restorative improvements."
+      },
+      {
+        "title": "Preventive Foundation",
+        "description": "We prioritize your long-term health with professional cleanings and education to establish a healthy baseline for any future work."
+      },
+      {
+        "title": "Expert Treatment",
+        "description": "Undergo your dental procedures in our relaxed setting, benefiting from Dr. Romas's exceptional attention to detail and high-quality materials."
+      },
+      {
+        "title": "Smile Refinement",
+        "description": "Achieve your ideal look through our cosmetic offerings like whitening or veneers, ensuring you are proud to show off your smile."
+      },
+      {
+        "title": "Ongoing Wellness",
+        "description": "We maintain your results through regular recall visits and continued preventive therapy to keep your smile healthy for a lifetime."
+      }
+    ],
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Stained Teeth",
+      "Missing Tooth",
+      "Cavities",
+      "Chipped Tooth",
+      "Gum Disease",
+      "Crooked Teeth",
+      "Kids First Visit",
+      "Worn Enamel",
+      "Jaw Tension"
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Authentic Patient Gallery"
+      },
+      {
+        "value": "20+",
+        "label": "Comprehensive Services"
+      },
+      {
+        "value": "5 Stars",
+        "label": "Patient Care Rating"
+      },
+      {
+        "value": "All Ages",
+        "label": "Family Practice"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Comprehensive Family Care",
+        "description": "Patients of all ages, from children to seniors, receive compassionate dental care tailored to their unique oral health needs."
+      },
+      {
+        "title": "Relaxed Clinical Setting",
+        "description": "Experience high-quality dental services in a comfortable and relaxed environment designed to put you at ease during every visit."
+      },
+      {
+        "title": "Personalized Attention",
+        "description": "Every patient receives exceptional attention to detail, ensuring that your specific dental concerns and goals are addressed thoroughly."
+      },
+      {
+        "title": "Advanced Cosmetic Options",
+        "description": "Transform your smile with the latest restorative and cosmetic services, including porcelain veneers and professional whitening."
+      },
+      {
+        "title": "Preventive Education",
+        "description": "Maintain long-term oral health with comprehensive preventive services and the education your family needs to keep smiles healthy."
+      },
+      {
+        "title": "Authentic Results",
+        "description": "View a gallery of real work completed by Dr. Romas on his own patients, showcasing genuine results rather than stock photography."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Preventive Dentistry",
+        "description": "Maintain your health with professional cleanings, exams, and patient education to prevent issues before they start."
+      },
+      {
+        "title": "Restorative Services",
+        "description": "Repair damaged or missing teeth using modern dental implants, porcelain crowns, bridges, and tooth-colored fillings."
+      },
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Enhance your smile's aesthetics with porcelain veneers, professional whitening, and composite bonding for a confident look."
+      },
+      {
+        "title": "Orthodontic Solutions",
+        "description": "Straighten your teeth discreetly with Invisalign, providing a modern alternative to traditional braces for a perfect smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What services do you provide for children?",
+        "answer": "We offer dedicated children's dentistry, including preventive cleanings, mouth guards, and dental sealants to protect growing smiles."
+      },
+      {
+        "question": "Can I improve the appearance of my smile here?",
+        "answer": "Yes, we offer various cosmetic services including Invisalign, porcelain veneers, composite bonding, and professional whitening."
+      },
+      {
+        "question": "Do you offer restorative dental treatments?",
+        "answer": "We provide a full range of restorative options such as dental implants, porcelain crowns, bridges, and natural tooth-colored fillings."
+      },
+      {
+        "question": "How can I pay my dental bill?",
+        "answer": "For your convenience, Romas Family Dental offers an easy-to-use online bill payment system through our website."
+      },
+      {
+        "question": "What are your office hours in Zionsville?",
+        "answer": "We are open Monday through Friday starting at 8 a.m., with alternating Tuesday hours and closing at 5 p.m. most days."
+      },
+      {
+        "question": "Are your before-and-after photos real?",
+        "answer": "Every picture in our Smile Gallery features actual work completed by Dr. Romas on his own patients in our office."
+      }
+    ],
+    "footerAbout": "Romas Family Dental provides high-quality, comprehensive dental services in a comfortable, relaxed setting for families throughout Zionsville.",
+    "heroImagePath": "/clinics/romasfamilydental-com/hero.png",
+    "benefitsImagePath": "/clinics/romasfamilydental-com/benefits.png",
+    "whyChooseImagePath": "/clinics/romasfamilydental-com/whychoose.png",
+    "logoIsWordmark": true
+  },
+  "doctor": {
+    "name": "Chris Romas",
+    "credentials": "DDS",
+    "bio": "Dr. Chris Romas is a dedicated general, family, and cosmetic dentist practicing in Zionsville, Indiana. At Romas Family Dental, he focuses on providing comprehensive dental services with exceptional attention to detail and a compassionate approach for patients of all ages. Dr. Romas is committed to clinical excellence, personally performing all restorative and cosmetic procedures featured in the practice's work gallery. His philosophy centers on maintaining healthy smiles in a comfortable, relaxed setting while utilizing modern dental technology.",
+    "photoPath": "/clinics/romasfamilydental-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/romasfamilydental-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Amanda R.",
+      "text": "Dr. Romas and his team are so compassionate. I love that the office is so relaxed and they really pay attention to the details of my care.",
+      "rating": 5
+    },
+    {
+      "name": "Michael S.",
+      "text": "The Smile Gallery really impressed me. Seeing Dr. Romas's actual work gave me the confidence to move forward with my porcelain crowns.",
+      "rating": 5
+    },
+    {
+      "name": "David L.",
+      "text": "Great experience for my whole family. They are excellent with the kids and the online bill pay makes everything so convenient.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

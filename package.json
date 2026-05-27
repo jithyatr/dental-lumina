@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "customize": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/index.ts",
+    "customize-csv": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/batch-csv.ts",
     "rebuild-site": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/rebuild.ts",
     "regen": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/customize/regen.ts"
   },

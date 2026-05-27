@@ -1,11 +1,33 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ChevronDown, Close, Logo, Menu, Phone } from "./icons";
 import { Cta } from "./Cta";
 
 const DEFAULT_LINKS = ["About", "Services", "Patients", "Media"];
+
+// Split a long brand name across two visually-balanced lines.
+function splitBrandName(name: string): { line1: string; line2?: string } {
+  const trimmed = name.trim();
+  if (trimmed.length <= 18) return { line1: trimmed };
+  const words = trimmed.split(/\s+/);
+  if (words.length < 2) return { line1: trimmed };
+  let bestSplit = 1;
+  let bestDelta = Infinity;
+  for (let i = 1; i < words.length; i++) {
+    const a = words.slice(0, i).join(" ").length;
+    const b = words.slice(i).join(" ").length;
+    const delta = Math.abs(a - b);
+    if (delta < bestDelta) {
+      bestDelta = delta;
+      bestSplit = i;
+    }
+  }
+  return {
+    line1: words.slice(0, bestSplit).join(" "),
+    line2: words.slice(bestSplit).join(" "),
+  };
+}
 
 function formatPhone(raw: string): string {
   const digits = raw.replace(/\D/g, "");
@@ -167,6 +189,7 @@ export function Navbar({
   doctorName,
   logoPath,
   logoIsLight,
+  logoIsWordmark,
   phone,
   hours,
   navLinks,
@@ -176,6 +199,7 @@ export function Navbar({
   doctorName?: string;
   logoPath?: string;
   logoIsLight?: boolean;
+  logoIsWordmark?: boolean;
   phone?: string;
   hours?: string;
   navLinks?: string[];
@@ -190,25 +214,104 @@ export function Navbar({
   const links = navLinks && navLinks.length > 0 ? navLinks : DEFAULT_LINKS;
   const ctaLabel = bookingCta ?? "Book Appointment";
 
+  // Wordmark logos already contain the clinic name baked into the image —
+  // render them alone (wide, no companion text). Icon-only logos pair with text.
   const renderLogo = (size: "sm" | "md") => {
-    const dim = size === "md" ? "h-9 w-9" : "h-8 w-8";
-    if (logoPath) {
-      const wrap = logoIsLight
-        ? ""
-        : "rounded-md bg-white/95 ring-1 ring-white/10 p-1";
+    const iconDim = size === "md" ? "h-11 w-11" : "h-9 w-9";
+
+    if (logoPath && logoIsWordmark) {
+      const heightCls = size === "md" ? "h-14 sm:h-12" : "h-10";
+      const maxWCls = size === "md" ? "max-w-[240px] sm:max-w-[260px]" : "max-w-[200px]";
+      if (logoIsLight) {
+        return (
+          <span className={`relative inline-block ${heightCls} ${maxWCls}`}>
+            <Image
+              src={logoPath}
+              alt={`${brandName} logo`}
+              height={size === "md" ? 56 : 40}
+              width={size === "md" ? 260 : 200}
+              sizes={size === "md" ? "260px" : "200px"}
+              className="h-full w-auto object-contain object-left"
+            />
+          </span>
+        );
+      }
+      const padCls =
+        size === "md" ? "px-2.5 py-1 sm:px-3 sm:py-1.5" : "px-3 py-1.5";
       return (
-        <span className={`relative inline-grid place-items-center ${dim} ${wrap}`}>
+        <span
+          className={`relative inline-flex items-center ${heightCls} ${maxWCls} ${padCls} rounded-2xl bg-gradient-to-b from-white to-white/90 ring-1 ring-white/40 shadow-[0_6px_16px_-6px_rgba(0,0,0,0.35),inset_0_1px_0_0_rgba(255,255,255,0.9)]`}
+        >
           <Image
             src={logoPath}
             alt={`${brandName} logo`}
-            fill
-            sizes={size === "md" ? "36px" : "32px"}
-            className={`object-contain ${wrap ? "p-0.5" : ""}`}
+            height={size === "md" ? 56 : 40}
+            width={size === "md" ? 260 : 200}
+            sizes={size === "md" ? "260px" : "200px"}
+            className="h-full w-auto object-contain"
           />
         </span>
       );
     }
-    return <Logo className={`${dim} text-white`} />;
+
+    if (logoPath) {
+      if (logoIsLight) {
+        return (
+          <span className={`relative inline-grid place-items-center ${iconDim}`}>
+            <Image
+              src={logoPath}
+              alt={`${brandName} logo`}
+              fill
+              sizes={size === "md" ? "44px" : "36px"}
+              className="object-contain"
+            />
+          </span>
+        );
+      }
+      return (
+        <span
+          className={`relative inline-grid place-items-center ${iconDim} rounded-2xl bg-gradient-to-b from-white to-white/85 p-[7px] ring-1 ring-white/40 shadow-[0_6px_16px_-6px_rgba(0,0,0,0.35),inset_0_1px_0_0_rgba(255,255,255,0.9)]`}
+        >
+          <Image
+            src={logoPath}
+            alt={`${brandName} logo`}
+            fill
+            sizes={size === "md" ? "44px" : "36px"}
+            className="object-contain p-[3px]"
+          />
+        </span>
+      );
+    }
+    return (
+      <span
+        className={`relative inline-grid place-items-center ${iconDim} rounded-2xl bg-white/10 ring-1 ring-white/25 backdrop-blur shadow-[inset_0_1px_0_0_rgba(255,255,255,0.18)]`}
+      >
+        <Logo className={size === "md" ? "h-6 w-6 text-white" : "h-5 w-5 text-white"} />
+      </span>
+    );
+  };
+
+  const useWordmarkOnly = Boolean(logoPath && logoIsWordmark);
+
+  const nameParts = splitBrandName(brandName);
+  const renderBrandText = (size: "sm" | "md") => {
+    const baseSize = size === "md" ? "text-[15px]" : "text-[13px]";
+    return (
+      <span className="flex min-w-0 flex-col leading-[1.08]">
+        <span
+          className={`font-display ${baseSize} font-semibold uppercase tracking-[0.09em] text-white whitespace-nowrap`}
+        >
+          {nameParts.line1}
+        </span>
+        {nameParts.line2 && (
+          <span
+            className={`font-display ${baseSize} font-medium uppercase tracking-[0.14em] text-white/65 whitespace-nowrap`}
+          >
+            {nameParts.line2}
+          </span>
+        )}
+      </span>
+    );
   };
 
   const [scrolled, setScrolled] = useState(false);
@@ -268,12 +371,21 @@ export function Navbar({
       >
         <div className="gutter-x flex items-center justify-between gap-6 py-3 text-white lg:py-4">
           <div className="flex items-center gap-10">
-            <Link href="/" className="flex items-center gap-2.5">
+            <div
+              className="flex items-center gap-3"
+              aria-label={brandName}
+            >
               {renderLogo("md")}
-              <span className="font-display text-[18px] font-medium uppercase tracking-[0.04em]">
-                {brandName}
-              </span>
-            </Link>
+              {!useWordmarkOnly && (
+                <>
+                  <span
+                    className="hidden h-8 w-px bg-white/20 sm:block"
+                    aria-hidden
+                  />
+                  {renderBrandText("md")}
+                </>
+              )}
+            </div>
             <nav className="hidden items-center gap-7 lg:flex">
               {links.map((label) => (
                 <button
@@ -342,52 +454,50 @@ export function Navbar({
             open ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="flex items-center justify-between px-5 py-5">
+          <div className="flex items-center justify-between px-5 py-4">
             <div className="flex items-center gap-2.5">
               {renderLogo("sm")}
-              <span className="font-display text-[16px] font-medium uppercase tracking-[0.04em]">
-                {brandName}
-              </span>
+              {!useWordmarkOnly && renderBrandText("sm")}
             </div>
             <button
               type="button"
               onClick={() => setOpen(false)}
-              className="grid h-10 w-10 place-items-center rounded-full bg-white/10 ring-1 ring-white/20"
+              className="grid h-9 w-9 place-items-center rounded-full bg-white/10 ring-1 ring-white/20"
               aria-label="Close menu"
             >
-              <Close className="h-5 w-5" />
+              <Close className="h-4 w-4" />
             </button>
           </div>
 
-          <nav className="mt-2 flex flex-1 flex-col gap-1 overflow-y-auto px-3 pb-6">
+          <nav className="mt-1 flex flex-1 flex-col gap-0.5 overflow-y-auto px-3 pb-5">
             {links.map((label) => (
               <button
                 key={label}
                 type="button"
                 onClick={() => setOpen(false)}
-                className="flex items-center justify-between rounded-2xl px-4 py-3.5 text-left text-[16px] font-medium text-white/90 transition hover:bg-white/10 hover:text-white"
+                className="flex items-center justify-between rounded-xl px-3 py-2.5 text-left text-[15px] font-medium text-white/90 transition hover:bg-white/10 hover:text-white"
               >
                 <span>{label}</span>
-                <ChevronDown className="h-4 w-4 -rotate-90 opacity-60" />
+                <ChevronDown className="h-3.5 w-3.5 -rotate-90 opacity-60" />
               </button>
             ))}
 
-            <div className="mt-4 space-y-3 border-t border-white/10 pt-4 pb-[max(env(safe-area-inset-bottom),16px)]">
-              <div className="px-2">
+            <div className="mt-3 space-y-2.5 border-t border-white/10 pt-3.5 pb-[max(env(safe-area-inset-bottom),16px)]">
+              <div className="px-1">
                 <StatusBadge status={status} fallback={fallbackStatus} />
               </div>
               <a
                 href={telHref}
                 onClick={() => setOpen(false)}
-                className="flex items-center gap-2 rounded-2xl bg-white/10 px-4 py-3 text-[15px] font-medium text-white ring-1 ring-white/15"
+                className="flex items-center gap-2 rounded-xl bg-white/10 px-3.5 py-2.5 text-[14px] font-medium text-white ring-1 ring-white/15"
               >
-                <Phone className="h-4 w-4" />
+                <Phone className="h-3.5 w-3.5" />
                 {displayPhone}
               </a>
               <a
                 href="#booking"
                 onClick={() => setOpen(false)}
-                className="flex w-full items-center justify-center gap-2 rounded-pill bg-white px-5 py-3 text-[15px] font-medium text-brand"
+                className="flex w-full items-center justify-center gap-2 rounded-pill bg-white px-4 py-2.5 text-[14px] font-medium text-brand"
               >
                 {ctaLabel}
               </a>

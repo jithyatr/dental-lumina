@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-05-26T11:48:05.021Z",
+  "csv": "/home/wac/Downloads/Copy of Untitled spreadsheet - Sheet3.csv",
+  "total": 1,
+  "entries": [
+    {
+      "website": "tampasmiles.net",
+      "slug": "tampasmiles-net",
+      "procedure": "full-mouth-restoration",
+      "timestamp": "2026-05-26T11:48:31.363Z",
+      "status": "ok"
+    }
+  ],
+  "finishedAt": "2026-05-26T11:48:31.363Z"
+}

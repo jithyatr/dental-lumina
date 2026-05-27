@@ -156,7 +156,8 @@
     "footerAbout": "Mounds View Family Dental is a family-owned practice dedicated to providing professional, technology-driven care to the Mounds View community and surrounding areas since 2000.",
     "heroImagePath": "/clinics/moundsviewfamilydental-com/hero.png",
     "benefitsImagePath": "/clinics/moundsviewfamilydental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/moundsviewfamilydental-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/moundsviewfamilydental-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Sabry Sharara",

@@ -163,7 +163,7 @@ export function BookingWidget({
                             key={l.name}
                             onClick={() => setLoc(i)}
                             className={`text-left rounded-2xl p-4 transition ${
-                              on ? "bg-brand ring-1 ring-[#1E6FD9]" : "bg-chip hover:bg-chip-2"
+                              on ? "bg-brand ring-1 ring-brand-deep" : "bg-chip hover:bg-chip-2"
                             }`}
                           >
                             <div className="flex items-start justify-between gap-3">
@@ -194,7 +194,7 @@ export function BookingWidget({
                             key={n}
                             onClick={() => setSvc(i)}
                             className={`text-left rounded-2xl p-4 transition ${
-                              on ? "bg-brand ring-1 ring-[#1E6FD9]" : "bg-chip hover:bg-chip-2"
+                              on ? "bg-brand ring-1 ring-brand-deep" : "bg-chip hover:bg-chip-2"
                             }`}
                           >
                             <div className="flex items-start justify-between gap-3">
@@ -231,7 +231,7 @@ export function BookingWidget({
                             onClick={() => setDateIdx(i)}
                             className={`flex items-center justify-between rounded-2xl p-4 text-left transition ${
                               on
-                                ? "bg-brand ring-1 ring-[#1E6FD9] shadow-[0_18px_40px_-18px_rgba(0,118,184,.7)]"
+                                ? "bg-brand ring-1 ring-brand-deep shadow-[0_18px_40px_-18px_rgba(0,118,184,.7)]"
                                 : "bg-chip hover:bg-chip-2"
                             }`}
                           >
@@ -269,7 +269,7 @@ export function BookingWidget({
                             onClick={() => setSlot(s)}
                             className={`rounded-2xl p-4 text-left transition ${
                               on
-                                ? "bg-brand ring-1 ring-[#1E6FD9]"
+                                ? "bg-brand ring-1 ring-brand-deep"
                                 : "bg-chip text-white/85 hover:bg-chip-2"
                             }`}
                           >

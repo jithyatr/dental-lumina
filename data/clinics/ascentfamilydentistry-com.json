@@ -33,7 +33,8 @@
     ],
     "heroImagePath": "/clinics/ascentfamilydentistry-com/hero.png",
     "benefitsImagePath": "/clinics/ascentfamilydentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/ascentfamilydentistry-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/ascentfamilydentistry-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Taylor Heinlein",

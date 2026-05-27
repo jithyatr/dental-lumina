@@ -1,0 +1,217 @@
+{
+  "clinic": {
+    "name": "Pediatric Dentistry Monterey",
+    "tagline": "Creating happy health smiles where patients have fun",
+    "city": "Monterey",
+    "phone": "(831) 373-2055",
+    "address": "337 El Dorado St, Ste B-2, Monterey, CA 93940",
+    "logoIsLight": false,
+    "heroSubtitle": "Providing specialized pediatric dentistry in Monterey for infants, children, and teens. We focus on child psychology and a fun atmosphere to ensure your child finds a happy dental home.",
+    "differentiators": [
+      {
+        "title": "Specialty Pediatric Training",
+        "description": "Dr. Dail completed two to three years of specialty training after dental school to focus exclusively on treating children."
+      },
+      {
+        "title": "Board Certified Expertise",
+        "description": "As a Board Certified Pediatric Dentist, Dr. Dail meets the highest standards of clinical excellence in children's oral health."
+      },
+      {
+        "title": "Psychology-Based Approach",
+        "description": "We use specialized child psychology techniques to create a non-threatening environment for every young patient."
+      },
+      {
+        "title": "Kid-Centric Atmosphere",
+        "description": "Our practice is a dedicated space where patients have fun, ensuring dental visits are never a source of fear."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Happy Tour",
+        "description": "Your child's journey begins with a fun office tour to help them feel at home in our friendly, social atmosphere."
+      },
+      {
+        "title": "Gentle First Exam",
+        "description": "Dr. Dail performs a thorough but gentle examination and consults with parents to establish a personalized oral health plan."
+      },
+      {
+        "title": "Age-Tailored Coaching",
+        "description": "We provide cleanings and brushing coaching specifically tailored to your child's age and developmental stage."
+      },
+      {
+        "title": "Tell-Show-Do Treatment",
+        "description": "If treatment is needed, we use child-sized tools and the 'tell-show-do' technique to eliminate fear and build trust."
+      },
+      {
+        "title": "Preventive Protection",
+        "description": "We apply preventive measures like dental sealants and fluoride to protect growing teeth during high-risk childhood years."
+      },
+      {
+        "title": "Ongoing Growth Support",
+        "description": "We provide 6-month checkups that grow with your child from infancy through their teenage years."
+      }
+    ],
+    "commonSymptoms": [
+      "First Tooth Visit",
+      "Cavity in Baby Tooth",
+      "Tooth Pain",
+      "Chipped Baby Tooth",
+      "Thumb Sucking",
+      "Knocked-Out Tooth",
+      "Pediatric Cleaning",
+      "Sealants Needed",
+      "Anxious Child",
+      "Teething Pain"
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Focused on Children"
+      },
+      {
+        "value": "3+",
+        "label": "Years Specialty Training"
+      },
+      {
+        "value": "Board",
+        "label": "Certified Specialist"
+      },
+      {
+        "value": "Thousands",
+        "label": "Happy Smiles Created"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Positive Dental Home",
+        "description": "Establish a friendly and familiar dental home early to prevent dental phobias from continuing into adulthood."
+      },
+      {
+        "title": "Fun Social Atmosphere",
+        "description": "Our office is designed to be a friendly, fun, and social environment where children can actually enjoy their dental visits."
+      },
+      {
+        "title": "Gentle Language",
+        "description": "We prioritize your child's comfort by avoiding threatening words like 'drill,' 'needle,' or 'shot' during all treatments."
+      },
+      {
+        "title": "Specialized Pediatric Care",
+        "description": "Benefit from a dentist with years of advanced specialty training focused exclusively on the unique needs of children."
+      },
+      {
+        "title": "Patient Psychology Focus",
+        "description": "Our approach utilizes child psychology to ensure a low-anxiety experience that builds lifelong healthy habits."
+      },
+      {
+        "title": "Comprehensive Youth Care",
+        "description": "From infants to teens, we provide specialized care that grows with your child through every developmental stage."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What makes a pediatric dentist different?",
+        "answer": "Pediatric dentists are the pediatricians of dentistry, having two to three years of specialty training focused exclusively on treating children and understanding child psychology."
+      },
+      {
+        "question": "When should my child's first dental visit happen?",
+        "answer": "It is of paramount importance that children find their dental home as early as possible to ensure positive experiences and healthy development from the first tooth."
+      },
+      {
+        "question": "How do you handle kids who are scared of the dentist?",
+        "answer": "We create a friendly, social atmosphere and use non-threatening language, avoiding words like 'drill' or 'needle' to prevent dental phobias."
+      },
+      {
+        "question": "Do you offer sedation for children?",
+        "answer": "Yes, we provide specialized sedation options to ensure that even the most anxious patients can receive care in a safe and comfortable manner."
+      },
+      {
+        "question": "What should I do in a dental emergency?",
+        "answer": "Our practice is equipped to handle pediatric dental emergencies to provide immediate relief and repair for your child's smile."
+      },
+      {
+        "question": "What age groups do you treat?",
+        "answer": "We provide specialized care for infants, children, and teens, offering age-appropriate dental services for every stage of childhood."
+      }
+    ],
+    "footerAbout": "Pediatric Dentistry Monterey is the practice of Board Certified Pediatric Dentist Rajneesh K. Dail, DDS, dedicated to creating happy, healthy smiles for infants, children, and teens.",
+    "heroHeadline": "Gentle Dentistry\nKids Actually\nLook Forward To.",
+    "heroCta": "Book Your Child's Visit",
+    "implantOptionsLabel": "Pediatric Services",
+    "implantOptionsHeadline": "Specialized Dental Care for Growing Smiles",
+    "implantOptionsSubheading": "From a baby's first checkup to a teen's orthodontic readiness, we deliver every service in a way that feels safe, friendly, and age-appropriate.",
+    "whyChooseLabel": "Why Families Trust Us",
+    "whyChooseHeadline": "A Pediatric Practice Built Around Your Child's Comfort",
+    "whyChooseSubheading": "Every detail of our practice — from the waiting room toys to our gentle pace — is designed to make kids feel safe and parents feel reassured.",
+    "processHeadline": "Your Child's Visit, Step By Step",
+    "processSubheading": "A predictable, gentle visit helps anxious kids relax. Here's exactly what to expect, from waiting room to high-five on the way out.",
+    "benefitsHeadline": "Why Parents Choose Our Pediatric Practice",
+    "faqLabel": "Pediatric FAQ",
+    "faqHeadline": "What Parents Ask Us Most",
+    "symptomCheckerHeadline": "Tell Us What's Bothering Your Child",
+    "symptomCheckerSubheading": "Tap whichever issue sounds closest — we'll get back to you with the right next step for kids.",
+    "testimonialsHeadline": "What Parents Are Saying",
+    "testimonialsSubheading": "Honest words from families who trust us with their kids' smiles.",
+    "beforeAfterHeadline": "Healthy Smiles, Happy Kids",
+    "beforeAfterSubheading": "Real outcomes from gentle pediatric care — cavities healed, confidence restored, and smiles that stay healthy as your child grows.",
+    "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
+    "smileSimulatorSubheading": "Upload a photo of your child's smile and tell us what concerns you most. Our AI assessment will flag anything worth a closer look, in plain language for parents.",
+    "bookingHeadline": "Book Your Child's Visit",
+    "bookingSubheading": "Same-week appointments for new pediatric patients. Pick a time that works for your family.",
+    "heroAssurances": [
+      "Kid-friendly office",
+      "Parents stay with kids",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Check a possible cavity",
+      "First-visit prep for my child",
+      "Worried about crooked teeth",
+      "Chipped or knocked-out tooth",
+      "Help with brushing habits"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Kid-Specialized Team",
+        "description": "Every team member is trained specifically for pediatric care, communication, and behavior guidance."
+      },
+      {
+        "title": "Tell-Show-Do Approach",
+        "description": "We explain every tool and step in kid-friendly language before we ever use it — no surprises, no fear."
+      },
+      {
+        "title": "Cavity-Prevention Focus",
+        "description": "Sealants, fluoride, and brushing coaching that stops cavities before they ever need a drill."
+      },
+      {
+        "title": "Special Needs Friendly",
+        "description": "Sensory-aware accommodations and extra time for kids who need a little more support to feel safe."
+      }
+    ]
+  },
+  "doctor": {
+    "name": "Rajneesh K. Dail",
+    "credentials": "D.D.S.",
+    "bio": "Dr. Rajneesh K. Dail is a Board Certified Pediatric Dentist dedicated to providing specialized care for infants, children, and teens. Following dental school, he completed two to three years of advanced specialty training to master the unique needs of young patients. Dr. Dail emphasizes child psychology in his practice, creating a friendly and fun social atmosphere. His philosophy focuses on avoiding threatening language to ensure every child has a positive experience in their dental home.",
+    "yearsOfExperience": 3,
+    "photoPath": "/clinics/babydds-com/doctor.jpg"
+  },
+  "reviews": [
+    {
+      "name": "Melissa R.",
+      "text": "Dr. Dail is amazing with my kids! They actually look forward to going to the dentist because the atmosphere is so fun and not scary at all.",
+      "rating": 5
+    },
+    {
+      "name": "Kevin T.",
+      "text": "I love how they avoid scary words like 'shot' or 'drill.' It made a huge difference for my anxious daughter. Best pediatric dentist in Monterey!",
+      "rating": 5
+    },
+    {
+      "name": "Sarah J.",
+      "text": "Professional, friendly, and truly specialists in children's teeth. We've been coming here since my son's first tooth and it's been a great experience.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry",
+  "procedure": "pediatric-dentistry"
+}

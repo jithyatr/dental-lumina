@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Plus } from "./icons";
+import { Sparkle4 } from "./icons";
 import type { Benefit } from "@/types/clinic";
 
 const DEFAULT_BENEFITS: Benefit[] = [
@@ -51,8 +51,8 @@ export function Benefits({
           <ul className="mt-10 space-y-7">
             {benefits.map((b) => (
               <li key={b.title} className="flex gap-3">
-                <span className="mt-1 grid h-5 w-5 shrink-0 place-items-center rounded-full text-brand">
-                  <Plus className="h-4 w-4" strokeWidth={2.5} />
+                <span className="mt-1 grid h-5 w-5 shrink-0 place-items-center text-brand">
+                  <Sparkle4 className="h-4 w-4" />
                 </span>
                 <div>
                   <h3 className="text-[16px] font-medium text-navy">{b.title}</h3>

@@ -156,7 +156,8 @@
     "footerAbout": "Long Lake Family Dentistry has been serving residents of New Brighton for over 30 years, providing expert dental care with a personal touch and state-of-the-art technology.",
     "heroImagePath": "/clinics/longlakefamilydentistry-com/hero.png",
     "benefitsImagePath": "/clinics/longlakefamilydentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/longlakefamilydentistry-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/longlakefamilydentistry-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Hossein Jalali",

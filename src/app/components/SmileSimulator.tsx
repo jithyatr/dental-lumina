@@ -182,7 +182,7 @@ export function SmileSimulator({
                     <PreviewBlock src={preview} onClear={reset} />
                   ) : (
                     <>
-                      <div className="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-[#4E83DD] to-[#B2C9E9] text-white shadow-[0_14px_30px_-14px_rgba(78,131,221,0.7)]">
+                      <div className="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-brand-2 to-brand-3 text-white shadow-[0_14px_30px_-14px_rgba(78,131,221,0.7)]">
                         <Upload className="h-5 w-5" />
                       </div>
                       <p className="mt-3 text-[15px] font-medium">

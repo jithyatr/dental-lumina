@@ -33,7 +33,8 @@
     ],
     "heroImagePath": "/clinics/jjdental-com/hero.png",
     "benefitsImagePath": "/clinics/jjdental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/jjdental-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/jjdental-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Jonathan Cook",

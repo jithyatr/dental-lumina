@@ -27,7 +27,7 @@
   --radius-pill: 46px;
   --radius-chip: 50px;
 
-  --shadow-glow-blue: inset -2px -2px 14px 4px #0076b8,
+  --shadow-glow-blue: inset -2px -2px 14px 4px var(--color-brand),
     inset 4px -1px 17.9px 2px rgba(234, 0, 255, 0.25);
   --shadow-glow-soft: inset -2px -2px 14px 4px rgba(255, 255, 255, 0.3);
   --shadow-card: 0 24px 48px -24px rgba(7, 87, 136, 0.35);
@@ -59,19 +59,29 @@ body {
   padding-inline: clamp(20px, 5.5vw, 200px);
 }
 
-/* Brand gradient helpers */
+/* Brand gradient helpers — track --color-brand* so theme switches cascade. */
 .bg-brand-gradient {
-  background: linear-gradient(120deg, #0076b8 10%, #329acf 59%, #63bee5 92%);
+  background: linear-gradient(
+    120deg,
+    var(--color-brand) 10%,
+    var(--color-brand-2) 59%,
+    var(--color-brand-3) 92%
+  );
 }
 .bg-chip-gradient {
-  background: linear-gradient(130deg, #0076b8 0%, #329acf 42%, #63bee5 100%);
+  background: linear-gradient(
+    130deg,
+    var(--color-brand) 0%,
+    var(--color-brand-2) 42%,
+    var(--color-brand-3) 100%
+  );
 }
 .bg-section-gradient {
   background: linear-gradient(
     180deg,
-    #0076b8 0%,
-    #479ccc 32%,
-    #b0d4e9 59%,
+    var(--color-brand) 0%,
+    var(--color-brand-2) 32%,
+    var(--color-pale-blue) 59%,
     #ffffff 94%
   );
 }

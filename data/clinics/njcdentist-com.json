@@ -156,7 +156,8 @@
     "footerAbout": "NJC Dentistry provides comprehensive, eco-friendly dental care to the Northeast Minneapolis and Columbia Heights community with a focus on integrity, health, and beautiful smiles.",
     "heroImagePath": "/clinics/njcdentist-com/hero.png",
     "benefitsImagePath": "/clinics/njcdentist-com/benefits.png",
-    "whyChooseImagePath": "/clinics/njcdentist-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/njcdentist-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Dr. Nancy Jane Cashman",

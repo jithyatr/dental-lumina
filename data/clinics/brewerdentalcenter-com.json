@@ -1,0 +1,154 @@
+{
+  "clinic": {
+    "name": "Brewer Dental Center",
+    "tagline": "Your premier dental choice for the entire family.",
+    "phone": "(406) 656-6100",
+    "address": "2900 Central Ave., Bldg 2, Billings, MT 59102",
+    "logoPath": "/clinics/brewerdentalcenter-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "treatmentJourney": [
+      {
+        "title": "Smile Preview & Scan",
+        "description": "Your journey begins with a complimentary consultation and a detailed 3D iTero scan to preview your future smile before you even start."
+      },
+      {
+        "title": "Custom Aligner Design",
+        "description": "Using our advanced imaging, a personalized treatment plan is developed and your custom clear aligners are manufactured for a precise fit."
+      },
+      {
+        "title": "First Set Delivery",
+        "description": "Receive your first sets of aligners along with professional wear-and-care coaching to ensure you feel confident starting your transformation."
+      },
+      {
+        "title": "Progress Check-Ins",
+        "description": "Visit our Billings office every 6-10 weeks so our orthodontic team can monitor your tooth movement and ensure your treatment is on track."
+      },
+      {
+        "title": "Final Refinements",
+        "description": "To achieve the perfect result, we provide refinement aligners if any final fine-tuning is needed for your bite or tooth alignment."
+      },
+      {
+        "title": "Retainers & Maintenance",
+        "description": "Once your new smile is complete, we provide custom retainers to protect your investment and maintain your beautiful results long-term."
+      }
+    ],
+    "heroHeadline": "Straight Teeth.\nNo Metal.\nNo Compromise.",
+    "heroCta": "Book Your Free Invisalign Scan",
+    "implantOptionsLabel": "Clear Aligner Services",
+    "implantOptionsHeadline": "Invisalign Treatment Options for Every Smile",
+    "implantOptionsSubheading": "From mild crowding to complex bite correction, our Invisalign-focused services straighten teeth without the look or hassle of metal braces.",
+    "whyChooseLabel": "Why Choose Our Invisalign Team",
+    "whyChooseHeadline": "Certified Invisalign Providers Who Plan Every Aligner Personally",
+    "whyChooseSubheading": "Every aligner in your treatment is reviewed by an orthodontist who actually understands tooth movement — not just a software preview.",
+    "processHeadline": "Your Invisalign Journey",
+    "processSubheading": "From your first 3D scan to your final retainer fitting, here's exactly how an Invisalign treatment plan unfolds — most cases finish in 6-18 months.",
+    "benefitsHeadline": "Why Patients Choose Invisalign Here",
+    "faqLabel": "Invisalign FAQ",
+    "faqHeadline": "Common Questions About Invisalign",
+    "symptomCheckerHeadline": "Tell Us About Your Smile",
+    "symptomCheckerSubheading": "Tap whichever describes your teeth — we'll show you whether Invisalign is a good fit (and how long it would likely take).",
+    "testimonialsHeadline": "Real Invisalign Transformations",
+    "testimonialsSubheading": "Teens and adults who chose Invisalign with us and walked away with the smile they wanted.",
+    "beforeAfterHeadline": "Real Invisalign Before & Afters",
+    "beforeAfterSubheading": "See actual patient results — straighter teeth, balanced bites, and a smile transformation that didn't require a single metal bracket.",
+    "beforeAfterCases": [
+      {
+        "tag": "Invisalign",
+        "title": "Crowding Correction",
+        "subtitle": "Aligned in 9 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Orthodontics",
+        "title": "Bite Realignment",
+        "subtitle": "Balanced occlusion in 12 months",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Gap Closure",
+        "subtitle": "Front-teeth gap closed in 6 months",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
+    "smileSimulatorSubheading": "Upload a selfie and pick your goals — our AI smile preview shows you a glimpse of what your teeth could look like after Invisalign.",
+    "bookingHeadline": "Book Your Free Invisalign Scan",
+    "bookingSubheading": "Includes a complimentary 3D iTero scan and a personalized treatment timeline. Walk out with a clear plan.",
+    "heroAssurances": [
+      "Free 3D iTero scan",
+      "Flexible payment plans",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Fix crowded teeth",
+      "Close gaps between teeth",
+      "Correct my bite",
+      "Straighten after old braces",
+      "Get a confident smile"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "iTero 3D Planning",
+        "description": "Your full treatment is mapped out on a high-resolution 3D scanner — no putty, no guesswork."
+      },
+      {
+        "title": "Orthodontist-Reviewed",
+        "description": "Every aligner stage is reviewed by an orthodontist, not just auto-generated from software."
+      },
+      {
+        "title": "Discreet & Removable",
+        "description": "Clear aligners you can take out for meals, brushing, photos, and special occasions."
+      },
+      {
+        "title": "Retainers Included",
+        "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
+      }
+    ],
+    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.png",
+    "benefitsImagePath": "/clinics/brewerdentalcenter-com/benefits.png",
+    "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "James Galea",
+    "bio": "Dr. James Galea is a dedicated orthodontist at Brewer Dental Center who specializes in correcting bite concerns for patients of all ages. He provides complimentary orthodontic consultations to help families understand their treatment options, including modern clear aligner therapy. Dr. Galea is committed to delivering exceptional care with compassion and expertise, ensuring every patient feels at ease. His focus is on helping both children and adults achieve healthy, confident smiles through personalized orthodontic solutions."
+  },
+  "reviews": [
+    {
+      "name": "Linda R.",
+      "text": "I was so impressed by the Invisalign process here. The 3D scan was quick, and seeing my future smile made me so excited to start!",
+      "rating": 5
+    },
+    {
+      "name": "Mark T.",
+      "text": "Dr. Galea is fantastic. He took the time to explain how clear aligners would work for my crossbite during the free consultation.",
+      "rating": 5
+    },
+    {
+      "name": "Jennifer S.",
+      "text": "As a busy mom, I love that Brewer Dental is open early and late. It made scheduling my teen's Invisalign appointments so much easier.",
+      "rating": 5
+    },
+    {
+      "name": "Robert K.",
+      "text": "The Smile Squad Plan made my orthodontic treatment affordable. I saved significantly on my aligners without needing traditional insurance.",
+      "rating": 5
+    },
+    {
+      "name": "Emily B.",
+      "text": "The staff is so welcoming. I was nervous about straightening my teeth as an adult, but they made me feel comfortable every step of the way.",
+      "rating": 5
+    },
+    {
+      "name": "Michael W.",
+      "text": "Voted Best Dental Practice for a reason! Professional, efficient, and my teeth look straighter than I ever thought possible.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "invisalign"
+}

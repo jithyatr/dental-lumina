@@ -1,0 +1,60 @@
+{
+  "clinic": {
+    "name": "Richard H. Gentzler, III, DDS",
+    "tagline": "Creating a lifetime of bright, healthy smiles.",
+    "phone": "(615) 443-3633",
+    "logoIsLight": false,
+    "treatmentJourney": [
+      {
+        "title": "Welcome & Gentle Examination",
+        "description": "Your child's journey begins with a relaxed first visit where Dr. Gentzler conducts a gentle examination and professional cleaning to assess oral development."
+      },
+      {
+        "title": "Personalized Care Planning",
+        "description": "We develop a tailored dental roadmap based on your child's unique needs, focusing on the transition from baby teeth to teenage years."
+      },
+      {
+        "title": "Preventive Care & Education",
+        "description": "We focus on cleanings and fluoride treatments while teaching children and parents the importance of proper oral hygiene and healthy habits."
+      },
+      {
+        "title": "Gentle Pediatric Treatment",
+        "description": "If restorative care like fillings is needed, our team uses a supportive, child-friendly approach to ensure a stress-free and positive experience."
+      },
+      {
+        "title": "Specialized Support",
+        "description": "For children with special needs or dental anxiety, we provide extra care and comfort measures to ensure they feel confident and safe during every visit."
+      },
+      {
+        "title": "Ongoing Healthy Habits",
+        "description": "We maintain regular checkups to monitor growth and reinforce the oral hygiene techniques that lead to a lifetime of healthy smiles."
+      }
+    ],
+    "heroImagePath": "/clinics/drgentzler-com/hero.png",
+    "benefitsImagePath": "/clinics/drgentzler-com/benefits.png",
+    "whyChooseImagePath": "/clinics/drgentzler-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Richard H. Gentzler",
+    "credentials": "III, DDS",
+    "bio": "Richard H. Gentzler, III, DDS, specializes in pediatric dentistry with a focus on providing a gentle and caring approach to oral health for children of all ages. Dedicated to the highest standard of care, he works to ensure every patient's dental health is on the right track from their very first tooth. Dr. Gentzler believes in educating families about oral hygiene, creating a welcoming environment where your child can learn, laugh, and grow healthy habits."
+  },
+  "reviews": [
+    {
+      "name": "Emily R.",
+      "text": "Dr. Gentzler is wonderful with my kids! The child-friendly environment really helps take the stress out of dental visits. My children actually look forward to their cleanings.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus T.",
+      "text": "Highly recommend this office for pediatric care. They are experts with special needs patients and always make us feel comfortable and supported.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "The focus on education is great. Dr. Gentzler took the time to explain proper brushing techniques to my daughter in a fun way that she actually follows at home.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry"
+}

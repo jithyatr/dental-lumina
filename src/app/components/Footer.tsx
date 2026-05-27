@@ -1,14 +1,6 @@
 import Image from "next/image";
-import { Clock, Facebook, Instagram, LinkedIn, Logo, MapPin, Phone, Youtube } from "./icons";
+import { Facebook, Instagram, LinkedIn, Logo, Youtube } from "./icons";
 import type { FooterColumn } from "@/types/clinic";
-
-function formatPhoneDigits(raw: string): string {
-  const digits = raw.replace(/\D/g, "");
-  if (digits.length === 10) {
-    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
-  }
-  return raw;
-}
 
 const DEFAULT_COLUMNS: FooterColumn[] = [
   {
@@ -35,7 +27,7 @@ const DEFAULT_COLUMNS: FooterColumn[] = [
   },
   {
     title: "About Us",
-    items: ["About Aster DM", "Awards & Accolades", "Our Doctors", "Investors"],
+    items: ["Awards & Accolades", "Our Doctors", "Investors"],
   },
 ];
 
@@ -47,9 +39,6 @@ export function Footer({
   doctorName,
   logoPath,
   logoIsLight,
-  address,
-  phone,
-  hours,
   about,
   columns,
   copyright,
@@ -58,9 +47,6 @@ export function Footer({
   doctorName?: string;
   logoPath?: string;
   logoIsLight?: boolean;
-  address?: string;
-  phone?: string;
-  hours?: string;
   about?: string;
   columns?: FooterColumn[];
   copyright?: string;
@@ -69,9 +55,6 @@ export function Footer({
   const aboutText = about ?? buildDefaultAbout(headerName);
   const cols = columns && columns.length > 0 ? columns : DEFAULT_COLUMNS;
   const copy = copyright ?? "Copyright © 2026. All rights reserved.";
-  const phoneDisplay = phone ? formatPhoneDigits(phone) : undefined;
-  const phoneHref = phone ? `tel:${phone.replace(/\D/g, "")}` : undefined;
-  const hasContact = Boolean(address || phoneDisplay || hours);
 
   const renderLogo = () => {
     if (logoPath) {
@@ -128,37 +111,6 @@ export function Footer({
             </div>
           </div>
 
-          {hasContact && (
-            <div className="lg:col-span-3">
-              <div className="text-[15px] font-medium text-white/95">Visit Us</div>
-              <ul className="mt-5 space-y-3 text-[13px] text-white/65">
-                {address && (
-                  <li className="flex items-start gap-2.5">
-                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-white/45" />
-                    <span className="leading-[1.55]">{address}</span>
-                  </li>
-                )}
-                {phoneDisplay && (
-                  <li className="flex items-start gap-2.5">
-                    <Phone className="mt-0.5 h-4 w-4 shrink-0 text-white/45" />
-                    <a
-                      href={phoneHref}
-                      className="leading-[1.55] transition hover:text-white"
-                    >
-                      {phoneDisplay}
-                    </a>
-                  </li>
-                )}
-                {hours && (
-                  <li className="flex items-start gap-2.5">
-                    <Clock className="mt-0.5 h-4 w-4 shrink-0 text-white/45" />
-                    <span className="leading-[1.55]">{hours}</span>
-                  </li>
-                )}
-              </ul>
-            </div>
-          )}
-
           {cols.map((c) => (
             <div key={c.title} className="lg:col-span-3">
               <div className="text-[15px] font-medium text-white/95">
@@ -186,12 +138,6 @@ export function Footer({
             <a href="#" className="hover:text-white">Disclaimer</a>
             <span className="hidden h-3 w-px bg-white/15 md:inline-block" />
             <span>{copy}</span>
-          </div>
-          <div>
-            Designed by{" "}
-            <a href="#" className="underline underline-offset-4 hover:text-white">
-              WAC
-            </a>
           </div>
         </div>
       </div>

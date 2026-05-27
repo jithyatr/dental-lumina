@@ -156,7 +156,8 @@
     "footerAbout": "Parkside Dental serves families in New Brighton and Fridley with advanced implant and cosmetic dentistry, led by the gentle and highly-trained Dr. Anna Weber.",
     "heroImagePath": "/clinics/parksidedentalpc-com/hero.png",
     "benefitsImagePath": "/clinics/parksidedentalpc-com/benefits.png",
-    "whyChooseImagePath": "/clinics/parksidedentalpc-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/parksidedentalpc-com/whychoose.png",
+    "logoIsWordmark": true
   },
   "doctor": {
     "name": "Anna Weber",

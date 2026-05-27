@@ -95,16 +95,36 @@ function resolveDoctorPhotoLocal(config: ClinicConfig): string | undefined {
 
 // ---- Image regen ----
 
+async function findExistingScene(slug: string, scene: SceneKind): Promise<string | null> {
+  const dir = path.join(CLINICS_PUBLIC_DIR, slug);
+  for (const ext of ["png", "jpg", "jpeg", "webp"]) {
+    const candidate = path.join(dir, `${scene}.${ext}`);
+    try {
+      await fs.access(candidate);
+      return `/clinics/${slug}/${scene}.${ext}`;
+    } catch {
+      // try next ext
+    }
+  }
+  return null;
+}
+
 async function regenImage(slug: string, target: ImageTarget): Promise<void> {
   const { config, configPath } = await readConfig(slug);
   const scene: SceneKind = target as SceneKind;
   console.log(`[1/3] Regenerating ${target} image for ${slug}`);
-  const newPath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+  let newPath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
     scene,
     doctorPhotoLocalPath: resolveDoctorPhotoLocal(config),
   });
   if (!newPath) {
-    throw new Error(`generateSceneImage returned null for ${target}`);
+    const existing = await findExistingScene(slug, scene);
+    if (existing) {
+      console.warn(`      generation failed, but ${existing} exists on disk — keeping it`);
+      newPath = existing;
+    } else {
+      throw new Error(`generateSceneImage returned null for ${target} (and no existing file to fall back to)`);
+    }
   }
   console.log(`[2/3] Wrote ${newPath}`);
 

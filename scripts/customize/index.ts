@@ -8,6 +8,13 @@ import { crawl } from "./crawl";
 import { extractClinicProfile } from "./extract";
 import { generateSceneImage } from "./image";
 import { buildAndBundle } from "./build";
+import {
+  procedureByKey,
+  procedureFromDentistType,
+  procedureFromSelected,
+  PROCEDURE_KEYS,
+  type Procedure,
+} from "./procedures";
 import type { ClinicConfig, TemplateKind } from "../../src/types/clinic";
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
@@ -49,10 +56,38 @@ interface Args {
   generateHero: boolean;
   noPreview: boolean;
   build: boolean;
-  template: TemplateKind;
+  template?: TemplateKind;
+  procedure?: Procedure;
 }
 
 const TEMPLATES: TemplateKind[] = ["implants", "family-dentistry", "dentist-landing"];
+
+function resolveProcedure(opts: {
+  procedureKey?: string;
+  dentistType?: string;
+  selectedProcedure?: string;
+}): Procedure | null {
+  if (opts.procedureKey) {
+    const proc = procedureByKey(opts.procedureKey);
+    if (!proc) {
+      throw new Error(
+        `Unknown --procedure '${opts.procedureKey}'. Options: ${PROCEDURE_KEYS.join(", ")}`,
+      );
+    }
+    return proc;
+  }
+  if (opts.selectedProcedure) {
+    const proc = procedureFromSelected(opts.selectedProcedure);
+    if (!proc) throw new Error(`Unknown --selected-procedure '${opts.selectedProcedure}'`);
+    return proc;
+  }
+  if (opts.dentistType) {
+    const proc = procedureFromDentistType(opts.dentistType);
+    if (!proc) throw new Error(`Unknown --dentist-type '${opts.dentistType}'`);
+    return proc;
+  }
+  return null;
+}
 
 function parseArgs(argv: string[]): Args {
   const positional: string[] = [];
@@ -61,7 +96,10 @@ function parseArgs(argv: string[]): Args {
   let generateHero = process.env.GENERATE_HERO_IMAGE === "1";
   let noPreview = false;
   let build = false;
-  let template: TemplateKind = "dentist-landing";
+  let template: TemplateKind | undefined;
+  let procedureKey: string | undefined;
+  let dentistType: string | undefined;
+  let selectedProcedure: string | undefined;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--slug") slug = argv[++i];
@@ -69,6 +107,9 @@ function parseArgs(argv: string[]): Args {
     else if (a === "--generate-hero") generateHero = true;
     else if (a === "--no-preview") noPreview = true;
     else if (a === "--build") build = true;
+    else if (a === "--procedure") procedureKey = argv[++i];
+    else if (a === "--dentist-type") dentistType = argv[++i];
+    else if (a === "--selected-procedure") selectedProcedure = argv[++i];
     else if (a === "--template") {
       const v = argv[++i] as TemplateKind;
       if (!TEMPLATES.includes(v)) {
@@ -82,9 +123,11 @@ function parseArgs(argv: string[]): Args {
   }
   if (positional.length !== 1) {
     throw new Error(
-      "Usage: npm run customize -- <source-url> [--slug <slug>] [--out <dir>] [--generate-hero] [--build] [--no-preview] [--template implants|family-dentistry|dentist-landing]"
+      "Usage: npm run customize -- <source-url> [--slug <slug>] [--out <dir>] [--generate-hero] [--build] [--no-preview] [--template implants|family-dentistry|dentist-landing] [--procedure <key>] [--dentist-type <type>] [--selected-procedure <name>]"
     );
   }
+  const procedure = resolveProcedure({ procedureKey, dentistType, selectedProcedure });
+  if (procedure && !template) template = procedure.template;
   return {
     url: positional[0],
     slug,
@@ -92,7 +135,8 @@ function parseArgs(argv: string[]): Args {
     generateHero,
     noPreview,
     build,
-    template,
+    template: template ?? "dentist-landing",
+    procedure: procedure ?? undefined,
   };
 }
 
@@ -134,6 +178,20 @@ function slugify(input: string): string {
     .replace(/\/.*$/, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+async function detectLogoIsWordmark(filePath: string): Promise<boolean> {
+  try {
+    const meta = await sharp(filePath).metadata();
+    const w = meta.width ?? 0;
+    const h = meta.height ?? 0;
+    if (w === 0 || h === 0) return false;
+    // Wordmarks (logo+name lockups) are reliably wider than tall.
+    // Pure icon marks (monograms, tooth icons) are ≤ ~1.0 ratio.
+    return w / h >= 1.1;
+  } catch {
+    return false;
+  }
 }
 
 async function isLightOnTransparent(filePath: string): Promise<boolean> {
@@ -197,28 +255,116 @@ async function downloadImage(
   }
 }
 
-async function main() {
-  const args = parseArgs(process.argv.slice(2));
+export interface RunCustomizeArgs {
+  url: string;
+  slug?: string;
+  template?: TemplateKind;
+  procedure?: Procedure | null;
+  generateHero?: boolean;
+}
+
+export interface RunCustomizeResult {
+  slug: string;
+  configPath: string;
+  config: ClinicConfig;
+}
+
+function applyProcedureHeadlines(config: ClinicConfig, procedure: Procedure): void {
+  const h = procedure.sectionHeadlines;
+  const c = config.clinic;
+  // Only fill headlines that aren't already explicitly set on the clinic.
+  if (h.heroHeadline && !c.heroHeadline) c.heroHeadline = h.heroHeadline;
+  if (h.heroCta && !c.heroCta) c.heroCta = h.heroCta;
+  if (h.implantOptionsLabel && !c.implantOptionsLabel) c.implantOptionsLabel = h.implantOptionsLabel;
+  if (h.implantOptionsHeadline && !c.implantOptionsHeadline) c.implantOptionsHeadline = h.implantOptionsHeadline;
+  if (h.implantOptionsSubheading && !c.implantOptionsSubheading) c.implantOptionsSubheading = h.implantOptionsSubheading;
+  if (h.whyChooseLabel && !c.whyChooseLabel) c.whyChooseLabel = h.whyChooseLabel;
+  if (h.whyChooseHeadline && !c.whyChooseHeadline) c.whyChooseHeadline = h.whyChooseHeadline;
+  if (h.whyChooseSubheading && !c.whyChooseSubheading) c.whyChooseSubheading = h.whyChooseSubheading;
+  if (h.processHeadline && !c.processHeadline) c.processHeadline = h.processHeadline;
+  if (h.processSubheading && !c.processSubheading) c.processSubheading = h.processSubheading;
+  if (h.benefitsHeadline && !c.benefitsHeadline) c.benefitsHeadline = h.benefitsHeadline;
+  if (h.faqLabel && !c.faqLabel) c.faqLabel = h.faqLabel;
+  if (h.faqHeadline && !c.faqHeadline) c.faqHeadline = h.faqHeadline;
+  if (h.faqSubheading && !c.faqSubheading) c.faqSubheading = h.faqSubheading;
+  if (h.symptomCheckerHeadline && !c.symptomCheckerHeadline) c.symptomCheckerHeadline = h.symptomCheckerHeadline;
+  if (h.symptomCheckerSubheading && !c.symptomCheckerSubheading) c.symptomCheckerSubheading = h.symptomCheckerSubheading;
+  if (h.testimonialsHeadline && !c.testimonialsHeadline) c.testimonialsHeadline = h.testimonialsHeadline;
+  if (h.testimonialsSubheading && !c.testimonialsSubheading) c.testimonialsSubheading = h.testimonialsSubheading;
+  if (h.beforeAfterHeadline && !c.beforeAfterHeadline) c.beforeAfterHeadline = h.beforeAfterHeadline;
+  if (h.beforeAfterSubheading && !c.beforeAfterSubheading) c.beforeAfterSubheading = h.beforeAfterSubheading;
+  if (h.beforeAfterCases && h.beforeAfterCases.length > 0 && (!c.beforeAfterCases || c.beforeAfterCases.length === 0)) {
+    c.beforeAfterCases = h.beforeAfterCases.map((bc) => ({ ...bc }));
+  }
+  if (h.smileSimulatorHeadline && !c.smileSimulatorHeadline) c.smileSimulatorHeadline = h.smileSimulatorHeadline;
+  if (h.smileSimulatorSubheading && !c.smileSimulatorSubheading) c.smileSimulatorSubheading = h.smileSimulatorSubheading;
+  if (h.bookingHeadline && !c.bookingHeadline) c.bookingHeadline = h.bookingHeadline;
+  if (h.bookingSubheading && !c.bookingSubheading) c.bookingSubheading = h.bookingSubheading;
+
+  if (procedure.heroAssurances.length > 0 && (!c.heroAssurances || c.heroAssurances.length === 0)) {
+    c.heroAssurances = [...procedure.heroAssurances];
+  }
+  if (procedure.smileSimulatorGoals.length > 0 && (!c.smileSimulatorGoals || c.smileSimulatorGoals.length === 0)) {
+    c.smileSimulatorGoals = [...procedure.smileSimulatorGoals];
+  }
+  if (procedure.whyChoosePillars.length > 0 && (!c.whyChoosePillars || c.whyChoosePillars.length === 0)) {
+    c.whyChoosePillars = procedure.whyChoosePillars.map((p) => ({ title: p.title, description: p.description }));
+  }
+}
+
+async function generateSceneWithFallback(
+  config: ClinicConfig,
+  slug: string,
+  scene: "hero" | "benefits" | "whychoose",
+  doctorLocal: string | undefined,
+  specialistLocal: string | undefined,
+  procedure: Procedure | null,
+): Promise<string | null> {
+  let imagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+    scene,
+    doctorPhotoLocalPath: doctorLocal,
+    procedure,
+  });
+  if (!imagePath && specialistLocal && specialistLocal !== doctorLocal) {
+    console.log(`      ${scene} → retrying with AI specialist headshot as reference`);
+    imagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+      scene,
+      doctorPhotoLocalPath: specialistLocal,
+      procedure,
+    });
+  }
+  if (!imagePath && (doctorLocal || specialistLocal)) {
+    console.log(`      ${scene} → retrying text-only`);
+    imagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
+      scene,
+      procedure,
+    });
+  }
+  return imagePath;
+}
+
+export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomizeResult> {
   const slug = args.slug ?? slugify(args.url);
-  console.log(`[1/5] Crawling ${args.url} (slug: ${slug})`);
+  const procedure = args.procedure ?? null;
+  const template = args.template ?? procedure?.template ?? "dentist-landing";
+  const generateHero = args.generateHero ?? false;
+
+  const procedureLabel = procedure ? ` | procedure: ${procedure.label}` : "";
+  console.log(`[1/4] Crawling ${args.url} (slug: ${slug}${procedureLabel})`);
 
   const { homeText, aboutText, aboutUrl, firstPhone, images } = await crawl(args.url);
   console.log(
-    `      home: ${homeText.length} chars; about: ${aboutText.length} chars (${aboutUrl ?? "no about page found"}); ${images.length} image candidates; first phone: ${firstPhone ?? "none"}`
+    `      home: ${homeText.length} chars; about: ${aboutText.length} chars (${aboutUrl ?? "no about page found"}); ${images.length} image candidates; first phone: ${firstPhone ?? "none"}`,
   );
   if (homeText.length < 200 && aboutText.length < 200) {
-    console.error(
-      "      Extracted text is suspiciously short. The site may be a JS-only SPA — supply manual JSON or use a headless crawler."
+    throw new Error(
+      "Extracted text is suspiciously short. The site may be a JS-only SPA — supply manual JSON or use a headless crawler.",
     );
-    process.exit(1);
   }
 
-  console.log(`[2/5] Extracting clinic profile via Gemini (template: ${args.template})`);
-  const profile = await extractClinicProfile(homeText, aboutText, images, args.template);
-  if (!profile) {
-    console.error("      Gemini returned no profile. Aborting.");
-    process.exit(1);
-  }
+  console.log(`[2/4] Extracting clinic profile via Gemini (template: ${template}${procedureLabel})`);
+  const profile = await extractClinicProfile(homeText, aboutText, images, template, procedure);
+  if (!profile) throw new Error("Gemini returned no profile.");
 
   let photoPath: string | undefined;
   if (profile.doctor.photoUrl) {
@@ -232,7 +378,7 @@ async function main() {
   let logoUrl = profile.clinic.logoUrl;
   if (!logoUrl) {
     const fallback = images.find((img) =>
-      /logo|brand/i.test(img.url) || /logo|brand/i.test(img.alt)
+      /logo|brand/i.test(img.url) || /logo|brand/i.test(img.alt),
     );
     if (fallback) {
       logoUrl = fallback.url;
@@ -241,13 +387,16 @@ async function main() {
   }
   let logoPath: string | undefined;
   let logoIsLight = false;
+  let logoIsWordmark = false;
   if (logoUrl) {
     const downloaded = await downloadImage(logoUrl, slug, "logo");
     if (downloaded) {
       logoPath = downloaded;
       const localLogoPath = path.join(REPO_ROOT, "public", logoPath.replace(/^\//, ""));
       logoIsLight = await isLightOnTransparent(localLogoPath);
+      logoIsWordmark = await detectLogoIsWordmark(localLogoPath);
       if (logoIsLight) console.log(`      logo detected as light-on-transparent`);
+      if (logoIsWordmark) console.log(`      logo detected as wordmark (includes clinic name)`);
     }
   }
 
@@ -261,13 +410,14 @@ async function main() {
       hours: profile.clinic.hours,
       logoPath,
       logoIsLight,
+      logoIsWordmark,
       heroSubtitle: profile.clinic.heroSubtitle,
       differentiators: profile.clinic.differentiators?.slice(0, 4),
       treatmentJourney: profile.clinic.treatmentJourney?.slice(0, 6),
       commonSymptoms: profile.clinic.commonSymptoms?.slice(0, 10),
       stats: profile.clinic.stats?.slice(0, 4),
       benefits: profile.clinic.benefits?.slice(0, 6),
-      implantOptions: profile.clinic.implantOptions?.slice(0, 4),
+      implantOptions: profile.clinic.implantOptions?.slice(0, 6),
       faqItems: profile.clinic.faqItems?.slice(0, 6),
       footerAbout: profile.clinic.footerAbout,
     },
@@ -280,19 +430,22 @@ async function main() {
     },
     reviews:
       profile.reviews && profile.reviews.length > 0
-        ? profile.reviews.slice(0, 3)
+        ? profile.reviews.slice(0, 6)
         : undefined,
-    template: args.template,
+    template,
+    ...(procedure ? { procedure: procedure.key } : {}),
   };
 
-  if (args.generateHero) {
+  if (procedure) applyProcedureHeadlines(config, procedure);
+
+  if (generateHero) {
     const doctorLocal =
       photoPath && photoPath.startsWith("/clinics/")
         ? path.join(REPO_ROOT, "public", photoPath.replace(/^\//, ""))
         : undefined;
     const refSummary = doctorLocal ? "doctor photo as reference" : "text-only";
     console.log(
-      `[3/5] Generating hero + benefits${doctorLocal ? " + specialist" : ""} images (Nano Banana, ${refSummary})`
+      `[3/4] Generating hero + benefits${doctorLocal ? " + specialist" : ""} images (Nano Banana, ${refSummary})`,
     );
 
     let specialistLocal: string | undefined;
@@ -300,11 +453,22 @@ async function main() {
       const specialistPath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
         scene: "specialist",
         doctorPhotoLocalPath: doctorLocal,
+        procedure,
       });
       if (specialistPath) {
         config.doctor.specialistPortraitPath = specialistPath;
         console.log(`      specialist → ${specialistPath}`);
         specialistLocal = path.join(REPO_ROOT, "public", specialistPath.replace(/^\//, ""));
+      } else if (photoPath) {
+        // Gemini refuses to recreate a specific real person's identifiable
+        // face (returns finishReason=IMAGE_OTHER on the tight headshot). Carry
+        // the real extracted doctor photo into specialistPortraitPath so the
+        // Specialist section renders the actual dentist instead of relying on
+        // the component's implicit `?? photoPath` and leaving the field empty.
+        // Also reuse it as the doctor reference for hero/benefits/whychoose.
+        config.doctor.specialistPortraitPath = photoPath;
+        specialistLocal = doctorLocal;
+        console.log(`      specialist → falling back to extracted doctor photo (${photoPath})`);
       } else {
         console.log("      specialist → falling back to extracted doctor photo");
       }
@@ -312,23 +476,7 @@ async function main() {
       console.log("      specialist → skipped (no source doctor photo)");
     }
 
-    let heroImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
-      scene: "hero",
-      doctorPhotoLocalPath: doctorLocal,
-    });
-    if (!heroImagePath && specialistLocal && specialistLocal !== doctorLocal) {
-      console.log("      hero → retrying with AI specialist headshot as reference");
-      heroImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
-        scene: "hero",
-        doctorPhotoLocalPath: specialistLocal,
-      });
-    }
-    if (!heroImagePath && (doctorLocal || specialistLocal)) {
-      console.log("      hero → retrying text-only");
-      heroImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
-        scene: "hero",
-      });
-    }
+    const heroImagePath = await generateSceneWithFallback(config, slug, "hero", doctorLocal, specialistLocal, procedure);
     if (heroImagePath) {
       config.clinic.heroImagePath = heroImagePath;
       console.log(`      hero → ${heroImagePath}`);
@@ -336,23 +484,7 @@ async function main() {
       console.log("      hero → falling back to default stock photo");
     }
 
-    let benefitsImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
-      scene: "benefits",
-      doctorPhotoLocalPath: doctorLocal,
-    });
-    if (!benefitsImagePath && specialistLocal && specialistLocal !== doctorLocal) {
-      console.log("      benefits → retrying with AI specialist headshot as reference");
-      benefitsImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
-        scene: "benefits",
-        doctorPhotoLocalPath: specialistLocal,
-      });
-    }
-    if (!benefitsImagePath && (doctorLocal || specialistLocal)) {
-      console.log("      benefits → retrying text-only");
-      benefitsImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
-        scene: "benefits",
-      });
-    }
+    const benefitsImagePath = await generateSceneWithFallback(config, slug, "benefits", doctorLocal, specialistLocal, procedure);
     if (benefitsImagePath) {
       config.clinic.benefitsImagePath = benefitsImagePath;
       console.log(`      benefits → ${benefitsImagePath}`);
@@ -360,21 +492,37 @@ async function main() {
       console.log("      benefits → falling back to default stock photo");
     }
 
+    // WhyChoose specifically needs the dentist in the frame. The shared
+    // text-only fallback in generateSceneWithFallback produces a no-people
+    // still-life (gloved hands + implant model), which leaves the section
+    // without a doctor. Prefer reusing an already-generated sibling scene
+    // (hero, then benefits) which we know contains the dentist, before
+    // accepting the text-only fallback.
     let whyChooseImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
       scene: "whychoose",
       doctorPhotoLocalPath: doctorLocal,
+      procedure,
     });
     if (!whyChooseImagePath && specialistLocal && specialistLocal !== doctorLocal) {
       console.log("      whychoose → retrying with AI specialist headshot as reference");
       whyChooseImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
         scene: "whychoose",
         doctorPhotoLocalPath: specialistLocal,
+        procedure,
       });
     }
+    if (!whyChooseImagePath) {
+      const reuse = heroImagePath ?? benefitsImagePath;
+      if (reuse) {
+        console.log(`      whychoose → reusing ${reuse} (AI gen blocked; doctor present in that scene)`);
+        whyChooseImagePath = reuse;
+      }
+    }
     if (!whyChooseImagePath && (doctorLocal || specialistLocal)) {
-      console.log("      whychoose → retrying text-only");
+      console.log("      whychoose → retrying text-only (last resort, no doctor)");
       whyChooseImagePath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
         scene: "whychoose",
+        procedure,
       });
     }
     if (whyChooseImagePath) {
@@ -385,22 +533,35 @@ async function main() {
     }
   } else {
     console.log(
-      "[3/5] Skipping image generation (pass --generate-hero or set GENERATE_HERO_IMAGE=1 to enable)"
+      "[3/4] Skipping image generation (pass --generate-hero or set GENERATE_HERO_IMAGE=1 to enable)",
     );
   }
 
   await fs.mkdir(CLINICS_DATA_DIR, { recursive: true });
   const configPath = path.join(CLINICS_DATA_DIR, `${slug}.json`);
   await fs.writeFile(configPath, JSON.stringify(config, null, 2));
-  console.log(`[4/5] Wrote ${path.relative(REPO_ROOT, configPath)}`);
+  console.log(`[4/4] Wrote ${path.relative(REPO_ROOT, configPath)}`);
+
+  return { slug, configPath, config };
+}
+
+async function main() {
+  const args = parseArgs(process.argv.slice(2));
+  const { slug, configPath } = await runCustomize({
+    url: args.url,
+    slug: args.slug,
+    template: args.template,
+    procedure: args.procedure,
+    generateHero: args.generateHero,
+  });
 
   if (args.build) {
-    console.log("[5/5] Running next build (covers all doctors in this repo)");
+    console.log("[build] Running next build (covers all doctors in this repo)");
     await buildAndBundle(slug, args.out);
     console.log(`\nDone. JSON: ${path.relative(REPO_ROOT, configPath)}`);
     console.log(`Out:  ${path.relative(REPO_ROOT, path.join(REPO_ROOT, "out"))}`);
   } else {
-    console.log("[5/5] Skipping build (pass --build to run next build after writing JSON)");
+    console.log("[build] Skipping (pass --build to run next build after writing JSON)");
     console.log(`\nDone. JSON: ${path.relative(REPO_ROOT, configPath)}`);
     console.log(`Doctor will be live at /${slug}/ after the next master build.`);
   }
@@ -413,7 +574,10 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+const invokedDirectly = process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
+if (invokedDirectly) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
