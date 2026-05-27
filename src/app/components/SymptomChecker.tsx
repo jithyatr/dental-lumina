@@ -210,7 +210,7 @@ export function SymptomChecker({
                     rows={4}
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
-                    placeholder="Describe your pain in your own words… (e.g. sharp throbbing on upper right, started 2 days ago)"
+                    placeholder="Please describe your dental concerns or smile goals in your own words (for example: crowding, spacing, bite issues, discomfort, or alignment concerns)"
                     className="w-full resize-none bg-transparent text-[15px] text-white/85 placeholder:text-white/35 outline-none"
                   />
                 </div>

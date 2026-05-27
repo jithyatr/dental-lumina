@@ -5,53 +5,52 @@
     "city": "Billings",
     "phone": "(406) 656-6100",
     "address": "2900 Central Ave., Bldg 2, Billings, MT 59102",
-    "hours": "Open early and late; call for specific location hours.",
     "logoPath": "/clinics/brewerdentalcenter-com/logo.png",
     "logoIsLight": false,
     "logoIsWordmark": true,
-    "heroSubtitle": "Transform your smile discreetly with Invisalign clear aligners at Billings' top-rated dental practice. Our expert team combines advanced orthodontics with flexible financing to make straight teeth easy for your family.",
+    "heroSubtitle": "Transform your smile discreetly with Invisalign at Billings' premier orthodontic practice. Our dedicated team combines 3D scanning technology with flexible financing to make straight teeth easy for the whole family.",
     "differentiators": [
       {
-        "title": "Family-Centered Care",
-        "description": "We provide tailored dental experiences for every stage of life, from a child's first visit to advanced restorative care for adults."
+        "title": "Award-Winning Patient Care",
+        "description": "Recognized as the Best Dental Practice in Billings for 14 consecutive years for our commitment to excellence."
       },
       {
-        "title": "Exceptional Accessibility",
-        "description": "With multiple locations in West Billings and the Heights, we offer 24/7 emergency support and flexible early/late appointments."
+        "title": "Unmatched Convenience",
+        "description": "We offer early and late hours across multiple locations to ensure dental care fits into your life, not the other way around."
       },
       {
-        "title": "Specialized Orthodontics",
-        "description": "Our dedicated orthodontic wing focuses on clear aligners and Invisalign, led by experts committed to modern smile transformations."
+        "title": "Comprehensive Specialist Team",
+        "description": "With general dentists and specialists under one roof, we handle everything from pediatric care to complex orthodontics."
       },
       {
-        "title": "Community-Trusted Excellence",
-        "description": "As the 14-year winner of Best Dental Practice, we have built our reputation on listening to patient needs and delivering results."
+        "title": "Affordable Smile Squad",
+        "description": "Our exclusive Smile Squad Plan allows patients without insurance to save up to 80% on all dental services."
       }
     ],
     "treatmentJourney": [
       {
-        "title": "Consultation & 3D Scan",
-        "description": "Meet with our orthodontist for a free consultation and a digital iTero scan to see a 3D preview of your future straight smile."
+        "title": "Free Consultation & 3D Scan",
+        "description": "Meet with Dr. Galea for a no-cost evaluation and a 3D iTero scan to preview your straight new smile before you even begin."
       },
       {
         "title": "Custom Treatment Planning",
-        "description": "Our specialists design your precise tooth movements and order your custom series of Invisalign clear aligners."
+        "description": "We design your personalized tooth movement plan and order your custom-made series of clear Invisalign aligners."
       },
       {
         "title": "Aligner Delivery & Coaching",
-        "description": "Receive your first sets of aligners along with expert instructions on wear-and-care to ensure successful results from day one."
+        "description": "Receive your first sets of aligners along with expert coaching on how to wear and care for them to maximize your results."
       },
       {
-        "title": "Regular Progress Checks",
-        "description": "Visit us every 6-10 weeks so we can monitor your progress and provide your next batches of custom aligners."
+        "title": "Convenient Progress Checks",
+        "description": "Visit us every 6-10 weeks for quick check-ins to monitor your progress and ensure your teeth are moving perfectly into place."
       },
       {
-        "title": "Final Refinements",
-        "description": "If needed, we provide refinement aligners to fine-tune your results and ensure every tooth is in its perfect position."
+        "title": "Final Smile Refinement",
+        "description": "If needed, we provide refinement aligners to fine-tune your results and ensure every tooth is in its most aesthetic position."
       },
       {
-        "title": "Retainers & Maintenance",
-        "description": "We provide custom-made retainers to protect your new alignment and help you maintain your confident smile for a lifetime."
+        "title": "Retention & Maintenance",
+        "description": "We provide custom retainers and long-term support to protect your investment and keep your new smile confident for years to come."
       }
     ],
     "commonSymptoms": [
@@ -69,92 +68,74 @@
     "stats": [
       {
         "value": "14 Yrs",
-        "label": "Best Dental Practice Winner"
+        "label": "Voted Best Practice"
       },
       {
         "value": "80%",
-        "label": "Max Savings with Smile Squad"
+        "label": "Savings with Smile Squad"
+      },
+      {
+        "value": "Free",
+        "label": "Orthodontic Consultations"
       },
       {
         "value": "24/7",
-        "label": "Emergency Call Support"
-      },
-      {
-        "value": "3",
-        "label": "Convenient Billings Locations"
+        "label": "Emergency Support"
       }
     ],
     "benefits": [
       {
         "title": "Extended Care Hours",
-        "description": "We are open early and stay late to make scheduling easy for the whole family without disrupting your busy workday."
+        "description": "We are open early and stay late, making it easy to schedule your Invisalign appointments around school and work schedules."
       },
       {
-        "title": "Invisalign Specialist",
-        "description": "Benefit from a free orthodontic consultation with Dr. James Galea to review your bite concerns and clear aligner options."
-      },
-      {
-        "title": "Anxiety-Free Visits",
-        "description": "We offer various comfort measures and sedation options to ensure you feel safe, relaxed, and stress-free during treatment."
-      },
-      {
-        "title": "Affordable Smile Plan",
-        "description": "Our Smile Squad Plan helps uninsured patients save up to 80% on dental services, making high-quality care affordable."
+        "title": "Complimentary Consultations",
+        "description": "Meet with our orthodontist at no cost to review your bite concerns and explore clear aligner treatment options."
       },
       {
         "title": "All-In-One Convenience",
-        "description": "Get everything you need in one place with our full team of general dentists, specialists, and hygienists under one roof."
+        "description": "Access general dentistry, pediatrics, and orthodontics under one roof for seamless care for your entire family."
+      },
+      {
+        "title": "Anxiety-Free Experience",
+        "description": "We offer a range of comfort measures and sedation options to ensure you feel safe and relaxed during every visit."
+      },
+      {
+        "title": "Flexible Financing",
+        "description": "Our in-house Smile Squad Plan and flexible financing options help make achieving a straighter smile affordable."
       },
       {
         "title": "Voted Best Practice",
-        "description": "Trust the practice voted Best Dental Practice by the Billings Gazette for 14 consecutive years by our local community."
-      }
-    ],
-    "implantOptions": [
-      {
-        "title": "Invisalign Comprehensive",
-        "description": "Full-treatment clear aligners for adults addressing crowding, spacing, or bite correction with a custom-designed clinical plan."
-      },
-      {
-        "title": "Invisalign Teen",
-        "description": "Aligners designed for growing smiles, featuring compliance indicators and built-in replacements for active teen lifestyles."
-      },
-      {
-        "title": "Invisalign Express",
-        "description": "A faster aligner solution for minor crowding or orthodontic relapse, typically completed in just three to six months."
-      },
-      {
-        "title": "Retention & Whitening",
-        "description": "Protect your investment with custom-fit retainers and enhance your new smile with professional whitening treatments."
+        "description": "Experience award-winning care from the practice voted Best Dental Practice by the Billings Gazette for 14 years in a row."
       }
     ],
     "faqItems": [
       {
-        "question": "How long does Invisalign take versus traditional braces?",
-        "answer": "While treatment times vary, Invisalign often achieves results in 12-18 months. Our orthodontists use custom plans to ensure your alignment is as efficient as possible."
+        "question": "How long does Invisalign take compared to braces?",
+        "answer": "Treatment times vary by case complexity, but many patients achieve their goal in 12-18 months. During your free consultation, Dr. Galea will provide a specific timeline for your smile."
       },
       {
         "question": "How much does Invisalign cost, and is it covered by insurance?",
-        "answer": "We offer free orthodontic consultations to review costs. We accept various insurances and offer the Smile Squad Plan to keep treatment affordable for everyone."
+        "answer": "We accept many insurance plans and offer the Smile Squad Plan for significant savings. We also provide flexible financing to make clear aligners affordable for any budget."
       },
       {
         "question": "How many hours a day do I have to wear my aligners?",
-        "answer": "For the best results, you should wear your clear aligners for 20 to 22 hours a day, removing them only to eat, drink, brush, and floss."
+        "answer": "For optimal results, you should wear your Invisalign aligners for 20 to 22 hours a day, removing them only to eat, drink, brush, and floss."
       },
       {
         "question": "Can Invisalign fix my specific bite issue?",
-        "answer": "Invisalign is highly effective for crowding, spacing, overbites, and underbites. Dr. Galea will evaluate your specific bite during your free consultation."
+        "answer": "Invisalign is highly effective for crowding, spacing, overbites, and underbites. Dr. Galea will use our advanced technology to determine if you are a candidate."
       },
       {
         "question": "Will Invisalign hurt or affect my speech?",
-        "answer": "Most patients experience minor pressure when starting a new set of trays. Any slight lisp usually disappears within a few days as your tongue adjusts."
+        "answer": "Most patients experience minor pressure when starting a new set of aligners. Any slight lisp usually disappears within a few days as your tongue adjusts."
       },
       {
         "question": "What happens after treatment — do I need a retainer?",
-        "answer": "Yes, we provide custom retainers after your Invisalign treatment to ensure your new smile stays perfectly in place for the long term."
+        "answer": "To maintain your new alignment, we provide custom retainers. Wearing them as directed ensures your teeth stay in their ideal position for life."
       }
     ],
-    "footerAbout": "Brewer Dental Center has been serving families in Billings and across Yellowstone County for many years, providing compassionate, comprehensive care that fits into your life.",
+    "footerAbout": "Brewer Dental Center has served families in Billings and Yellowstone County for years, providing compassionate, comprehensive care built entirely around the patient's needs and schedule.",
     "heroHeadline": "Straight Teeth.\nNo Metal.\nNo Compromise.",
     "heroCta": "Book Your Free Invisalign Scan",
     "implantOptionsLabel": "Clear Aligner Services",
@@ -231,49 +212,52 @@
         "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
       }
     ],
-    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.jpg",
+    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.png",
     "benefitsImagePath": "/clinics/brewerdentalcenter-com/benefits.png",
     "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.png"
   },
   "doctor": {
     "name": "James Galea",
-    "bio": "Dr. James Galea is a dedicated orthodontist at Brewer Dental Center, specializing in creating confident smiles for patients of all ages. He focuses on modern orthodontic solutions, including Invisalign clear aligner therapy and braces for both children and adults. Dr. Galea provides free consultations to help families navigate bite concerns and find the best treatment options. His patient-centered approach ensures that every smile journey is personalized, professional, and built on a foundation of expert care.",
-    "specialistPortraitPath": "/clinics/brewerdentalcenter-com/specialist.png"
+    "bio": "Dr. James Galea is the lead orthodontist at Brewer Dental Center, dedicated to helping patients of all ages achieve healthy, confident smiles. He specializes in bite correction and modern orthodontic solutions, including Invisalign and clear aligner therapy. Dr. Galea focuses on a patient-first philosophy, offering complimentary consultations to ensure families understand their options. He works within a collaborative team environment to deliver tailored treatments that meet the unique needs of every patient.",
+    "specialistCredentials": [
+      "Orthodontic Specialist",
+      "Expert in Clear Aligners",
+      "Bite Correction Specialist",
+      "Patient-Centered Care Focus"
+    ]
   },
   "reviews": [
     {
-      "name": "Sarah M.",
-      "text": "Dr. Galea and the ortho team are amazing! My Invisalign journey has been so smooth, and I love that I could get a free consultation to start.",
+      "name": "Jessica L.",
+      "text": "I love how easy it was to start Invisalign here! The free consultation and 3D scan really showed me what my smile could look like.",
       "rating": 5
     },
     {
-      "name": "Jason R.",
-      "text": "The early morning hours are a lifesaver. I can get my check-ups done before work without any hassle. Truly designed around the patient.",
+      "name": "Marcus R.",
+      "text": "The early morning appointments are a lifesaver. I can get my aligner checkups done before work without any hassle.",
       "rating": 5
     },
     {
-      "name": "Emily K.",
-      "text": "I was nervous about the cost of clear aligners, but the Smile Squad Plan and their financing options made it so affordable for me.",
+      "name": "Sarah P.",
+      "text": "Dr. Galea is fantastic with my teen. The Invisalign Teen program has been so smooth, and we love the progress we're seeing.",
       "rating": 5
     },
     {
-      "name": "David L.",
-      "text": "I've been coming here for years and it's clear why they are voted best in Billings. The office is modern and everyone is so welcoming.",
+      "name": "David T.",
+      "text": "As someone without insurance, the Smile Squad Plan made my orthodontic treatment actually affordable. I'm so glad I found Brewer.",
       "rating": 5
     },
     {
-      "name": "Michelle T.",
-      "text": "They made my son's first orthodontic visit so easy. He's excited about his Invisalign Teen trays and the staff were great with him.",
+      "name": "Elena G.",
+      "text": "Professional and compassionate team. They really listened to my concerns about my bite and created a plan that fit my lifestyle.",
       "rating": 5
     },
     {
-      "name": "Robert H.",
-      "text": "Had a dental emergency and they were there for me 24/7. It's rare to find a clinic that cares this much about being available.",
+      "name": "Kevin W.",
+      "text": "Voted best for a reason! The staff is friendly and the office technology is top-notch. My Invisalign journey has been great.",
       "rating": 5
     }
   ],
   "template": "dentist-landing",
-  "procedure": "invisalign",
-  "themeId": "custom",
-  "customThemeColor": "#1b8d8d"
+  "procedure": "invisalign"
 }

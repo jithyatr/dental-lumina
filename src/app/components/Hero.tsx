@@ -24,7 +24,7 @@ type HeroService = {
   duration: string;
 };
 
-const avatars = [
+const DEFAULT_AVATARS = [
   { src: "/images/review-1.jpg", name: "Rekha M" },
   { src: "/images/review-2.jpg", name: "Daniel K" },
   { src: "/images/review-3.jpg", name: "Priya S" },
@@ -68,6 +68,10 @@ export function Hero({
     clinic?.heroAssurances && clinic.heroAssurances.length > 0
       ? clinic.heroAssurances
       : DEFAULT_ASSURANCES;
+  const avatars =
+    clinic?.heroAvatars && clinic.heroAvatars.length > 0
+      ? clinic.heroAvatars
+      : DEFAULT_AVATARS;
 
   const bookingLocations: BookingLocation[] = clinic?.address
     ? [
@@ -228,9 +232,11 @@ export function Hero({
             />
           </div>
 
-          {/* floating booking card — on mobile, sits below the image with
-              just a slight overlap at the top. On sm+ it floats over the image. */}
-          <div className="pointer-events-auto relative -mt-10 ml-auto mr-3 w-[210px] rounded-[16px] bg-white p-2 text-navy shadow-[0_24px_60px_-12px_rgba(0,0,0,0.35)] ring-1 ring-white/40 sm:absolute sm:-bottom-20 sm:right-4 sm:ml-0 sm:mr-0 sm:mt-0 sm:w-[280px] sm:rounded-[20px] sm:p-3.5 md:w-[300px]">
+          {/* booking card — sits below the image with a slight top-edge
+              overlap at every breakpoint. Previously floated absolutely over
+              the lower-right of the image at sm+, which covered too much of
+              the hero photo. */}
+          <div className="pointer-events-auto relative -mt-10 ml-auto mr-3 w-[210px] rounded-[16px] bg-white p-2 text-navy shadow-[0_24px_60px_-12px_rgba(0,0,0,0.35)] ring-1 ring-white/40 sm:w-[280px] sm:rounded-[20px] sm:p-3.5 md:w-[300px]">
             {/* Header — Live + progress dots */}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand">

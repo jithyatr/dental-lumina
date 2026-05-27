@@ -350,6 +350,9 @@ function applyProcedureHeadlines(config: ClinicConfig, procedure: Procedure): vo
   if (procedure.heroAssurances.length > 0 && (!c.heroAssurances || c.heroAssurances.length === 0)) {
     c.heroAssurances = [...procedure.heroAssurances];
   }
+  if (procedure.heroAvatars && procedure.heroAvatars.length > 0 && (!c.heroAvatars || c.heroAvatars.length === 0)) {
+    c.heroAvatars = procedure.heroAvatars.map((a) => ({ ...a }));
+  }
   if (procedure.smileSimulatorGoals.length > 0 && (!c.smileSimulatorGoals || c.smileSimulatorGoals.length === 0)) {
     c.smileSimulatorGoals = [...procedure.smileSimulatorGoals];
   }
@@ -479,6 +482,9 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
       bio: profile.doctor.bio,
       yearsOfExperience: extractYearsFromBio(profile.doctor.bio),
       ...(photoPath ? { photoPath } : {}),
+      ...(profile.doctor.specialistCredentials && profile.doctor.specialistCredentials.length > 0
+        ? { specialistCredentials: profile.doctor.specialistCredentials.slice(0, 4) }
+        : {}),
     },
     reviews:
       profile.reviews && profile.reviews.length > 0

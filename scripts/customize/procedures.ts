@@ -1,4 +1,4 @@
-import type { BeforeAfterCase, TemplateKind } from "../../src/types/clinic";
+import type { BeforeAfterCase, HeroAvatar, TemplateKind } from "../../src/types/clinic";
 
 // Default before/after imagery is reused across procedure variants — only the
 // labels (tag / title / subtitle) change per category. Keep these paths in
@@ -19,9 +19,21 @@ const BA_IMAGES: Array<Pick<BeforeAfterCase, "beforeImage" | "afterImage">> = [
 ];
 
 function ba(
-  cases: Array<Pick<BeforeAfterCase, "tag" | "title" | "subtitle">>,
+  cases: Array<
+    Pick<BeforeAfterCase, "tag" | "title" | "subtitle"> &
+      Partial<Pick<BeforeAfterCase, "beforeImage" | "afterImage">>
+  >,
 ): BeforeAfterCase[] {
-  return cases.map((c, i) => ({ ...c, ...BA_IMAGES[i % BA_IMAGES.length] }));
+  return cases.map((c, i) => {
+    const fallback = BA_IMAGES[i % BA_IMAGES.length];
+    return {
+      tag: c.tag,
+      title: c.title,
+      subtitle: c.subtitle,
+      beforeImage: c.beforeImage ?? fallback.beforeImage,
+      afterImage: c.afterImage ?? fallback.afterImage,
+    };
+  });
 }
 
 export type ProcedureKey =
@@ -84,6 +96,7 @@ export interface Procedure {
   patientLanguage: string;
   sectionHeadlines: ProcedureSectionHeadlines;
   heroAssurances: string[];
+  heroAvatars?: HeroAvatar[];
   whyChoosePillars: PillarItem[];
   smileSimulatorGoals: string[];
   commonSymptomsHint: string[];
@@ -127,9 +140,27 @@ export const PROCEDURES: Record<ProcedureKey, Procedure> = {
       beforeAfterHeadline: "Healthy Smiles, Happy Kids",
       beforeAfterSubheading: "Real outcomes from gentle pediatric care — cavities healed, confidence restored, and smiles that stay healthy as your child grows.",
       beforeAfterCases: ba([
-        { tag: "Pediatric", title: "Cavity Repair", subtitle: "Restored in a single gentle visit" },
-        { tag: "Preventive", title: "Sealant & Fluoride Plan", subtitle: "Cavities stopped before they start" },
-        { tag: "Cosmetic", title: "Chipped Tooth Repair", subtitle: "Same-day bonding, no tears" },
+        {
+          tag: "Pediatric",
+          title: "Cavity Repair",
+          subtitle: "Restored in a single gentle visit",
+          beforeImage: "/images/smile-makeover-child-before.jpeg",
+          afterImage: "/images/smile-makeover-child-after.jpeg",
+        },
+        {
+          tag: "Preventive",
+          title: "Sealant & Fluoride Plan",
+          subtitle: "Cavities stopped before they start",
+          beforeImage: "/images/implant-child-before.jpeg",
+          afterImage: "/images/implant-child-after.jpeg",
+        },
+        {
+          tag: "Cosmetic",
+          title: "Chipped Tooth Repair",
+          subtitle: "Same-day bonding, no tears",
+          beforeImage: "/images/whitening-child-before.jpeg",
+          afterImage: "/images/whitening-child-after.jpeg",
+        },
       ]),
       smileSimulatorHeadline: "AI Pediatric\nSmile Checker",
       smileSimulatorSubheading: "Upload a photo of your child's smile and tell us what concerns you most. Our AI assessment will flag anything worth a closer look, in plain language for parents.",
@@ -137,6 +168,12 @@ export const PROCEDURES: Record<ProcedureKey, Procedure> = {
       bookingSubheading: "Same-week appointments for new pediatric patients. Pick a time that works for your family.",
     },
     heroAssurances: ["Kid-friendly office", "Parents stay with kids", "Most insurances accepted"],
+    heroAvatars: [
+      { src: "/images/review-child-1.jpeg", name: "Emma R" },
+      { src: "/images/review-child-2.jpeg", name: "Noah T" },
+      { src: "/images/review-child-3.jpeg", name: "Liam S" },
+      { src: "/images/review-child-4.jpeg", name: "Mia K" },
+    ],
     whyChoosePillars: [
       { title: "Kid-Specialized Team", description: "Every team member is trained specifically for pediatric care, communication, and behavior guidance." },
       { title: "Tell-Show-Do Approach", description: "We explain every tool and step in kid-friendly language before we ever use it — no surprises, no fear." },
@@ -197,7 +234,7 @@ export const PROCEDURES: Record<ProcedureKey, Procedure> = {
     imageScenes: {
       hero: "bright, cheerful pediatric dental office interior with warm pastel accents and a kid-friendly waiting area visible in the background",
       benefits:
-        "gentle consultation moment between a pediatric dentist and a parent (with a child's small hand or stuffed-animal toy visible — NO child's face)",
+        "gentle consultation moment between a pediatric dentist and a young child patient (school-age, roughly 6-10 years old). The child sits opposite the dentist holding a stuffed animal or a small dental model. CRITICAL: the child must be shown from the SIDE or BACK only — no front-facing portrait, no face features visible to camera, just the back of the head, profile, or shoulder. The child's smaller scale should be clearly readable.",
       whychoose:
         "warm pediatric operatory with colorful but tasteful kid-friendly decor, a tablet showing tooth illustrations, and an empty child-sized chair",
     },

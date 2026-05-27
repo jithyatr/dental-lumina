@@ -21,6 +21,11 @@ export interface BeforeAfterCase {
   afterImage: string;
 }
 
+export interface HeroAvatar {
+  src: string;
+  name: string;
+}
+
 export interface ImplantOption {
   iconName?: string;
   title: string;
@@ -97,6 +102,7 @@ export interface ClinicInfo {
   heroCta?: string;
   heroImagePath?: string;
   heroAssurances?: string[];
+  heroAvatars?: HeroAvatar[];
 
   navLinks?: string[];
   bookingCta?: string;

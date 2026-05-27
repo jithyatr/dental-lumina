@@ -11,6 +11,7 @@ import type {
   WhyChoosePillar,
 } from "../../src/types/clinic";
 import { generateSceneImage, type SceneKind } from "./image";
+import { procedureByKey } from "./procedures";
 
 const REPO_ROOT = path.resolve(__dirname, "..", "..");
 const CLINICS_DATA_DIR = path.join(REPO_ROOT, "data", "clinics");
@@ -113,9 +114,11 @@ async function regenImage(slug: string, target: ImageTarget): Promise<void> {
   const { config, configPath } = await readConfig(slug);
   const scene: SceneKind = target as SceneKind;
   console.log(`[1/3] Regenerating ${target} image for ${slug}`);
+  const procedure = config.procedure ? procedureByKey(config.procedure) : null;
   let newPath = await generateSceneImage(config, slug, CLINICS_PUBLIC_DIR, {
     scene,
     doctorPhotoLocalPath: resolveDoctorPhotoLocal(config),
+    procedure,
   });
   if (!newPath) {
     const existing = await findExistingScene(slug, scene);
