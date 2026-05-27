@@ -1,0 +1,280 @@
+{
+  "clinic": {
+    "name": "Adventure Dental",
+    "tagline": "Your Adventure Begins Here!",
+    "city": "Vancouver",
+    "phone": "(360) 604-9000",
+    "address": "900 NE 139th Street, Suite #106, Vancouver, WA 98685",
+    "hours": "Mon-Thu 8:00 AM – 4:30 PM, Fri Closed",
+    "logoPath": "/clinics/adventuredental-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Adventure Dental provides specialized pediatric dentistry and orthodontics with a fun, beach-themed approach that makes every visit a tropical escape for children and teens.",
+    "differentiators": [
+      {
+        "title": "Immersive Island Adventure",
+        "description": "We transport children into a life-like world of tropical fun, turning a dental visit into a memorable island escape."
+      },
+      {
+        "title": "Platinum Invisalign Provider",
+        "description": "Our expertise as a top-tier Invisalign provider ensures world-class orthodontic results for patients of all ages."
+      },
+      {
+        "title": "Sensory-Aware Accommodations",
+        "description": "We provide dedicated sensory rooms and patient, skilled technicians to support children with special needs."
+      },
+      {
+        "title": "Comprehensive Family Care",
+        "description": "While we specialize in pediatrics, we provide a peaceful environment and expert treatment for teens and adults too."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Island Tour",
+        "description": "Your child starts their adventure with a tour of our tropical, beach-themed office led by our friendly Tour Guides."
+      },
+      {
+        "title": "Gentle First Exam",
+        "description": "Our pediatric specialists conduct a thorough yet gentle examination while parents consult with the doctor in a relaxed setting."
+      },
+      {
+        "title": "Coaching & Preventive Care",
+        "description": "We provide age-appropriate brushing coaching and cleanings to help your child develop lifelong healthy dental habits."
+      },
+      {
+        "title": "Child-Centered Treatment",
+        "description": "If repairs are needed, we use child-sized tools and 'tell-show-do' techniques to keep the experience stress-free and positive."
+      },
+      {
+        "title": "Advanced Sensory Support",
+        "description": "For kids who need extra care, we utilize our specialized sensory and comfort rooms to ensure they feel safe and supported."
+      },
+      {
+        "title": "Ongoing Growing Smiles",
+        "description": "We provide continuous 6-month checkups that evolve with your child, supporting them through their teenage years and beyond."
+      }
+    ],
+    "commonSymptoms": [
+      "First Tooth Visit",
+      "Cavity in Baby Tooth",
+      "Tooth Pain",
+      "Chipped Baby Tooth",
+      "Thumb Sucking",
+      "Knocked-Out Tooth",
+      "Pediatric Cleaning",
+      "Sealants Needed",
+      "Anxious About Dentist",
+      "Special Needs Care"
+    ],
+    "stats": [
+      {
+        "value": "20 Years",
+        "label": "Serving Vancouver Families"
+      },
+      {
+        "value": "1,600+",
+        "label": "Five-Star Reviews"
+      },
+      {
+        "value": "Platinum",
+        "label": "Invisalign Provider Status"
+      },
+      {
+        "value": "100%",
+        "label": "Kid-Focused Adventure"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Fun Tropical Atmosphere",
+        "description": "Children can explore a beach-themed world with island adventures while parents relax in our spa-inspired waiting room."
+      },
+      {
+        "title": "Special Needs Care",
+        "description": "Our office features sensory and comfort rooms specifically designed for children who may feel overwhelmed or overstimulated."
+      },
+      {
+        "title": "Two Decades of Excellence",
+        "description": "Celebrating 20 years of providing outstanding dental and orthodontic care to the Vancouver community."
+      },
+      {
+        "title": "Comprehensive Orthodontics",
+        "description": "As a Platinum Invisalign provider, we offer specialized alignment options for children, teenagers, and even adults."
+      },
+      {
+        "title": "Gentle Teen Crew",
+        "description": "Our dedicated Teen Crew approach helps teenagers gain independence and excitement regarding their oral health."
+      },
+      {
+        "title": "Comforting Tour Guides",
+        "description": "Our friendly staff act as Tour Guides to ensure every visit is stress-free, positive, and genuinely enjoyable."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Pediatric Dentistry",
+        "description": "Comprehensive care ensuring your child has a fun, relaxed, and positive experience from their very first tooth."
+      },
+      {
+        "title": "Teen Crew Dental",
+        "description": "Specialized care focused on encouraging teenagers to take independence and pride in their dental health."
+      },
+      {
+        "title": "Orthodontics & Invisalign",
+        "description": "Expert orthodontic treatments for all ages, including Platinum status Invisalign services for a smile you'll love."
+      },
+      {
+        "title": "Special Needs Care",
+        "description": "Sensory-aware treatment and comfort rooms designed to provide a safe space for children who need extra support."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "When should my child's first dental visit happen?",
+        "answer": "We welcome little ones as early as 16 months for their first trip, ensuring a fun and stress-free introduction to dental health."
+      },
+      {
+        "question": "How do you handle anxious or scared kids?",
+        "answer": "Our team uses a 'tell-show-do' approach and a beach-themed environment to help nervous children feel safe and excited about their adventure."
+      },
+      {
+        "question": "Do you offer support for children with special needs?",
+        "answer": "Yes, we have specialized sensory and comfort rooms and a staff trained to provide a calm, patient, and respectful experience for all children."
+      },
+      {
+        "question": "What orthodontic options do you provide?",
+        "answer": "We offer a full range of orthodontic services, including traditional braces and Invisalign, for children, teens, and adults."
+      },
+      {
+        "question": "What makes your office different for teenagers?",
+        "answer": "Our 'Teen Crew' focus encourages independence and helps teenagers get excited about maintaining their own dental health in a positive environment."
+      },
+      {
+        "question": "What are your office hours?",
+        "answer": "We are available to serve your family Monday through Thursday from 8:00 AM to 4:30 PM."
+      }
+    ],
+    "footerAbout": "Adventure Dental has been providing outstanding pediatric dentistry and orthodontic care in Vancouver for 20 years, creating positive, tropical-themed experiences for children and teens.",
+    "heroHeadline": "Gentle Dentistry\nKids Actually\nLook Forward To.",
+    "heroCta": "Book Your Child's Visit",
+    "implantOptionsLabel": "Pediatric Services",
+    "implantOptionsHeadline": "Specialized Dental Care for Growing Smiles",
+    "implantOptionsSubheading": "From a baby's first checkup to a teen's orthodontic readiness, we deliver every service in a way that feels safe, friendly, and age-appropriate.",
+    "whyChooseLabel": "Why Families Trust Us",
+    "whyChooseHeadline": "A Pediatric Practice Built Around Your Child's Comfort",
+    "whyChooseSubheading": "Every detail of our practice — from the waiting room toys to our gentle pace — is designed to make kids feel safe and parents feel reassured.",
+    "processHeadline": "Your Child's Visit, Step By Step",
+    "processSubheading": "A predictable, gentle visit helps anxious kids relax. Here's exactly what to expect, from waiting room to high-five on the way out.",
+    "benefitsHeadline": "Why Parents Choose Our Pediatric Practice",
+    "faqLabel": "Pediatric FAQ",
+    "faqHeadline": "What Parents Ask Us Most",
+    "symptomCheckerHeadline": "Tell Us What's Bothering Your Child",
+    "symptomCheckerSubheading": "Tap whichever issue sounds closest — we'll get back to you with the right next step for kids.",
+    "testimonialsHeadline": "What Parents Are Saying",
+    "testimonialsSubheading": "Honest words from families who trust us with their kids' smiles.",
+    "beforeAfterHeadline": "Healthy Smiles, Happy Kids",
+    "beforeAfterSubheading": "Real outcomes from gentle pediatric care — cavities healed, confidence restored, and smiles that stay healthy as your child grows.",
+    "beforeAfterCases": [
+      {
+        "tag": "Pediatric",
+        "title": "Cavity Repair",
+        "subtitle": "Restored in a single gentle visit",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Preventive",
+        "title": "Sealant & Fluoride Plan",
+        "subtitle": "Cavities stopped before they start",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Chipped Tooth Repair",
+        "subtitle": "Same-day bonding, no tears",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
+    "smileSimulatorSubheading": "Upload a photo of your child's smile and tell us what concerns you most. Our AI assessment will flag anything worth a closer look, in plain language for parents.",
+    "bookingHeadline": "Book Your Child's Visit",
+    "bookingSubheading": "Same-week appointments for new pediatric patients. Pick a time that works for your family.",
+    "heroAssurances": [
+      "Kid-friendly office",
+      "Parents stay with kids",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Check a possible cavity",
+      "First-visit prep for my child",
+      "Worried about crooked teeth",
+      "Chipped or knocked-out tooth",
+      "Help with brushing habits"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Kid-Specialized Team",
+        "description": "Every team member is trained specifically for pediatric care, communication, and behavior guidance."
+      },
+      {
+        "title": "Tell-Show-Do Approach",
+        "description": "We explain every tool and step in kid-friendly language before we ever use it — no surprises, no fear."
+      },
+      {
+        "title": "Cavity-Prevention Focus",
+        "description": "Sealants, fluoride, and brushing coaching that stops cavities before they ever need a drill."
+      },
+      {
+        "title": "Special Needs Friendly",
+        "description": "Sensory-aware accommodations and extra time for kids who need a little more support to feel safe."
+      }
+    ],
+    "heroImagePath": "/clinics/adventuredental-com/hero.png",
+    "benefitsImagePath": "/clinics/adventuredental-com/benefits.png",
+    "whyChooseImagePath": "/clinics/adventuredental-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Todd Hillyard",
+    "credentials": "DDS",
+    "bio": "Dr. Todd Hillyard is a dedicated specialist at Adventure Dental, bringing years of expertise to pediatric dentistry and orthodontics. He is committed to providing outstanding care and creating a positive, fun environment where children feel at home. Dr. Hillyard works alongside a skilled team to ensure that every patient leaves with a healthy smile and a sense of adventure.",
+    "photoPath": "/clinics/adventuredental-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/adventuredental-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Alexandra C.",
+      "text": "Hands down the best children’s dental clinic around!!",
+      "rating": 5
+    },
+    {
+      "name": "Rachel C.",
+      "text": "Such a great experience for my kiddos. Friendly and fun. My little ones aren’t afraid of their dentist and it’s such a relief!",
+      "rating": 5
+    },
+    {
+      "name": "Heather L.",
+      "text": "My daughter has Down syndrome and can be very overwhelmed. The staff are completely prepared with sensory rooms and patient technicians.",
+      "rating": 5
+    },
+    {
+      "name": "MollyAnn C.",
+      "text": "I really enjoyed the staff. My son is nervous when going to the dentist and hard to sit still as he gets anxious, but they handled it great.",
+      "rating": 5
+    },
+    {
+      "name": "Asia O.",
+      "text": "We had a phenomenal experience for our 16 month old's first trip. They understand kids and how to make it stress free for parents too!",
+      "rating": 5
+    },
+    {
+      "name": "Michelle J.",
+      "text": "I'm incredibly impressed: what a cool service! My children were very happy and the doctor answered all my questions. Atmosphere is 10/10.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry",
+  "procedure": "pediatric-dentistry",
+  "themeId": "teal"
+}

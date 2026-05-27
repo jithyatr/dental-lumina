@@ -2,153 +2,198 @@
   "clinic": {
     "name": "Brewer Dental Center",
     "tagline": "Your premier dental choice for the entire family.",
+    "city": "Billings",
     "phone": "(406) 656-6100",
-    "address": "2900 Central Ave., Bldg 2, Billings, MT 59102",
+    "address": "2900 Central Ave., Bldg 1, Billings, MT 59102",
+    "hours": "Open early and late, 24/7 Emergency Support",
     "logoPath": "/clinics/brewerdentalcenter-com/logo.png",
     "logoIsLight": false,
     "logoIsWordmark": true,
+    "heroSubtitle": "Experience life-changing dental implants and All-On-4 restorations at Billings' award-winning clinic, where we combine advanced expertise with flexible financing and sedation options.",
+    "differentiators": [
+      {
+        "title": "Voted Best In Billings",
+        "description": "Proudly recognized as the Best Dental Practice by the Billings Gazette for 14 years in a row by our local community."
+      },
+      {
+        "title": "All-In-One Convenience",
+        "description": "Our team of general dentists, specialists, and hygienists work under one roof to complete your work quickly and seamlessly."
+      },
+      {
+        "title": "The Smile Squad Plan",
+        "description": "We offer an exclusive in-house membership plan that provides members significant savings of up to 80% on dental services."
+      },
+      {
+        "title": "Patient-Centric Approach",
+        "description": "We have evolved our practice based on patient feedback to prioritize ease of scheduling, financial options, and comfort."
+      }
+    ],
     "treatmentJourney": [
       {
-        "title": "Smile Preview & Scan",
-        "description": "Your journey begins with a complimentary consultation and a detailed 3D iTero scan to preview your future smile before you even start."
+        "title": "Comprehensive Consultation",
+        "description": "Begin with a thorough assessment where our team listens to your goals and uses advanced imaging to map out your personalized implant plan."
       },
       {
-        "title": "Custom Aligner Design",
-        "description": "Using our advanced imaging, a personalized treatment plan is developed and your custom clear aligners are manufactured for a precise fit."
+        "title": "Foundation Preparation",
+        "description": "We ensure your oral health is ready for implants, addressing any underlying issues or tooth removals to create a healthy environment for your new smile."
       },
       {
-        "title": "First Set Delivery",
-        "description": "Receive your first sets of aligners along with professional wear-and-care coaching to ensure you feel confident starting your transformation."
+        "title": "Precise Implant Placement",
+        "description": "Our expert dentists perform the implant procedure using gentle techniques and sedation options to ensure your absolute comfort and safety."
       },
       {
-        "title": "Progress Check-Ins",
-        "description": "Visit our Billings office every 6-10 weeks so our orthodontic team can monitor your tooth movement and ensure your treatment is on track."
+        "title": "Healing and Integration",
+        "description": "During this phase, the implant naturally fuses with your bone, creating a stable and permanent foundation for your final restoration."
       },
       {
-        "title": "Final Refinements",
-        "description": "To achieve the perfect result, we provide refinement aligners if any final fine-tuning is needed for your bite or tooth alignment."
+        "title": "Custom Restoration Design",
+        "description": "We take precise impressions to craft a custom crown or bridge that perfectly matches the color, shape, and fit of your natural teeth."
       },
       {
-        "title": "Retainers & Maintenance",
-        "description": "Once your new smile is complete, we provide custom retainers to protect your investment and maintain your beautiful results long-term."
+        "title": "Final Smile Reveal",
+        "description": "Your custom-made restoration is securely attached, giving you a functional, beautiful, and confident smile that is designed to last a lifetime."
       }
     ],
-    "heroHeadline": "Straight Teeth.\nNo Metal.\nNo Compromise.",
-    "heroCta": "Book Your Free Invisalign Scan",
-    "implantOptionsLabel": "Clear Aligner Services",
-    "implantOptionsHeadline": "Invisalign Treatment Options for Every Smile",
-    "implantOptionsSubheading": "From mild crowding to complex bite correction, our Invisalign-focused services straighten teeth without the look or hassle of metal braces.",
-    "whyChooseLabel": "Why Choose Our Invisalign Team",
-    "whyChooseHeadline": "Certified Invisalign Providers Who Plan Every Aligner Personally",
-    "whyChooseSubheading": "Every aligner in your treatment is reviewed by an orthodontist who actually understands tooth movement — not just a software preview.",
-    "processHeadline": "Your Invisalign Journey",
-    "processSubheading": "From your first 3D scan to your final retainer fitting, here's exactly how an Invisalign treatment plan unfolds — most cases finish in 6-18 months.",
-    "benefitsHeadline": "Why Patients Choose Invisalign Here",
-    "faqLabel": "Invisalign FAQ",
-    "faqHeadline": "Common Questions About Invisalign",
-    "symptomCheckerHeadline": "Tell Us About Your Smile",
-    "symptomCheckerSubheading": "Tap whichever describes your teeth — we'll show you whether Invisalign is a good fit (and how long it would likely take).",
-    "testimonialsHeadline": "Real Invisalign Transformations",
-    "testimonialsSubheading": "Teens and adults who chose Invisalign with us and walked away with the smile they wanted.",
-    "beforeAfterHeadline": "Real Invisalign Before & Afters",
-    "beforeAfterSubheading": "See actual patient results — straighter teeth, balanced bites, and a smile transformation that didn't require a single metal bracket.",
-    "beforeAfterCases": [
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Missing Teeth",
+      "Crooked Teeth",
+      "Dental Anxiety",
+      "Broken Dentures",
+      "Emergency Trauma",
+      "Cavities",
+      "Gum Sensitivity",
+      "Stained Teeth",
+      "Pediatric Care"
+    ],
+    "stats": [
       {
-        "tag": "Invisalign",
-        "title": "Crowding Correction",
-        "subtitle": "Aligned in 9 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "value": "14 Years",
+        "label": "Voted Best Dental Practice"
       },
       {
-        "tag": "Orthodontics",
-        "title": "Bite Realignment",
-        "subtitle": "Balanced occlusion in 12 months",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "value": "24/7",
+        "label": "Emergency Dental Support"
       },
       {
-        "tag": "Cosmetic",
-        "title": "Gap Closure",
-        "subtitle": "Front-teeth gap closed in 6 months",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "value": "80%",
+        "label": "Potential Savings with Smile Squad"
+      },
+      {
+        "value": "3",
+        "label": "Convenient Billings Locations"
       }
     ],
-    "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
-    "smileSimulatorSubheading": "Upload a selfie and pick your goals — our AI smile preview shows you a glimpse of what your teeth could look like after Invisalign.",
-    "bookingHeadline": "Book Your Free Invisalign Scan",
-    "bookingSubheading": "Includes a complimentary 3D iTero scan and a personalized treatment timeline. Walk out with a clear plan.",
-    "heroAssurances": [
-      "Free 3D iTero scan",
-      "Flexible payment plans",
-      "Most insurances accepted"
-    ],
-    "smileSimulatorGoals": [
-      "Fix crowded teeth",
-      "Close gaps between teeth",
-      "Correct my bite",
-      "Straighten after old braces",
-      "Get a confident smile"
-    ],
-    "whyChoosePillars": [
+    "benefits": [
       {
-        "title": "iTero 3D Planning",
-        "description": "Your full treatment is mapped out on a high-resolution 3D scanner — no putty, no guesswork."
+        "title": "Extended Office Hours",
+        "description": "We are open early and stay late to ensure dental care fits into your busy life without the need for multiple trips."
       },
       {
-        "title": "Orthodontist-Reviewed",
-        "description": "Every aligner stage is reviewed by an orthodontist, not just auto-generated from software."
+        "title": "Sedation For Anxiety",
+        "description": "Relax during your visit with our range of comfort measures and sedation options designed to help you feel safe and calm."
       },
       {
-        "title": "Discreet & Removable",
-        "description": "Clear aligners you can take out for meals, brushing, photos, and special occasions."
+        "title": "Flexible Financing",
+        "description": "Access high-quality care with affordable options including our Smile Squad Plan which offers savings up to 80%."
       },
       {
-        "title": "Retainers Included",
-        "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
+        "title": "Comprehensive Family Care",
+        "description": "From pediatric dentistry to orthodontics and restorative care, we serve every member of your family under one roof."
+      },
+      {
+        "title": "Emergency 24/7 Access",
+        "description": "Dental emergencies don't wait for business hours, which is why we are available to assist you 24 hours a day."
+      },
+      {
+        "title": "Voted Best Practice",
+        "description": "Trust your smile to the clinic voted 'Best Dental Practice' by the Billings Gazette for 14 consecutive years."
       }
     ],
+    "implantOptions": [
+      {
+        "title": "All-On-4 Implants",
+        "description": "A comprehensive solution to replace a full arch of teeth using just four strategically placed dental implants."
+      },
+      {
+        "title": "Single Dental Implants",
+        "description": "Permanent restorations that look, feel, and function like natural teeth to replace individual missing teeth."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "Combine the affordability of dentures with the stability of implants for a secure, non-slip smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Do you offer any options for patients without insurance?",
+        "answer": "Yes! We offer the Smile Squad Plan, a membership program that can save you up to 80% on all dental services, plus cash specials for new patients."
+      },
+      {
+        "question": "Can I bring my whole family at once?",
+        "answer": "Absolutely. We are open early and late to make it easy to schedule checkups for the entire family in a single trip."
+      },
+      {
+        "question": "What should I do if I have a dental emergency?",
+        "answer": "Please call us immediately. We provide emergency dentistry services and are available 24/7 to help you in urgent situations."
+      },
+      {
+        "question": "Is sedation dentistry available for anxious patients?",
+        "answer": "Yes, we offer a range of comfort measures and sedation options to help those with dental anxiety feel relaxed and safe during treatment."
+      },
+      {
+        "question": "Do you provide pediatric dental services?",
+        "answer": "We specialize in children's dentistry, offering a $99 Pediatric New Patient Cash Special that includes an exam, x-rays, cleaning, and fluoride."
+      },
+      {
+        "question": "How do I schedule my first appointment?",
+        "answer": "You can request an appointment online or call us at (406) 656-6100. We have three convenient locations in Heights and West End Billings."
+      }
+    ],
+    "footerAbout": "Brewer Dental Center has been serving families in Billings and across Yellowstone County for many years with compassionate, comprehensive care built around the needs of the patient.",
     "heroImagePath": "/clinics/brewerdentalcenter-com/hero.png",
     "benefitsImagePath": "/clinics/brewerdentalcenter-com/benefits.png",
     "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.png"
   },
   "doctor": {
     "name": "James Galea",
-    "bio": "Dr. James Galea is a dedicated orthodontist at Brewer Dental Center who specializes in correcting bite concerns for patients of all ages. He provides complimentary orthodontic consultations to help families understand their treatment options, including modern clear aligner therapy. Dr. Galea is committed to delivering exceptional care with compassion and expertise, ensuring every patient feels at ease. His focus is on helping both children and adults achieve healthy, confident smiles through personalized orthodontic solutions."
+    "bio": "Dr. James Galea is a key member of the expert team at Brewer Dental Center, specializing in orthodontics. He provides free consultations for families to review bite concerns and explore modern treatment options. Working within a practice voted Best Dental Practice in Billings for 14 consecutive years, Dr. Galea is dedicated to delivering specialized care that is easy, accessible, and tailored to the individual needs of both children and adults.",
+    "photoPath": "/clinics/brewerdentalcenter-com/doctor.jpg",
+    "specialistPortraitPath": "/clinics/brewerdentalcenter-com/doctor.jpg"
   },
   "reviews": [
     {
-      "name": "Linda R.",
-      "text": "I was so impressed by the Invisalign process here. The 3D scan was quick, and seeing my future smile made me so excited to start!",
+      "name": "Marcus L.",
+      "text": "Brewer Dental Center made it so easy to get my whole family in at once. The late hours are a lifesaver for my work schedule!",
       "rating": 5
     },
     {
-      "name": "Mark T.",
-      "text": "Dr. Galea is fantastic. He took the time to explain how clear aligners would work for my crossbite during the free consultation.",
+      "name": "Elena R.",
+      "text": "I've always had dental anxiety, but the sedation options here made me feel completely safe and relaxed. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Jennifer S.",
-      "text": "As a busy mom, I love that Brewer Dental is open early and late. It made scheduling my teen's Invisalign appointments so much easier.",
+      "name": "David W.",
+      "text": "The Smile Squad Plan saved me a fortune on my dental work. It's great to find a place that actually helps with the financial side.",
       "rating": 5
     },
     {
-      "name": "Robert K.",
-      "text": "The Smile Squad Plan made my orthodontic treatment affordable. I saved significantly on my aligners without needing traditional insurance.",
+      "name": "Sarah K.",
+      "text": "Dr. Galea was fantastic with my son's braces. He explained everything clearly during our free consultation.",
       "rating": 5
     },
     {
-      "name": "Emily B.",
-      "text": "The staff is so welcoming. I was nervous about straightening my teeth as an adult, but they made me feel comfortable every step of the way.",
+      "name": "Brian H.",
+      "text": "Best dental experience in Billings. I needed emergency help on a weekend and they were there for me 24/7. Exceptional care.",
       "rating": 5
     },
     {
-      "name": "Michael W.",
-      "text": "Voted Best Dental Practice for a reason! Professional, efficient, and my teeth look straighter than I ever thought possible.",
+      "name": "Jessica M.",
+      "text": "I love that they have specialists and general dentists all in one building. My implant procedure was seamless from start to finish.",
       "rating": 5
     }
   ],
   "template": "dentist-landing",
-  "procedure": "invisalign"
+  "themeId": "custom",
+  "customThemeColor": "#1B8D8D"
 }

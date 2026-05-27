@@ -109,14 +109,103 @@ export const THEME_PRESETS: ThemePreset[] = [
       icy: "#e3ebe5",
     },
   },
+  {
+    id: "teal",
+    label: "Teal",
+    palette: {
+      brand: "#02b6ad",
+      brand2: "#2fd1c9",
+      brand3: "#60e1db",
+      brandDeep: "#01847d",
+      paleBlue: "#c6f0ee",
+      icy: "#d8f3f2",
+    },
+  },
 ];
 
 export const DEFAULT_THEME_ID = "ocean";
+export const CUSTOM_THEME_ID = "custom";
 
-export function getTheme(id: string | undefined): ThemePreset {
-  if (id) {
-    const found = THEME_PRESETS.find((t) => t.id === id);
+export function getTheme(
+  themeId: string | undefined,
+  customThemeColor?: string | undefined,
+): ThemePreset {
+  if (themeId === CUSTOM_THEME_ID && customThemeColor) {
+    return {
+      id: CUSTOM_THEME_ID,
+      label: "Custom",
+      palette: derivePalette(customThemeColor),
+    };
+  }
+  if (themeId) {
+    const found = THEME_PRESETS.find((t) => t.id === themeId);
     if (found) return found;
   }
   return THEME_PRESETS[0];
+}
+
+// Derive a 6-shade palette from a single brand hex. Heuristic tuned against
+// the hand-picked presets above; kept byte-identical to the dashboard's
+// wac-clinic-dashboard/lib/themes.ts so previews match the rendered site.
+export function derivePalette(hex: string): ThemePalette {
+  const { h, s, l } = hexToHsl(hex);
+  return {
+    brand: normalizeHex(hex),
+    brand2: hslToHex(h, clamp(s * 0.65, 0, 1), clamp(l + 0.14, 0, 0.92)),
+    brand3: hslToHex(h, clamp(s * 0.7, 0, 1), clamp(l + 0.27, 0, 0.92)),
+    brandDeep: hslToHex(h, s, clamp(l - 0.1, 0.05, 1)),
+    paleBlue: hslToHex(h, clamp(s * 0.6, 0, 1), 0.86),
+    icy: hslToHex(h, clamp(s * 0.55, 0, 1), 0.9),
+  };
+}
+
+function clamp(n: number, lo: number, hi: number): number {
+  return Math.min(hi, Math.max(lo, n));
+}
+
+function normalizeHex(hex: string): string {
+  const m = hex.trim().replace(/^#/, "");
+  if (m.length === 3) {
+    return `#${m[0]}${m[0]}${m[1]}${m[1]}${m[2]}${m[2]}`.toLowerCase();
+  }
+  return `#${m.toLowerCase()}`;
+}
+
+function hexToHsl(hex: string): { h: number; s: number; l: number } {
+  const norm = normalizeHex(hex).slice(1);
+  const r = Number.parseInt(norm.slice(0, 2), 16) / 255;
+  const g = Number.parseInt(norm.slice(2, 4), 16) / 255;
+  const b = Number.parseInt(norm.slice(4, 6), 16) / 255;
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  const l = (max + min) / 2;
+  let h = 0;
+  let s = 0;
+  if (max !== min) {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    switch (max) {
+      case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+      case g: h = (b - r) / d + 2; break;
+      case b: h = (r - g) / d + 4; break;
+    }
+    h *= 60;
+  }
+  return { h, s, l };
+}
+
+function hslToHex(h: number, s: number, l: number): string {
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const hp = ((h % 360) + 360) % 360 / 60;
+  const x = c * (1 - Math.abs((hp % 2) - 1));
+  let r = 0, g = 0, b = 0;
+  if (hp < 1) [r, g, b] = [c, x, 0];
+  else if (hp < 2) [r, g, b] = [x, c, 0];
+  else if (hp < 3) [r, g, b] = [0, c, x];
+  else if (hp < 4) [r, g, b] = [0, x, c];
+  else if (hp < 5) [r, g, b] = [x, 0, c];
+  else [r, g, b] = [c, 0, x];
+  const m = l - c / 2;
+  const to = (v: number) => Math.round((v + m) * 255).toString(16).padStart(2, "0");
+  return `#${to(r)}${to(g)}${to(b)}`;
 }

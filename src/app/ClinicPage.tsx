@@ -101,7 +101,7 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
           }))
         : undefined;
 
-  const theme = getTheme(config.themeId);
+  const theme = getTheme(config.themeId, config.customThemeColor);
   const themeCss = `:root{--color-brand:${theme.palette.brand};--color-brand-2:${theme.palette.brand2};--color-brand-3:${theme.palette.brand3};--color-brand-deep:${theme.palette.brandDeep};--color-pale-blue:${theme.palette.paleBlue};--color-icy:${theme.palette.icy};}`;
 
   return (

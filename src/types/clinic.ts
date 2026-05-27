@@ -186,6 +186,9 @@ export interface ClinicConfig {
   procedure?: string;
   // Brand palette preset id (see src/lib/themes.ts). Unset → "ocean".
   themeId?: string;
+  // Hex string like "#02b6ad". Only consulted when themeId === "custom";
+  // shades are derived in src/lib/themes.ts (mirrored in the dashboard).
+  customThemeColor?: string;
 }
 
 export interface Branding {

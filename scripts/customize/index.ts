@@ -58,6 +58,8 @@ interface Args {
   build: boolean;
   template?: TemplateKind;
   procedure?: Procedure;
+  doctorPhoto?: string;
+  themeColor?: string;
 }
 
 const TEMPLATES: TemplateKind[] = ["implants", "family-dentistry", "dentist-landing"];
@@ -100,6 +102,8 @@ function parseArgs(argv: string[]): Args {
   let procedureKey: string | undefined;
   let dentistType: string | undefined;
   let selectedProcedure: string | undefined;
+  let doctorPhoto: string | undefined;
+  let themeColor: string | undefined;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--slug") slug = argv[++i];
@@ -110,6 +114,8 @@ function parseArgs(argv: string[]): Args {
     else if (a === "--procedure") procedureKey = argv[++i];
     else if (a === "--dentist-type") dentistType = argv[++i];
     else if (a === "--selected-procedure") selectedProcedure = argv[++i];
+    else if (a === "--doctor-photo") doctorPhoto = path.resolve(argv[++i]);
+    else if (a === "--theme-color") themeColor = argv[++i];
     else if (a === "--template") {
       const v = argv[++i] as TemplateKind;
       if (!TEMPLATES.includes(v)) {
@@ -123,8 +129,11 @@ function parseArgs(argv: string[]): Args {
   }
   if (positional.length !== 1) {
     throw new Error(
-      "Usage: npm run customize -- <source-url> [--slug <slug>] [--out <dir>] [--generate-hero] [--build] [--no-preview] [--template implants|family-dentistry|dentist-landing] [--procedure <key>] [--dentist-type <type>] [--selected-procedure <name>]"
+      "Usage: npm run customize -- <source-url> [--slug <slug>] [--out <dir>] [--generate-hero] [--build] [--no-preview] [--template implants|family-dentistry|dentist-landing] [--procedure <key>] [--dentist-type <type>] [--selected-procedure <name>] [--doctor-photo <path>] [--theme-color <hex>]"
     );
+  }
+  if (themeColor && !/^#?[0-9a-fA-F]{3}([0-9a-fA-F]{3})?$/.test(themeColor)) {
+    throw new Error(`--theme-color must be a hex like "#1B8D8D" or "1b8d8d"; got '${themeColor}'`);
   }
   const procedure = resolveProcedure({ procedureKey, dentistType, selectedProcedure });
   if (procedure && !template) template = procedure.template;
@@ -137,6 +146,8 @@ function parseArgs(argv: string[]): Args {
     build,
     template: template ?? "dentist-landing",
     procedure: procedure ?? undefined,
+    doctorPhoto,
+    themeColor,
   };
 }
 
@@ -235,6 +246,23 @@ async function downloadImage(
       return null;
     }
     const buf = Buffer.from(await res.arrayBuffer());
+    const dir = path.join(CLINICS_PUBLIC_DIR, slug);
+    await fs.mkdir(dir, { recursive: true });
+
+    // Doctor photos are fed to Gemini as identity references; webp, animated frames,
+    // and Adobe APP14-marked JPEGs cause IMAGE_OTHER bailouts on the specialist scene.
+    // Re-encode to clean baseline JPEG (header ffd8ffdb) at ingest time.
+    if (basename === "doctor") {
+      const normalized = await sharp(buf)
+        .rotate()
+        .flatten({ background: "#ffffff" })
+        .jpeg({ progressive: false, quality: 92 })
+        .toBuffer();
+      const filename = "doctor.jpg";
+      await fs.writeFile(path.join(dir, filename), normalized);
+      return `/clinics/${slug}/${filename}`;
+    }
+
     const ext = (() => {
       const fromUrl = imageUrl.match(/\.(jpe?g|png|webp|svg)(?:\?|$)/i)?.[1];
       if (fromUrl) return fromUrl.toLowerCase().replace("jpeg", "jpg");
@@ -244,13 +272,29 @@ async function downloadImage(
       if (ct.includes("webp")) return "webp";
       return "jpg";
     })();
-    const dir = path.join(CLINICS_PUBLIC_DIR, slug);
-    await fs.mkdir(dir, { recursive: true });
     const filename = `${basename}.${ext}`;
     await fs.writeFile(path.join(dir, filename), buf);
     return `/clinics/${slug}/${filename}`;
   } catch (err) {
     console.warn(`[${basename}] download failed: ${(err as Error).message}`);
+    return null;
+  }
+}
+
+async function ingestLocalDoctorPhoto(localPath: string, slug: string): Promise<string | null> {
+  try {
+    const buf = await fs.readFile(localPath);
+    const dir = path.join(CLINICS_PUBLIC_DIR, slug);
+    await fs.mkdir(dir, { recursive: true });
+    const normalized = await sharp(buf)
+      .rotate()
+      .flatten({ background: "#ffffff" })
+      .jpeg({ progressive: false, quality: 92 })
+      .toBuffer();
+    await fs.writeFile(path.join(dir, "doctor.jpg"), normalized);
+    return `/clinics/${slug}/doctor.jpg`;
+  } catch (err) {
+    console.warn(`[doctor] local photo ingest failed (${localPath}): ${(err as Error).message}`);
     return null;
   }
 }
@@ -261,6 +305,8 @@ export interface RunCustomizeArgs {
   template?: TemplateKind;
   procedure?: Procedure | null;
   generateHero?: boolean;
+  doctorPhoto?: string;
+  themeColor?: string;
 }
 
 export interface RunCustomizeResult {
@@ -367,7 +413,13 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
   if (!profile) throw new Error("Gemini returned no profile.");
 
   let photoPath: string | undefined;
-  if (profile.doctor.photoUrl) {
+  if (args.doctorPhoto) {
+    const ingested = await ingestLocalDoctorPhoto(args.doctorPhoto, slug);
+    if (ingested) {
+      photoPath = ingested;
+      console.log(`      doctor photo: using local override ${args.doctorPhoto} → ${ingested}`);
+    }
+  } else if (profile.doctor.photoUrl) {
     const downloaded = await downloadImage(profile.doctor.photoUrl, slug, "doctor");
     if (downloaded) photoPath = downloaded;
   }
@@ -437,6 +489,12 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
   };
 
   if (procedure) applyProcedureHeadlines(config, procedure);
+
+  if (args.themeColor) {
+    config.themeId = "custom";
+    config.customThemeColor = args.themeColor.startsWith("#") ? args.themeColor : `#${args.themeColor}`;
+    console.log(`      theme: custom ${config.customThemeColor}`);
+  }
 
   if (generateHero) {
     const doctorLocal =
@@ -553,6 +611,8 @@ async function main() {
     template: args.template,
     procedure: args.procedure,
     generateHero: args.generateHero,
+    doctorPhoto: args.doctorPhoto,
+    themeColor: args.themeColor,
   });
 
   if (args.build) {
