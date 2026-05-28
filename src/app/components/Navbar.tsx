@@ -190,6 +190,7 @@ export function Navbar({
   logoPath,
   logoIsLight,
   logoIsWordmark,
+  logoNoPlate,
   phone,
   hours,
   navLinks,
@@ -200,6 +201,7 @@ export function Navbar({
   logoPath?: string;
   logoIsLight?: boolean;
   logoIsWordmark?: boolean;
+  logoNoPlate?: boolean;
   phone?: string;
   hours?: string;
   navLinks?: string[];
@@ -216,13 +218,17 @@ export function Navbar({
 
   // Wordmark logos already contain the clinic name baked into the image —
   // render them alone (wide, no companion text). Icon-only logos pair with text.
+  // "No plate" path is taken when the logo doesn't need the white contrast
+  // pill — either because it's light-on-transparent (auto-detected) or the
+  // clinic explicitly opted out via logoNoPlate.
+  const skipPlate = Boolean(logoIsLight) || Boolean(logoNoPlate);
   const renderLogo = (size: "sm" | "md") => {
     const iconDim = size === "md" ? "h-11 w-11" : "h-9 w-9";
 
     if (logoPath && logoIsWordmark) {
       const heightCls = size === "md" ? "h-14 sm:h-12" : "h-10";
       const maxWCls = size === "md" ? "max-w-[240px] sm:max-w-[260px]" : "max-w-[200px]";
-      if (logoIsLight) {
+      if (skipPlate) {
         return (
           <span className={`relative inline-block ${heightCls} ${maxWCls}`}>
             <Image
@@ -255,7 +261,7 @@ export function Navbar({
     }
 
     if (logoPath) {
-      if (logoIsLight) {
+      if (skipPlate) {
         return (
           <span className={`relative inline-grid place-items-center ${iconDim}`}>
             <Image

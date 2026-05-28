@@ -1,4 +1,16 @@
 import * as cheerio from "cheerio";
+import { chromium, type Browser, type Page } from "playwright";
+
+const BROWSER_USER_AGENT =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
+
+function looksLikeChallenge(html: string, title: string): boolean {
+  // The interstitial is identified by its title; the in-page "challenge-platform"
+  // / "cf-chl" script tags also appear on normal Cloudflare-fronted pages, so we
+  // must NOT key off those. Body phrases below only show on the block/challenge page.
+  if (/just a moment|attention required|access denied|you have been blocked/i.test(title)) return true;
+  return /enable javascript and cookies to continue|verify you are human by completing/i.test(html);
+}
 
 export interface ImageCandidate {
   url: string;
@@ -131,43 +143,73 @@ function findAboutUrl(homeHtml: string, baseUrl: URL): string | null {
   return null;
 }
 
-async function fetchPage(url: string): Promise<string> {
-  const res = await fetch(url, {
-    headers: {
-      "user-agent": "Mozilla/5.0 (compatible; ClinicCustomizer/1.0)",
-      accept: "text/html,application/xhtml+xml",
-    },
+async function fetchPage(url: string, browser: Browser): Promise<string> {
+  const context = await browser.newContext({
+    userAgent: BROWSER_USER_AGENT,
+    locale: "en-US",
+    viewport: { width: 1366, height: 900 },
   });
-  if (!res.ok) throw new Error(`Fetch ${url} returned ${res.status}`);
-  return await res.text();
+  const page: Page = await context.newPage();
+  try {
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+    // Cloudflare (and similar) serve a JS interstitial first, then redirect to
+    // the real page once their challenge script runs. Wait for it to clear.
+    await page
+      .waitForFunction(
+        () =>
+          !/just a moment|attention required/i.test(document.title) &&
+          (document.body?.innerText?.trim().length ?? 0) > 200,
+        { timeout: 20000 },
+      )
+      .catch(() => {
+        /* validated below */
+      });
+
+    const html = await page.content();
+    const title = await page.title().catch(() => "");
+    if (looksLikeChallenge(html, title)) {
+      throw new Error(`Fetch ${url} blocked by anti-bot challenge (could not be solved in time)`);
+    }
+    return html;
+  } finally {
+    await context.close();
+  }
 }
 
 export async function crawl(sourceUrl: string): Promise<CrawlResult> {
   const baseUrl = new URL(sourceUrl);
-  const homeHtml = await fetchPage(sourceUrl);
-  const homeText = cleanText(homeHtml);
-  const homeImages = collectImages(homeHtml, baseUrl);
-  const firstPhone = findFirstPhone(homeHtml);
-
-  const aboutUrl = findAboutUrl(homeHtml, baseUrl);
-  let aboutText = "";
-  let aboutImages: ImageCandidate[] = [];
-  if (aboutUrl) {
-    try {
-      const aboutHtml = await fetchPage(aboutUrl);
-      aboutText = cleanText(aboutHtml);
-      aboutImages = collectImages(aboutHtml, new URL(aboutUrl));
-    } catch (err) {
-      console.warn(`[crawl] could not fetch about page ${aboutUrl}: ${(err as Error).message}`);
-    }
-  }
-
-  const seen = new Set<string>();
-  const images = [...homeImages, ...aboutImages].filter((img) => {
-    if (seen.has(img.url)) return false;
-    seen.add(img.url);
-    return true;
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-blink-features=AutomationControlled"],
   });
+  try {
+    const homeHtml = await fetchPage(sourceUrl, browser);
+    const homeText = cleanText(homeHtml);
+    const homeImages = collectImages(homeHtml, baseUrl);
+    const firstPhone = findFirstPhone(homeHtml);
 
-  return { homeText, aboutText, aboutUrl, firstPhone, images };
+    const aboutUrl = findAboutUrl(homeHtml, baseUrl);
+    let aboutText = "";
+    let aboutImages: ImageCandidate[] = [];
+    if (aboutUrl) {
+      try {
+        const aboutHtml = await fetchPage(aboutUrl, browser);
+        aboutText = cleanText(aboutHtml);
+        aboutImages = collectImages(aboutHtml, new URL(aboutUrl));
+      } catch (err) {
+        console.warn(`[crawl] could not fetch about page ${aboutUrl}: ${(err as Error).message}`);
+      }
+    }
+
+    const seen = new Set<string>();
+    const images = [...homeImages, ...aboutImages].filter((img) => {
+      if (seen.has(img.url)) return false;
+      seen.add(img.url);
+      return true;
+    });
+
+    return { homeText, aboutText, aboutUrl, firstPhone, images };
+  } finally {
+    await browser.close();
+  }
 }

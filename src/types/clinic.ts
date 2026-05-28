@@ -96,6 +96,11 @@ export interface ClinicInfo {
   logoPath?: string;
   logoIsLight?: boolean;
   logoIsWordmark?: boolean;
+  // Explicit override: render the logo without the white contrast plate even
+  // when `logoIsLight` is false. Set this for vibrant/colorful logos that read
+  // fine directly on the dark navbar — the auto-detector treats them as
+  // "needs plate" but visually they don't.
+  logoNoPlate?: boolean;
 
   heroHeadline?: string;
   heroSubtitle?: string;
@@ -195,6 +200,9 @@ export interface ClinicConfig {
   // Hex string like "#02b6ad". Only consulted when themeId === "custom";
   // shades are derived in src/lib/themes.ts (mirrored in the dashboard).
   customThemeColor?: string;
+  // Body section keys the operator hid from the page (see ClinicPage's
+  // `show()` gate). Absent/empty → everything shows.
+  hiddenSections?: string[];
 }
 
 export interface Branding {

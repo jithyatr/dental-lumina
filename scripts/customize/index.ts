@@ -234,6 +234,100 @@ async function isLightOnTransparent(filePath: string): Promise<boolean> {
   }
 }
 
+// Strip a flat (or near-flat) background from a logo by flood-filling from the
+// four corners, setting alpha=0 for connected background pixels. Returns the
+// new PNG buffer, or null if no extraction was attempted (already transparent,
+// non-flat background, unsupported format, etc.). Designed to be safe — if the
+// background isn't clearly flat (corners disagree past a tolerance) we leave
+// the logo untouched rather than risk garbling it.
+async function stripLogoBackground(buf: Buffer): Promise<Buffer | null> {
+  try {
+    const meta = await sharp(buf).metadata();
+    if (!meta.width || !meta.height) return null;
+    if (meta.format === "svg") return null;
+
+    const w = meta.width;
+    const h = meta.height;
+    const { data } = await sharp(buf)
+      .ensureAlpha()
+      .raw()
+      .toBuffer({ resolveWithObject: true });
+
+    const cornerPxIdx = [
+      0,
+      w - 1,
+      (h - 1) * w,
+      (h - 1) * w + (w - 1),
+    ];
+
+    // If every corner is already fully transparent, the logo is clean — skip.
+    if (cornerPxIdx.every((i) => data[i * 4 + 3] === 0)) return null;
+
+    // Average corner color; reject if corners disagree (non-flat background).
+    const cornerColors = cornerPxIdx.map((i) => [
+      data[i * 4],
+      data[i * 4 + 1],
+      data[i * 4 + 2],
+    ]);
+    const avg = cornerColors.reduce(
+      (acc, c) => [acc[0] + c[0], acc[1] + c[1], acc[2] + c[2]],
+      [0, 0, 0],
+    ).map((v) => v / cornerColors.length);
+    const cornerSpread = Math.max(
+      ...cornerColors.map(([r, g, b]) =>
+        Math.hypot(r - avg[0], g - avg[1], b - avg[2]),
+      ),
+    );
+    if (cornerSpread > 40) return null;
+
+    // Flood-fill from corners with a generous color-distance threshold so we
+    // catch JPEG/GIF artifacts and gentle gradients, but stop at the logo itself.
+    const THRESHOLD = 38;
+    const total = w * h;
+    const visited = new Uint8Array(total);
+    const stack: number[] = [];
+    for (const i of cornerPxIdx) stack.push(i);
+
+    while (stack.length > 0) {
+      const idx = stack.pop() as number;
+      if (visited[idx]) continue;
+      const o = idx * 4;
+      const d = Math.hypot(
+        data[o] - avg[0],
+        data[o + 1] - avg[1],
+        data[o + 2] - avg[2],
+      );
+      if (d > THRESHOLD) continue;
+      visited[idx] = 1;
+      const x = idx % w;
+      const y = (idx - x) / w;
+      if (x > 0) stack.push(idx - 1);
+      if (x < w - 1) stack.push(idx + 1);
+      if (y > 0) stack.push(idx - w);
+      if (y < h - 1) stack.push(idx + w);
+    }
+
+    // Bail out if the flood didn't find a sensible background region (e.g. the
+    // "corners" matched but only a few pixels were reachable — likely not a
+    // flat-background logo we should be touching).
+    let filled = 0;
+    for (let i = 0; i < total; i++) if (visited[i]) filled++;
+    if (filled < total * 0.05) return null;
+
+    for (let i = 0; i < total; i++) {
+      if (visited[i]) data[i * 4 + 3] = 0;
+    }
+
+    return await sharp(data, {
+      raw: { width: w, height: h, channels: 4 },
+    })
+      .png({ compressionLevel: 9 })
+      .toBuffer();
+  } catch {
+    return null;
+  }
+}
+
 async function downloadImage(
   imageUrl: string,
   slug: string,
@@ -272,6 +366,21 @@ async function downloadImage(
       if (ct.includes("webp")) return "webp";
       return "jpg";
     })();
+
+    // Logos with baked-in flat backgrounds (white JPEG/GIF, opaque PNG)
+    // render awkwardly on dark navbars. SVG is left alone (vector). For
+    // raster formats we attempt a corner-anchored flood-fill to strip the
+    // background; if it succeeds, the result is saved as PNG with alpha.
+    if (basename === "logo" && ext !== "svg") {
+      const stripped = await stripLogoBackground(buf);
+      if (stripped) {
+        const filename = "logo.png";
+        await fs.writeFile(path.join(dir, filename), stripped);
+        console.log(`      logo background stripped → ${filename}`);
+        return `/clinics/${slug}/${filename}`;
+      }
+    }
+
     const filename = `${basename}.${ext}`;
     await fs.writeFile(path.join(dir, filename), buf);
     return `/clinics/${slug}/${filename}`;

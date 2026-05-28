@@ -75,6 +75,8 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
   const clinic = versionClinicImages(config.clinic);
   const doctor = versionDoctorImages(config.doctor);
   const { reviews } = config;
+  const hidden = new Set(config.hiddenSections ?? []);
+  const show = (key: string) => !hidden.has(key);
 
   const bookingLocations: BookingLocation[] | undefined =
     clinic.bookingLocations && clinic.bookingLocations.length > 0
@@ -114,6 +116,7 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
           logoPath={clinic.logoPath}
           logoIsLight={clinic.logoIsLight}
           logoIsWordmark={clinic.logoIsWordmark}
+          logoNoPlate={clinic.logoNoPlate}
           phone={clinic.phone}
           hours={clinic.hours}
           navLinks={clinic.navLinks}
@@ -121,82 +124,105 @@ export function ClinicPage({ config }: Readonly<{ config: ClinicConfig }>) {
         />
         <Hero clinic={clinic} doctor={doctor} services={bookingServices} />
       </div>
-      <CounterStrip stats={clinic.stats} />
-      <SymptomChecker
-        symptoms={clinic.commonSymptoms}
-        headline={clinic.symptomCheckerHeadline}
-        subheading={clinic.symptomCheckerSubheading}
-        phone={clinic.phone}
-      />
-      <BeforeAfter
-        headline={clinic.beforeAfterHeadline}
-        subheading={clinic.beforeAfterSubheading}
-        cases={clinic.beforeAfterCases}
-      />
-      <Testimonials
-        headline={clinic.testimonialsHeadline}
-        subheading={clinic.testimonialsSubheading}
-        cta={clinic.testimonialsCta}
-        reviews={reviews}
-        clinicName={clinic.name}
-      />
-      <ImplantOptions
-        label={clinic.implantOptionsLabel}
-        headline={clinic.implantOptionsHeadline}
-        subheading={clinic.implantOptionsSubheading}
-        options={clinic.implantOptions}
-      />
-      <Specialist doctor={doctor} />
-      <SmileSimulator
-        headline={clinic.smileSimulatorHeadline}
-        subheading={clinic.smileSimulatorSubheading}
-        goals={clinic.smileSimulatorGoals}
-        steps={clinic.smileSimulatorSteps}
-      />
-      <WhyChoose
-        label={clinic.whyChooseLabel}
-        headline={clinic.whyChooseHeadline}
-        subheading={clinic.whyChooseSubheading}
-        clinicName={clinic.name}
-        image={clinic.whyChooseImagePath}
-        pillars={clinic.whyChoosePillars}
-        differentiators={clinic.differentiators}
-      />
-      <Process
-        headline={clinic.processHeadline}
-        subheading={clinic.processSubheading}
-        steps={clinic.treatmentJourney}
-      />
-      <Benefits
-        headline={clinic.benefitsHeadline}
-        items={clinic.benefits}
-        image={clinic.benefitsImagePath}
-      />
-      <BookingWidget
-        headline={clinic.bookingHeadline}
-        subheading={clinic.bookingSubheading}
-        locations={bookingLocations}
-        services={bookingServices}
-        timeSlots={clinic.bookingTimeSlots}
-      />
-      <Faq
-        label={clinic.faqLabel}
-        headline={clinic.faqHeadline}
-        subheading={clinic.faqSubheading}
-        cta={clinic.faqCta}
-        items={clinic.faqItems}
-      />
-      <Payment
-        headline={clinic.paymentHeadline}
-        subheading={clinic.paymentSubheading}
-        providers={clinic.insuranceProviders}
-        options={clinic.paymentOptions}
-      />
+      {show("stats") && <CounterStrip stats={clinic.stats} />}
+      {show("symptoms") && (
+        <SymptomChecker
+          symptoms={clinic.commonSymptoms}
+          headline={clinic.symptomCheckerHeadline}
+          subheading={clinic.symptomCheckerSubheading}
+          phone={clinic.phone}
+        />
+      )}
+      {show("beforeafter") && (
+        <BeforeAfter
+          headline={clinic.beforeAfterHeadline}
+          subheading={clinic.beforeAfterSubheading}
+          cases={clinic.beforeAfterCases}
+        />
+      )}
+      {show("testimonials") && (
+        <Testimonials
+          headline={clinic.testimonialsHeadline}
+          subheading={clinic.testimonialsSubheading}
+          cta={clinic.testimonialsCta}
+          reviews={reviews}
+          clinicName={clinic.name}
+        />
+      )}
+      {show("implants") && (
+        <ImplantOptions
+          label={clinic.implantOptionsLabel}
+          headline={clinic.implantOptionsHeadline}
+          subheading={clinic.implantOptionsSubheading}
+          options={clinic.implantOptions}
+        />
+      )}
+      {show("specialist") && <Specialist doctor={doctor} />}
+      {show("simulator") && (
+        <SmileSimulator
+          headline={clinic.smileSimulatorHeadline}
+          subheading={clinic.smileSimulatorSubheading}
+          goals={clinic.smileSimulatorGoals}
+          steps={clinic.smileSimulatorSteps}
+        />
+      )}
+      {show("whychoose") && (
+        <WhyChoose
+          label={clinic.whyChooseLabel}
+          headline={clinic.whyChooseHeadline}
+          subheading={clinic.whyChooseSubheading}
+          clinicName={clinic.name}
+          image={clinic.whyChooseImagePath}
+          pillars={clinic.whyChoosePillars}
+          differentiators={clinic.differentiators}
+        />
+      )}
+      {show("process") && (
+        <Process
+          headline={clinic.processHeadline}
+          subheading={clinic.processSubheading}
+          steps={clinic.treatmentJourney}
+        />
+      )}
+      {show("benefits") && (
+        <Benefits
+          headline={clinic.benefitsHeadline}
+          items={clinic.benefits}
+          image={clinic.benefitsImagePath}
+        />
+      )}
+      {show("booking") && (
+        <BookingWidget
+          headline={clinic.bookingHeadline}
+          subheading={clinic.bookingSubheading}
+          locations={bookingLocations}
+          services={bookingServices}
+          timeSlots={clinic.bookingTimeSlots}
+        />
+      )}
+      {show("faq") && (
+        <Faq
+          label={clinic.faqLabel}
+          headline={clinic.faqHeadline}
+          subheading={clinic.faqSubheading}
+          cta={clinic.faqCta}
+          items={clinic.faqItems}
+        />
+      )}
+      {show("payment") && (
+        <Payment
+          headline={clinic.paymentHeadline}
+          subheading={clinic.paymentSubheading}
+          providers={clinic.insuranceProviders}
+          options={clinic.paymentOptions}
+        />
+      )}
       <Footer
         clinicName={clinic.name}
         doctorName={doctor.name}
         logoPath={clinic.logoPath}
         logoIsLight={clinic.logoIsLight}
+        logoNoPlate={clinic.logoNoPlate}
         about={clinic.footerAbout}
         columns={clinic.footerColumns}
         copyright={clinic.footerCopyright}

@@ -39,6 +39,7 @@ export function Footer({
   doctorName,
   logoPath,
   logoIsLight,
+  logoNoPlate,
   about,
   columns,
   copyright,
@@ -47,6 +48,7 @@ export function Footer({
   doctorName?: string;
   logoPath?: string;
   logoIsLight?: boolean;
+  logoNoPlate?: boolean;
   about?: string;
   columns?: FooterColumn[];
   copyright?: string;
@@ -55,10 +57,11 @@ export function Footer({
   const aboutText = about ?? buildDefaultAbout(headerName);
   const cols = columns && columns.length > 0 ? columns : DEFAULT_COLUMNS;
   const copy = copyright ?? "Copyright © 2026. All rights reserved.";
+  const skipPlate = Boolean(logoIsLight) || Boolean(logoNoPlate);
 
   const renderLogo = () => {
     if (logoPath) {
-      const wrap = logoIsLight
+      const wrap = skipPlate
         ? ""
         : "rounded-md bg-white/95 ring-1 ring-white/10 p-1";
       return (
