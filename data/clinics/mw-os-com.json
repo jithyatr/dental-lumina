@@ -1,0 +1,289 @@
+{
+  "clinic": {
+    "name": "Melrose-Wakefield Oral Surgery",
+    "tagline": "Education, Experience and Expertise",
+    "city": "Melrose",
+    "phone": "(781) 662-6228",
+    "address": "810 Main Street, Melrose, MA 02176",
+    "hours": "Open Now",
+    "logoIsLight": true,
+    "logoIsWordmark": false,
+    "heroSubtitle": "Specializing in safe, comfortable wisdom teeth removal and advanced oral surgery. Our expert team utilizes 3D imaging and full sedation options to ensure extraordinary results for every patient.",
+    "differentiators": [
+      {
+        "title": "Prestigious Medical Training",
+        "description": "Our doctors have practiced at world-renowned institutions including Harvard Medical School and Mass General."
+      },
+      {
+        "title": "Specialized Surgical Suite",
+        "description": "Our facility is equipped with in-office 3D imaging specifically for oral and maxillofacial procedures."
+      },
+      {
+        "title": "Comfort-First Care",
+        "description": "We are dedicated to providing the highest quality care in the most comfortable, compassionate way possible."
+      },
+      {
+        "title": "Academic Excellence",
+        "description": "Leveraging deep clinical expertise to deliver extraordinary results for even the most complex surgical cases."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "We begin with a thorough exam and in-office 3D imaging to assess the position and health of each wisdom tooth."
+      },
+      {
+        "title": "Sedation & Procedure Planning",
+        "description": "Our surgeons review your medical history to create a personalized anesthesia plan tailored to your comfort level."
+      },
+      {
+        "title": "Expert Surgical Removal",
+        "description": "Your procedure is performed in our specialized surgical suite using the chosen sedation method for a painless experience."
+      },
+      {
+        "title": "Immediate Post-Op Care",
+        "description": "After the procedure, we monitor your initial recovery and provide clear, written instructions for care at home."
+      },
+      {
+        "title": "Guided Recovery Period",
+        "description": "We provide support during the critical first 72 hours of healing, ensuring you have the resources needed for a smooth recovery."
+      },
+      {
+        "title": "Follow-Up Assessment",
+        "description": "We schedule a follow-up visit to confirm proper healing of the extraction sites and answer any remaining questions."
+      }
+    ],
+    "commonSymptoms": [
+      "Wisdom Tooth Pain",
+      "Swollen Jaw",
+      "Impacted Wisdom Tooth",
+      "Bad Taste in Mouth",
+      "Difficulty Opening Mouth",
+      "Tooth Coming In Sideways",
+      "Crowding from Wisdom Teeth",
+      "Pain When Chewing",
+      "Gum Infection in Back",
+      "Pre-Braces Extraction Needed"
+    ],
+    "stats": [
+      {
+        "value": "Top-Tier",
+        "label": "Institutional Training"
+      },
+      {
+        "value": "3D",
+        "label": "Advanced Imaging Tech"
+      },
+      {
+        "value": "100%",
+        "label": "Compassionate Care"
+      },
+      {
+        "value": "Expert",
+        "label": "Oral Surgery Care"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Expert Wisdom Removal",
+        "description": "Receive specialized care for routine and complex third molar extractions from experienced oral surgeons."
+      },
+      {
+        "title": "Safe IV Sedation",
+        "description": "Experience a stress-free procedure with hospital-grade anesthesia options in a safe, monitored environment."
+      },
+      {
+        "title": "Advanced 3D Imaging",
+        "description": "Benefit from precise surgical planning with our in-office 3D imaging technology for safer outcomes."
+      },
+      {
+        "title": "Compassionate Approach",
+        "description": "Your comfort is our priority, ensuring every patient is treated with empathy and personalized care."
+      },
+      {
+        "title": "Comprehensive Specialty",
+        "description": "Access a full range of oral surgery services from simple extractions to complex bone grafting."
+      },
+      {
+        "title": "Insurance Assistance",
+        "description": "We help you navigate your benefits and financial policy to make your surgical care more accessible."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Wisdom Teeth Removal",
+        "description": "Safe surgical removal of routine and impacted third molars using advanced imaging and sedation for a comfortable experience."
+      },
+      {
+        "title": "Dental Implants",
+        "description": "Permanent tooth replacement solutions that look and function like natural teeth, supported by expert bone grafting if needed."
+      },
+      {
+        "title": "IV Sedation & Anesthesia",
+        "description": "Professional anesthesia services provided in-office to ensure patient comfort and safety during surgical procedures."
+      },
+      {
+        "title": "Impacted Canine Exposure",
+        "description": "Specialized surgical procedures to assist in the proper eruption of impacted teeth, often coordinated with orthodontic treatment."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Do I really need my wisdom teeth removed?",
+        "answer": "We use in-office 3D imaging to assess if your wisdom teeth are impacted or causing crowding, helping you make an informed decision for your oral health."
+      },
+      {
+        "question": "What kind of sedation will I be under?",
+        "answer": "We offer various anesthesia options, including IV sedation, administered by our expert surgeons to ensure you are comfortable and relaxed throughout your visit."
+      },
+      {
+        "question": "Will I need a ride home after the procedure?",
+        "answer": "Yes, if you receive IV sedation or general anesthesia, you will need a responsible adult to drive you home and stay with you for the initial recovery period."
+      },
+      {
+        "question": "What if my wisdom teeth are impacted?",
+        "answer": "Our surgeons specialize in the surgical removal of fully and partially impacted teeth, using precise techniques to minimize discomfort and promote healing."
+      },
+      {
+        "question": "How long is recovery and when can I eat normally?",
+        "answer": "While individual recovery varies, we provide detailed surgical instructions to guide you through the first few days and help you return to your normal routine."
+      },
+      {
+        "question": "Are you accepting new patients?",
+        "answer": "Yes, we welcome new patients and work closely with referring doctors to provide seamless oral surgery care for the Melrose community."
+      }
+    ],
+    "footerAbout": "Melrose-Wakefield Oral Surgery provides expert oral and maxillofacial care, specializing in wisdom teeth removal and dental implants for patients in Melrose and the surrounding areas.",
+    "heroHeadline": "Safe, Comfortable\nWisdom Teeth\nRemoval.",
+    "heroCta": "Book a Surgical Consultation",
+    "implantOptionsLabel": "Oral Surgery Services",
+    "implantOptionsHeadline": "Wisdom Teeth & Oral Surgery Options",
+    "implantOptionsSubheading": "From a single erupting wisdom tooth to all four impacted molars under IV sedation, our oral surgery options cover every scenario safely.",
+    "whyChooseLabel": "Why Choose Our Surgical Team",
+    "whyChooseHeadline": "Board-Certified Oral Surgery, With Sedation Done Right",
+    "whyChooseSubheading": "Hospital-grade IV sedation administered by anesthesia-trained specialists — most patients remember nothing about the procedure.",
+    "processHeadline": "Your Wisdom Teeth Procedure, Step By Step",
+    "processSubheading": "Most patients are home and resting within a few hours. Here's exactly what happens, from consultation through recovery.",
+    "benefitsHeadline": "Why Patients Trust Us for Wisdom Teeth Removal",
+    "faqLabel": "Wisdom Teeth FAQ",
+    "faqHeadline": "Common Questions About Wisdom Teeth Removal",
+    "symptomCheckerHeadline": "Tell Us What You're Feeling",
+    "symptomCheckerSubheading": "Tap whichever symptom describes you — wisdom-teeth issues often present in surprising ways, and we'll get back to you fast.",
+    "testimonialsHeadline": "What Our Surgical Patients Say",
+    "testimonialsSubheading": "Patients and parents who chose us for wisdom teeth removal and walked away calm, safe, and on the mend.",
+    "beforeAfterHeadline": "Outcomes You Can Trust",
+    "beforeAfterSubheading": "From routine eruption cases to deeply impacted teeth — safe, clean removals with predictable healing and minimal downtime.",
+    "beforeAfterCases": [
+      {
+        "tag": "Surgery",
+        "title": "Routine Wisdom Removal",
+        "subtitle": "All four teeth, single visit",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Recovery",
+        "title": "Impacted Tooth Extraction",
+        "subtitle": "Clean healing at 2-week follow-up",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Comfort",
+        "title": "IV-Sedation Procedure",
+        "subtitle": "Anxiety-free, awake within minutes",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Wisdom Teeth\nQuick Check",
+    "smileSimulatorSubheading": "Upload a recent dental X-ray (or describe your symptoms) and our AI will help you understand whether your wisdom teeth likely need removal — and how soon.",
+    "bookingHeadline": "Book Your Wisdom Teeth Consultation",
+    "bookingSubheading": "Includes a panoramic X-ray and a clear plan for sedation, cost, and recovery. Most procedures scheduled within the same week.",
+    "heroAssurances": [
+      "IV sedation available",
+      "In-house surgical suite",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Painful wisdom tooth",
+      "Impacted or sideways tooth",
+      "Pre-orthodontic extraction",
+      "Routine wisdom teeth check",
+      "Second opinion before surgery"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Board-Certified Surgeons",
+        "description": "Oral & maxillofacial surgeons with the training to handle even the most complex impacted cases safely."
+      },
+      {
+        "title": "Real Sedation Options",
+        "description": "Nitrous, oral, or IV sedation administered by anesthesia-trained specialists — not just numbing shots."
+      },
+      {
+        "title": "Predictable Recovery",
+        "description": "Most patients eat soft food the same evening and are back to normal life within 3-4 days."
+      },
+      {
+        "title": "On-Call Support",
+        "description": "Our team is reachable after the procedure if you have questions during your recovery."
+      }
+    ],
+    "heroImagePath": "/clinics/mw-os-com/hero.jpg",
+    "benefitsImagePath": "/clinics/mw-os-com/benefits.jpg",
+    "whyChooseImagePath": "/clinics/mw-os-com/whychoose.jpg",
+    "logoPath": "/clinics/mw-os-com/logo.png"
+  },
+  "doctor": {
+    "name": "Mary DiPirro",
+    "credentials": "D.D.S.",
+    "bio": "Dr. Mary DiPirro is a highly skilled oral surgeon at Melrose-Wakefield Oral Surgery. She brings extensive expertise to the practice, having studied and practiced at prestigious institutions including Harvard Medical School and Massachusetts General Hospital. Dr. DiPirro is dedicated to providing her patients with the highest quality care in the most comfortable and compassionate way possible. Her focus remains on delivering extraordinary results through specialized surgical techniques and advanced technology.",
+    "specialistCredentials": [
+      "Harvard Trained Surgeon",
+      "Wisdom Tooth Specialist",
+      "Advanced IV Sedation",
+      "3D Imaging Expert"
+    ],
+    "specialistPortraitPath": "/clinics/mw-os-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Jordan P.",
+      "text": "The entire team made my wisdom teeth removal so easy. I was nervous about sedation, but Dr. DiPirro was incredibly compassionate and kept me at ease.",
+      "rating": 5
+    },
+    {
+      "name": "Amanda L.",
+      "text": "Very impressed with the 3D imaging technology they have here. It made me feel confident that my impacted teeth were being handled with the best tools available.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus R.",
+      "text": "I had all four wisdom teeth out and the recovery instructions were so clear. The surgery was fast and I felt virtually no pain during the process.",
+      "rating": 5
+    },
+    {
+      "name": "Elena S.",
+      "text": "Professional and expert care. You can tell the doctors have amazing training. They handled my insurance paperwork smoothly which was a huge relief.",
+      "rating": 5
+    },
+    {
+      "name": "David K.",
+      "text": "The front desk was very helpful with scheduling my daughter's surgery before she went back to college. Highly recommend for any oral surgery needs.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah G.",
+      "text": "Extraordinary results! My healing was much faster than I expected, and the compassionate care from the staff was evident from the moment I walked in.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "wisdom-teeth-removal",
+  "hiddenSections": [
+    "beforeafter"
+  ],
+  "themeId": "custom",
+  "customThemeColor": "#901a4b"
+}

@@ -3,7 +3,7 @@
     "name": "Brewer Dental Center",
     "tagline": "Your premier dental choice for the entire family.",
     "city": "Billings",
-    "phone": "(406) 656-6100",
+    "phone": "(406) 623-8706",
     "address": "2900 Central Ave., Bldg 2, Billings, MT 59102",
     "logoPath": "/clinics/brewerdentalcenter-com/logo.png",
     "logoIsLight": false,
@@ -158,7 +158,7 @@
     "beforeAfterCases": [
       {
         "tag": "Invisalign",
-        "title": "Crowding Correction",
+        "title": "Comprehensive Invisalign",
         "subtitle": "Aligned in 9 months",
         "beforeImage": "/images/smile-makeover-before.png",
         "afterImage": "/images/smile-makeover-after.png"
@@ -167,15 +167,15 @@
         "tag": "Orthodontics",
         "title": "Bite Realignment",
         "subtitle": "Balanced occlusion in 12 months",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/clinics/brewerdentalcenter-com/case-before-1779886167970-j9dd8v.png",
+        "afterImage": "/clinics/brewerdentalcenter-com/case-after-1779886196710-a93u29.png"
       },
       {
         "tag": "Cosmetic",
         "title": "Gap Closure",
         "subtitle": "Front-teeth gap closed in 6 months",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/clinics/brewerdentalcenter-com/case-before-1779886226950-83voiu.png",
+        "afterImage": "/clinics/brewerdentalcenter-com/case-after-1779886231595-fziekk.png"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
@@ -212,9 +212,23 @@
         "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
       }
     ],
-    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.png",
+    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.jpg",
     "benefitsImagePath": "/clinics/brewerdentalcenter-com/benefits.png",
-    "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.png"
+    "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.png",
+    "implantOptions": [
+      {
+        "title": "Invisalign Full",
+        "description": "Designed for patients who need comprehensive teeth alignment correction."
+      },
+      {
+        "title": "Invisalign Lite",
+        "description": "Best for mild to moderate alignment concerns with shorter treatment duration."
+      },
+      {
+        "title": "Invisalign Express",
+        "description": "A quick cosmetic alignment solution for very minor corrections."
+      }
+    ]
   },
   "doctor": {
     "name": "James Galea",
@@ -224,7 +238,8 @@
       "Expert in Clear Aligners",
       "Bite Correction Specialist",
       "Patient-Centered Care Focus"
-    ]
+    ],
+    "specialistPortraitPath": "/clinics/brewerdentalcenter-com/specialist.png"
   },
   "reviews": [
     {
@@ -259,5 +274,7 @@
     }
   ],
   "template": "dentist-landing",
-  "procedure": "invisalign"
+  "procedure": "invisalign",
+  "themeId": "custom",
+  "customThemeColor": "#1b8d8d"
 }

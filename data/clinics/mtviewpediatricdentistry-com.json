@@ -1,0 +1,221 @@
+{
+  "clinic": {
+    "name": "Mountain View Pediatric Dentistry",
+    "tagline": "Designed to Delight",
+    "phone": "(406) 205-1900",
+    "logoIsLight": true,
+    "logoIsWordmark": false,
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Happy-Visit Tour",
+        "description": "Our friendly team greets you and your little one with a quick tour of our fun, nature-themed office designed just for kids."
+      },
+      {
+        "title": "Gentle First Exam & Consultation",
+        "description": "Dr. Rich performs a comfortable exam and takes the time to answer every parent's questions about their child's oral health."
+      },
+      {
+        "title": "Kid-Paced Cleaning & Coaching",
+        "description": "We provide age-appropriate cleanings and brushing coaching to help children build lifelong healthy habits in a stress-free way."
+      },
+      {
+        "title": "Tell-Show-Do Treatment",
+        "description": "When repairs are needed, we use child-sized tools and gentle 'tell-show-do' techniques to keep your child feeling safe and informed."
+      },
+      {
+        "title": "Preventive Sealants & Protection",
+        "description": "We offer specialized preventive treatments like dental sealants and fluoride to protect growing teeth during high-risk years."
+      },
+      {
+        "title": "Ongoing Growth & Checkups",
+        "description": "Consistent six-month checkups ensure your child's smile stays healthy as they grow from infancy through their teenage years."
+      }
+    ],
+    "heroHeadline": "Gentle Dentistry\nKids Actually\nLook Forward To.",
+    "heroCta": "Book Your Child's Visit",
+    "implantOptionsLabel": "Pediatric Services",
+    "implantOptionsHeadline": "Specialized Dental Care for Growing Smiles",
+    "implantOptionsSubheading": "From a baby's first checkup to a teen's orthodontic readiness, we deliver every service in a way that feels safe, friendly, and age-appropriate.",
+    "whyChooseLabel": "Why Families Trust Us",
+    "whyChooseHeadline": "A Pediatric Practice Built Around Your Child's Comfort",
+    "whyChooseSubheading": "Every detail of our practice — from the waiting room toys to our gentle pace — is designed to make kids feel safe and parents feel reassured.",
+    "processHeadline": "Your Child's Visit, Step By Step",
+    "processSubheading": "A predictable, gentle visit helps anxious kids relax. Here's exactly what to expect, from waiting room to high-five on the way out.",
+    "benefitsHeadline": "Why Parents Choose Our Pediatric Practice",
+    "faqLabel": "Pediatric FAQ",
+    "faqHeadline": "What Parents Ask Us Most",
+    "symptomCheckerHeadline": "Tell Us What's Bothering Your Child",
+    "symptomCheckerSubheading": "Tap whichever issue sounds closest — we'll get back to you with the right next step for kids.",
+    "testimonialsHeadline": "What Parents Are Saying",
+    "testimonialsSubheading": "Honest words from families who trust us with their kids' smiles.",
+    "beforeAfterHeadline": "Healthy Smiles, Happy Kids",
+    "beforeAfterSubheading": "Real outcomes from gentle pediatric care — cavities healed, confidence restored, and smiles that stay healthy as your child grows.",
+    "beforeAfterCases": [
+      {
+        "tag": "Pediatric",
+        "title": "Cavity Repair",
+        "subtitle": "Restored in a single gentle visit",
+        "beforeImage": "/images/smile-makeover-child-before.jpeg",
+        "afterImage": "/images/smile-makeover-child-after.jpeg"
+      },
+      {
+        "tag": "Preventive",
+        "title": "Sealant & Fluoride Plan",
+        "subtitle": "Cavities stopped before they start",
+        "beforeImage": "/images/implant-child-before.jpeg",
+        "afterImage": "/images/implant-child-after.jpeg"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Chipped Tooth Repair",
+        "subtitle": "Same-day bonding, no tears",
+        "beforeImage": "/images/whitening-child-before.jpeg",
+        "afterImage": "/images/whitening-child-after.jpeg"
+      }
+    ],
+    "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
+    "smileSimulatorSubheading": "Upload a photo of your child's smile and tell us what concerns you most. Our AI assessment will flag anything worth a closer look, in plain language for parents.",
+    "bookingHeadline": "Book Your Child's Visit",
+    "bookingSubheading": "Same-week appointments for new pediatric patients. Pick a time that works for your family.",
+    "heroAssurances": [
+      "Kid-friendly office",
+      "Parents stay with kids",
+      "Most insurances accepted"
+    ],
+    "heroAvatars": [
+      {
+        "src": "/images/review-child-1.jpeg",
+        "name": "Emma R"
+      },
+      {
+        "src": "/images/review-child-2.jpeg",
+        "name": "Noah T"
+      },
+      {
+        "src": "/images/review-child-3.jpeg",
+        "name": "Liam S"
+      },
+      {
+        "src": "/images/review-child-4.jpeg",
+        "name": "Mia K"
+      }
+    ],
+    "smileSimulatorGoals": [
+      "Check a possible cavity",
+      "First-visit prep for my child",
+      "Worried about crooked teeth",
+      "Chipped or knocked-out tooth",
+      "Help with brushing habits"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Kid-Specialized Team",
+        "description": "Every team member is trained specifically for pediatric care, communication, and behavior guidance."
+      },
+      {
+        "title": "Tell-Show-Do Approach",
+        "description": "We explain every tool and step in kid-friendly language before we ever use it — no surprises, no fear."
+      },
+      {
+        "title": "Cavity-Prevention Focus",
+        "description": "Sealants, fluoride, and brushing coaching that stops cavities before they ever need a drill."
+      },
+      {
+        "title": "Special Needs Friendly",
+        "description": "Sensory-aware accommodations and extra time for kids who need a little more support to feel safe."
+      }
+    ],
+    "heroImagePath": "/clinics/mtviewpediatricdentistry-com/hero.png",
+    "benefitsImagePath": "/clinics/mtviewpediatricdentistry-com/benefits.png",
+    "whyChooseImagePath": "/clinics/mtviewpediatricdentistry-com/whychoose.png",
+    "logoPath": "/clinics/mtviewpediatricdentistry-com/logo.png",
+    "implantOptions": [
+      {
+        "iconName": "",
+        "title": "Sedation Dentistry",
+        "description": ""
+      },
+      {
+        "iconName": "",
+        "title": "General Anesthesia",
+        "description": ""
+      },
+      {
+        "iconName": "",
+        "title": "Emergency Treatment",
+        "description": ""
+      }
+    ],
+    "hours": "Open Now",
+    "stats": [
+      {
+        "value": "99%",
+        "label": "Parent Satisfaction Rate"
+      },
+      {
+        "value": "1000+",
+        "label": "Happy Little Smiles Created"
+      },
+      {
+        "value": "100%",
+        "label": "Kid-Friendly"
+      }
+    ],
+    "commonSymptoms": [
+      "Tooth Pain",
+      "Sensitive Teeth",
+      "Swollen Gums"
+    ]
+  },
+  "doctor": {
+    "name": "Rich Nehring",
+    "credentials": "DDS",
+    "bio": "Dr. Rich is a certified pediatric dentist who has been calling Great Falls home since 2019. After graduating from the Indiana University School of Dentistry in 2012, he spent five years as a general dentist before following his passion for children's care through a specialized two-year residency with NYU Langone Health. Having served as chief resident at Shriners Children’s Hospital, he brings expert-level skill to every visit. Dr. Rich is known for his 'big kid at heart' philosophy, often using magic tricks and jokes to ensure every child leaves with a smile.",
+    "yearsOfExperience": 5,
+    "photoPath": "/clinics/mtviewpediatricdentistry-com/doctor.jpg",
+    "specialistCredentials": [
+      "Pediatric Dental Specialist",
+      "1000+ Children Treated"
+    ],
+    "specialistPortraitPath": "/clinics/mtviewpediatricdentistry-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Amanda K.",
+      "text": "Dr. Rich is incredible with kids! The magic tricks and jokes totally distracted my son from his cleaning. Best pediatric experience in Great Falls.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus L.",
+      "text": "The office is a dream for parents. Tablets, toys, and murals make it so easy to get the kids through the door without any tears.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah J.",
+      "text": "Finally found a place that understands special needs dentistry. Dr. Rich and his team were so patient and used very kid-friendly language.",
+      "rating": 5
+    },
+    {
+      "name": "Tyson R.",
+      "text": "Highly recommend the sedation options for anxious kids. My daughter was totally at ease, and the toy machine at the end was a huge hit!",
+      "rating": 5
+    },
+    {
+      "name": "Elena W.",
+      "text": "The new office on 9th St is beautiful and welcoming. The staff was so helpful with our insurance questions and made the first visit easy.",
+      "rating": 5
+    },
+    {
+      "name": "Brian P.",
+      "text": "Dr. Rich clearly loves what he does. It's rare to find a dentist who can provide such high-level care while keeping things fun for toddlers.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry",
+  "procedure": "pediatric-dentistry",
+  "themeId": "teal",
+  "customThemeColor": "#ffffff",
+  "hiddenSections": [
+    "beforeafter"
+  ]
+}

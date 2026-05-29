@@ -1,0 +1,283 @@
+{
+  "clinic": {
+    "name": "Kenneth J Bevan DDS",
+    "tagline": "Making smiles happen in Napa!",
+    "city": "Napa",
+    "phone": "(707) 255-3007",
+    "address": "3434 Villa Lane Ste 100, Napa, CA 94558",
+    "hours": "Open Now",
+    "logoPath": "/clinics/bevandds-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Transform your smile with a practice specializing in beautiful esthetic dentistry. From custom porcelain veneers to Invisalign, we deliver smile makeovers in a friendly, uplifting Napa environment.",
+    "differentiators": [
+      {
+        "title": "Esthetic Expertise",
+        "description": "Specializing in beautiful esthetic dentistry, Dr. Bevan focuses on creating confident, life-changing smiles."
+      },
+      {
+        "title": "Century of Experience",
+        "description": "Our team brings over 100 years of combined dental experience to every procedure, from crowns to complex cases."
+      },
+      {
+        "title": "Modern Dental Technology",
+        "description": "We utilize digital impressions and advanced scanners to ensure precision and comfort during your smile transformation."
+      },
+      {
+        "title": "Uplifting Patient Culture",
+        "description": "Our practice is defined by a caring team and a stress-free environment that prioritizes your comfort."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation",
+        "description": "Meet with Dr. Bevan to discuss your aesthetic goals and undergo a comprehensive smile analysis using digital technology."
+      },
+      {
+        "title": "Digital Smile Preview",
+        "description": "Visualize your future results with a digital design and select the perfect shade for your custom porcelain veneers."
+      },
+      {
+        "title": "Gentle Preparation",
+        "description": "Your teeth are carefully prepared and digital impressions are taken to ensure a precise, comfortable fit for your restorations."
+      },
+      {
+        "title": "Custom Lab Fabrication",
+        "description": "While your permanent veneers are crafted in a top-tier lab, we provide temporary veneers so you never leave without a smile."
+      },
+      {
+        "title": "Bonding and Reveal",
+        "description": "Dr. Bevan expertly bonds your custom porcelain veneers, meticulously checking for a perfect fit and a natural aesthetic."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "We establish a follow-up and hygiene plan to protect your investment and ensure your new smile lasts for years to come."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover",
+      "Misaligned Teeth"
+    ],
+    "stats": [
+      {
+        "value": "Top",
+        "label": "Invisalign Provider"
+      },
+      {
+        "value": "5-Star",
+        "label": "Top Rated Reviews"
+      },
+      {
+        "value": "100%",
+        "label": "Esthetic Focus"
+      },
+      {
+        "value": "Digital",
+        "label": "Advanced Technology"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Beautiful Esthetic Results",
+        "description": "Dr. Bevan and his team love making beautiful teeth, ensuring you get the high-quality, radiant results you are looking for."
+      },
+      {
+        "title": "Uplifting Environment",
+        "description": "Experience a positive vibe and a fun, welcoming atmosphere designed to make your time with us truly enjoyable."
+      },
+      {
+        "title": "Advanced Dental Tech",
+        "description": "We invest in digital x-rays, scanners, and lasers to provide a more accurate diagnosis and a more comfortable experience."
+      },
+      {
+        "title": "Efficient Appointments",
+        "description": "Your time is valuable, so our team works productively to ensure your visit runs smoothly without compromising on quality."
+      },
+      {
+        "title": "Personalized Care",
+        "description": "Unlike corporate offices with revolving doors, we provide responsive care tailored specifically to your family's needs."
+      },
+      {
+        "title": "Comprehensive Services",
+        "description": "From routine cleanings to complex smile makeovers and Invisalign, all your needs are met in one convenient Napa location."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Custom-crafted esthetic shells that transform the shape, color, and alignment of your teeth for a flawless smile."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-conservative veneers requiring minimal enamel removal."
+      },
+      {
+        "title": "Veneer Replacements",
+        "description": "Replacing old, chipped, stained, or failing veneers."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "With proper care and maintenance, high-quality porcelain veneers are a durable investment that can last 10-15 years or more."
+      },
+      {
+        "question": "What is involved in a smile makeover?",
+        "answer": "A smile makeover at our Napa office combines esthetic treatments like veneers or crowns to address chips, gaps, and discoloration."
+      },
+      {
+        "question": "Do you offer clear aligner options?",
+        "answer": "Yes, we are proud to offer Invisalign for patients looking to correct misaligned teeth with a nearly invisible solution."
+      },
+      {
+        "question": "What should I expect at my first visit?",
+        "answer": "Your first visit includes a consultation and digital assessment to understand your goals and develop a tailored care plan."
+      },
+      {
+        "question": "How do you ensure patient comfort?",
+        "answer": "We use an uplifting environment and gentle techniques to eliminate sensitivity and make dental visits stress-free."
+      },
+      {
+        "question": "Where is your office located?",
+        "answer": "Our office is conveniently located at 3434 Villa Lane Ste 100 in Napa, where we serve the entire local community."
+      }
+    ],
+    "footerAbout": "Kenneth J Bevan DDS provides premier esthetic and general dentistry in Napa. Dedicated to beautiful results and personalized care, the team helps patients love their smiles and their experience.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/bevandds-com/case-before-1779947819669-9zy2ec.png",
+        "afterImage": "/clinics/bevandds-com/case-after-1779947822648-edutpm.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/bevandds-com/case-before-1779947986805-1ah0rf.png",
+        "afterImage": "/clinics/bevandds-com/case-after-1779947991050-7yqvew.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/bevandds-com/case-before-1779948281824-lim80f.png",
+        "afterImage": "/clinics/bevandds-com/case-after-1779948285634-olpoa8.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/bevandds-com/hero.png",
+    "benefitsImagePath": "/clinics/bevandds-com/benefits.png",
+    "whyChooseImagePath": "/clinics/bevandds-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Kenneth J Bevan",
+    "credentials": "DDS",
+    "bio": "Kenneth J Bevan, DDS, provides premier cosmetic and general dental services to the Northern California community. Committed to delivering responsive, personalized care, Dr. Bevan and his team focus on creating a friendly and professional environment that respects each patient's time. With years of  experience, he specializes in esthetic work and smile makeovers, utilizing advanced technology like digital scanners and lasers to ensure beautiful, lasting results.",
+    "photoPath": "/clinics/bevandds-com/doctor.jpg",
+    "specialistCredentials": [
+      "Certified Dentist",
+      "Esthetic Dentistry Specialist",
+      "Digital Impression Expert",
+      "Personalized Care Philosophy"
+    ],
+    "specialistPortraitPath": "/clinics/bevandds-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Gregory G.",
+      "text": "Dr. Bevan accommodated an urgent appointment and took great care in fixing my problem. Not only is he a great dentist, he’s personable and outgoing.",
+      "rating": 5
+    },
+    {
+      "name": "Richard L.",
+      "text": "The whole staff truly know what it means to provide a service. We have been customers of this office for 20 years and receive excellent care.",
+      "rating": 5
+    },
+    {
+      "name": "Alexandra A.",
+      "text": "Dr. Bevan has always taken great care of me and did a wonderful job with my 8 year old son as well. We feel comfortable and well cared for.",
+      "rating": 5
+    },
+    {
+      "name": "Claire S.",
+      "text": "I just love this office. It was easy, efficient, painless, and effective. If you need a dental family, go to this office, you will be very happy!",
+      "rating": 5
+    },
+    {
+      "name": "Roger U.",
+      "text": "A comfortable, relaxed environment with a very knowledgeable, professional, efficient staff. They make it as stress-free as possible.",
+      "rating": 5
+    },
+    {
+      "name": "Felice H.",
+      "text": "First office ever who was able to reduce and almost eliminate all my dental cleaning sensitivity. I am so looking forward to going back.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#47a748"
+}

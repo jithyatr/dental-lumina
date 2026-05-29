@@ -9,6 +9,7 @@
     "logoPath": "/clinics/adventuredental-com/logo.png",
     "logoIsLight": false,
     "logoIsWordmark": true,
+    "logoNoPlate": true,
     "heroSubtitle": "Adventure Dental provides specialized pediatric dentistry and orthodontics with a fun, beach-themed approach that makes every visit a tropical escape for children and teens.",
     "differentiators": [
       {
@@ -76,12 +77,8 @@
         "label": "Five-Star Reviews"
       },
       {
-        "value": "Platinum",
-        "label": "Invisalign Provider Status"
-      },
-      {
         "value": "100%",
-        "label": "Kid-Focused Adventure"
+        "label": "Kid-Focused Practice"
       }
     ],
     "benefits": [
@@ -195,22 +192,22 @@
     "beforeAfterCases": [
       {
         "tag": "Pediatric",
-        "title": "Cavity Repair",
-        "subtitle": "Restored in a single gentle visit",
-        "beforeImage": "/images/smile-makeover-child-before.jpeg",
-        "afterImage": "/images/smile-makeover-child-after.jpeg"
+        "title": "Teen Invisalign",
+        "subtitle": "Clear, comfortable aligners",
+        "beforeImage": "/clinics/adventuredental-com/case-before-1779891083855-gc90zt.png",
+        "afterImage": "/clinics/adventuredental-com/case-after-1779891091409-02or1u.png"
       },
       {
         "tag": "Preventive",
-        "title": "Sealant & Fluoride Plan",
-        "subtitle": "Cavities stopped before they start",
-        "beforeImage": "/images/implant-child-before.jpeg",
-        "afterImage": "/images/implant-child-after.jpeg"
+        "title": "Cavity Prevention",
+        "subtitle": "Preventive dental care stopped future decay and improved oral health.",
+        "beforeImage": "/clinics/adventuredental-com/case-before-1779890351071-1tb6px.png",
+        "afterImage": "/clinics/adventuredental-com/case-after-1779890361471-oebwrz.png"
       },
       {
         "tag": "Cosmetic",
-        "title": "Chipped Tooth Repair",
-        "subtitle": "Same-day bonding, no tears",
+        "title": "Teeth Cleaning",
+        "subtitle": "Cleanings help protect teeth and gums",
         "beforeImage": "/images/whitening-child-before.jpeg",
         "afterImage": "/images/whitening-child-after.jpeg"
       }
@@ -258,7 +255,14 @@
     "credentials": "DDS",
     "bio": "Dr. Todd Hillyard is a dedicated specialist at Adventure Dental, bringing years of expertise to pediatric dentistry and orthodontics. He is committed to providing outstanding care and creating a positive, fun environment where children feel at home. Dr. Hillyard works alongside a skilled team to ensure that every patient leaves with a healthy smile and a sense of adventure.",
     "photoPath": "/clinics/adventuredental-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/adventuredental-com/specialist.png"
+    "specialistPortraitPath": "/clinics/adventuredental-com/specialist.png",
+    "specialistCredentials": [
+      "Expert in children’s dental care",
+      "Specialized in braces and Invisalign treatments",
+      "20 years of experience in dental and orthodontic care",
+      "Comfortable and patient-friendly care",
+      "Member of leading dental associations."
+    ]
   },
   "reviews": [
     {

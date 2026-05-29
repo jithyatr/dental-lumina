@@ -1,0 +1,288 @@
+{
+  "clinic": {
+    "name": "Pacific Dental & Implant Solutions",
+    "tagline": "Hawaii's Implant Focused Prosthodontic Practice",
+    "city": "Honolulu",
+    "phone": "(808) 737-6150",
+    "address": "4211 Waialae Ave #102, Honolulu, HI 96816",
+    "hours": "Open Now",
+    "logoPath": "/clinics/pdishawaii-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "As an ADA-recognized specialist practice, we provide comprehensive full-mouth restoration using advanced 3D imaging and 17+ years of expertise in dental implants and complex prosthetics.",
+    "differentiators": [
+      {
+        "title": "ADA-Recognized Specialist",
+        "description": "Dr. Jmi Asam is a specialist in Prosthodontics, a branch focused on rebuilding what general dentistry often leaves untouched."
+      },
+      {
+        "title": "Implant-Focused Precision",
+        "description": "With 17+ years of experience, the practice specializes in full-arch reconstruction and complex restorative care for severe bone loss."
+      },
+      {
+        "title": "Continuity Of Care",
+        "description": "The same doctor who diagnoses your case is the one placing the implant and following up, eliminating clinical handoffs."
+      },
+      {
+        "title": "Patient-First Philosophy",
+        "description": "A local, independent practice that prioritizes honest treatment plans over high-pressure sales or profitable upsells."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Prosthodontic Consultation & 3D Scan",
+        "description": "Your journey begins with a comprehensive exam and a free 3D CT scan to analyze bone density and map out a precise treatment plan."
+      },
+      {
+        "title": "Digital Treatment Planning",
+        "description": "Dr. Asam creates a customized plan using 3D imaging to determine the ideal placement of implants and the design of your new teeth."
+      },
+      {
+        "title": "Specialized Foundation Work",
+        "description": "The foundation phase includes any necessary extractions or bone augmentation, though many patients qualify for implants without grafting."
+      },
+      {
+        "title": "Precision Implant Placement",
+        "description": "Using guided surgery techniques, implants are strategically placed into the jawbone to provide a permanent, stable foundation."
+      },
+      {
+        "title": "Provisional Restoration",
+        "description": "Temporary restorations are often placed same-day to test bite alignment, aesthetics, and function while the implants integrate."
+      },
+      {
+        "title": "Final Permanent Delivery",
+        "description": "Custom-crafted lab restorations are delivered, providing a beautiful, long-term solution that restores your smile and quality of life."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Missing Teeth",
+      "Failing Crowns",
+      "Grinding Damage",
+      "Broken Teeth",
+      "Jaw Pain",
+      "Loose Dentures",
+      "Difficulty Chewing",
+      "Bone Loss",
+      "Acid Erosion"
+    ],
+    "stats": [
+      {
+        "value": "17+ Years",
+        "label": "Specialist Clinical Experience"
+      },
+      {
+        "value": "380+ ",
+        "label": "5-Star Reviews"
+      },
+      {
+        "value": "3D CT",
+        "label": "Advanced Technology"
+      },
+      {
+        "value": "Free",
+        "label": "Initial Consultation & Scan"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Specialist Expertise",
+        "description": "Receive care from a Harvard-trained prosthodontist specializing in complex full-mouth reconstruction cases that general dentists often refer out."
+      },
+      {
+        "title": "Complimentary 3D Imaging",
+        "description": "Every implant consultation includes a free 3D CT scan to ensure precise planning and the highest standard of surgical safety."
+      },
+      {
+        "title": "Efficient Restoration",
+        "description": "Restore your confidence in just one visit with advanced tooth restoration services and All-on-4 immediate function techniques."
+      },
+      {
+        "title": "Honest Evaluation",
+        "description": "Experience a clinical philosophy grounded in honest reviews of all options, ensuring you receive the right treatment for your unique needs."
+      },
+      {
+        "title": "Advanced 3D Technology",
+        "description": "We utilize Cone Beam 3D imaging on every implant case to analyze bone density and determine the precise placement for long-term success."
+      },
+      {
+        "title": "Independent Care",
+        "description": "Benefit from a doctor-owned practice where you work with the same specialist from your first consultation through your final restoration."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "All-on-Four Full Arch",
+        "description": "Receive a complete smile transformation in as little as one day with strategically placed implants that secure a full arch of new teeth."
+      },
+      {
+        "title": "Implant-Supported Crowns",
+        "description": "Replace missing teeth at the root with lifelike porcelain restorations that preserve bone structure and function like natural teeth."
+      },
+      {
+        "title": "Complex Bridge Work",
+        "description": "Meticulously crafted bridges that fill gaps, restoring proper bite alignment and facial balance for patients with multiple missing teeth."
+      },
+      {
+        "title": "Bite & TMJ Rehabilitation",
+        "description": "Specialized prosthodontic care to address grinding damage and severe dental wear, restoring both function and aesthetics to your entire mouth."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Why do I need a prosthodontist for full mouth restoration?",
+        "answer": "As an ADA-recognized specialist, Dr. Asam has three additional years of training beyond dental school to handle the most complex restorative and implant cases."
+      },
+      {
+        "question": "How long does a full mouth reconstruction take?",
+        "answer": "While many transformations can happen in one visit with All-on-4, complex rehabilitations are phased to ensure proper healing and perfect bite alignment."
+      },
+      {
+        "question": "Will I be without teeth during my treatment?",
+        "answer": "No. Dr. Asam offers immediate-function solutions like All-on-4 and temporary restorations so you can smile and eat throughout your journey."
+      },
+      {
+        "question": "What factors affect the cost of dental implants?",
+        "answer": "Costs are based on your specific needs, including materials, necessary diagnostics, and whether additional bone grafting is required to support the implant."
+      },
+      {
+        "question": "Can I get implants if I was told I have low bone density?",
+        "answer": "Yes. Using 3D CT imaging, Dr. Asam can often find solutions for patients previously told they weren't candidates, sometimes without bone graft surgery."
+      },
+      {
+        "question": "Do you offer consultations for new patients?",
+        "answer": "Yes, we offer a free consultation and a complimentary 3D CT scan to help you understand your dental condition and find a solution that fits."
+      }
+    ],
+    "footerAbout": "Pacific Dental & Implant Solutions is a specialist prosthodontic practice in Honolulu dedicated to restoring smiles through precision implant dentistry and complex full-mouth rehabilitation.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/pdishawaii-com/hero.jpg",
+    "benefitsImagePath": "/clinics/pdishawaii-com/benefits.png",
+    "whyChooseImagePath": "/clinics/pdishawaii-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Jmi Asam",
+    "credentials": "DMD, Specialist in Prosthodontics",
+    "bio": "Dr. Jmi Lilinoe Bassett Asam is a Harvard-trained, ADA-recognized Prosthodontist with over 17 years of experience in complex full-mouth reconstruction. After graduating summa cum laude from Creighton University and cum laude from Harvard School of Dental Medicine, she completed a three-year specialty residency in Advanced Prosthodontics. As the founder of Pacific Dental & Implant Solutions, she specializes in taking on the cases other dentists turn away, including severe bone loss and failed previous work. Dr. Asam personally manages every case to ensure clinical precision and lasting results.",
+    "yearsOfExperience": 17,
+    "photoPath": "/clinics/pdishawaii-com/doctor.jpg",
+    "specialistCredentials": [
+      "Harvard-Trained Prosthodontist",
+      "17+ Years Implant Experience",
+      "Full-Arch Reconstruction Expert",
+      "Advanced 3D Guided Surgery"
+    ],
+    "specialistPortraitPath": "/clinics/pdishawaii-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Steve K.",
+      "text": "Dr. Asam's recommendation for a bridge rather than an implant was the best solution for my case. The work was done efficiently and professionally.",
+      "rating": 5
+    },
+    {
+      "name": "Jill V.",
+      "text": "I was told elsewhere I couldn't have implants because of bone loss. Thanks to Dr. Asam's expertise, I have beautiful implants without bone grafting!",
+      "rating": 5
+    },
+    {
+      "name": "Sylvio",
+      "text": "For decades I struggled with issues caused by grinding. This transformation has given me a new quality of life and the confidence to smile again.",
+      "rating": 5
+    },
+    {
+      "name": "Magdy M.",
+      "text": "Their focus is on doing what's best for the patient, not what's most profitable. It's rare to find such honesty combined with clinical precision.",
+      "rating": 5
+    },
+    {
+      "name": "Mark B.",
+      "text": "Dr. Asam and her staff performed my treatment plan to perfection within the proposed budget. I'm so happy I have a new smile to show off.",
+      "rating": 5
+    },
+    {
+      "name": "Hahn F.",
+      "text": "The office environment is professional and the results are life-changing. Dr. Asam personally handled everything from start to finish.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#42934a"
+}

@@ -1,0 +1,285 @@
+{
+  "clinic": {
+    "name": "Ridge Crest Periodontics",
+    "tagline": "Idaho Falls' Premier Periodontist and Dental Implant Specialist",
+    "city": "Idaho Falls",
+    "phone": "(208) 522-6683",
+    "address": "2375 E Sunnyside Rd Suite C, Idaho Falls, Idaho 83404",
+    "logoPath": "/clinics/rcperio-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": false,
+    "heroSubtitle": "Experience Idaho Falls' premier specialist care for missing teeth. We provide natural-looking dental implants and full-mouth reconstruction using advanced X-nav guided technology and gentle laser treatments.",
+    "differentiators": [
+      {
+        "title": "Advanced X-Nav Technology",
+        "description": "One of the first periodontists in Idaho to utilize X-nav technology for highly precise and predictable dental implant placement."
+      },
+      {
+        "title": "S.M.A.R.T Graft Certified",
+        "description": "Home to Idaho’s only S.M.A.R.T Graft trained periodontist, offering advanced bone and tissue regeneration techniques."
+      },
+      {
+        "title": "Laser Surgery Pioneer",
+        "description": "The first periodontist in Idaho to be certified in LANAP and implemented Periolase technology as early as 2008."
+      },
+      {
+        "title": "Comprehensive Specialist Care",
+        "description": "Expertise in complex cases including failing implants, full-mouth reconstruction, and ceramic dental implant options."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & 3D Imaging",
+        "description": "Dr. Moulton performs a comprehensive evaluation, utilizing advanced technology like OraVu DeVa endoscopes and 3D scans to plan your care."
+      },
+      {
+        "title": "Foundation Preparation",
+        "description": "If needed, we perform specialized bone grafting, such as the S.M.A.R.T Graft or root coverage, to ensure a healthy environment for your new teeth."
+      },
+      {
+        "title": "Precise Implant Placement",
+        "description": "Using X-nav technology for unmatched precision, the titanium or ceramic implant is surgically placed into the jawbone."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "Over several months, the implant fuses naturally with your bone. We monitor your progress closely to ensure perfect healing and stability."
+      },
+      {
+        "title": "Digital Impressions & Abutment",
+        "description": "Once healed, we use Tekscan-Digital bite analysis to ensure your future restoration will fit perfectly and function comfortably with your bite."
+      },
+      {
+        "title": "Final Restoration Delivery",
+        "description": "Your permanent crown, bridge, or full arch is delivered, restoring your confidence and providing a lasting, beautiful smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Loose Dentures",
+      "Receding Gums",
+      "Gum Bleeding",
+      "Loose Implant",
+      "Tooth Loss",
+      "Bone Loss",
+      "Failing Bridge",
+      "Jaw Sensitivity",
+      "Gum Infection"
+    ],
+    "stats": [
+      {
+        "value": "18+ Yrs",
+        "label": "Laser Tech Experience"
+      },
+      {
+        "value": "1st",
+        "label": "Idaho LANAP Provider"
+      },
+      {
+        "value": "Only",
+        "label": "S.M.A.R.T Graft Expert"
+      },
+      {
+        "value": "10+",
+        "label": "Years Study Club Leadership"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Advanced Implant Tech",
+        "description": "Benefit from precision-guided surgery using X-nav technology for highly accurate and successful dental implant placement."
+      },
+      {
+        "title": "Minimally Invasive Care",
+        "description": "Experience LANAP laser treatment, a gentle alternative to traditional surgery that reduces pockets with less discomfort and faster healing."
+      },
+      {
+        "title": "Specialized Bone Grafting",
+        "description": "Access Idaho’s only S.M.A.R.T Graft trained specialist to ensure a strong, healthy foundation for your long-term dental implants."
+      },
+      {
+        "title": "Holistic Treatment Options",
+        "description": "Personalized care plans that combine effective holistic methods with conventional treatments for gum health and ceramic implants."
+      },
+      {
+        "title": "Patient Comfort & Sedation",
+        "description": "Nervous patients can feel at ease with sedation options designed to make your surgical or implant procedure stress-free."
+      },
+      {
+        "title": "Restore Your Confidence",
+        "description": "Regain the ability to smile and eat with confidence through permanent, natural-looking tooth replacement solutions."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implant",
+        "description": "A natural-looking solution to replace a missing tooth that feels secure and prevents future bone loss in the jaw."
+      },
+      {
+        "title": "Full-Mouth Reconstruction",
+        "description": "Extensive training in complete arch restoration to return full function and aesthetic beauty to your entire smile."
+      },
+      {
+        "title": "All-on-4 Treatment",
+        "description": "A permanent, fixed solution for a full arch of teeth supported by as few as four dental implants for ultimate stability."
+      },
+      {
+        "title": "Ceramic Dental Implants",
+        "description": "Holistic implant options for patients seeking metal-free alternatives for their tooth replacement journey."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What are the benefits of dental implants over dentures?",
+        "answer": "Dental implants look natural and feel secure. Most importantly, they are one of the only ways to prevent bone loss after a tooth root has been extracted."
+      },
+      {
+        "question": "Am I a candidate for implants if I have bone loss?",
+        "answer": "Yes, Dr. Moulton offers advanced S.M.A.R.T Grafting and growth factors to promote bone regeneration, creating a stable foundation for your implants."
+      },
+      {
+        "question": "Can you fix a dental implant that is failing?",
+        "answer": "We specialize in implant complications, helping patients with loose or failing implants, infections, bleeding, and sinus issues to restore health."
+      },
+      {
+        "question": "Do you offer ceramic or holistic implant options?",
+        "answer": "For patients seeking holistic care, we provide options for synthetic bone grafts and ceramic dental implants to align with your personal health goals."
+      },
+      {
+        "question": "Is the dental implant procedure painful?",
+        "answer": "Your comfort is our priority. We utilize minimally invasive technologies like X-nav and offer sedation options for patients who feel nervous or anxious."
+      },
+      {
+        "question": "How do I get started with a consultation?",
+        "answer": "You can request an appointment by calling (208) 522-6683 or using our online registration. We work closely with your referring dentist for seamless care."
+      }
+    ],
+    "footerAbout": "Ridge Crest Periodontics is Idaho Falls' premier destination for specialized periodontal care and dental implants, restoring smiles and confidence through advanced technology and compassion.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/rcperio-com/hero.jpg",
+    "benefitsImagePath": "/clinics/rcperio-com/benefits.jpg",
+    "whyChooseImagePath": "/clinics/rcperio-com/whychoose.jpg"
+  },
+  "doctor": {
+    "name": "Ethan Moulton",
+    "bio": "Dr. Ethan Moulton is Idaho Falls' premier periodontist and dental implant specialist. Since 2008, he has been a pioneer in advanced dental technology, becoming the first periodontist in Idaho to implement Periolase and the first certified to provide LANAP treatment. He is notably Idaho’s only S.M.A.R.T Graft trained specialist and has led formal study clubs through SPEAR Education for over 10 years. Dr. Moulton and his team are dedicated to helping patients achieve improved oral health and restored confidence through compassionate, expert care.",
+    "yearsOfExperience": 10,
+    "specialistCredentials": [
+      "S.M.A.R.T Graft Specialist",
+      "X-Nav Technology Pioneer",
+      "Certified LANAP Provider",
+      "SPEAR Study Club Leader"
+    ],
+    "specialistPortraitPath": "/clinics/rcperio-com/specialist.jpg"
+  },
+  "reviews": [
+    {
+      "name": "Pam P.",
+      "text": "Highly recommend, from the moment you walk in, the office staff is so nice and caring. I was referred after my new implant from another dentist went wrong. Dr. Moulton has one of the best chair-side manners.",
+      "rating": 5
+    },
+    {
+      "name": "Debra E.",
+      "text": "I had gum grafting done on two lower teeth and my healing looks good after 10 weeks. I am so thankful for a confident smile and highly recommend Dr. Moulton who is professional and kind.",
+      "rating": 5
+    },
+    {
+      "name": "Henrietta R.",
+      "text": "Danielle is excellent and professional! Dr. Moulton is kind and empathetic to his patients. I feel confident letting him make long-term decisions on my oral health.",
+      "rating": 5
+    },
+    {
+      "name": "Lynda N.",
+      "text": "The staff are very responsive and cheerful. Dr. Moulton is kind, concerned, and willing to discuss everything relative to the upcoming procedure. I give them my highest recommendation.",
+      "rating": 5
+    },
+    {
+      "name": "Edith P.",
+      "text": "I was having problems with my teeth and Dr. Moulton's office helped me to make my teeth and gums better. Everyone is so nice and very helpful.",
+      "rating": 5
+    },
+    {
+      "name": "S. Greve",
+      "text": "In my opinion they truly care about their patients, they ask questions and listen to responses. I highly recommend Dr. Moulton to anyone looking for expertise in the dental profession.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#51beb0"
+}
