@@ -143,7 +143,71 @@ function findAboutUrl(homeHtml: string, baseUrl: URL): string | null {
   return null;
 }
 
-async function fetchPage(url: string, browser: Browser): Promise<string> {
+// Page-builder themes (WordPress, Elementor, Divi) frequently render the hero /
+// doctor / team photo as a CSS `background-image` on a <div> rather than an
+// <img>. cheerio only sees the static HTML and never resolves those (the URL
+// often lives in an external stylesheet), so collectImages() misses them
+// entirely. Pull them off the live page via computed styles instead. Runs in
+// the browser context — keep it self-contained (no outer-scope references).
+async function collectBackgroundImages(page: Page): Promise<ImageCandidate[]> {
+  return page.evaluate(() => {
+    const out: { url: string; alt: string; context: string }[] = [];
+    const seen = new Set<string>();
+    for (const el of Array.from(document.querySelectorAll<HTMLElement>("*"))) {
+      const bg = getComputedStyle(el).backgroundImage;
+      if (!bg || bg === "none") continue;
+      const rect = el.getBoundingClientRect();
+      // Skip tiny decorative tiles, icons, and gradient/texture chrome.
+      if (rect.width < 120 || rect.height < 120) continue;
+      const matches = bg.match(/url\((['"]?)(.*?)\1\)/g);
+      if (!matches) continue;
+      for (const raw of matches) {
+        const url = raw.replace(/^url\((['"]?)/, "").replace(/(['"]?)\)$/, "");
+        if (!/^https?:/i.test(url)) continue; // skip data: URIs
+        if (!/\.(jpe?g|png|webp|avif)(\?|$)/i.test(url)) continue; // photos only (no gif/svg)
+        if (seen.has(url)) continue;
+        seen.add(url);
+        const heading = el.closest("section, article, header, div")?.querySelector("h1, h2, h3")?.textContent?.trim() || "";
+        const aria = (el.getAttribute("aria-label") || el.getAttribute("title") || "").trim();
+        const cls = typeof el.className === "string" ? el.className.trim().slice(0, 60) : "";
+        const context = [aria, heading, cls ? `class=${cls}` : ""].filter(Boolean).join(" | ").slice(0, 200);
+        out.push({ url, alt: aria.slice(0, 120), context });
+      }
+    }
+    return out.slice(0, 20);
+  });
+}
+
+// Scroll the full page in steps so intersection-observer / lazy-load widgets
+// mount their content, then return to the top. scrollHeight is re-read each
+// tick so growth from newly-loaded sections is covered; a tick cap bounds the
+// time for pages that keep growing (infinite scroll).
+async function autoScroll(page: Page): Promise<void> {
+  await page.evaluate(async () => {
+    await new Promise<void>((resolve) => {
+      const step = 600;
+      let scrolled = 0;
+      let ticks = 0;
+      const timer = setInterval(() => {
+        window.scrollBy(0, step);
+        scrolled += step;
+        ticks += 1;
+        if (scrolled >= document.body.scrollHeight + 1200 || ticks > 60) {
+          clearInterval(timer);
+          window.scrollTo(0, 0);
+          resolve();
+        }
+      }, 100);
+    });
+  });
+}
+
+interface FetchedPage {
+  html: string;
+  backgrounds: ImageCandidate[];
+}
+
+async function fetchPage(url: string, browser: Browser): Promise<FetchedPage> {
   const context = await browser.newContext({
     userAgent: BROWSER_USER_AGENT,
     locale: "en-US",
@@ -165,12 +229,22 @@ async function fetchPage(url: string, browser: Browser): Promise<string> {
         /* validated below */
       });
 
+    // Many themes lazy-mount the doctor/team photos only once the section
+    // scrolls into view — third-party widgets (Elfsight "Team Showcase",
+    // sliders, intersection-observer sections) fetch and render on demand. If
+    // we capture straight after load, those <img>s simply don't exist yet.
+    // Walk the page top-to-bottom to trigger them, then settle and return to
+    // the top before reading content.
+    await autoScroll(page);
+    await page.waitForLoadState("networkidle", { timeout: 8000 }).catch(() => {});
+
     const html = await page.content();
     const title = await page.title().catch(() => "");
     if (looksLikeChallenge(html, title)) {
       throw new Error(`Fetch ${url} blocked by anti-bot challenge (could not be solved in time)`);
     }
-    return html;
+    const backgrounds = await collectBackgroundImages(page).catch(() => [] as ImageCandidate[]);
+    return { html, backgrounds };
   } finally {
     await context.close();
   }
@@ -183,9 +257,11 @@ export async function crawl(sourceUrl: string): Promise<CrawlResult> {
     args: ["--no-sandbox", "--disable-blink-features=AutomationControlled"],
   });
   try {
-    const homeHtml = await fetchPage(sourceUrl, browser);
+    const { html: homeHtml, backgrounds: homeBackgrounds } = await fetchPage(sourceUrl, browser);
     const homeText = cleanText(homeHtml);
-    const homeImages = collectImages(homeHtml, baseUrl);
+    // <img> candidates first (they carry alt text), then CSS background-image
+    // photos the page builder hides from the static HTML (hero/doctor/team).
+    const homeImages = [...collectImages(homeHtml, baseUrl), ...homeBackgrounds];
     const firstPhone = findFirstPhone(homeHtml);
 
     const aboutUrl = findAboutUrl(homeHtml, baseUrl);
@@ -193,9 +269,9 @@ export async function crawl(sourceUrl: string): Promise<CrawlResult> {
     let aboutImages: ImageCandidate[] = [];
     if (aboutUrl) {
       try {
-        const aboutHtml = await fetchPage(aboutUrl, browser);
+        const { html: aboutHtml, backgrounds: aboutBackgrounds } = await fetchPage(aboutUrl, browser);
         aboutText = cleanText(aboutHtml);
-        aboutImages = collectImages(aboutHtml, new URL(aboutUrl));
+        aboutImages = [...collectImages(aboutHtml, new URL(aboutUrl)), ...aboutBackgrounds];
       } catch (err) {
         console.warn(`[crawl] could not fetch about page ${aboutUrl}: ${(err as Error).message}`);
       }
