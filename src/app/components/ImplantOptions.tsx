@@ -65,17 +65,52 @@ const KEYWORD_ICONS: { test: RegExp; icon: IconKey }[] = [
   { test: /maxillofacial|restora|rehabilit|reconstruct/i, icon: "tooth-gum" },
 ];
 
-function pickIconKey(title: string, description: string): IconKey {
-  // Title is authoritative — match it first. Only fall back to the
-  // description when no pattern matches the title (e.g. an unusual title
-  // like "Smile Restoration" where the description carries the specifics).
-  for (const { test, icon } of KEYWORD_ICONS) {
-    if (test.test(title)) return icon;
-  }
-  for (const { test, icon } of KEYWORD_ICONS) {
-    if (test.test(description)) return icon;
-  }
-  return "tooth";
+// All icons a single option could reasonably use, in preference order: an
+// explicit iconName first, then every keyword that matches the title, then
+// every keyword that matches the description, then the generic tooth. Returning
+// a *ranked list* (rather than one winner) lets resolveIconKeys fall back to a
+// still-relevant alternative when an earlier card already claimed the top pick.
+function candidateKeys(option: ImplantOption): IconKey[] {
+  const keys: IconKey[] = [];
+  const add = (k: IconKey) => {
+    if (!keys.includes(k)) keys.push(k);
+  };
+  if (option.iconName && option.iconName in ICONS) add(option.iconName as IconKey);
+  for (const { test, icon } of KEYWORD_ICONS) if (test.test(option.title)) add(icon);
+  for (const { test, icon } of KEYWORD_ICONS) if (test.test(option.description)) add(icon);
+  add("tooth");
+  return keys;
+}
+
+// Last-resort pool used when an option's own ranked candidates are all taken,
+// so every card still ends up with a distinct icon.
+const ICON_POOL: IconKey[] = [
+  "implant",
+  "tooth",
+  "tooth-gum",
+  "tooth-cavity",
+  "tooth-loosen",
+  "aligner",
+  "sparkle",
+  "shield",
+  "search",
+  "stethoscope",
+  "swap",
+];
+
+// Resolve icons for the whole row at once so no two cards repeat an icon.
+// Each card takes the highest-ranked icon not already claimed by an earlier
+// card; if all of its candidates are taken it borrows the next free icon from
+// the pool. (Uniqueness holds up to the number of distinct icons; beyond that
+// it gracefully allows repeats.)
+function resolveIconKeys(options: ImplantOption[]): IconKey[] {
+  const used = new Set<IconKey>();
+  return options.map((option) => {
+    const prefs = candidateKeys(option);
+    const chosen = prefs.find((k) => !used.has(k)) ?? ICON_POOL.find((k) => !used.has(k)) ?? prefs[0];
+    used.add(chosen);
+    return chosen;
+  });
 }
 
 const DEFAULT_OPTIONS: ImplantOption[] = [
@@ -99,13 +134,6 @@ const DEFAULT_OPTIONS: ImplantOption[] = [
   },
 ];
 
-function resolveIcon(option: ImplantOption) {
-  if (option.iconName && option.iconName in ICONS) {
-    return ICONS[option.iconName as IconKey];
-  }
-  return ICONS[pickIconKey(option.title, option.description)];
-}
-
 export function ImplantOptions({
   label,
   headline,
@@ -118,6 +146,7 @@ export function ImplantOptions({
   options?: ImplantOption[];
 }>) {
   const items = options && options.length > 0 ? options : DEFAULT_OPTIONS;
+  const iconKeys = resolveIconKeys(items);
   const sectionLabel = label ?? "Treatment Options";
   const title = headline ?? "Dental Implant Options";
   const sub =
@@ -140,8 +169,8 @@ export function ImplantOptions({
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
-          {items.map((option) => {
-            const Icon = resolveIcon(option);
+          {items.map((option, i) => {
+            const Icon = ICONS[iconKeys[i]];
             return (
               <article
                 key={option.title}
