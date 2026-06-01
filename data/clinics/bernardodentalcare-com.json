@@ -1,0 +1,283 @@
+{
+  "clinic": {
+    "name": "Bernardo Dental Care",
+    "tagline": "We create miles and miles of perfect smiles!",
+    "city": "San Diego",
+    "phone": "(858) 676-1845",
+    "address": "16466 Bernardo Center Dr, Suite 185, San Diego CA 92128",
+    "logoPath": "/clinics/bernardodentalcare-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Providing permanent, titanium-rooted dental implants and comprehensive restorative care in San Diego since 1995. We combine modern technology with a wellness-focused approach to create perfect smiles.",
+    "differentiators": [
+      {
+        "title": "Established Local Expertise",
+        "description": "Serving San Diego residents since 1995 with quality and comprehensive solutions for all dental-related problems."
+      },
+      {
+        "title": "Holistic Patient Wellness",
+        "description": "A unique dental experience involving the entire family with a focus on wellness inside and out."
+      },
+      {
+        "title": "Global Patient Trust",
+        "description": "Attracting patients from across the globe for specialized surgical procedures and permanent implant restorations."
+      },
+      {
+        "title": "Continuous Education",
+        "description": "Our team is constantly updating their knowledge in the ever-changing field of dentistry to ensure the best results."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation and 3D Scan",
+        "description": "We perform a comprehensive evaluation of your oral health and use advanced diagnostics to plan your precise implant placement."
+      },
+      {
+        "title": "Preparation and Foundation Work",
+        "description": "Any necessary extractions or preparatory treatments are completed to ensure a healthy environment for your new implants."
+      },
+      {
+        "title": "Precise Surgical Placement",
+        "description": "Using delicate techniques and excellent pain management, the titanium implant is professionally placed into the jawbone."
+      },
+      {
+        "title": "Healing and Osseointegration",
+        "description": "Over several months, the implant bonds securely with your natural bone, creating a rock-solid foundation for your new teeth."
+      },
+      {
+        "title": "Abutment and Final Impressions",
+        "description": "Once healed, we attach the connector and take detailed impressions to craft your custom-fitted permanent restoration."
+      },
+      {
+        "title": "Delivery of Permanent Smile",
+        "description": "We fit your final crown or bridge, ensuring a perfect look and comfortable bite so you can walk out with a contented smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Loose Dentures",
+      "Failing Bridge",
+      "Difficulty Chewing",
+      "Tooth Pain",
+      "Broken Teeth",
+      "Embarrassed to Smile",
+      "Bone Loss",
+      "Gum Disease",
+      "Old Crowns"
+    ],
+    "stats": [
+      {
+        "value": "29+",
+        "label": "Years in Practice"
+      },
+      {
+        "value": "10,000+",
+        "label": "Smiles Restored"
+      },
+      {
+        "value": "5-Star",
+        "label": "Patient Rated"
+      },
+      {
+        "value": "Modern",
+        "label": "Facility Standards"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Comprehensive Implant Solutions",
+        "description": "Restore your smile with permanent, high-quality dental implants designed to look and function like natural teeth."
+      },
+      {
+        "title": "Advanced Diagnostic Tech",
+        "description": "Benefit from a modern facility equipped with the latest technology and modern equipment for precise treatment."
+      },
+      {
+        "title": "Wellness-Focused Care",
+        "description": "Experience a unique dental approach that unifies the mind, body, and spirit for a stress-free environment."
+      },
+      {
+        "title": "Multi-Specialty Expertise",
+        "description": "Receive expert care in implants, endodontics, orthodontics, and general dentistry all in one San Diego location."
+      },
+      {
+        "title": "Urgent Dental Care",
+        "description": "Access emergency dental services usually on the same day to address pain or trauma when you need it most."
+      },
+      {
+        "title": "Compassionate Atmosphere",
+        "description": "Relax in a calm and professional environment with a team dedicated to allaying your fears and concerns."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Permanent Single Implants",
+        "description": "A permanent and appealing solution to replace a missing tooth with a custom restoration that mimics nature."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Stable solutions for multiple missing teeth that restore functionality and stop the progression of bone loss."
+      },
+      {
+        "title": "Full Mouth Rehabilitation",
+        "description": "Comprehensive restoration using implants to provide a new set of teeth for those with failing natural dentition."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does the dental implant process take?",
+        "answer": "The journey typically involves phases; after the initial placement, a healing period of about three months allows the implants to bond with the bone before final crowns."
+      },
+      {
+        "question": "Am I a candidate for implants if I have had bone loss?",
+        "answer": "We specialize in advanced diagnostics and restorative dentistry to evaluate and prepare patients for successful permanent teeth implants even after tooth loss."
+      },
+      {
+        "question": "Is the dental implant procedure painful?",
+        "answer": "Our patients consistently praise our excellent pain management and delicate technique, ensuring a comfortable experience from injection to final fitting."
+      },
+      {
+        "question": "What is the benefit of an implant over a bridge?",
+        "answer": "Implants offer a permanent, stable solution that functions like natural teeth without requiring the reduction of neighboring healthy teeth."
+      },
+      {
+        "question": "Do you offer emergency dental services?",
+        "answer": "Yes, we encourage you to contact us for urgent care, which is usually provided the same day to address immediate dental problems."
+      },
+      {
+        "question": "How do I schedule a consultation for full mouth rehab?",
+        "answer": "You can contact our Rancho Bernardo office via phone at (858) 676-1845 or email to set up your comprehensive assessment."
+      }
+    ],
+    "footerAbout": "Bernardo Dental Care is a modern family dental center in San Diego dedicated to restoring health and confidence through advanced implant treatments and wellness-centered dentistry.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/bernardodentalcare-com/case-before-1780046174415-7uf4wr.png",
+        "afterImage": "/clinics/bernardodentalcare-com/case-after-1780046177606-sm484o.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/clinics/bernardodentalcare-com/case-before-1780046547635-fyfcrl.png",
+        "afterImage": "/clinics/bernardodentalcare-com/case-after-1780046552611-4yv0d7.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/bernardodentalcare-com/hero.png",
+    "benefitsImagePath": "/clinics/bernardodentalcare-com/benefits.png",
+    "whyChooseImagePath": "/clinics/bernardodentalcare-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Sandhya Ramanujam",
+    "credentials": "DDS",
+    "bio": "Dr. Sandhya Ramanujam is a highly trained dental professional with nearly three decades of experience, serving San Diego residents since 1995. She holds a Master's in Psychology and is a Certified Clinical Hypnotherapist and NLP Coach, allowing her to offer a unique, calming dental experience. Known as 'Dr. Delicate' by her patients, she specializes in advanced restorative procedures and permanent dental implants. Her philosophy unifies the mind and body to provide holistic, pain-free dental care.",
+    "yearsOfExperience": 30,
+    "photoPath": "/clinics/bernardodentalcare-com/doctor.jpg",
+    "specialistCredentials": [
+      "Expert Implant Surgeon",
+      "Restorative Specialist",
+      "Clinical Hypnotherapist",
+      "Wellness Focused Care"
+    ],
+    "specialistPortraitPath": "/clinics/bernardodentalcare-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Momudo N.",
+      "text": "I am very grateful for the permanent teeth implant which was very successful and looks good on me. Dr. Sandhya is very professional.",
+      "rating": 5
+    },
+    {
+      "name": "Paul S.",
+      "text": "Pain management was excellent. From injection to crowns, I felt no pain in receiving a bridge and multiple fillings. Truly effortless.",
+      "rating": 5
+    },
+    {
+      "name": "Nischal P.",
+      "text": "With almost 7 new teeth being implanted, I hardly noticed the process. I am a new entity altogether. Thanks a ton!",
+      "rating": 5
+    },
+    {
+      "name": "Les D.",
+      "text": "I call her 'Dr. Delicate.' She is intensely caring and personable, making my mouth full of new caps a beautiful experience.",
+      "rating": 5
+    },
+    {
+      "name": "Peter M.",
+      "text": "Thank you for giving me my smile back! The information and confidence provided during the implant phases were exceptional.",
+      "rating": 5
+    },
+    {
+      "name": "John P.",
+      "text": "Our teeth are looking better than good. We can finally enjoy our food again. We can't stop smiling after our full mouth rehab.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#000000"
+}

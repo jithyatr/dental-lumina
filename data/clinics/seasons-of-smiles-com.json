@@ -1,0 +1,283 @@
+{
+  "clinic": {
+    "name": "Seasons of Smiles Dental",
+    "tagline": "The art of dentistry",
+    "city": "Camden",
+    "phone": "(207) 236-4740",
+    "address": "100 Elm Street, Camden, ME 04843",
+    "hours": "Mon-Thu 8 am – 5 pm",
+    "logoPath": "/clinics/seasons-of-smiles-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your confidence and function with permanent, titanium-rooted dental implants. We combine Digital Smile Design and a relaxing atmosphere to replace missing teeth with natural-looking results.",
+    "differentiators": [
+      {
+        "title": "Advanced Digital Technology",
+        "description": "We utilize Digital Smile Design and iTero 3D scans to plan precise implant placements and predictable aesthetic outcomes."
+      },
+      {
+        "title": "In-House Insurance Savings",
+        "description": "Our unique in-house program offers significant discounts on procedures, saving patients upwards of $1,000 on major work."
+      },
+      {
+        "title": "Patient-Centered Comfort",
+        "description": "We prioritize a relaxing environment with options like nitrous oxide to transform the typical dental experience into one patients love."
+      },
+      {
+        "title": "Full-Arch Expertise",
+        "description": "Our practice specializes in restorative solutions ranging from single implants to complex implant-supported dentures and bridges."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Consultation & 3D Imaging",
+        "description": "We begin with a thorough assessment and 3D iTero scans to map out your unique bone structure and ideal smile goals."
+      },
+      {
+        "title": "Digital Smile Design",
+        "description": "Using Digital Smile Design, we create a visual preview of your final results, ensuring the perfect shade and fit before we begin."
+      },
+      {
+        "title": "Precise Implant Placement",
+        "description": "Dr. Medina expertly places the titanium implant into the jawbone using modern technology and comfort-focused techniques."
+      },
+      {
+        "title": "Healing & Integration",
+        "description": "Over several months, the implant undergoes osseointegration, naturally fusing with your bone to create a rock-solid foundation."
+      },
+      {
+        "title": "Custom Restoration Fitting",
+        "description": "Once healed, we take precise impressions to craft your custom implant crown, bridge, or denture that matches your natural teeth."
+      },
+      {
+        "title": "Final Smile Delivery",
+        "description": "We secure your permanent restoration, leaving you with a beautiful, functional smile and a plan for long-term health."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Loose Dentures",
+      "Failing Bridge",
+      "Difficulty Chewing",
+      "Embarrassed To Smile",
+      "Bone Loss",
+      "Tooth Pain",
+      "Broken Tooth",
+      "Gum Disease",
+      "Dental Emergency"
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years of Excellence"
+      },
+      {
+        "value": "400+",
+        "label": "5-Star Reviews"
+      },
+      {
+        "value": "100%",
+        "label": "Digital Planning"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Stress-Free Environment",
+        "description": "Experience a relaxing and light-hearted atmosphere designed to ease dental anxiety for patients of all ages."
+      },
+      {
+        "title": "Digital Smile Design",
+        "description": "Preview your dental implant results before treatment starts using advanced 3D imaging and shade-matching technology."
+      },
+      {
+        "title": "Flexible Financing",
+        "description": "Access affordable care through our in-house insurance program and flexible payment options for restorative procedures."
+      },
+      {
+        "title": "Comfort Options",
+        "description": "We offer nitrous oxide and gentle techniques to ensure your implant surgery is as comfortable and pleasant as possible."
+      },
+      {
+        "title": "Modern Implant Tech",
+        "description": "Our office utilizes the latest equipment and updated technology for precise and long-lasting tooth replacement."
+      },
+      {
+        "title": "Comprehensive Restorations",
+        "description": "From single crowns to full implant bridges, we provide complete care from the first consultation to your final smile."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implant",
+        "description": "A permanent replacement for a single missing tooth that preserves the health of your surrounding natural teeth."
+      },
+      {
+        "title": "Implant Bridges",
+        "description": "Stable, multi-tooth restorations supported by titanium implants to bridge the gap left by several missing teeth."
+      },
+      {
+        "title": "Implant Dentures",
+        "description": "Secure, implant-supported dentures that eliminate slipping and provide the confidence to eat and speak naturally."
+      },
+      {
+        "title": "Implant Crowns",
+        "description": "Custom-crafted, aesthetic crowns designed to attach to implants for a seamless and durable smile restoration."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does the dental implant process take?",
+        "answer": "The journey typically involves several stages over a few months, including planning, placement, and a healing period to ensure the implant is securely integrated with your jawbone."
+      },
+      {
+        "question": "How much do dental implants cost?",
+        "answer": "Costs vary based on your specific needs, but we offer an in-house insurance program and financing options that have saved our patients thousands on restorative work."
+      },
+      {
+        "question": "Am I a candidate for implants if I have bone loss?",
+        "answer": "We use 3D imaging and Digital Smile Design to assess your jaw health. Many patients with bone loss can still receive implants following preparation or bone grafting."
+      },
+      {
+        "question": "Does dental implant surgery hurt?",
+        "answer": "Your comfort is our primary concern. We provide a relaxing setting and options like nitrous oxide to ensure you feel minimal discomfort during the procedure."
+      },
+      {
+        "question": "How long do dental implants last?",
+        "answer": "With proper care and regular checkups at Seasons of Smiles, titanium dental implants are designed to be a permanent, lifelong solution for missing teeth."
+      },
+      {
+        "question": "Are you accepting new patients for restorative work?",
+        "answer": "Yes, we always welcome new patients from Camden, Rockport, and the Midcoast area seeking to restore their smiles with implants or other advanced treatments."
+      }
+    ],
+    "footerAbout": "Seasons of Smiles Dental provides excellence in restorative, cosmetic, and implant dentistry, serving families across Midcoast Maine with a commitment to comfort and advanced technology.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/seasons-of-smiles-com/case-before-1780289962860-k4zbgd.png",
+        "afterImage": "/clinics/seasons-of-smiles-com/case-after-1780289967276-ggnyx9.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/seasons-of-smiles-com/hero.png",
+    "benefitsImagePath": "/clinics/seasons-of-smiles-com/benefits.png",
+    "whyChooseImagePath": "/clinics/seasons-of-smiles-com/whychoose.jpg"
+  },
+  "doctor": {
+    "name": "Norman Medina",
+    "credentials": "DDS",
+    "bio": "Norman Medina, DDS, has been providing high-quality dental care to the Midcoast Maine community for decades. He is known for his professional expertise and commitment to staying updated with the latest advancements in dental technology, including Digital Smile Design and implant restorations. Dr. Medina focuses on making every visit relaxing and enjoyable, particularly for patients with dental anxiety. His patient-first philosophy ensures that comfort is always the primary concern during every procedure.",
+    "photoPath": "/clinics/seasons-of-smiles-com/doctor.jpg",
+    "specialistCredentials": [
+      "Advanced Implant Restorations",
+      "Digital Smile Design Mastery",
+      "Modern Dental Technology",
+      "Comfort-Focused Care"
+    ],
+    "specialistPortraitPath": "/clinics/seasons-of-smiles-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Eric V.",
+      "text": "I’ve been going there for a little over a year. I needed a good deal of work done and they’ve done a great job, including an implant. Their insurance is a great deal.",
+      "rating": 5
+    },
+    {
+      "name": "Mike C.",
+      "text": "I am thrilled with my crowns and the quality of work. The office is spotless, the equipment looks perfect, and Dr. Medina gave me a great feeling of confidence.",
+      "rating": 5
+    },
+    {
+      "name": "Jon V.",
+      "text": "Dr. Medina is professional and highly knowledgeable with updated technology. I'm usually not comfortable at the dentist, but here I feel at home. Highly recommend.",
+      "rating": 5
+    },
+    {
+      "name": "Coni F.",
+      "text": "It was wonderful!! The staff was very friendly and made you feel like you have been going there forever. I highly recommend this place to anyone.",
+      "rating": 5
+    },
+    {
+      "name": "Russell V.",
+      "text": "I was a dentist hater for years until I found Dr. Medina. Seasons of Smiles is spectacular in every aspect and made me a dental lover!",
+      "rating": 5
+    },
+    {
+      "name": "Dianne S.",
+      "text": "After a fall, I used Digital Smile Design to see how a makeover could transform my look. Now I'm beaming with confidence and the color match is spot on!",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#585359"
+}

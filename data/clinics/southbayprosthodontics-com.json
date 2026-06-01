@@ -1,0 +1,185 @@
+{
+  "clinic": {
+    "name": "South Bay Prosthodontics",
+    "tagline": "The Art and Science of Specialized Dentistry",
+    "city": "Torrance",
+    "phone": "(310) 378-9261",
+    "address": "23430 Hawthorne Blvd. Suite 335, Torrance, CA 90505",
+    "logoPath": "/clinics/southbayprosthodontics-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Specialist Consultation",
+        "description": "Your journey begins with a thorough evaluation using advanced digital technology like PIC and digital scanning to create a personalized blueprint for your full mouth rehabilitation."
+      },
+      {
+        "title": "Collaborative Digital Planning",
+        "description": "Our prosthodontists act as dental architects, designing your new smile and bite while coordinating with a network of oral surgeons and specialists for a unified plan."
+      },
+      {
+        "title": "Foundation & Surgical Phase",
+        "description": "Any necessary extractions or implant placements are performed with precision, utilizing our advanced technology to ensure a stable base for your future restorations."
+      },
+      {
+        "title": "Provisional Functional Testing",
+        "description": "Temporary solutions are provided to ensure you can eat, speak, and smile confidently while we test the aesthetics and function of your new bite alignment."
+      },
+      {
+        "title": "Custom Laboratory Fabrication",
+        "description": "Utilizing our in-house lab capabilities and specialized materials, your final permanent restorations are meticulously crafted to match your facial features and functional needs."
+      },
+      {
+        "title": "Final Delivery & Maintenance",
+        "description": "We deliver your final crowns, bridges, or full-arch prosthetics and establish a long-term care plan to protect your investment and maintain your specialized results."
+      }
+    ],
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/clinics/southbayprosthodontics-com/case-before-1780039873122-w95ewn.png",
+        "afterImage": "/clinics/southbayprosthodontics-com/case-after-1780039878969-d9p9rm.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/southbayprosthodontics-com/hero.jpg",
+    "benefitsImagePath": "/clinics/southbayprosthodontics-com/benefits.jpg",
+    "whyChooseImagePath": "/clinics/southbayprosthodontics-com/whychoose.png",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": " Full-Mouth Rehabilitations"
+      },
+      {
+        "value": "Advanced",
+        "label": "Implant Solutions"
+      },
+      {
+        "value": "1000+",
+        "label": " Smiles Restored"
+      }
+    ]
+  },
+  "doctor": {
+    "name": "Dr. A. Alejandra Rodriguez",
+    "credentials": "DDS",
+    "bio": "Dr. A. Alejandra Rodriguez, DDS is a highly trained prosthodontist dedicated to restoring healthy, confident smiles through advanced restorative and cosmetic dental care. With specialized training in prosthodontics and expertise in digital dentistry, implant restorations, and full-mouth rehabilitation, she provides personalized treatment solutions tailored to each patient's needs. Known for her attentive approach and commitment to excellence, Dr. Rodriguez combines modern techniques with compassionate care to help patients achieve lasting oral health and beautiful results.",
+    "yearsOfExperience": 20,
+    "photoPath": "/clinics/southbayprosthodontics-com/doctor.jpg",
+    "specialistCredentials": [
+      "Advanced Prosthodontics Specialist",
+      "Expert in Full-Mouth Rehabilitation",
+      "Skilled in Implant & Digital Dentistry",
+      "Fluent Spanish-Speaking Provider"
+    ],
+    "specialistPortraitPath": "/clinics/southbayprosthodontics-com/specialist.jpg"
+  },
+  "reviews": [
+    {
+      "name": "Stacey",
+      "text": "Everyone in the office is extremely knowledgeable on all the latest technologies available. The doctors are amazing and worked miracles on me. When I thought my case was hopeless I would absolutely recommend everyone to come here.",
+      "rating": 5
+    },
+    {
+      "name": "Justin",
+      "text": "Always a great experience. Dr. Rodriguez immediately discovered an issue that had somehow gone unnoticed at my previous dentistry. Very helpful in weighing my options and the procedures have been very gentle.",
+      "rating": 5
+    },
+    {
+      "name": "Betty",
+      "text": "You could not find a better all-around dental care anywhere. Dr. Rodriguez is excellent, top of her field, conscientious and a true artist at her work; the staff is fantastic and efficient.",
+      "rating": 5
+    },
+    {
+      "name": "Pasquale",
+      "text": "Great experience all around. Office personnel very helpful, Dr. assistant sweet and very knowledgeable. Never felt so confident in my doctor before. Great find. Would definitely recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Mark R.",
+      "text": "The full mouth restoration they performed changed my life. As specialists, they understood exactly how to rebuild my bite and smile using the latest digital technology. Truly professional care.",
+      "rating": 5
+    },
+    {
+      "name": "Elena S.",
+      "text": "I was nervous about such a complex reconstruction, but the sedation options and the team's expertise made me feel at ease. My new implants and crowns feel and look completely natural.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#4b413b"
+}

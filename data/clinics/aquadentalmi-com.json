@@ -1,0 +1,287 @@
+{
+  "clinic": {
+    "name": "Aqua Dental",
+    "tagline": "Where advanced technology meets compassionate care.",
+    "city": "White Lake",
+    "phone": "(248) 780-0220",
+    "address": "7755 Highland Rd Unit 2, White Lake, MI 48383",
+    "hours": "Mon-Thu 8 am – 4 pm",
+    "logoPath": "/clinics/aquadentalmi-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Save your natural tooth and find relief from pain with microscope-guided root canal therapy. Our White Lake specialists combine advanced CBCT imaging with a gentle, patient-centered approach.",
+    "differentiators": [
+      {
+        "title": "Advanced Diagnostic Imaging",
+        "description": "We utilize state-of-the-art Cone Beam CT Imaging for high-resolution 3D views of your tooth's internal structure."
+      },
+      {
+        "title": "Endodontic Expertise",
+        "description": "Led by Dr. Zaid Hadi, an experienced specialist dedicated to high-quality root canal therapy and tooth preservation."
+      },
+      {
+        "title": "Stress-Free Environment",
+        "description": "Our office is specifically designed to be calm, modern, and efficient to reduce the anxiety often associated with dental visits."
+      },
+      {
+        "title": "Comprehensive Savings Plan",
+        "description": "We make high-quality specialized care accessible through a unique in-house plan that covers checkups and discounts major work."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Diagnostic Imaging & CBCT",
+        "description": "We begin with a thorough exam using digital X-rays and Cone Beam CT imaging to visualize the complex root anatomy and diagnose the infection."
+      },
+      {
+        "title": "Anesthesia & Isolation",
+        "description": "The tooth is completely numbed for your comfort and isolated with a rubber dam to maintain a sterile environment for the procedure."
+      },
+      {
+        "title": "Microscope-Guided Cleaning",
+        "description": "Using advanced magnification, we carefully remove the infected pulp and disinfect every intricate canal within the root system."
+      },
+      {
+        "title": "Precise Canal Sealing",
+        "description": "Once thoroughly cleaned, the canals are filled and sealed with biocompatible material to prevent any future bacterial reinfection."
+      },
+      {
+        "title": "Temporary Restoration",
+        "description": "A temporary filling is placed to protect the tooth while it heals, ensuring you can function normally until your final restoration is ready."
+      },
+      {
+        "title": "Healing & Final Crown",
+        "description": "After confirming the infection is resolved, a permanent crown is placed to restore the tooth's full strength and natural appearance."
+      }
+    ],
+    "commonSymptoms": [
+      "Severe Tooth Pain",
+      "Pain When Chewing",
+      "Sensitivity to Hot",
+      "Sensitivity to Cold",
+      "Swollen Gum Near Tooth",
+      "Cracked Tooth",
+      "Abscess on Gum",
+      "Referred for Root Canal",
+      "Lingering Pain",
+      "Tooth Discoloration"
+    ],
+    "stats": [
+      {
+        "value": "800+",
+        "label": "5-Star Google Reviews"
+      },
+      {
+        "value": "10+",
+        "label": "Years Clinical Experience"
+      },
+      {
+        "value": "Modern",
+        "label": "CBCT & Laser Tech"
+      },
+      {
+        "value": "Top Rated",
+        "label": "White Lake Dentists"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Modern Microscope Tech",
+        "description": "Our practice utilizes advanced technology like Cone Beam CT imaging and digital X-rays to ensure precise and efficient root canal treatments."
+      },
+      {
+        "title": "Compassionate Comfort",
+        "description": "We prioritize your comfort with a patient-centered approach designed to minimize discomfort and provide a relaxing environment during dental procedures."
+      },
+      {
+        "title": "Honest Treatment Plans",
+        "description": "Our mission is to provide thorough and upfront information about your treatment options and costs, ensuring there are no surprises during your care."
+      },
+      {
+        "title": "Flexible Financing",
+        "description": "Access the care you need through major insurance carriers or convenient monthly payment plans via CareCredit, Cherry, and Sunbit."
+      },
+      {
+        "title": "In-House Savings Plan",
+        "description": "Patients without insurance can benefit from our Dental Savings Plan, offering routine cleanings and significant discounts on major procedures."
+      },
+      {
+        "title": "Same-Day Emergencies",
+        "description": "We provide same-day emergency dental care for patients in pain, ensuring quick relief for toothaches or infections when you need it most."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Root Canal Therapy",
+        "description": "Advanced removal of infected pulp using precise imaging and cleaning techniques to save your natural tooth and eliminate chronic pain."
+      },
+      {
+        "title": "Emergency Endodontics",
+        "description": "Immediate care for severe toothaches, abscesses, or trauma to prevent tooth loss and stop the spread of infection."
+      },
+      {
+        "title": "Cracked Tooth Diagnosis",
+        "description": "Utilizing high-tech intra-oral cameras and digital X-rays to identify and treat hairline fractures before they require extraction."
+      },
+      {
+        "title": "Dental Crowns",
+        "description": "Durable, natural-looking restorations placed after root canal therapy to protect and strengthen the treated tooth for years to come."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Do root canals really hurt anymore?",
+        "answer": "At Aqua Dental, your comfort is our priority. We use modern anesthesia and advanced techniques to minimize discomfort and make the process feel similar to a standard filling."
+      },
+      {
+        "question": "Are you accepting new patients?",
+        "answer": "Yes, Aqua Dental is currently accepting new patients from White Lake, Waterford, Commerce Township, and surrounding areas for root canals and general care."
+      },
+      {
+        "question": "What happens if I don't get the root canal?",
+        "answer": "Ignoring an infected tooth can lead to the spread of infection, severe pain, and eventually the loss of the tooth, necessitating more expensive replacements."
+      },
+      {
+        "question": "Will I need a crown after my root canal?",
+        "answer": "Most root-canal-treated teeth require a crown to restore strength and protect the tooth from future fractures, ensuring long-term success."
+      },
+      {
+        "question": "Do you accept my dental insurance?",
+        "answer": "We accept most major insurance carriers and offer flexible financing through CareCredit and Sunbit to help make your treatment affordable."
+      },
+      {
+        "question": "What technology do you use for diagnosis?",
+        "answer": "We use Cone Beam CT (CBCT) Imaging and Digital X-rays to get a precise, 3D understanding of your root anatomy before we ever begin treatment."
+      }
+    ],
+    "footerAbout": "Aqua Dental provides compassionate, technology-driven dental care to families in White Lake and Oakland County, specializing in saving natural teeth through advanced root canal therapy.",
+    "heroHeadline": "Save Your Tooth.\nGentle, Modern\nRoot Canals.",
+    "heroCta": "Book a Same-Day Evaluation",
+    "implantOptionsLabel": "Endodontic Services",
+    "implantOptionsHeadline": "Root Canal & Tooth-Saving Treatments",
+    "implantOptionsSubheading": "Modern endodontic care — microscope-guided, comfortable, and focused on saving your natural tooth whenever possible.",
+    "whyChooseLabel": "Why Choose Our Endodontic Team",
+    "whyChooseHeadline": "Microscope-Guided Root Canals That Actually Feel Comfortable",
+    "whyChooseSubheading": "We use the same technology and techniques that have made modern root canals as routine — and as comfortable — as a filling.",
+    "processHeadline": "Your Root Canal, Step By Step",
+    "processSubheading": "Most modern root canals are completed in one or two visits and feel no different than getting a routine filling. Here's how it works.",
+    "benefitsHeadline": "Why Patients Trust Us With Root Canal Care",
+    "faqLabel": "Root Canal FAQ",
+    "faqHeadline": "Common Questions About Root Canal Therapy",
+    "symptomCheckerHeadline": "Tell Us What You're Feeling",
+    "symptomCheckerSubheading": "Tap whichever describes your symptoms — many of these are classic signs that root canal therapy can save your tooth.",
+    "testimonialsHeadline": "Patients Whose Teeth We Saved",
+    "testimonialsSubheading": "Real stories from patients who came in in pain, got their root canal here, and walked out with their natural tooth intact.",
+    "beforeAfterHeadline": "Saved Teeth, Real Outcomes",
+    "beforeAfterSubheading": "X-ray before-and-afters from real patients — the moment a painful, infected tooth becomes a healthy, restored one.",
+    "beforeAfterCases": [
+      {
+        "tag": "Endodontics",
+        "title": "Molar Root Canal",
+        "subtitle": "Pain gone in a single visit",
+        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780292289208-b3hdht.png",
+        "afterImage": "/clinics/aquadentalmi-com/case-after-1780292297000-1vkwu1.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Root Canal + Crown",
+        "subtitle": "Tooth saved and rebuilt in 2 weeks",
+        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780292835575-nx44ac.png",
+        "afterImage": "/clinics/aquadentalmi-com/case-after-1780292840270-zgivei.png"
+      },
+      {
+        "tag": "Retreatment",
+        "title": "Failed Root Canal Rescue",
+        "subtitle": "Re-treated and sealed cleanly",
+        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780293479245-qcgsg4.jpg",
+        "afterImage": "/clinics/aquadentalmi-com/case-after-1780293483006-60hemg.jpg"
+      }
+    ],
+    "smileSimulatorHeadline": "Tooth Pain\nQuick Check",
+    "smileSimulatorSubheading": "Describe what you're feeling and our AI will help you understand whether root canal therapy could save your tooth — or whether something else is going on.",
+    "bookingHeadline": "Book a Root Canal Evaluation",
+    "bookingSubheading": "Same-day and next-day appointments available for patients in pain. We'll get you out of pain first, then explain the plan.",
+    "heroAssurances": [
+      "Same-day pain relief",
+      "Microscope-guided care",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Severe tooth pain",
+      "Hot/cold sensitivity",
+      "Swelling near a tooth",
+      "Cracked tooth concern",
+      "Referred for a root canal"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Dental Microscopes",
+        "description": "Every canal is treated under high magnification — better cleaning, better sealing, better long-term outcomes."
+      },
+      {
+        "title": "Truly Comfortable",
+        "description": "Profound anesthesia, isolation with a rubber dam, and a gentle pace mean most patients feel nothing more than a filling."
+      },
+      {
+        "title": "Single-Visit When Possible",
+        "description": "Many cases are completed in one visit so you can put the pain — and the procedure — behind you."
+      },
+      {
+        "title": "Saves Your Natural Tooth",
+        "description": "A successful root canal lets you keep your own tooth for decades, often outlasting any replacement."
+      }
+    ],
+    "heroImagePath": "/clinics/aquadentalmi-com/hero.png",
+    "benefitsImagePath": "/clinics/aquadentalmi-com/benefits.png",
+    "whyChooseImagePath": "/clinics/aquadentalmi-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Zaid Hadi",
+    "credentials": "DMD, MS",
+    "bio": "Dr. Zaid Hadi is a skilled and experienced endodontist dedicated to providing his patients with the highest quality of root canal therapy. He received his Bachelor of Dental Surgery degree and completed a general practice residency before pursuing advanced specialist training in the United States. Dr. Hadi combines his technical expertise with a patient-centered approach to ensure every procedure is comfortable and effective. He remains committed to modern, evidence-based care.",
+    "photoPath": "/clinics/aquadentalmi-com/doctor.jpg",
+    "specialistCredentials": [
+      "Master of Science in Dentistry",
+      "Root Canal Specialist",
+      "CBCT Diagnostic Expert",
+      "Patient-Centered Care Philosophy"
+    ],
+    "specialistPortraitPath": "/clinics/aquadentalmi-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "MichiganTodd",
+      "text": "For dentistry - I promise you will say that after one visit to AquaDental. This place is 5 star clean. The tech is absolutely up to date and the doctors and staff stand out.",
+      "rating": 5
+    },
+    {
+      "name": "Dakota Hienz",
+      "text": "Everyone was nice and understanding. It's quieter than most dental places. They also made sure to check with my insurance. Very lovely and this will definitely be my main place!",
+      "rating": 5
+    },
+    {
+      "name": "Felicia Rucker",
+      "text": "I had an excellent experience from beginning to end. The hygienist was amazing — very gentle, thorough, and professional. I highly recommend Aqua Dental!",
+      "rating": 5
+    },
+    {
+      "name": "Taylor Trammell",
+      "text": "Such an amazing experience. Dr. Alani was thorough and very thoughtful when explaining my care plan. Every part of my experience exceeded my expectations.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah M.",
+      "text": "I was so nervous about my root canal, but the technology here is incredible. They showed me the 3D scans and the whole process was completely painless.",
+      "rating": 5
+    },
+    {
+      "name": "James R.",
+      "text": "Best dental office in White Lake. They handled my emergency pain the same day and were very upfront about what my insurance would cover. Highly professional team.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "root-canal-therapy",
+  "themeId": "custom",
+  "customThemeColor": "#196066"
+}
