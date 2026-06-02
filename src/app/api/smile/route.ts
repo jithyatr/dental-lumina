@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { createGenAI } from "@/lib/genai";
 
 export const runtime = "nodejs";
 
@@ -21,13 +22,18 @@ function parseDataUrl(value: string): { mimeType: string; data: string } {
   return { mimeType: "image/jpeg", data: value };
 }
 
+/** Pull the HTTP status out of a @google/genai ApiError, when present. */
+function errStatus(err: unknown): number | undefined {
+  const status = (err as { status?: unknown })?.status;
+  return typeof status === "number" ? status : undefined;
+}
+
 export async function POST(req: NextRequest) {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json(
-      { error: "GEMINI_API_KEY not configured" },
-      { status: 500 }
-    );
+  let ai;
+  try {
+    ai = createGenAI();
+  } catch (err) {
+    return NextResponse.json({ error: (err as Error).message }, { status: 500 });
   }
 
   let body: SmileRequest;
@@ -44,51 +50,41 @@ export async function POST(req: NextRequest) {
   const { mimeType, data } = parseDataUrl(body.imageBase64);
   const userPrompt = body.prompt?.toString().trim() || "Improve my smile";
 
-  const requestBody = JSON.stringify({
-    systemInstruction: { parts: [{ text: SYSTEM_INSTRUCTION }] },
-    contents: [
-      {
-        role: "user",
-        parts: [
-          { text: `Patient goal: ${userPrompt}` },
-          { inlineData: { mimeType, data } },
-        ],
-      },
-    ],
-    generationConfig: {
-      temperature: 0.5,
-      maxOutputTokens: 600,
-      responseMimeType: "application/json",
-    },
-  });
-
   let raw = "";
   let lastError = "";
   let rateLimited = false;
   for (const model of MODELS) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
-    const upstream = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
-      body: requestBody,
-    });
-    if (upstream.status === 429) {
-      rateLimited = true;
+    try {
+      const response = await ai.models.generateContent({
+        model,
+        contents: [
+          {
+            role: "user",
+            parts: [
+              { text: `Patient goal: ${userPrompt}` },
+              { inlineData: { mimeType, data } },
+            ],
+          },
+        ],
+        config: {
+          systemInstruction: SYSTEM_INSTRUCTION,
+          temperature: 0.5,
+          maxOutputTokens: 600,
+          responseMimeType: "application/json",
+        },
+      });
+      raw = (response.text ?? "").trim();
       break;
+    } catch (err) {
+      const status = errStatus(err);
+      if (status === 429) {
+        rateLimited = true;
+        break;
+      }
+      lastError = err instanceof Error ? err.message : String(err);
+      // 503 = model overloaded → try next model; anything else → give up
+      if (status !== 503) break;
     }
-    if (upstream.ok) {
-      const result = (await upstream.json()) as {
-        candidates?: { content?: { parts?: { text?: string }[] } }[];
-      };
-      raw =
-        result.candidates?.[0]?.content?.parts
-          ?.map((p) => p.text ?? "")
-          .join("")
-          .trim() ?? "";
-      break;
-    }
-    lastError = await upstream.text();
-    if (upstream.status !== 503) break;
   }
 
   if (rateLimited) {

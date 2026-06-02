@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { createGenAI } from "@/lib/genai";
 
 export const runtime = "nodejs";
 
@@ -11,32 +12,18 @@ const MODELS = (process.env.GEMINI_MODEL ?? "gemini-2.5-flash,gemini-2.0-flash,g
   .map((m) => m.trim())
   .filter(Boolean);
 
-async function callGemini(
-  model: string,
-  apiKey: string,
-  contents: { role: "user" | "model"; parts: Part[] }[]
-) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
-  return fetch(url, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-goog-api-key": apiKey,
-    },
-    body: JSON.stringify({
-      contents,
-      generationConfig: { temperature: 0.4, maxOutputTokens: 1024 },
-    }),
-  });
+/** Pull the HTTP status out of a @google/genai ApiError, when present. */
+function errStatus(err: unknown): number | undefined {
+  const status = (err as { status?: unknown })?.status;
+  return typeof status === "number" ? status : undefined;
 }
 
 export async function POST(req: NextRequest) {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json(
-      { error: "GEMINI_API_KEY not configured" },
-      { status: 500 }
-    );
+  let ai;
+  try {
+    ai = createGenAI();
+  } catch (err) {
+    return NextResponse.json({ error: (err as Error).message }, { status: 500 });
   }
 
   let body: ChatRequest;
@@ -59,24 +46,23 @@ export async function POST(req: NextRequest) {
 
   let lastError = "";
   for (const model of MODELS) {
-    const upstream = await callGemini(model, apiKey, contents);
-    if (upstream.status === 429) {
-      return NextResponse.json({ error: "Rate limited" }, { status: 429 });
-    }
-    if (upstream.ok) {
-      const data = (await upstream.json()) as {
-        candidates?: { content?: { parts?: Part[] } }[];
-      };
-      const reply =
-        data.candidates?.[0]?.content?.parts
-          ?.map((p) => p.text ?? "")
-          .join("")
-          .trim() ?? "";
+    try {
+      const response = await ai.models.generateContent({
+        model,
+        contents,
+        config: { temperature: 0.4, maxOutputTokens: 1024 },
+      });
+      const reply = (response.text ?? "").trim();
       return NextResponse.json({ reply });
+    } catch (err) {
+      const status = errStatus(err);
+      if (status === 429) {
+        return NextResponse.json({ error: "Rate limited" }, { status: 429 });
+      }
+      lastError = err instanceof Error ? err.message : String(err);
+      // 503 = model overloaded → try next model; anything else → give up
+      if (status !== 503) break;
     }
-    lastError = await upstream.text();
-    // 503 = model overloaded → try next model
-    if (upstream.status !== 503) break;
   }
 
   return NextResponse.json(
