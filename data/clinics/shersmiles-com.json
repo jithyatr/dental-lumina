@@ -1,0 +1,284 @@
+{
+  "clinic": {
+    "name": "Sher Smiles",
+    "tagline": "Providing exceptional care to the greater Cleveland area",
+    "city": "Broadview Heights",
+    "phone": "(440) 546-9333",
+    "address": "7983 Broadview Rd, Broadview Heights, OH 44147",
+    "logoPath": "/clinics/shersmiles-com/logo.svg",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Sher Smiles offers specialized Invisalign clear aligner therapy, providing a discreet and effective way to straighten teeth for teens and adults. With cutting-edge tools and techniques, we ensure a comfortable journey towards your perfect smile, focusing on personalized care in a warm and welcoming environment.",
+    "differentiators": [
+      {
+        "title": "Invisalign Gold Provider",
+        "description": "Recognized for extensive experience and successful outcomes with Invisalign clear aligner therapy."
+      },
+      {
+        "title": "Patient-Centered Approach",
+        "description": "Patients are our top priority, ensuring a comfortable journey towards a perfect smile with attentive care."
+      },
+      {
+        "title": "Cutting-Edge Orthodontics",
+        "description": "Utilizing advanced tools and techniques, including 3D X-Rays, for precise and effective treatment."
+      },
+      {
+        "title": "Family-Owned Practice",
+        "description": "A welcoming, family-owned practice providing exceptional orthodontic care to the greater Cleveland area for patients of all ages."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Consultation And 3D Scan",
+        "description": "Your journey begins with a thorough consultation and a state-of-the-art 3D iTero scan, allowing you to preview your potential new smile even before treatment starts."
+      },
+      {
+        "title": "Custom Plan & Aligner Manufacturing",
+        "description": "Based on your scan, a personalized treatment plan is created, and your custom series of clear Invisalign aligners are meticulously manufactured just for you."
+      },
+      {
+        "title": "First Aligners & Coaching",
+        "description": "You'll receive your first set of aligners along with comprehensive coaching on how to wear, care for, and maintain them for optimal results."
+      },
+      {
+        "title": "Regular Progress Check-ins",
+        "description": "We'll schedule periodic check-ins every 6-10 weeks to closely monitor your tooth movement and ensure your treatment is progressing as planned."
+      },
+      {
+        "title": "Refinement Aligners (If Needed)",
+        "description": "Towards the end of your treatment, if necessary, refinement aligners may be provided to achieve any final fine-tuning for that perfect smile."
+      },
+      {
+        "title": "Retainers & Smile Maintenance",
+        "description": "Upon completion, custom retainers are provided to maintain your beautiful new smile, along with guidance for long-term smile maintenance."
+      }
+    ],
+    "commonSymptoms": [
+      "Crooked Teeth",
+      "Crowded Teeth",
+      "Gaps Between Teeth",
+      "Overbite",
+      "Underbite",
+      "Crossbite",
+      "Open Bite",
+      "Want Straight Teeth",
+      "Teen Wants Aligners",
+      "Old Braces Relapsed"
+    ],
+    "stats": [
+      {
+        "value": "Gold Provider",
+        "label": "Invisalign Status"
+      },
+      {
+        "value": "All Ages",
+        "label": "Patients Served"
+      },
+      {
+        "value": "Cutting-Edge",
+        "label": "Technology Utilized"
+      },
+      {
+        "value": "Family-Owned",
+        "label": "Practice Type"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Discreet Teeth Straightening",
+        "description": "Achieve a beautifully straight smile using clear, virtually invisible aligners, so your treatment remains your secret."
+      },
+      {
+        "title": "Personalized Treatment Plans",
+        "description": "Receive a custom treatment strategy tailored to your unique smile goals, ensuring optimal results and comfort."
+      },
+      {
+        "title": "Advanced Orthodontic Care",
+        "description": "Benefit from cutting-edge tools and techniques for precise tooth movement and effective bite correction."
+      },
+      {
+        "title": "Comfortable Patient Experience",
+        "description": "Enjoy a warm, welcoming environment where your comfort and satisfaction are the top priorities during every visit."
+      },
+      {
+        "title": "Family-Oriented Practice",
+        "description": "Experience care from a family-owned practice devoted to providing exceptional orthodontic and periodontic services for all ages."
+      },
+      {
+        "title": "Convenient Progress Checks",
+        "description": "Maintain your treatment schedule with flexible check-ins, making it easy to fit orthodontic care into your busy life."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Invisalign Comprehensive",
+        "description": "Full-treatment clear aligners for adults addressing crowding, spacing, or bite correction, typically completed within 12-18 months."
+      },
+      {
+        "title": "Invisalign Teen",
+        "description": "Aligners designed specifically for growing smiles, complete with compliance indicators and replacement aligners for active teen lifestyles."
+      },
+      {
+        "title": "Invisalign Express",
+        "description": "A shorter aligner treatment, often 3-6 months, ideal for minor crowding, correcting relapse from previous orthodontics, or pre-cosmetic alignment."
+      },
+      {
+        "title": "Retention & Whitening",
+        "description": "Custom retainers are provided to protect your newly straightened smile, with optional whitening treatments that pair perfectly with your clear aligner trays."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does Invisalign treatment typically take?",
+        "answer": "The duration of Invisalign treatment varies based on the complexity of your case, but many patients complete their journey within 12 to 18 months, often faster than traditional braces."
+      },
+      {
+        "question": "How much does Invisalign cost, and is it covered by insurance?",
+        "answer": "The cost of Invisalign depends on individual needs. We recommend a consultation to discuss pricing. Many dental insurance plans offer coverage for orthodontic treatment, including Invisalign."
+      },
+      {
+        "question": "How many hours a day do I need to wear my Invisalign aligners?",
+        "answer": "For optimal results, it is recommended to wear your Invisalign aligners for 20 to 22 hours per day, removing them only for eating, drinking, brushing, and flossing."
+      },
+      {
+        "question": "Can Invisalign fix my specific bite issue?",
+        "answer": "Invisalign can effectively treat a wide range of orthodontic issues, including overbites, underbites, crossbites, and open bites. A comprehensive evaluation with Dr. Sher will determine the best course of action for your smile."
+      },
+      {
+        "question": "Will Invisalign hurt or affect my speech?",
+        "answer": "You may experience some mild discomfort when switching to new aligners, which typically subsides quickly. While there might be a slight adjustment period for speech, most patients adapt very quickly."
+      },
+      {
+        "question": "What happens after Invisalign treatment, do I need a retainer?",
+        "answer": "Yes, after completing your Invisalign treatment, wearing a retainer is crucial to maintain your new smile and prevent teeth from shifting back to their original positions. We will discuss your retention options with you."
+      }
+    ],
+    "footerAbout": "Sher Smiles is a family-owned orthodontic and periodontic practice dedicated to creating raving fans and generations of healthy, beautiful smiles for the greater Cleveland area.",
+    "heroHeadline": "Straight Teeth.\nNo Metal.\nNo Compromise.",
+    "heroCta": "Book Your Free Invisalign Scan",
+    "implantOptionsLabel": "Clear Aligner Services",
+    "implantOptionsHeadline": "Invisalign Treatment Options for Every Smile",
+    "implantOptionsSubheading": "From mild crowding to complex bite correction, our Invisalign-focused services straighten teeth without the look or hassle of metal braces.",
+    "whyChooseLabel": "Why Choose Our Invisalign Team",
+    "whyChooseHeadline": "Certified Invisalign Providers Who Plan Every Aligner Personally",
+    "whyChooseSubheading": "Every aligner in your treatment is reviewed by an orthodontist who actually understands tooth movement — not just a software preview.",
+    "processHeadline": "Your Invisalign Journey",
+    "processSubheading": "From your first 3D scan to your final retainer fitting, here's exactly how an Invisalign treatment plan unfolds — most cases finish in 6-18 months.",
+    "benefitsHeadline": "Why Patients Choose Invisalign Here",
+    "faqLabel": "Invisalign FAQ",
+    "faqHeadline": "Common Questions About Invisalign",
+    "symptomCheckerHeadline": "Tell Us About Your Smile",
+    "symptomCheckerSubheading": "Tap whichever describes your teeth — we'll show you whether Invisalign is a good fit (and how long it would likely take).",
+    "testimonialsHeadline": "Real Invisalign Transformations",
+    "testimonialsSubheading": "Teens and adults who chose Invisalign with us and walked away with the smile they wanted.",
+    "beforeAfterHeadline": "Real Invisalign Before & Afters",
+    "beforeAfterSubheading": "See actual patient results — straighter teeth, balanced bites, and a smile transformation that didn't require a single metal bracket.",
+    "beforeAfterCases": [
+      {
+        "tag": "Invisalign",
+        "title": "Crowding Correction",
+        "subtitle": "Aligned in 9 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Orthodontics",
+        "title": "Bite Realignment",
+        "subtitle": "Balanced occlusion in 12 months",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Gap Closure",
+        "subtitle": "Front-teeth gap closed in 6 months",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
+    "smileSimulatorSubheading": "Upload a selfie and pick your goals — our AI smile preview shows you a glimpse of what your teeth could look like after Invisalign.",
+    "bookingHeadline": "Book Your Free Invisalign Scan",
+    "bookingSubheading": "Includes a complimentary 3D iTero scan and a personalized treatment timeline. Walk out with a clear plan.",
+    "heroAssurances": [
+      "Free 3D iTero scan",
+      "Flexible payment plans",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Fix crowded teeth",
+      "Close gaps between teeth",
+      "Correct my bite",
+      "Straighten after old braces",
+      "Get a confident smile"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "iTero 3D Planning",
+        "description": "Your full treatment is mapped out on a high-resolution 3D scanner — no putty, no guesswork."
+      },
+      {
+        "title": "Orthodontist-Reviewed",
+        "description": "Every aligner stage is reviewed by an orthodontist, not just auto-generated from software."
+      },
+      {
+        "title": "Discreet & Removable",
+        "description": "Clear aligners you can take out for meals, brushing, photos, and special occasions."
+      },
+      {
+        "title": "Retainers Included",
+        "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
+      }
+    ],
+    "heroImagePath": "/clinics/shersmiles-com/hero.png",
+    "benefitsImagePath": "/clinics/shersmiles-com/benefits.png",
+    "whyChooseImagePath": "/clinics/shersmiles-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Michael Sher",
+    "credentials": "DMD, MS",
+    "bio": "Dr. Michael Sher, the son of a dentist, trained at the prestigious University of Pennsylvania School of Dental Medicine and completed his postdoctoral training in Orthodontics and Dentofacial Orthopedics at the University of Detroit Mercy Dental School. His focus on cutting-edge tools and techniques, including 3D X-Rays, has helped countless patients achieve beautiful smiles with both braces and Invisalign treatment. Dr. Sher is a Board Certified Orthodontist and has earned the status of \"Gold Provider\" by Invisalign, reflecting his commitment to providing the highest level of patient care. He is happily married to Dr. Deena Sher, and they have three beautiful children.",
+    "photoPath": "/clinics/shersmiles-com/doctor.jpg",
+    "specialistCredentials": [
+      "Board Certified Orthodontist",
+      "Invisalign Gold Provider",
+      "3D Orthodontic Imaging",
+      "Comprehensive Patient Care"
+    ],
+    "specialistPortraitPath": "/clinics/shersmiles-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Jennifer B.",
+      "text": "Dr. Sher and the entire staff at Sher Smiles Orthodontics are absolutely amazing! Dr. Sher always makes us feel welcome and spends extra time to explain things each step of the way. My son is always excited to go to his appointments and loves the slushies after. We highly recommend Sher Smiles Orthodontics!",
+      "rating": 5
+    },
+    {
+      "name": "Anamaria S.",
+      "text": "We don't have enough words to say how much we love this amazing place. Dr. Sher is fantastic and the whole crew too. It feels like home when you step in the office. Warm, welcoming, smiles and always in the season decorated. Thank you all for doing such a wonderful job. We are really lucky.",
+      "rating": 5
+    },
+    {
+      "name": "Sabrina B.",
+      "text": "Dr. Sher and his staff have been wonderful to work with. We have two kids in braces and every step has been so easy. Every appointment we are greeted with smiles and an upbeat and positive atmosphere. My kids love it there!! The slushies are a perk for the kids too! I highly recommend Dr. Sher to anyone needing orthodontics for their children!",
+      "rating": 5
+    },
+    {
+      "name": "Mary S.",
+      "text": "Dr. Sher and the crew are amazing! They all really go above and beyond to answer any questions, resolve any issues, and are just plain great to deal with. My son Bishop, is never nervous for his appointments and loves all the special little touches this office does to make this a great experience for him.",
+      "rating": 5
+    },
+    {
+      "name": "Kevin C.",
+      "text": "Our family has had a great experience at Sher Smiles! They are very accommodating with our schedule, they always explain everything very clearly, and most importantly... our children feel VERY comfortable with all the staff members.",
+      "rating": 5
+    },
+    {
+      "name": "Michael T.",
+      "text": "I chose Sher Smiles for my Invisalign treatment, and I couldn't be happier with the results. The team explained everything clearly, and the aligners have been discreet and comfortable. My smile has transformed!",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "invisalign"
+}
