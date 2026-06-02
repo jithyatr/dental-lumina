@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { GoogleGenAI } from "@google/genai";
+import type { GoogleGenAI } from "@google/genai";
+import { createGenAI } from "../../src/lib/genai";
 import type { ClinicConfig } from "../../src/types/clinic";
 import type { Procedure } from "./procedures";
 
@@ -166,12 +167,13 @@ export async function generateSceneImage(
   publicClinicsDir: string,
   options: GenerateOptions,
 ): Promise<string | null> {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
-    console.warn(`[${options.scene}] GEMINI_API_KEY missing — skipping image generation`);
+  let ai: GoogleGenAI;
+  try {
+    ai = createGenAI();
+  } catch (err) {
+    console.warn(`[${options.scene}] ${(err as Error).message} — skipping image generation`);
     return null;
   }
-  const ai = new GoogleGenAI({ apiKey });
 
   let doctorRef: FetchedImage | null = null;
   if (options.doctorPhotoLocalPath) {

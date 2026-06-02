@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { GoogleGenAI, Type } from "@google/genai";
+import { Type } from "@google/genai";
+import { createGenAI } from "../../src/lib/genai";
 import type {
   Benefit,
   ClinicConfig,
@@ -179,9 +180,7 @@ function templateNote(template: ClinicConfig["template"]): string {
 }
 
 async function callGemini<T>(prompt: string, responseSchema: object): Promise<T> {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) throw new Error("GEMINI_API_KEY missing");
-  const ai = new GoogleGenAI({ apiKey });
+  const ai = createGenAI();
 
   const maxAttempts = 4;
   let lastErr: unknown;

@@ -1,12 +1,13 @@
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { GoogleGenAI, Type } from "@google/genai";
+import { Type } from "@google/genai";
+import { createGenAI } from "../../src/lib/genai";
 import type { ClinicConfig, Review, TemplateKind } from "../../src/types/clinic";
 import type { ImageCandidate } from "./crawl";
 import type { Procedure } from "./procedures";
 
-const MODEL = "gemini-3-flash-preview";
+const MODEL = process.env.GEMINI_TEXT_MODEL ?? "gemini-3-flash-preview";
 
 async function retryOn503<T>(fn: () => Promise<T>, attempts = 4): Promise<T> {
   let lastErr: unknown;
@@ -46,9 +47,7 @@ export async function extractClinicProfile(
   template: TemplateKind = "implants",
   procedure: Procedure | null = null,
 ): Promise<ExtractedProfile | null> {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) throw new Error("GEMINI_API_KEY is required");
-  const ai = new GoogleGenAI({ apiKey });
+  const ai = createGenAI();
 
   const imageList = images
     .map((img, i) => `  ${i + 1}. url=${img.url} alt="${img.alt}" context="${img.context}"`)
