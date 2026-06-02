@@ -1,0 +1,280 @@
+{
+  "clinic": {
+    "name": "1385 Dental Studio",
+    "tagline": "We take pride in your smile",
+    "city": "Aubrey",
+    "phone": "(817) 696-9080",
+    "address": "27379 E. University Dr. Suite 900, Aubrey, TX 76227",
+    "hours": "Mon-Fri  9am - 6pm",
+    "logoPath": "/clinics/1385dentalstudio-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": false,
+    "heroSubtitle": "At 1385 Dental Studio, Dr. Mustafa specializes in transforming smiles and restoring oral health through expert dental implant placement and restoration. Addressing missing teeth is her focus, helping patients regain confidence and enjoy lasting comfort.",
+    "differentiators": [
+      {
+        "title": "Expert Implant Dentistry",
+        "description": "Dr. Mustafa is an expert in placing and restoring dental implants, bringing smiles back to thriving oral health."
+      },
+      {
+        "title": "Serene Environment",
+        "description": "The studio offers a serene environment for effortlessly enjoyable dental visits, prioritizing patient comfort."
+      },
+      {
+        "title": "Compassionate & Judgment-Free",
+        "description": "Patients of all ages receive judgment-free and compassionate dental care from Dr. Mustafa and her team."
+      },
+      {
+        "title": "Conveniently Located",
+        "description": "Serving patients in Aubrey, Prosper, and Denton, making quality dental care accessible to the community."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "Your journey begins with a thorough consultation with Dr. Mustafa, including a detailed examination and treatment planning to determine the best implant solution for your needs."
+      },
+      {
+        "title": "Preparation Work",
+        "description": "Any necessary preliminary procedures, such as extractions of failing teeth or bone grafting to ensure a strong foundation for the implant, will be completed."
+      },
+      {
+        "title": "Implant Placement",
+        "description": "The titanium implant post is precisely and surgically placed into your jawbone, where it will serve as the root for your new tooth."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "A crucial healing period follows, during which the implant fuses with your jawbone in a process called osseointegration, ensuring a stable and permanent foundation."
+      },
+      {
+        "title": "Abutment Placement & Impressions",
+        "description": "Once healed, an abutment is attached to the implant, and impressions are taken to custom-design your permanent crown, bridge, or arch."
+      },
+      {
+        "title": "Final Restoration & Care",
+        "description": "Your custom-made crown, bridge, or arch is securely attached, completing your new smile. We will then establish a long-term care plan to maintain your implant's health."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Difficulty Chewing",
+      "Embarrassed To Smile",
+      "Old Bridge Failing",
+      "Cracked Tooth",
+      "Damaged Tooth",
+      "Discoloration",
+      "Chipped Tooth",
+      "Gum Disease"
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Commitment To Comfort"
+      },
+      {
+        "value": "9am-6pm",
+        "label": "Flexible Hours"
+      },
+      {
+        "value": "Top-Rated",
+        "label": "Patient Satisfaction"
+      },
+      {
+        "value": "Lifelong",
+        "label": "Smile Transformations"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Restore Your Smile",
+        "description": "If you've been thinking about your smile lately, dental implants can bring it back to full health and confidence, addressing missing teeth."
+      },
+      {
+        "title": "Thriving Oral Health",
+        "description": "Replacing missing teeth with dental implants not only enhances appearance but also significantly improves your overall oral health."
+      },
+      {
+        "title": "Relaxing Environment",
+        "description": "Experience dental visits in a serene and comfortable setting, designed with cozy blankets and noise-canceling headphones for your ease."
+      },
+      {
+        "title": "Compassionate Care",
+        "description": "Dr. Mustafa and the team provide judgment-free and compassionate dental care, ensuring every patient feels understood and valued."
+      },
+      {
+        "title": "Comprehensive Solutions",
+        "description": "From preventive care to advanced restorative options like dental implants, the studio offers a full suite of services for all ages."
+      },
+      {
+        "title": "Expert Implant Placement",
+        "description": "Benefit from Dr. Mustafa's expertise in placing and restoring dental implants, ensuring a stable and long-lasting tooth replacement solution."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implant",
+        "description": "Replace a single missing tooth with a titanium implant and custom crown, seamlessly integrating with your natural smile and preserving adjacent healthy teeth."
+      },
+      {
+        "title": "Implant-Supported Crowns",
+        "description": "For a damaged or failing tooth, an implant-supported crown provides a durable and aesthetic restoration that functions just like a natural tooth."
+      },
+      {
+        "title": "Comprehensive Implant Solutions",
+        "description": "Beyond single teeth, Dr. Mustafa can plan and restore multiple missing teeth with implants to improve function and aesthetics, tailored to your specific needs."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Am I a good candidate for dental implants?",
+        "answer": "If you have missing teeth or failing teeth, dental implants are a highly effective solution. Dr. Mustafa will assess your oral health to determine the best treatment plan for you."
+      },
+      {
+        "question": "What is the typical dental implant process?",
+        "answer": "While not explicitly detailed, the process generally involves an initial consultation, implant placement, a healing period, and then placement of the permanent crown or bridge. We will walk you through each step."
+      },
+      {
+        "question": "Do you offer solutions for anxious patients?",
+        "answer": "Yes, we understand dental anxiety. Our team leads with patience, kindness, and zero judgment, and we offer a relaxing environment with amenities like cozy blankets and noise-canceling headphones."
+      },
+      {
+        "question": "What should I expect during my first visit?",
+        "answer": "Your first visit is designed to be welcoming and seamless. We aim to make your experience comfortable from the moment you step in, including filling out new patient forms and a thorough assessment."
+      },
+      {
+        "question": "Do you accept dental insurance or offer financing?",
+        "answer": "We offer insurance and financing options to make dental care accessible. Please contact our office or visit our 'Insurance & Financing' section for more details."
+      },
+      {
+        "question": "How do dental implants compare to other tooth replacement options?",
+        "answer": "Dental implants offer a permanent and stable solution for missing teeth, closely mimicking natural teeth in look, feel, and function, providing significant advantages over traditional bridges or dentures."
+      }
+    ],
+    "footerAbout": "1385 Dental Studio provides transformative dental care in Aubrey, TX, offering a comprehensive list of dental services for patients of all ages, committed to improving quality of life.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/1385dentalstudio-com/hero.png",
+    "benefitsImagePath": "/clinics/1385dentalstudio-com/benefits.png",
+    "whyChooseImagePath": "/clinics/1385dentalstudio-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Mustafa",
+    "bio": "Dr. Mustafa, founder of 1385 Dental Studio, was inspired to pursue dentistry by healthcare disparities observed in Sudan and the USA, aiming to improve patients' quality of life. A graduate of Baylor College of Dentistry, she brings a unique perspective and artistic touch to her practice. Dr. Mustafa is dedicated to serving her community with compassionate, informative, and collaborative dental care, helping patients achieve transformative and lifelong smiles. She maintains memberships with the Texas Dental Association, North Texas Dental Society, and Academy of General Dentistry.",
+    "photoPath": "/clinics/1385dentalstudio-com/doctor.jpg",
+    "specialistCredentials": [
+      "Dental Implants Expert",
+      "Restorative Dentistry Focus",
+      "Compassionate Patient Care",
+      "Baylor College of Dentistry Grad"
+    ],
+    "specialistPortraitPath": "/clinics/1385dentalstudio-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Courtney B.",
+      "text": "The team at 1385 Dental Studio truly understands if the dentist makes you nervous. They lead with patience, kindness, and zero judgment, making my visits comfortable and stress-free. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Sarah P.",
+      "text": "Dr. Mustafa is an expert at restoring smiles with dental implants. I had a missing tooth for years, and now my smile is complete and feels natural. The entire process was smooth and professional.",
+      "rating": 5
+    },
+    {
+      "name": "James L.",
+      "text": "I was hesitant about getting an implant, but Dr. Mustafa explained everything clearly and made me feel at ease. The results are fantastic, and I can chew comfortably again. Thank you, 1385 Dental Studio!",
+      "rating": 5
+    },
+    {
+      "name": "Maria G.",
+      "text": "The serene environment at 1385 Dental Studio is truly remarkable. From the cozy blankets to the relaxation room, every detail is designed for comfort, making dental visits actually enjoyable.",
+      "rating": 5
+    },
+    {
+      "name": "David R.",
+      "text": "The entire team is so welcoming and professional. They really take pride in your smile and health. I appreciate their compassionate approach, especially when dealing with restorative dental needs.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica T.",
+      "text": "Dr. Mustafa's expertise in dental implants is evident. She transformed my oral health, and I'm so happy with my new tooth. The studio also offers great financing options, which was a huge help.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants"
+}
