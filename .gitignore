@@ -34,6 +34,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# ...but keep the documented template tracked so the backend config (Vertex
+# vs Developer API) is visible in version control.
+!.env.example
 
 # vercel
 .vercel
