@@ -56,6 +56,7 @@ interface Args {
   generateHero: boolean;
   noPreview: boolean;
   build: boolean;
+  skipExisting: boolean;
   template?: TemplateKind;
   procedure?: Procedure;
   doctorPhoto?: string;
@@ -98,6 +99,7 @@ function parseArgs(argv: string[]): Args {
   let generateHero = process.env.GENERATE_HERO_IMAGE === "1";
   let noPreview = false;
   let build = false;
+  let skipExisting = false;
   let template: TemplateKind | undefined;
   let procedureKey: string | undefined;
   let dentistType: string | undefined;
@@ -111,6 +113,7 @@ function parseArgs(argv: string[]): Args {
     else if (a === "--generate-hero") generateHero = true;
     else if (a === "--no-preview") noPreview = true;
     else if (a === "--build") build = true;
+    else if (a === "--skip-existing") skipExisting = true;
     else if (a === "--procedure") procedureKey = argv[++i];
     else if (a === "--dentist-type") dentistType = argv[++i];
     else if (a === "--selected-procedure") selectedProcedure = argv[++i];
@@ -129,7 +132,7 @@ function parseArgs(argv: string[]): Args {
   }
   if (positional.length !== 1) {
     throw new Error(
-      "Usage: npm run customize -- <source-url> [--slug <slug>] [--out <dir>] [--generate-hero] [--build] [--no-preview] [--template implants|family-dentistry|dentist-landing] [--procedure <key>] [--dentist-type <type>] [--selected-procedure <name>] [--doctor-photo <path>] [--theme-color <hex>]"
+      "Usage: npm run customize -- <source-url> [--slug <slug>] [--out <dir>] [--generate-hero] [--build] [--no-preview] [--skip-existing] [--template implants|family-dentistry|dentist-landing] [--procedure <key>] [--dentist-type <type>] [--selected-procedure <name>] [--doctor-photo <path>] [--theme-color <hex>]"
     );
   }
   if (themeColor && !/^#?[0-9a-fA-F]{3}([0-9a-fA-F]{3})?$/.test(themeColor)) {
@@ -144,6 +147,7 @@ function parseArgs(argv: string[]): Args {
     generateHero,
     noPreview,
     build,
+    skipExisting,
     template: template ?? "dentist-landing",
     procedure: procedure ?? undefined,
     doctorPhoto,
@@ -416,6 +420,8 @@ export interface RunCustomizeArgs {
   generateHero?: boolean;
   doctorPhoto?: string;
   themeColor?: string;
+  /** When true, reuse an existing data/clinics/<slug>.json instead of re-crawling/regenerating. */
+  skipExisting?: boolean;
 }
 
 export interface RunCustomizeResult {
@@ -506,6 +512,19 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
   const procedure = args.procedure ?? null;
   const template = args.template ?? procedure?.template ?? "dentist-landing";
   const generateHero = args.generateHero ?? false;
+
+  const configPath = path.join(CLINICS_DATA_DIR, `${slug}.json`);
+  if (args.skipExisting) {
+    try {
+      const existing = JSON.parse(await fs.readFile(configPath, "utf8")) as ClinicConfig;
+      console.log(
+        `[skip-existing] ${slug}: ${path.relative(REPO_ROOT, configPath)} already exists — reusing it (no crawl, no Gemini, no image generation)`,
+      );
+      return { slug, configPath, config: existing };
+    } catch {
+      // No existing config (or it's unreadable) — fall through and generate fresh.
+    }
+  }
 
   const procedureLabel = procedure ? ` | procedure: ${procedure.label}` : "";
   console.log(`[1/4] Crawling ${args.url} (slug: ${slug}${procedureLabel})`);
@@ -711,7 +730,6 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
   }
 
   await fs.mkdir(CLINICS_DATA_DIR, { recursive: true });
-  const configPath = path.join(CLINICS_DATA_DIR, `${slug}.json`);
   await fs.writeFile(configPath, JSON.stringify(config, null, 2));
   console.log(`[4/4] Wrote ${path.relative(REPO_ROOT, configPath)}`);
 
@@ -728,6 +746,7 @@ async function main() {
     generateHero: args.generateHero,
     doctorPhoto: args.doctorPhoto,
     themeColor: args.themeColor,
+    skipExisting: args.skipExisting,
   });
 
   if (args.build) {
