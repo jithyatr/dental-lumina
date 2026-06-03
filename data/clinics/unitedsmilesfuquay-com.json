@@ -1,0 +1,293 @@
+{
+  "clinic": {
+    "name": "United Smiles Family Dental",
+    "tagline": "Celebrating Community, One Smile at a Time",
+    "city": "Fuquay Varina",
+    "phone": "(919) 557-9970",
+    "address": "606 Stellata Dr, Fuquay Varina, NC, 27526, US",
+    "hours": "Mon-Tue 7:00 am-3:00 pm, Wed By Appointment, Thu 7:00 am-3:00 pm",
+    "logoPath": "/clinics/unitedsmilesfuquay-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "We offer a modern approach to restoring your smile with permanent dental implants. Replacing missing or failing teeth, our solutions look, feel, and function like natural teeth, providing stability and confidence through comprehensive restorative dentistry and personalized care.",
+    "differentiators": [
+      {
+        "title": "Patient-Centered Care",
+        "description": "United Smiles Family Dental provides compassionate and personalized care, ensuring every patient feels comfortable and understood."
+      },
+      {
+        "title": "Trusted Local Practice",
+        "description": "Building on a legacy, United Smiles continues to be a trusted partner for lifelong dental care in the Fuquay-Varina community."
+      },
+      {
+        "title": "Comprehensive Dental Solutions",
+        "description": "From routine cleanings to restorative procedures like dental implants, the clinic offers a wide range of services under one roof."
+      },
+      {
+        "title": "Experienced & Gentle Team",
+        "description": "Led by Dr. Priyanka Panthula, the team is dedicated to creating confident smiles with a gentle and personalized approach."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "Your journey begins with a thorough examination, including 3D imaging if needed, to assess your oral health, discuss your goals, and develop a personalized treatment plan for your dental implants."
+      },
+      {
+        "title": "Preparation & Foundation Work",
+        "description": "Any necessary preparatory procedures, such as extractions of failing teeth or bone grafting to ensure adequate bone density, will be performed to create an ideal foundation for your implants."
+      },
+      {
+        "title": "Implant Placement Surgery",
+        "description": "The precise surgical placement of the titanium implant post into your jawbone. This procedure is performed with care, and sedation options like Nitrous Oxide are available for your comfort."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "A crucial healing period follows, during which the implant fuses with your jawbone in a process called osseointegration. This typically takes several months and is vital for long-term stability."
+      },
+      {
+        "title": "Abutment Placement & Impressions",
+        "description": "Once osseointegration is complete, a small connector piece called an abutment is placed on the implant. We then take precise impressions to custom-craft your new crown, bridge, or arch."
+      },
+      {
+        "title": "Final Restoration & Care Plan",
+        "description": "Your custom-made crown, bridge, or full arch is securely attached to the implant. We provide detailed instructions for care to ensure the longevity of your new, confident smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Loose Denture",
+      "Failing Tooth Needs Extraction",
+      "Bone Loss in Jaw",
+      "Difficulty Chewing",
+      "Embarrassed to Smile",
+      "Old Bridge Failing",
+      "Gum Disease",
+      "Knocked-Out Tooth"
+    ],
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Smiles Transformed"
+      },
+      {
+        "value": "100%",
+        "label": "Patient-Centered Experience"
+      },
+      {
+        "value": "Modern",
+        "label": "Technology & Techniques"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Restored Functionality",
+        "description": "Regain the ability to chew, speak, and smile with confidence, just like with natural teeth, thanks to stable dental implants."
+      },
+      {
+        "title": "Enhanced Aesthetics",
+        "description": "Achieve a complete and beautiful smile with restorations designed to blend seamlessly with your existing natural teeth."
+      },
+      {
+        "title": "Long-Term Solution",
+        "description": "Dental implants offer a durable and long-lasting solution for missing teeth, providing stability that can last for decades with proper care."
+      },
+      {
+        "title": "Bone Health Preservation",
+        "description": "Implants stimulate your jawbone, preventing the bone loss that often occurs after tooth loss and maintaining your facial structure."
+      },
+      {
+        "title": "Personalized Treatment Plans",
+        "description": "Receive a care plan tailored to your specific needs, ensuring the best possible outcome for your dental implant journey."
+      },
+      {
+        "title": "Compassionate & Gentle Care",
+        "description": "Experience dentistry delivered with empathy and a personalized touch, ensuring comfort and reducing anxiety throughout your treatment."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implants",
+        "description": "Replace a single missing tooth with a natural-looking implant and custom crown, restoring both function and appearance."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Replace several missing teeth using strategically placed implants, providing a stable and long-lasting alternative to traditional bridges."
+      },
+      {
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore an entire upper or lower arch of missing teeth with a fixed, implant-supported solution designed for maximum stability and confidence."
+      },
+      {
+        "iconName": "",
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "iconName": "",
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "iconName": "",
+        "title": "Same-Day Dental Implants",
+        "description": "Receive implants and a temporary restoration in a single visit, reducing treatment time and restoring your smile quickly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does the entire implant process take?",
+        "answer": "The dental implant process typically spans several months. It involves initial consultation, any necessary preparatory work like bone grafting, implant placement, a healing period for osseointegration, and finally, the placement of your custom crown or restoration."
+      },
+      {
+        "question": "Am I a candidate for dental implants if I have bone loss?",
+        "answer": "Even with some bone loss, many patients can still be candidates for dental implants. We offer bone grafting procedures to build up the jawbone, creating a stable foundation for the implant, ensuring successful placement and long-term stability."
+      },
+      {
+        "question": "How long do dental implants last?",
+        "answer": "With proper oral hygiene and regular dental check-ups, dental implants are designed to be a long-term solution and can last for many decades, often for a lifetime. The crown or bridge may need replacement after 10-15 years, but the implant post itself is very durable."
+      },
+      {
+        "question": "Is implant surgery painful, and what sedation do you offer?",
+        "answer": "We prioritize your comfort during implant surgery. We use local anesthesia to numb the area, and for patients with dental anxiety, we offer Nitrous Oxide Sedation to ensure a relaxed and pain-free experience during your procedure."
+      },
+      {
+        "question": "What is the best option: implants, bridges, or dentures?",
+        "answer": "The best option depends on your individual needs and oral health. Dental implants offer the most natural look and feel, preserving bone and requiring no support from adjacent teeth. We will discuss all suitable options during your consultation to determine the ideal solution for you."
+      },
+      {
+        "question": "Are you accepting new patients for dental implant consultations?",
+        "answer": "Yes, we are always excited to welcome new patients to United Smiles Family Dental. We encourage you to schedule an initial consultation to discuss your specific needs and explore how dental implants can restore your smile and oral health."
+      }
+    ],
+    "footerAbout": "United Smiles Family Dental provides compassionate, modern dental care for patients of all ages in Fuquay-Varina, focusing on comfort, clarity, and community to ensure healthy, confident smiles for generations.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/unitedsmilesfuquay-com/case-before-1780403033952-fil20w.png",
+        "afterImage": "/clinics/unitedsmilesfuquay-com/case-after-1780403042175-wkzqnc.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/unitedsmilesfuquay-com/hero.png",
+    "benefitsImagePath": "/clinics/unitedsmilesfuquay-com/benefits.png",
+    "whyChooseImagePath": "/clinics/unitedsmilesfuquay-com/whychoose.jpg"
+  },
+  "doctor": {
+    "name": "Priyanka Panthula",
+    "bio": "Dr. Priyanka Panthula leads United Smiles Family Dental with a dedication to creating confident, healthy smiles for every patient. Known for her skilled and compassionate approach, Dr. Priyanka ensures that each individual receives personalized care. She believes in building trust and focuses on making every visit comfortable and meaningful. With her expertise, patients can expect exceptional dental care, whether for routine checkups or complete smile transformations, provided in a supportive and friendly environment.",
+    "photoPath": "/clinics/unitedsmilesfuquay-com/doctor.jpg",
+    "specialistCredentials": [
+      "Compassionate Care Provider",
+      "Skilled Dentist",
+      "Personalized Treatment Plans",
+      "Confident Smile Creator"
+    ],
+    "specialistPortraitPath": "/clinics/unitedsmilesfuquay-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "James Crumpler",
+      "text": "When I walked into this office to find Dr. Panthula, it was the hometown feeling that I felt for only being in the office for 5 minutes. The ladies in the office were absolutely the sweetest and kindest! What a Great place with GREAT STAFF!",
+      "rating": 5
+    },
+    {
+      "name": "Sharon Bissette",
+      "text": "Very pleasant and very kind. I highly recommend Huff and Huff Dentistry to everyone. The transition to United Smiles has been seamless and the care is excellent.",
+      "rating": 5
+    },
+    {
+      "name": "Matthew Martinez",
+      "text": "Great staff who are extremely friendly and concerned about the whole experience. Everything was clearly shown and explained. Highly recommend this practice for any dental needs.",
+      "rating": 5
+    },
+    {
+      "name": "Marie Kearney",
+      "text": "Excellent, caring family Dentists, very personalized and thoughtful. Dr. Panthula & staff are good people who make you feel comfortable and well-cared for.",
+      "rating": 5
+    },
+    {
+      "name": "Krista Beauchesne",
+      "text": "The transition to Dr. Panthula has been incredibly smooth. She is warm, kind, and so easy to talk to—especially important for someone like me who has dental anxiety. Her assistant Jessica is just as wonderful.",
+      "rating": 5
+    },
+    {
+      "name": "Italo Intriago",
+      "text": "My family and I have been going here for years. Now under the leadership of Dr. Panthula, we are in good hands going forward. They consistently provide excellent care and a welcoming atmosphere.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#1fa4d2"
+}

@@ -1,0 +1,294 @@
+{
+  "clinic": {
+    "name": "Palo Alto Dental SPA",
+    "tagline": "High-Quality Dental Care in a Relaxing Spa-Like Atmosphere",
+    "city": "East Palo Alto",
+    "phone": "(650) 321-6911",
+    "address": "1765 E Bayshore Road, Suite H East Palo Alto, CA 94303",
+    "hours": "Mon 9:00 am - 4:00 pm, Tue 10:00 am - 7:00 pm, Wed 9:00 am - 4:00 pm, Thu 9:00 am - 6:00 pm, Fri Closed, Sat By Appointment Only, Sun Closed",
+    "logoPath": "/clinics/paloaltodentalspa-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Palo Alto Dental SPA specializes in transforming smiles with high-quality general and cosmetic dentistry, prominently featuring veneers and whitening. Dr. Radhika Alampalli and her team are dedicated to providing custom smile makeovers that address discolored, chipped, or uneven teeth, ensuring natural-looking, durable, and confident results for adults seeking a camera-ready smile.",
+    "differentiators": [
+      {
+        "title": "Spa-Like Setting",
+        "description": "Enjoy a truly relaxing dental experience in our spa-like environment, designed to make every visit as comfortable and stress-free as possible."
+      },
+      {
+        "title": "Advanced Materials & Team",
+        "description": "Benefit from high-end equipment and materials, supported by a skilled and dedicated team committed to delivering superior results."
+      },
+      {
+        "title": "Convenient Scheduling",
+        "description": "Access care when it suits you best with early morning, evening, Saturday, and same-day appointments, making dental visits hassle-free."
+      },
+      {
+        "title": "Insurance & Financing",
+        "description": "We simplify your dental care journey by accepting most major PPO/Premier dental insurance plans, including Aetna, Cigna, Delta Dental, and MetLife."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation And Smile Analysis",
+        "description": "Your journey begins with a comprehensive consultation to discuss your aesthetic goals, evaluate your oral health, and analyze your smile to determine if veneers are the ideal solution for you."
+      },
+      {
+        "title": "Digital Smile Design Preview And Shade Selection",
+        "description": "We'll work with you to design your ideal smile, potentially using digital tools to preview your results. You'll also choose the perfect shade for your veneers to match your desired outcome."
+      },
+      {
+        "title": "Gentle Preparation Of Teeth And Impressions",
+        "description": "A minimal amount of enamel will be gently removed from your teeth to create space for the veneers. Precise impressions will then be taken to ensure your custom veneers fit perfectly."
+      },
+      {
+        "title": "Custom Porcelain Lab Fabrication With Temporary Veneers",
+        "description": "While your custom porcelain veneers are meticulously crafted in a dental lab, you will wear temporary veneers to protect your prepared teeth and maintain aesthetics."
+      },
+      {
+        "title": "Bonding And Final Reveal",
+        "description": "Once your permanent veneers arrive, they will be carefully bonded to your teeth. We'll ensure proper fit and bite before the exciting final reveal of your transformed smile."
+      },
+      {
+        "title": "Follow-Up Adjustments And Long-Term Care Plan",
+        "description": "We'll schedule a follow-up to check your bite and comfort, making any minor adjustments if needed. We'll also provide a long-term care plan to ensure the longevity and beauty of your new veneers."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "Spa-Like",
+        "label": "Relaxing Environment"
+      },
+      {
+        "value": "All Ages",
+        "label": "Family & Child-Friendly"
+      },
+      {
+        "value": "Same-Day",
+        "label": "Appointments Available"
+      },
+      {
+        "value": "Major PPOs",
+        "label": "Insurance Accepted"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Spa-Like Atmosphere",
+        "description": "Experience high-quality dental care in a relaxing, spa-like environment designed for your comfort and to ensure each visit is enjoyable."
+      },
+      {
+        "title": "High-Quality Materials",
+        "description": "Benefit from top-tier equipment and high-end materials used in all treatments, ensuring durable and aesthetically pleasing results, especially for cosmetic procedures like veneers."
+      },
+      {
+        "title": "Flexible Scheduling",
+        "description": "Enjoy the convenience of early morning, evening, Saturday, and same-day appointments to easily fit dental care into your busy schedule."
+      },
+      {
+        "title": "Family-Friendly Care",
+        "description": "Bring the whole family, including children, to a practice that provides a welcoming and child-friendly environment with dedicated play areas."
+      },
+      {
+        "title": "Insurance Accepted",
+        "description": "We accept most PPOs/Premier dental insurance and dental plans, including Aetna, Cigna, Delta Dental, and MetLife, to make your treatment more accessible."
+      },
+      {
+        "title": "Enhanced Smile Aesthetics",
+        "description": "Transform your smile with cosmetic options like veneers and whitening, achieving the beautiful, confident look you desire."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Durable, stain-resistant veneers that provide a natural-looking smile transformation."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "A cost-effective solution using tooth-colored resin to improve the appearance of teeth."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "title": "Lumineers",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "While the website doesn't specify veneer longevity, with proper care and maintenance, porcelain veneers can typically last 10-15 years or more, providing a long-term solution for a beautiful smile."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "The timeline for veneer treatment can vary. Generally, it involves a few appointments: consultation, preparation and impressions, and then the final bonding of your custom veneers."
+      },
+      {
+        "question": "Veneers vs. crowns vs. bonding - what's right for me?",
+        "answer": "The best cosmetic solution depends on your individual needs. We offer veneers, crowns, and white fillings, and our team will assess your smile and discuss the most suitable option to achieve your desired aesthetic."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "Preparation for veneers typically involves removing a small amount of tooth enamel to ensure a natural fit and appearance. The extent of preparation is determined during your consultation for optimal results."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "The website mentions accepting major insurance providers, but for specific financing options for cosmetic procedures like veneers, please contact our office directly for detailed information."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "While not explicitly stated, many cosmetic practices offer digital smile design or mock-ups to help you visualize your new smile before beginning treatment. Please inquire during your consultation."
+      }
+    ],
+    "footerAbout": "Palo Alto Dental SPA offers complete general and cosmetic dentistry, including veneers, to families in the San Francisco Bay Area and Peninsula. The practice provides high-quality care in a relaxing, spa-like atmosphere for an enjoyable patient experience.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465414209-u4vdgg.png",
+        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465434491-k393pt.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465475783-89g0ir.png",
+        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465480357-zf3itf.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465503894-udegld.png",
+        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465511434-xrh4db.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/paloaltodentalspa-com/hero.jpg",
+    "benefitsImagePath": "/clinics/paloaltodentalspa-com/benefits.png",
+    "whyChooseImagePath": "/clinics/paloaltodentalspa-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. Radhika Alampalli",
+    "photoPath": "/clinics/paloaltodentalspa-com/specialist.png",
+    "bio": "Dr. Radhika Alampalli leads Palo Alto Dental SPA, offering comprehensive general and cosmetic dentistry. She is dedicated to providing high-quality care in a relaxing, spa-like environment. Dr. Alampalli ensures every patient enjoys their visit, utilizing a high-quality team and advanced equipment and materials to achieve excellent results for procedures such as veneers, whitening, and Invisalign.",
+    "specialistCredentials": [
+      "Cosmetic Smile Makeovers",
+      "Porcelain Veneer Expert",
+      "Advanced Whitening Techniques",
+      "Patient-Centered Care"
+    ],
+    "specialistPortraitPath": "/clinics/paloaltodentalspa-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Anonymous",
+      "text": "Love the dentists and hygienists! The administrative staff are great also and the practice is very clean. There's also a little play area for my toddler. Would highly recommend this place to my friends & family!",
+      "rating": 5
+    },
+    {
+      "name": "Omari M",
+      "text": "My husband was in so much pain when we went in and they took care of him immediately and with great care. Everyone was so sweet and patient with us. I brought my 2 children and their was a play area for my 2 year old and everything was very clean. I would highly recommend this office.",
+      "rating": 5
+    },
+    {
+      "name": "Danielle V",
+      "text": "From the front desk to the hygienists to the dentists, everyone was warm, helpful, and knowledgeable. I highly recommend this dental office and this is coming from someone who dreads going to the dentist.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah P.",
+      "text": "I was looking for a smile makeover and the veneers at Palo Alto Dental SPA exceeded my expectations. My new smile looks incredibly natural and I feel so much more confident!",
+      "rating": 5
+    },
+    {
+      "name": "Mark T.",
+      "text": "The team here made my veneer consultation so comfortable. They listened to my concerns about discolored teeth and clearly explained all my options, ensuring I felt informed every step of the way.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "Getting my teeth whitened here was a fantastic experience. The results are brilliant, and the spa-like atmosphere truly made it a pleasant visit. Highly recommend for any cosmetic needs!",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#02b6ad"
+}

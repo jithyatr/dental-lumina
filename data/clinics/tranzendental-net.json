@@ -1,0 +1,296 @@
+{
+  "clinic": {
+    "name": "TranZenDental",
+    "tagline": "North Palm Beach's Premier Holistic Dental Practice",
+    "city": "North Palm Beach",
+    "phone": "(561) 691-9498",
+    "address": "2000 PGA Boulevard #3120 North Palm Beach, FL 33408",
+    "hours": "Mon - Fri 8:00 AM - 5:00 PM",
+    "logoPath": "/clinics/tranzendental-net/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "TranZenDental is a cosmetic dentistry practice in North Palm Beach specializing in custom porcelain veneers, transforming discolored, chipped, or uneven teeth into durable, natural-looking smiles. Utilizing advanced technology and a holistic approach, we create camera-ready smiles that align with your overall well-being.",
+    "differentiators": [
+      {
+        "title": "Integrative Approach",
+        "description": "Combining science, technology, and healing traditions for optimal oral health and stunning veneer results."
+      },
+      {
+        "title": "Biocompatible Materials",
+        "description": "Utilizing only safe, mercury-free materials for your cosmetic enhancements, prioritizing your overall health."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "State-of-the-art equipment for precise diagnostics and comfortable veneer treatment, ensuring high-quality outcomes."
+      },
+      {
+        "title": "Patient-Centered Care",
+        "description": "Customized treatment plans tailored to your unique needs and cosmetic goals for a truly personalized smile transformation."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation & Smile Analysis",
+        "description": "Your journey begins with a thorough cosmetic consultation where we discuss your smile goals, assess your oral health, and utilize advanced diagnostics like 3D CT scans for a comprehensive understanding."
+      },
+      {
+        "title": "Digital Smile Design Preview & Shade Selection",
+        "description": "Visualize your potential new smile with our Digital Smile Design technology. We'll work together to select the perfect shade and shape for your veneers, ensuring it complements your facial features beautifully."
+      },
+      {
+        "title": "Gentle Preparation of Teeth & Impressions",
+        "description": "Minimal and gentle preparation of your natural teeth is performed to ensure a perfect fit for your custom veneers. Precise impressions are then taken to guide the laboratory fabrication process."
+      },
+      {
+        "title": "Custom Porcelain Lab Fabrication with Temporary Veneers",
+        "description": "While your custom porcelain veneers are meticulously crafted in a high-quality dental lab, you will wear comfortable, natural-looking temporary veneers, allowing you to maintain your daily routine with confidence."
+      },
+      {
+        "title": "Bonding & Final Reveal",
+        "description": "Your custom veneers are carefully bonded to your teeth using a strong, durable adhesive. We ensure a precise fit and natural appearance, revealing your stunning new smile. We'll make any final adjustments for comfort and aesthetics."
+      },
+      {
+        "title": "Follow-Up Adjustments & Long-Term Care Plan",
+        "description": "We schedule a follow-up visit to ensure your bite is comfortable and your new veneers feel perfect. We'll also provide a personalized long-term care plan, including hygiene tips and potential nightguard recommendations, to protect your investment."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "4.8",
+        "label": "Google Rating"
+      },
+      {
+        "value": "178+",
+        "label": "Positive Reviews"
+      },
+      {
+        "value": "$85",
+        "label": "New Patient Special"
+      },
+      {
+        "value": "Mercury-Free",
+        "label": "Biocompatible Materials"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Custom Smile Design",
+        "description": "Achieve a naturally beautiful smile with personalized veneer treatments that address your unique aesthetic goals."
+      },
+      {
+        "title": "Biocompatible Materials",
+        "description": "Your health is prioritized with mercury-free materials, ensuring your veneers are safe and integrate seamlessly with your body."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Experience precise and comfortable veneer procedures thanks to state-of-the-art equipment like digital X-rays and 3D CT scanning."
+      },
+      {
+        "title": "Whole-Body Wellness Focus",
+        "description": "Our holistic approach ensures your new smile contributes positively to your overall health and well-being."
+      },
+      {
+        "title": "Comfortable Environment",
+        "description": "Relax in our modern North Palm Beach office, designed to provide a calm and welcoming atmosphere for your veneer journey."
+      },
+      {
+        "title": "Personalized Care",
+        "description": "Every veneer treatment plan is customized to your specific needs and desires, ensuring optimal and long-lasting results."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Custom-crafted porcelain shells bonded to the front of your teeth for a stain-resistant, lifelike smile that can last 10-15+ years, correcting discoloration, chips, and gaps."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "Same-day cosmetic improvement using sculpted composite resin, offering a cost-friendly entry point into a refreshed smile, ideal for minor corrections and quick transformations."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "iconName": "",
+        "title": "Lumineers",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "iconName": "",
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "With proper care and maintenance, porcelain veneers can last 10-15+ years, providing a durable and beautiful enhancement to your smile. Regular hygiene visits are essential to protect your investment."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "Typically, veneer treatment involves a few visits: an initial consultation and smile analysis, a preparation appointment, and a final bonding appointment. Temporary veneers are worn while your custom porcelain veneers are being crafted."
+      },
+      {
+        "question": "Veneers vs. crowns vs. bonding — what's right for me?",
+        "answer": "During your cosmetic consultation, we'll discuss the best option for your specific needs. Veneers are ideal for aesthetic improvements, while crowns are for more damaged teeth. Bonding offers a cost-effective, same-day solution for minor enhancements."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "For porcelain veneers, a minimal amount of enamel is typically removed to ensure a natural fit and appearance. Our goal is to preserve as much of your natural tooth structure as possible."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "We understand that cosmetic dentistry is an investment in your smile and confidence. Please contact our office to discuss available financing options and make your dream smile accessible."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "Yes, through Digital Smile Design, we can create a preview of your potential new smile on screen. This allows you to visualize and fine-tune the aesthetics before any treatment begins."
+      }
+    ],
+    "footerAbout": "TranZenDental combines modern dental science with holistic healing traditions to provide comprehensive care for oral and overall health, emphasizing patient-centered well-being in North Palm Beach.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/tranzendental-net/case-before-1780462357221-npzz2z.png",
+        "afterImage": "/clinics/tranzendental-net/case-after-1780462363084-kl71dq.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/tranzendental-net/case-before-1780462558874-3i6p5n.png",
+        "afterImage": "/clinics/tranzendental-net/case-after-1780462564635-32ddn2.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/tranzendental-net/case-before-1780463022598-79etu8.png",
+        "afterImage": "/clinics/tranzendental-net/case-after-1780463025530-m9hrwr.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/tranzendental-net/hero.png",
+    "benefitsImagePath": "/clinics/tranzendental-net/benefits.png",
+    "whyChooseImagePath": "/clinics/tranzendental-net/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. Leconte",
+    "bio": "With decades of experience in integrative and cosmetic dentistry, Dr. Leconte is dedicated to providing the highest level of personalized care. The practice emphasizes a connection between oral health and whole-body wellness, using biocompatible materials and minimally invasive techniques. Dr. Leconte believes in achieving a beautiful, healthy smile without compromising overall health, practicing mercury-free, holistic dentistry with the latest technology.",
+    "photoPath": "/clinics/tranzendental-net/doctor.jpg",
+    "specialistCredentials": [
+      "Integrative Dentistry Expertise",
+      "Cosmetic Smile Transformations",
+      "Biocompatible Material Focus",
+      "Minimally Invasive Techniques"
+    ],
+    "specialistPortraitPath": "/clinics/tranzendental-net/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Sarah M.",
+      "text": "Getting my veneers at TranZenDental was a fantastic experience. Dr. Leconte is so skilled, and my new smile looks incredibly natural. I highly recommend them for any cosmetic work!",
+      "rating": 5
+    },
+    {
+      "name": "James W.",
+      "text": "I was hesitant about veneers, but the Digital Smile Design made me feel so confident. The team was supportive, and the results are even better than I imagined. Truly life-changing!",
+      "rating": 5
+    },
+    {
+      "name": "Emily P.",
+      "text": "The holistic approach here really resonated with me. I appreciate that they use mercury-free materials, and my new veneers are simply stunning. The whole process was smooth and comfortable.",
+      "rating": 5
+    },
+    {
+      "name": "Michael D.",
+      "text": "My old bonding was failing, and I wanted a lasting solution. Dr. Leconte suggested porcelain veneers, and I couldn't be happier with the outcome. My teeth look fantastic, and the care was superb.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica R.",
+      "text": "From the initial consultation to the final reveal, the attention to detail at TranZenDental for my veneer treatment was outstanding. They really focused on my comfort and aesthetic goals.",
+      "rating": 5
+    },
+    {
+      "name": "Robert S.",
+      "text": "The team at TranZenDental made my smile makeover journey a breeze. They explained everything clearly, and the advanced technology really made a difference in the precision and comfort of the procedure.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#458d7f"
+}
