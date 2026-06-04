@@ -1,11 +1,20 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import sharp from "sharp";
 import type { GoogleGenAI } from "@google/genai";
 import { createGenAI } from "../../src/lib/genai";
 import type { ClinicConfig } from "../../src/types/clinic";
 import type { Procedure } from "./procedures";
 
 const IMAGE_MODEL = process.env.GEMINI_IMAGE_MODEL ?? "gemini-2.5-flash-image";
+
+// Every generated scene must be a 1:1 square at this size, matching all other
+// clinics. The image model (Nano Banana) ignores the prompt's "square 1:1"
+// instruction and instead inherits the aspect ratio of whatever reference image
+// it's given — so a portrait doctor photo yields portrait scenes. We enforce the
+// ratio on both ends: square the reference before sending, square the output
+// before saving.
+const TARGET_SIZE = 1024;
 
 export type SceneKind = "hero" | "benefits" | "specialist" | "whychoose";
 
@@ -154,6 +163,48 @@ async function fetchAsBase64(source: string): Promise<FetchedImage | null> {
   }
 }
 
+// Crop a reference image to a centered 1:1 square so the model produces a square
+// scene. Portrait shots are head-and-shoulders, so crop from near the top to
+// avoid clipping the head; landscape/other crop from the center.
+async function toSquareReference(img: FetchedImage): Promise<FetchedImage> {
+  try {
+    const input = Buffer.from(img.data, "base64");
+    const meta = await sharp(input).metadata();
+    const w = meta.width ?? 0;
+    const h = meta.height ?? 0;
+    let pipeline = sharp(input);
+    if (w && h && w !== h) {
+      const side = Math.min(w, h);
+      const left = Math.round((w - side) / 2);
+      const top =
+        h > w ? Math.round(Math.min(h - side, side * 0.03)) : Math.round((h - side) / 2);
+      pipeline = pipeline.extract({ left, top, width: side, height: side });
+    }
+    const out = await pipeline
+      .resize(TARGET_SIZE, TARGET_SIZE, { fit: "fill" })
+      .png()
+      .toBuffer();
+    return { data: out.toString("base64"), mimeType: "image/png" };
+  } catch {
+    return img; // fall back to the original reference if sharp fails
+  }
+}
+
+// Guarantee the saved scene is exactly TARGET_SIZE square regardless of what the
+// model returned. The squared reference makes the output square already, so this
+// is a clean no-op resize in the normal case; the center cover-crop is a safety
+// net for the rare time the model deviates.
+async function toSquareOutput(raw: Buffer): Promise<Buffer> {
+  try {
+    return await sharp(raw)
+      .resize(TARGET_SIZE, TARGET_SIZE, { fit: "cover", position: "centre" })
+      .png()
+      .toBuffer();
+  } catch {
+    return raw;
+  }
+}
+
 export interface GenerateOptions {
   scene: SceneKind;
   doctorPhotoLocalPath?: string;
@@ -179,6 +230,7 @@ export async function generateSceneImage(
   if (options.doctorPhotoLocalPath) {
     doctorRef = await fetchAsBase64(options.doctorPhotoLocalPath);
     if (!doctorRef) console.warn(`[${options.scene}] doctor photo read failed at ${options.doctorPhotoLocalPath}`);
+    else doctorRef = await toSquareReference(doctorRef);
   }
 
   let practiceRef: FetchedImage | null = null;
@@ -239,13 +291,13 @@ export async function generateSceneImage(
         return null;
       }
 
-      const mime = imagePart.inlineData.mimeType ?? "image/png";
-      const ext = mime.includes("jpeg") ? "jpg" : mime.includes("webp") ? "webp" : "png";
-      const buf = Buffer.from(imagePart.inlineData.data, "base64");
+      // Normalize to a 1024x1024 PNG so every scene is square regardless of what
+      // the model returned (see TARGET_SIZE note above).
+      const buf = await toSquareOutput(Buffer.from(imagePart.inlineData.data, "base64"));
 
       const dir = path.join(publicClinicsDir, slug);
       await fs.mkdir(dir, { recursive: true });
-      const filename = `${options.scene}.${ext}`;
+      const filename = `${options.scene}.png`;
       await fs.writeFile(path.join(dir, filename), buf);
       if (attempt > 1) console.log(`[${options.scene}] succeeded on attempt ${attempt}`);
       return `/clinics/${slug}/${filename}`;
