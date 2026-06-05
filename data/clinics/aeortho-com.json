@@ -1,0 +1,297 @@
+{
+  "clinic": {
+    "name": "Alpan Orthodontics",
+    "tagline": "Your Leading Orthodontist In Los Angeles",
+    "city": "Los Angeles",
+    "phone": "(213) 267-7246",
+    "address": "10231 Santa Monica Blvd Suite C, Los Angeles, CA 90067",
+    "hours": "Mon-Thu 9:30 AM-6:30 PM, Fri 9:30 AM-6:30 PM, Sat 9:00 AM-2:00 PM",
+    "logoPath": "/clinics/aeortho-com/logo.webp",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Alpan Orthodontics specializes in Invisalign clear aligner therapy, discreetly straightening teeth with custom, removable aligners instead of traditional metal braces. Offering personalized treatment plans and over 7000+ treated cases, the clinic ensures effective and comfortable smile transformations for teens and adults.",
+    "differentiators": [
+      {
+        "title": "Top Tier Invisalign Provider",
+        "description": "With over 7000+ Invisalign cases treated, Alpan Orthodontics offers unparalleled expertise in clear aligner therapy for adults and teens."
+      },
+      {
+        "title": "Comprehensive Whole Health Approach",
+        "description": "Beyond just straight teeth, the clinic addresses your full oral health picture including bite, TMJ, and airway for a beautiful, lasting smile."
+      },
+      {
+        "title": "Free 3D Smile Simulation",
+        "description": "Visualize your potential new smile with a complimentary 3D simulation, helping you see the results before you even begin treatment."
+      },
+      {
+        "title": "Customized Payment Plans",
+        "description": "The clinic offers affordable, tailored payment plans, including a $0 down option for parents, making treatment accessible to more families."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Complimentary Consultation",
+        "description": "Begin your journey with a free consultation and a 3D iTero scan to preview your potential new smile and discuss your treatment goals with our specialists."
+      },
+      {
+        "title": "Custom Treatment Plan",
+        "description": "Our team will develop a personalized treatment plan specifically for you, outlining the aligner manufacturing process to achieve your ideal smile."
+      },
+      {
+        "title": "First Aligner Delivery",
+        "description": "Receive your initial set of custom Invisalign aligners along with comprehensive coaching on proper wear, care, and what to expect during your treatment."
+      },
+      {
+        "title": "Progress Check-Ins",
+        "description": "Attend regular check-up appointments every 6-10 weeks so our team can monitor your tooth movement and ensure your treatment is progressing as planned."
+      },
+      {
+        "title": "Refinement Aligners (If Needed)",
+        "description": "Towards the end of your treatment, refinement aligners may be provided to fine-tune your results, ensuring every tooth is perfectly aligned for your ideal smile."
+      },
+      {
+        "title": "Retainers & Smile Maintenance",
+        "description": "Upon completion of your active treatment, custom retainers will be provided to maintain your new smile, along with guidance for long-term oral health and aesthetics."
+      }
+    ],
+    "commonSymptoms": [
+      "Crooked Teeth",
+      "Crowded Teeth",
+      "Gaps Between Teeth",
+      "Overbite",
+      "Underbite",
+      "Crossbite",
+      "Open Bite",
+      "Want Straight Teeth",
+      "Teen Wants Aligners",
+      "Old Braces Relapsed"
+    ],
+    "stats": [
+      {
+        "value": "7000+",
+        "label": "Invisalign Cases"
+      },
+      {
+        "value": "30+",
+        "label": "Years Orthodontic Expertise"
+      },
+      {
+        "value": "30%",
+        "label": "Faster Results Possible"
+      },
+      {
+        "value": "100+",
+        "label": "Years Family Legacy"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Clear, Comfortable Alignment",
+        "description": "Transform your smile discreetly and comfortably with Invisalign, perfect for both teens and adults seeking an alternative to traditional braces."
+      },
+      {
+        "title": "Personalized Treatment Plans",
+        "description": "Receive a customized orthodontic plan that addresses your unique bite, TMJ, airway, and overall smile health for lasting results."
+      },
+      {
+        "title": "Advanced Orthodontic Technology",
+        "description": "Benefit from state-of-the-art technology like 3D smile simulations and modern aligner systems for precise and efficient treatment."
+      },
+      {
+        "title": "Faster Treatment Results",
+        "description": "Experience more comfortable treatment with the potential for 30% faster results compared to traditional methods."
+      },
+      {
+        "title": "Affordable Payment Options",
+        "description": "Access quality orthodontic care with customized payment plans and financing solutions to fit your budget, including a $0 down option for parents."
+      },
+      {
+        "title": "Convenient Los Angeles Locations",
+        "description": "Easily access top-tier orthodontic care with eight convenient locations throughout Los Angeles County to fit your busy schedule."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Teen Invisalign",
+        "description": "Clear aligners designed specifically for growing teens with active lifestyles."
+      },
+      {
+        "title": "Adult Invisalign",
+        "description": "A discreet orthodontic solution for adults seeking a straighter smile."
+      },
+      {
+        "title": "Express Invisalign",
+        "description": "Fast treatment for minor spacing, crowding, or alignment concerns."
+      },
+      {
+        "title": "Comprehensive Invisalign",
+        "description": "Full orthodontic treatment for moderate to complex alignment issues."
+      },
+      {
+        "iconName": "",
+        "title": "Invisalign for Crowded Teeth",
+        "description": "Corrects overlapping and crowded teeth for improved function and appearance."
+      },
+      {
+        "iconName": "",
+        "title": "Invisalign for Gaps & Spacing",
+        "description": "Closes unwanted spaces between teeth to create a more balanced smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does Invisalign take versus traditional braces?",
+        "answer": "While there's no set answer, many patients experience more comfortable treatment with 30% faster results compared to traditional methods, though individual treatment time varies based on complexity."
+      },
+      {
+        "question": "How much does Invisalign cost, and is it covered by insurance?",
+        "answer": "The cost of orthodontic treatment varies based on case complexity, duration, and type of appliances. We offer customized payment plans and work with various insurance providers to make treatment affordable."
+      },
+      {
+        "question": "How many hours a day do I have to wear my aligners?",
+        "answer": "The convenience of Invisalign allows you to easily take out the custom-fitted plastic aligners for eating, brushing, and flossing, making it superb for patients of all ages."
+      },
+      {
+        "question": "Can Invisalign fix my specific bite issue?",
+        "answer": "Invisalign offers effective, discreet treatment perfect for addressing crowding, spacing, and bite correction, suitable for both teens and adults. A consultation will confirm its suitability for your case."
+      },
+      {
+        "question": "Will Invisalign hurt or affect my speech?",
+        "answer": "Invisalign aligners are practically invisible and custom-fitted, providing a smooth and comfortable experience that typically doesn't cause self-consciousness or significant speech issues."
+      },
+      {
+        "question": "What happens after treatment – do I need a retainer forever?",
+        "answer": "To maintain your beautiful new smile, custom retainers are essential after Invisalign treatment. We offer an Invisalign Retainer Subscription Program to help you maintain your smile for a lifetime."
+      }
+    ],
+    "footerAbout": "Alpan Orthodontics is committed to utilizing the latest innovations to create beautiful smiles, making a difference in patients' lives throughout Los Angeles County with personalized and comprehensive orthodontic care.",
+    "heroHeadline": "Straight Teeth.\nNo Metal.\nNo Compromise.",
+    "heroCta": "Book Your Free Invisalign Scan",
+    "implantOptionsLabel": "Clear Aligner Services",
+    "implantOptionsHeadline": "Invisalign Treatment Options for Every Smile",
+    "implantOptionsSubheading": "From mild crowding to complex bite correction, our Invisalign-focused services straighten teeth without the look or hassle of metal braces.",
+    "whyChooseLabel": "Why Choose Our Invisalign Team",
+    "whyChooseHeadline": "Certified Invisalign Providers Who Plan Every Aligner Personally",
+    "whyChooseSubheading": "Every aligner in your treatment is reviewed by an orthodontist who actually understands tooth movement — not just a software preview.",
+    "processHeadline": "Your Invisalign Journey",
+    "processSubheading": "From your first 3D scan to your final retainer fitting, here's exactly how an Invisalign treatment plan unfolds — most cases finish in 6-18 months.",
+    "benefitsHeadline": "Why Patients Choose Invisalign Here",
+    "faqLabel": "Invisalign FAQ",
+    "faqHeadline": "Common Questions About Invisalign",
+    "symptomCheckerHeadline": "Tell Us About Your Smile",
+    "symptomCheckerSubheading": "Tap whichever describes your teeth — we'll show you whether Invisalign is a good fit (and how long it would likely take).",
+    "testimonialsHeadline": "Real Invisalign Transformations",
+    "testimonialsSubheading": "Teens and adults who chose Invisalign with us and walked away with the smile they wanted.",
+    "beforeAfterHeadline": "Real Invisalign Before & Afters",
+    "beforeAfterSubheading": "See actual patient results — straighter teeth, balanced bites, and a smile transformation that didn't require a single metal bracket.",
+    "beforeAfterCases": [
+      {
+        "tag": "Cosmetic",
+        "title": "Gap Closure",
+        "subtitle": "Front-teeth gap closed in 6 months",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Orthodontics",
+        "title": "Bite Realignment",
+        "subtitle": "Balanced occlusion in 12 months",
+        "beforeImage": "/clinics/aeortho-com/case-before-1780637289783-3eg4ac.png",
+        "afterImage": "/clinics/aeortho-com/case-after-1780637300020-snag4a.png"
+      },
+      {
+        "tag": "Invisalign",
+        "title": "Crowding Correction",
+        "subtitle": "Aligned in 9 months",
+        "beforeImage": "/clinics/aeortho-com/case-before-1780637316719-t7439j.png",
+        "afterImage": "/clinics/aeortho-com/case-after-1780637328093-ovw3ho.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
+    "smileSimulatorSubheading": "Upload a selfie and pick your goals — our AI smile preview shows you a glimpse of what your teeth could look like after Invisalign.",
+    "bookingHeadline": "Book Your Free Invisalign Scan",
+    "bookingSubheading": "Includes a complimentary 3D iTero scan and a personalized treatment timeline. Walk out with a clear plan.",
+    "heroAssurances": [
+      "Free 3D iTero scan",
+      "Flexible payment plans",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Fix crowded teeth",
+      "Close gaps between teeth",
+      "Correct my bite",
+      "Straighten after old braces",
+      "Get a confident smile"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "iTero 3D Planning",
+        "description": "Your full treatment is mapped out on a high-resolution 3D scanner — no putty, no guesswork."
+      },
+      {
+        "title": "Orthodontist-Reviewed",
+        "description": "Every aligner stage is reviewed by an orthodontist, not just auto-generated from software."
+      },
+      {
+        "title": "Discreet & Removable",
+        "description": "Clear aligners you can take out for meals, brushing, photos, and special occasions."
+      },
+      {
+        "title": "Retainers Included",
+        "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
+      }
+    ],
+    "heroImagePath": "/clinics/aeortho-com/hero.png",
+    "benefitsImagePath": "/clinics/aeortho-com/benefits.png",
+    "whyChooseImagePath": "/clinics/aeortho-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. David Alpan",
+    "credentials": "DDS, MSD",
+    "bio": "Dr. David Alpan is a top-rated orthodontist in Los Angeles and a third-generation dental professional, proudly continuing a legacy of excellence. Since founding Alpan Orthodontics in 1999, he has specialized in advanced treatments like Invisalign, LightForce, and TMJ therapy. As a top-tier Invisalign provider, Dr. Alpan has taught over 10,000 dentists and orthodontists worldwide. His philosophy is to treat every patient like family, creating smiles that function in harmony with the face and jaw.",
+    "photoPath": "/clinics/aeortho-com/doctor.jpg",
+    "specialistCredentials": [
+      "Top-Tier Invisalign Provider",
+      "Advanced TMJ Therapy Expert",
+      "Smile Designer Specialist",
+      "Over 7000+ Cases Treated"
+    ],
+    "specialistPortraitPath": "/clinics/aeortho-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Erin Gray",
+      "text": "I had done a couple of other ortho consults elsewhere, but when I met Dr. Alpan and his staff, I knew that I was absolutely ready to move forward with treatment. They are incredibly kind and spent a significant amount of time with me to build out my treatment plan. Excited to get started!",
+      "rating": 5
+    },
+    {
+      "name": "La Angie Fuller",
+      "text": "Dr. Alpan is the real deal. Top-notch technology, a friendly and professional team, and quick, efficient appointments make the whole experience easy. My smile has improved dramatically since starting Invisalign, and I actually look forward to my visits. Highly recommend Dr. Alpan if you want results and a smooth process.",
+      "rating": 5
+    },
+    {
+      "name": "goddess goddess",
+      "text": "Fantastic service! Always on time and ready to greet me with warmth and care. Alpan orthodontics helped me relieve my jaw pain, neck and back pain as well. The TMJ treatment was really helpful. It elevated my discomfort and I am happy I chose Dr. Alpan to help me. Great staff and office. Highly recommend this practice for all your orthodontic needs.",
+      "rating": 5
+    },
+    {
+      "name": "Brett Ingber",
+      "text": "Dr. Alpan and his team are professional and caring. Before my last appointment I called in because I wanted to come in earlier that day, and they made room for me. Dr. Alpan always listens to any concerns I had during my treatment; like when I was transitioning from Invisalign liners to Vivera retainers.",
+      "rating": 5
+    },
+    {
+      "name": "Vincent Vinuya",
+      "text": "I actually had to get braces TWICE from this location because I didn't wear my retainers as a kid. I learned my lesson and I finished up my braces years ago. I purchased multiple pairs of Vivera retainers after my initial procedures. The office was still clean and organized how I remembered it. I would highly recommended Alpan Orthodontics.",
+      "rating": 5
+    },
+    {
+      "name": "Ray Bit",
+      "text": "Went in for a scheduled 12-week examination. Met with an orthodontic assistant who examined my teeth, asked me relevant questions and added a small metal post. She also adjusted my retainer and entered notes into my chart. The doctor was equally skilled, knowledgeable and professional. Overall, my experience was very positive and promising.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "invisalign",
+  "themeId": "custom",
+  "customThemeColor": "#44669a"
+}

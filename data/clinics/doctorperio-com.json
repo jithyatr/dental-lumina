@@ -1,0 +1,293 @@
+{
+  "clinic": {
+    "name": "DoctorPerio",
+    "tagline": "YOUR IMPLANT & PERIODONTIC SPECIALISTS Where innovation meets compassion.",
+    "city": "Bellevue",
+    "phone": "(425) 453-1010",
+    "address": "1418 112th Ave. NE, Suite 100 Bellevue, WA 98004",
+    "hours": "Mon-Thu 7:30 am – 4:30 pm, Fri 7:30 am – 4:00 pm",
+    "logoPath": "/clinics/doctorperio-com/logo.svg",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "As implant and periodontic specialists, DoctorPerio is dedicated to restoring your smile with advanced dental implants. Our practice excels in providing permanent, titanium-rooted restorations that look, feel, and function like natural teeth, supported by sophisticated technology and compassionate care.",
+    "differentiators": [
+      {
+        "title": "Implant & Periodontic Specialists",
+        "description": "Our doctors have received 2-3 years of additional training and education beyond dental school, specializing in implant placement and periodontal treatment."
+      },
+      {
+        "title": "Modern Technology",
+        "description": "We utilize advanced technology, including 3D imaging for precise planning and sedation dentistry, to ensure efficient and comfortable services."
+      },
+      {
+        "title": "Patient-Focused Care",
+        "description": "Every aspect of your visit is centered around your needs, with clear communication and a gentle approach to make you feel comfortable and prioritized."
+      },
+      {
+        "title": "Trusted Experience",
+        "description": "With more than 30 years of experience, we provide world-class periodontics and implant solutions in a compassionate and technologically advanced environment."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "Your journey begins with a thorough consultation, including 3D imaging, to assess your oral health, discuss your goals, and create a precise, personalized treatment plan for your dental implants."
+      },
+      {
+        "title": "Preparation Work",
+        "description": "If needed, preparatory procedures such as extractions, bone grafting, or gum care will be performed to create a strong, healthy foundation for successful implant placement."
+      },
+      {
+        "title": "Implant Placement",
+        "description": "The titanium implant post will be precisely and surgically placed into your jawbone. We offer various sedation options to ensure your comfort during this procedure."
+      },
+      {
+        "title": "Healing and Osseointegration",
+        "description": "A crucial healing period follows, typically several months, allowing the implant to fully integrate with your jawbone, creating a stable and durable anchor for your new tooth."
+      },
+      {
+        "title": "Abutment Placement & Impressions",
+        "description": "Once integrated, a small connector, called an abutment, is attached to the implant. Impressions are then taken to custom-craft your final crown, bridge, or arch."
+      },
+      {
+        "title": "Final Restoration & Care",
+        "description": "Your custom-made crown, bridge, or full arch is securely attached, completing your new smile. We will then provide a long-term care plan to ensure the lasting success of your implants."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Loose Denture",
+      "Failing Tooth Needs Extraction",
+      "Difficulty Chewing",
+      "Embarrassed To Smile",
+      "Bone Loss in Jaw",
+      "Gum Disease",
+      "Old Bridge Failing",
+      "Knocked-Out Tooth"
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": " Years of Experience"
+      },
+      {
+        "value": "2-3 ",
+        "label": "Years Specialized Training"
+      },
+      {
+        "value": "2 ",
+        "label": "Convenient Locations"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Specialized Implant Care",
+        "description": "Benefit from 2-3 years of extra dental training focused on dental implants, ensuring world-class surgical precision and lasting results for your smile."
+      },
+      {
+        "title": "Patient-Focused Approach",
+        "description": "Experience clear communication and a pace set by your comfort, ensuring you feel prioritized and at ease throughout your entire treatment journey."
+      },
+      {
+        "title": "Comfort-First Experience",
+        "description": "Our kind and friendly team is dedicated to putting you at ease, offering various sedation options to ensure a guilt-free, judgment-free, and pain-free visit."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Access the latest advancements in dental technology, including 3D imaging, for more efficient, precise, and comfortable implant and periodontal services."
+      },
+      {
+        "title": "Comprehensive Oral Health",
+        "description": "Receive not just implant placement but also education on whole health dentistry, understanding how oral health impacts your overall well-being."
+      },
+      {
+        "title": "Flexible Payment Options",
+        "description": "We accept most insurances, cash, credit cards, and CareCredit to help make your financial arrangements easy and ensure nothing stands in the way of your treatment."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implants",
+        "description": "Replace one missing tooth with a durable implant and natural-looking crown."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Restore several missing teeth with strategically placed implants for a secure, long-lasting solution."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "iconName": "",
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "iconName": "",
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore a full arch of teeth using four strategically placed implants and a fixed prosthesis."
+      },
+      {
+        "iconName": "",
+        "title": "Same-Day Dental Implants",
+        "description": "Receive implants and a temporary restoration in a single visit, reducing treatment time and restoring your smile quickly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do dental implants last?",
+        "answer": "Dental implants can last a lifetime with proper care and maintenance. This includes regular checkups and maintaining good oral hygiene, ensuring their longevity and function."
+      },
+      {
+        "question": "How can I get dental implants covered by medical insurance?",
+        "answer": "To explore coverage for dental implants, check if your medical insurance covers procedures related to accidents or specific medical conditions. Contact DoctorPerio for assistance with your claims."
+      },
+      {
+        "question": "Why should you avoid dairy after a dental implant procedure?",
+        "answer": "Dairy products might irritate healing gums after a dental implant procedure. It is recommended to limit your diet to soft, non-dairy foods for the first several days to promote proper healing."
+      },
+      {
+        "question": "Am I a candidate if I have gum disease?",
+        "answer": "While gum disease needs to be addressed, many patients can still be candidates for implants after proper periodontal treatment. We can assess your oral health to determine the best approach."
+      },
+      {
+        "question": "Is implant surgery painful and what sedation do you offer?",
+        "answer": "We prioritize your comfort and offer an array of sedation options to ensure a pain-free experience during implant surgery. Our team ensures you feel at ease throughout the procedure."
+      },
+      {
+        "question": "What is the typical timeframe for the dental implant process?",
+        "answer": "The entire dental implant process typically involves several stages, from initial consultation to final restoration, and can take several months to allow for proper healing and osseointegration."
+      }
+    ],
+    "footerAbout": "DoctorPerio provides world-class periodontics and implant solutions in Bellevue and Issaquah, WA, built on more than 30 years of experience and a patient-focused approach.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/doctorperio-com/case-before-1780639324748-q5274p.png",
+        "afterImage": "/clinics/doctorperio-com/case-after-1780639338411-mnpkpf.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/doctorperio-com/hero.png",
+    "benefitsImagePath": "/clinics/doctorperio-com/benefits.png",
+    "whyChooseImagePath": "/clinics/doctorperio-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. Neal Raval",
+    "bio": "Dr. Neal Raval is dedicated to educating patients on their oral and general health, ensuring they receive comprehensive support and care throughout their treatment. With a focus on world-class periodontics and implant solutions, Dr. Raval strives to make every patient feel special and confident in their journey towards a healthier smile. He is committed to staying abreast of the latest advancements in dentistry to provide efficient and comfortable services.",
+    "photoPath": "/clinics/doctorperio-com/doctor.jpg",
+    "specialistCredentials": [
+      "Implant & Periodontic Specialist",
+      "Educator in Oral Health",
+      "Advanced Surgical Techniques",
+      "Compassionate Patient Care"
+    ],
+    "specialistPortraitPath": "/clinics/doctorperio-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Neda N.",
+      "text": "Amazing surgeons! They answered all my questions and addressed all my concerns, and made my gums look so beautiful. The recovery was quick too. Highly recommend for any periodontal needs.",
+      "rating": 5
+    },
+    {
+      "name": "Diana L.",
+      "text": "I am so very thankful to be working with Nazie and Dr. Raval. They make an incredible team! I drive two hours each way to see these providers. They are excellent and provide comprehensive care, especially for implants.",
+      "rating": 5
+    },
+    {
+      "name": "Dallas K.",
+      "text": "Dr. Raval is a wonderful doctor and is so friendly, fully explains everything, and makes you feel very comfortable. Go see him and his team if you're thinking about getting implants!",
+      "rating": 5
+    },
+    {
+      "name": "Jacki P.",
+      "text": "I highly recommend DoctorPerio! The staff is so professional and accommodating from initial consultation to the procedure and post-operative follow up. Their first and foremost concern is patient understanding and comfort.",
+      "rating": 5
+    },
+    {
+      "name": "Robert S.",
+      "text": "The team at DoctorPerio made my implant procedure seamless and stress-free. Their advanced technology and compassionate approach truly set them apart. I'm thrilled with my new smile!",
+      "rating": 5
+    },
+    {
+      "name": "Emily H.",
+      "text": "From my first visit, I felt completely at ease. The doctors patiently explained all my options for replacing missing teeth, and the results of my dental implants are simply fantastic. Thank you!",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#002b49"
+}

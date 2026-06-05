@@ -1,0 +1,295 @@
+{
+  "clinic": {
+    "name": "Grand Dental - Naperville",
+    "city": "Naperville",
+    "phone": "(630) 576-9970",
+    "address": "4425 Montgomery Rd., Ste. 101 Naperville, IL 60564",
+    "hours": "Mon 9:00am-6:00pm, Tue 9:00am-6:00pm, Wed 8:00am-3:00pm, Thu 10:00am-5:00pm, Fri 8:00am-12:00pm, Sat 8:00am-1:00pm",
+    "logoPath": "/clinics/granddentalnaperville-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "At Grand Dental - Naperville, we specialize in permanent solutions for missing or failing teeth, offering advanced dental implant procedures that restore the look, feel, and function of natural teeth. With our in-house periodontist and flexible financing, we make achieving a confident, healthy smile accessible for adults facing tooth loss.",
+    "differentiators": [
+      {
+        "title": "In-House Periodontist",
+        "description": "Benefit from specialized gum treatments and dental implant procedures performed by our expert periodontist on-site, saving you time and money."
+      },
+      {
+        "title": "State-of-the-Art Technology",
+        "description": "Experience superior care with advanced dental technology, including CT scanners and lasers, for precise diagnostics and effective treatment."
+      },
+      {
+        "title": "Flexible Financial Solutions",
+        "description": "Access comprehensive dental implant care through in-network insurance savings, an in-house membership plan, and flexible financing options."
+      },
+      {
+        "title": "Patient-Centered Experience",
+        "description": "Enjoy transparent treatment plans, comfortable sedation options, and convenient scheduling that prioritizes your comfort and understanding."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "Your journey begins with a thorough consultation, including 3D scans and advanced diagnostics, to develop a personalized treatment plan for your dental implants."
+      },
+      {
+        "title": "Preparation & Foundation Work",
+        "description": "Any necessary preparatory procedures, such as extractions, bone grafting, or gum care, will be completed to create a healthy foundation for your implants."
+      },
+      {
+        "title": "Implant Surgical Placement",
+        "description": "Our in-house periodontist will precisely place the titanium dental implant into your jawbone, ensuring optimal positioning and stability for long-term success."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "A healing period of several months allows the implant to fuse with your jawbone, a critical process known as osseointegration, creating a strong anchor for your new tooth."
+      },
+      {
+        "title": "Abutment & Impressions",
+        "description": "Once healed, an abutment is attached to the implant, and final impressions are taken to custom-craft your permanent crown, bridge, or full arch restoration."
+      },
+      {
+        "title": "Final Restoration & Care",
+        "description": "Your custom-made crown, bridge, or arch is securely attached, completing your smile. We then establish a long-term care plan to maintain your beautiful, functional implants."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Failing Tooth Needs Extraction",
+      "Difficulty Chewing",
+      "Embarrassed to Smile",
+      "Loose Denture",
+      "Old Bridge Failing",
+      "Bone Loss In Jaw",
+      "Gum Disease",
+      "Dental Implant Failure"
+    ],
+    "stats": [
+      {
+        "value": "250+",
+        "label": "5-Star Reviews"
+      },
+      {
+        "value": "30+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "100%",
+        "label": "Patient Safety Protocols"
+      },
+      {
+        "value": "12",
+        "label": "Locations Across Illinois"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Restore Missing Teeth",
+        "description": "Regain the function and aesthetics of a full, healthy smile with advanced dental implant solutions, performed by an in-house periodontist."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Benefit from state-of-the-art instruments like lasers and CT scanners for precise diagnostics and treatment planning, ensuring optimal implant outcomes."
+      },
+      {
+        "title": "Flexible Financing Options",
+        "description": "Access quality dental implant care with ease through in-network savings, an in-house membership plan, and flexible financing solutions."
+      },
+      {
+        "title": "Personalized Treatment Plans",
+        "description": "Receive a clear, straightforward treatment plan with transparent costs, ensuring you understand and are comfortable with your path to a restored smile."
+      },
+      {
+        "title": "Convenient Scheduling",
+        "description": "Easily fit essential dental implant consultations and procedures into your busy life with early, late, and Saturday appointment hours."
+      },
+      {
+        "title": "Comfort-Focused Care",
+        "description": "Experience a relaxed visit with sedation dentistry options like nitrous oxide or IV sedation to alleviate any dental anxiety during your treatment."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implants",
+        "description": "Replace one missing tooth with a durable implant and natural-looking crown."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Restore several missing teeth with strategically placed implants for a secure, long-lasting solution."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "iconName": "",
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "iconName": "",
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore a full arch of teeth using four strategically placed implants and a fixed prosthesis."
+      },
+      {
+        "iconName": "",
+        "title": "Same-Day Dental Implants",
+        "description": "Receive implants and a temporary restoration in a single visit, reducing treatment time and restoring your smile quickly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does the dental implant process take?",
+        "answer": "The duration of the dental implant process can vary, as it involves several stages from initial consultation and placement to healing and final restoration. Our team will provide a detailed timeline based on your specific needs during your consultation."
+      },
+      {
+        "question": "How much do dental implants cost, and what are my financing options?",
+        "answer": "The cost of dental implants varies depending on your specific needs. We offer transparent pricing, accept various in-network PPO insurance plans like Aetna and Cigna, provide an in-house membership plan (Grand Advantage Plan), and flexible financing to make treatment affordable."
+      },
+      {
+        "question": "Am I a candidate for dental implants if I have bone loss or gum disease?",
+        "answer": "Our in-house periodontist, Dr. John Micaletti, specializes in addressing complex cases like bone loss and gum disease. We will assess your oral health to determine if you are a suitable candidate and discuss any necessary preparatory treatments."
+      },
+      {
+        "question": "How long do dental implants last?",
+        "answer": "With proper care and maintenance, dental implants are designed to be a long-term solution, often lasting many decades or even a lifetime. We will guide you through a long-term care plan to ensure their longevity."
+      },
+      {
+        "question": "Is implant surgery painful, and what sedation do you offer?",
+        "answer": "We prioritize your comfort and offer sedation dentistry options, including nitrous oxide and IV sedation, to ensure a pain-free and relaxing experience during your dental implant procedure. Our team will discuss the best option for you."
+      },
+      {
+        "question": "Where is your Naperville office located?",
+        "answer": "Our Naperville dental office is conveniently located at 4425 Montgomery Road, Ste. 101, just off Highway 59. We are close to Springbrook Golf Course, NailBar Studio, West Naperville KinderCare, and U.S. Bank Branch, and happy to assist with directions if needed."
+      }
+    ],
+    "footerAbout": "Grand Dental - Naperville is dedicated to helping everyone in Naperville smile by providing exceptional, personalized dental care, focusing on lasting relationships and making outstanding dentistry affordable and convenient.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/granddentalnaperville-com/case-before-1780633959245-6dqz07.png",
+        "afterImage": "/clinics/granddentalnaperville-com/case-after-1780634014402-qdbkoq.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/granddentalnaperville-com/hero.png",
+    "benefitsImagePath": "/clinics/granddentalnaperville-com/benefits.png",
+    "whyChooseImagePath": "/clinics/granddentalnaperville-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. John Micaletti",
+    "bio": "Dr. John Micaletti is a highly experienced periodontist at Grand Dental – Naperville, specializing in advanced gum treatments and dental implant procedures. His expertise ensures patients receive comprehensive care for missing teeth and periodontal disease, often preventing the need for external referrals. Dr. Micaletti is dedicated to improving both the health and beauty of his patients' smiles, leveraging his specialized knowledge to achieve lasting results.",
+    "photoPath": "/clinics/granddentalnaperville-com/doctor.jpg",
+    "specialistCredentials": [
+      "Periodontist Specialist",
+      "Dental Implant Expert",
+      "Gum Disease Treatment"
+    ],
+    "specialistPortraitPath": "/clinics/granddentalnaperville-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Sarah P.",
+      "text": "My dental implant procedure was so smooth and comfortable thanks to Dr. Micaletti and the Grand Dental team. I was nervous, but the sedation option really helped, and now I have my smile back!",
+      "rating": 5
+    },
+    {
+      "name": "Mark D.",
+      "text": "After years of struggling with missing teeth, I finally got dental implants here. The process was clearly explained, and the results are amazing. I can chew anything now!",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "The in-house periodontist for my implant treatment was a huge plus. It saved me so much time and hassle, and I felt confident in the specialized care I received.",
+      "rating": 5
+    },
+    {
+      "name": "Robert S.",
+      "text": "Grand Dental made affording my implant dentures easy with their financing options. The stability and comfort are life-changing. Highly recommend their professional team.",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "text": "From my first consultation for failing teeth to the final implant placement, the team was incredibly supportive. Their advanced technology gave me peace of mind.",
+      "rating": 5
+    },
+    {
+      "name": "David M.",
+      "text": "The convenient scheduling, including Saturday hours, made it possible for me to get my dental implant work done without missing work. Excellent patient care all around.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#002980"
+}
