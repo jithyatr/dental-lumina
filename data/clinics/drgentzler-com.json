@@ -30,9 +30,9 @@
         "description": "We maintain regular checkups to monitor growth and reinforce the oral hygiene techniques that lead to a lifetime of healthy smiles."
       }
     ],
-    "heroImagePath": "/clinics/drgentzler-com/hero.png",
-    "benefitsImagePath": "/clinics/drgentzler-com/benefits.png",
-    "whyChooseImagePath": "/clinics/drgentzler-com/whychoose.png"
+    "heroImagePath": "/clinics/drgentzler-com/hero.webp",
+    "benefitsImagePath": "/clinics/drgentzler-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/drgentzler-com/whychoose.webp"
   },
   "doctor": {
     "name": "Richard H. Gentzler",

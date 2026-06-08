@@ -1,0 +1,293 @@
+{
+  "clinic": {
+    "name": "Robert B. Watkins, DDS",
+    "tagline": "Advanced Aesthetic, Restorative and Implant Dentistry",
+    "city": "Berkeley",
+    "phone": "(510) 845-1505",
+    "address": "2320 Woolsey St, Ste 112Berkeley, CA 94705",
+    "hours": "Mon - Fri 8:30 am - 5:00 pm",
+    "logoIsLight": false,
+    "logoIsWordmark": false,
+    "heroSubtitle": "Specializing in full mouth restoration, Dr. Robert B. Watkins helps adults with extensive dental wear, multiple failing restorations, or complex reconstruction needs to achieve optimal oral health. The practice blends art and science to deliver advanced aesthetic, restorative, and implant dentistry.",
+    "differentiators": [
+      {
+        "title": "Prosthodontic Specialization",
+        "description": "Benefit from a dedicated prosthodontist with advanced training in complex dental rehabilitation, ensuring expert care for challenging cases."
+      },
+      {
+        "title": "Advanced Implant Solutions",
+        "description": "Receive cutting-edge implant dentistry designed to restore missing teeth with durable and natural-looking results."
+      },
+      {
+        "title": "Esthetic & Restorative Excellence",
+        "description": "Experience a blend of art and science to achieve both beauty and function in all restorative and cosmetic dental treatments."
+      },
+      {
+        "title": "Individualized Adult Care",
+        "description": "The practice offers a service-oriented approach with an emphasis on adult dental care, tailored to each patient's unique needs."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "Your journey begins with a thorough consultation, including full records, CBCT scans, and detailed photography, to accurately assess your oral health and understand your unique restorative needs."
+      },
+      {
+        "title": "Collaborative Digital Treatment Plan",
+        "description": "We work together to develop a personalized treatment plan, utilizing digital tools to create mockups of your final smile and bite, ensuring your vision is realized."
+      },
+      {
+        "title": "Foundation Phase",
+        "description": "This stage involves any necessary preparatory work such as extractions, implant placement, or gum and bone grafting, establishing a strong foundation for your new restorations."
+      },
+      {
+        "title": "Provisional Restorations",
+        "description": "Temporary restorations are placed to allow us to test and refine the aesthetics, function, and bite, ensuring comfort and proper integration before the final prosthetics are made."
+      },
+      {
+        "title": "Custom Lab Fabrication & Delivery",
+        "description": "Your final permanent restorations are meticulously crafted in a lab, then precisely delivered and fitted to achieve optimal comfort, function, and a beautiful, lasting smile."
+      },
+      {
+        "title": "Long-Term Maintenance",
+        "description": "To protect your investment, we provide guidance on long-term care, including custom nightguards, regular hygiene visits, and protective measures to maintain your oral health for years to come."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Multiple Failing Crowns",
+      "Cracked Teeth",
+      "Missing Teeth",
+      "Difficulty Chewing",
+      "Old Dentures Failing",
+      "Acid Erosion",
+      "Grinding Damage",
+      "Jaw Pain / TMJ",
+      "Want Whole Mouth Rebuilt"
+    ],
+    "stats": [
+      {
+        "value": "38+",
+        "label": "Years in Practice"
+      },
+      {
+        "value": "100%",
+        "label": "Customized Treatment Plans"
+      },
+      {
+        "value": "1,000+",
+        "label": "Restorative Cases"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Comprehensive Smile Rehabilitation",
+        "description": "Addresses multiple dental issues in a single treatment plan."
+      },
+      {
+        "title": "Restores Function & Comfort",
+        "description": "Improves chewing, speaking, and overall oral function."
+      },
+      {
+        "title": "Personalized Treatment Approach",
+        "description": "Tailored to your unique dental needs and goals."
+      },
+      {
+        "title": "Enhances Smile Aesthetics",
+        "description": "Creates a healthier, more attractive smile."
+      },
+      {
+        "title": "Improves Oral Health",
+        "description": "Treats damaged, missing, or worn teeth while supporting gum health."
+      },
+      {
+        "title": "Long-Term Results",
+        "description": "Uses durable restorations designed for lasting performance."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "Replace missing teeth with permanent, natural-looking restorations that restore chewing ability, jawbone health, and confidence."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "A secure alternative to traditional dentures that uses dental implants for improved stability, comfort, and function."
+      },
+      {
+        "title": "Dental Crowns & Bridges",
+        "description": "Restore damaged, weakened, or missing teeth with custom-crafted restorations designed for strength, aesthetics, and long-term durability."
+      },
+      {
+        "iconName": "",
+        "title": "Porcelain Veneers",
+        "description": "Enhance the appearance of worn, chipped, stained, or uneven teeth with thin, natural-looking porcelain shells."
+      },
+      {
+        "iconName": "",
+        "title": "Full & Partial Dentures",
+        "description": "Replace multiple missing teeth with custom dentures that improve speech, chewing efficiency, and smile aesthetics."
+      },
+      {
+        "iconName": "",
+        "title": "Bite Reconstruction & TMJ Therapy",
+        "description": "Correct bite misalignment, excessive tooth wear, and jaw discomfort to restore proper function and long-term oral health."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Why should I choose a prosthodontist for my full mouth restoration needs?",
+        "answer": "A prosthodontist specializes in the restoration and replacement of teeth, undergoing extensive training beyond dental school. This expertise is crucial for complex cases involving widespread damage, wear, or loss, ensuring a comprehensive and successful rehabilitation of your bite and smile."
+      },
+      {
+        "question": "What types of complex dental issues do you address?",
+        "answer": "We focus on a wide spectrum of advanced dental problems, including extensive tooth wear, multiple failing restorations, missing teeth, and the need for complete mouth reconstruction. Our goal is to restore health, function, and aesthetics using modern dentistry."
+      },
+      {
+        "question": "Will my full mouth restoration look natural?",
+        "answer": "Absolutely. We strive to recreate the natural beauty and function of your teeth through a blending of art and science. Our custom restorations are designed to integrate seamlessly with your facial features, resulting in a smile that is both healthy and aesthetically pleasing."
+      },
+      {
+        "question": "How do you ensure the longevity of my dental work?",
+        "answer": "Our focus is on providing durable, high-quality restorations built to last. We emphasize comprehensive treatment planning and utilize advanced materials and techniques. We also provide guidance on long-term maintenance to help you retain a healthy dentition throughout your lifetime."
+      },
+      {
+        "question": "Do you offer solutions for missing teeth?",
+        "answer": "Yes, implant dentistry is a core service we provide. We strategically use implants to anchor crowns, bridges, or full-arch prosthetics, offering comprehensive solutions for patients with missing teeth as part of a unified reconstruction plan."
+      },
+      {
+        "question": "How can I schedule a consultation to discuss my complex dental needs?",
+        "answer": "We invite you to contact our office by phone or complete the appointment request form on our website to schedule a comprehensive consultation. This allows us to assess your specific situation and discuss the best approach for your restoration."
+      }
+    ],
+    "footerAbout": "Robert B. Watkins, DDS, provides advanced aesthetic, restorative, and implant dentistry, assisting patients in maintaining healthy, functional, and esthetically pleasing dentition throughout their lifetime.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/clinics/robertwatkinsdds-com/case-before-1780918283802-hfe540.png",
+        "afterImage": "/clinics/robertwatkinsdds-com/case-after-1780918288037-939b1i.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/clinics/robertwatkinsdds-com/case-before-1780918429421-ay7sqb.png",
+        "afterImage": "/clinics/robertwatkinsdds-com/case-after-1780918431625-nxkhaw.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/clinics/robertwatkinsdds-com/case-before-1780918580968-2owimy.png",
+        "afterImage": "/clinics/robertwatkinsdds-com/case-after-1780918583675-99i2om.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/robertwatkinsdds-com/hero.webp",
+    "benefitsImagePath": "/clinics/robertwatkinsdds-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/robertwatkinsdds-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Robert B. Watkins",
+    "credentials": "DDS",
+    "bio": "Dr. Robert Watkins brings decades of expertise to advanced aesthetic, restorative, and implant dentistry. A graduate of Brown University and UCSF School of Dentistry, he further specialized in Prosthodontics at the Veteran Administration Medical Center. Dr. Watkins is an esteemed assistant clinical professor at UCSF's Graduate Prosthodontic Residency Program and a member of several professional organizations, including the American College of Prosthodontists. His philosophy centers on recreating natural beauty and function through a blending of art and science, assisting each patient in maintaining a healthy, functional, and esthetically pleasing dentition throughout their lifetime.",
+    "photoPath": "/clinics/robertwatkinsdds-com/doctor.webp",
+    "specialistCredentials": [
+      "Prosthodontics Specialist",
+      "Advanced Implant Dentistry",
+      "Esthetic & Restorative Expert",
+      "UCSF Clinical Professor"
+    ],
+    "specialistPortraitPath": "/clinics/robertwatkinsdds-com/specialist.jpg"
+  },
+  "reviews": [
+    {
+      "name": "Sarah P.",
+      "text": "Dr. Watkins truly rebuilt my smile. After years of struggling with worn-down teeth and old dental work, I finally have a functional and beautiful mouth. The comprehensive approach was exactly what I needed.",
+      "rating": 5
+    },
+    {
+      "name": "James K.",
+      "text": "The team at Dr. Watkins' office is exceptional. My implant restoration process was smooth and the results are incredible. They truly focus on both the health and the aesthetic appeal of your teeth.",
+      "rating": 5
+    },
+    {
+      "name": "Maria G.",
+      "text": "I had complex dental issues and was looking for a prosthodontist. Dr. Watkins' expertise and attention to detail were evident from the first consultation. My new smile feels completely natural.",
+      "rating": 5
+    },
+    {
+      "name": "David L.",
+      "text": "The individualized care I received for my full mouth rehabilitation was outstanding. Every step, from planning to final restoration, was explained thoroughly. I highly recommend this practice for anyone needing extensive dental work.",
+      "rating": 5
+    },
+    {
+      "name": "Emily R.",
+      "text": "I was nervous about such a big dental undertaking, but the supportive environment and clear communication from Dr. Watkins and his staff put me at ease. The outcome exceeded all my expectations.",
+      "rating": 5
+    },
+    {
+      "name": "Robert M.",
+      "text": "Dr. Watkins is truly an artist and a scientist. My new teeth look and feel fantastic. The focus on long-term health and the quality of the restorations are truly top-notch. Best dental care I've ever received.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#224e5e"
+}

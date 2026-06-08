@@ -8,22 +8,22 @@ const DEFAULT_CASES: BeforeAfterCase[] = [
     tag: "Whitening",
     title: "Full Smile Makeover",
     subtitle: "Completed in 4 months",
-    beforeImage: "/images/smile-makeover-before.png",
-    afterImage: "/images/smile-makeover-after.png",
+    beforeImage: "/images/smile-makeover-before.webp",
+    afterImage: "/images/smile-makeover-after.webp",
   },
   {
     tag: "Orthopaedics",
     title: "Dental Implant Placement",
     subtitle: "Procedure duration: 2 hours",
-    beforeImage: "/images/implant-placement-before.png",
-    afterImage: "/images/implant-placement-after.png",
+    beforeImage: "/images/implant-placement-before.webp",
+    afterImage: "/images/implant-placement-after.webp",
   },
   {
     tag: "Makeover",
     title: "Teeth Whitening Treatment",
     subtitle: "Results visible after 1 session",
-    beforeImage: "/images/whitening-before.png",
-    afterImage: "/images/whitening-after.png",
+    beforeImage: "/images/whitening-before.webp",
+    afterImage: "/images/whitening-after.webp",
   },
 ];
 

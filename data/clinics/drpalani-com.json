@@ -6,7 +6,7 @@
     "phone": "(310) 894-8337",
     "address": "29050 S. Western Ave, Suite 108B, Rancho Palos Verdes, CA 90275",
     "hours": "Mon-Fri: Open Weekdays",
-    "logoPath": "/clinics/drpalani-com/logo.png",
+    "logoPath": "/clinics/drpalani-com/logo.webp",
     "logoIsLight": false,
     "heroSubtitle": "Experience specialized implant solutions and comprehensive family care in Rancho Palos Verdes. We combine advanced 3D technology with compassionate, personalized attention for every smile.",
     "differentiators": [
@@ -154,17 +154,17 @@
       }
     ],
     "footerAbout": "Palani Center for Dental Implants provides advanced dental implant solutions and cosmetic dentistry to the Rancho Palos Verdes community with a focus on compassion and clinical excellence.",
-    "heroImagePath": "/clinics/drpalani-com/hero.png",
-    "benefitsImagePath": "/clinics/drpalani-com/benefits.png",
-    "whyChooseImagePath": "/clinics/drpalani-com/whychoose.png",
+    "heroImagePath": "/clinics/drpalani-com/hero.webp",
+    "benefitsImagePath": "/clinics/drpalani-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/drpalani-com/whychoose.webp",
     "logoIsWordmark": false
   },
   "doctor": {
     "name": "Giri Palani",
     "credentials": "DDS",
     "bio": "Dr. Giri Palani is a highly qualified dental professional specializing in advanced dental implant solutions and cosmetic dentistry. With years of experience and extensive training, he is dedicated to restoring oral health, function, and esthetics for every patient. His commitment to ongoing education ensures he stays at the forefront of modern dental technology, including 3D imaging and computer-guided surgery. Dr. Palani combines clinical skill with genuine compassion to create a stress-free experience for his guests.",
-    "photoPath": "/clinics/drpalani-com/doctor.png",
-    "specialistPortraitPath": "/clinics/drpalani-com/specialist.png"
+    "photoPath": "/clinics/drpalani-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/drpalani-com/specialist.webp"
   },
   "reviews": [
     {

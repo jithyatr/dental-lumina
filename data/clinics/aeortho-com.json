@@ -189,22 +189,22 @@
         "tag": "Cosmetic",
         "title": "Gap Closure",
         "subtitle": "Front-teeth gap closed in 6 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Orthodontics",
         "title": "Bite Realignment",
         "subtitle": "Balanced occlusion in 12 months",
-        "beforeImage": "/clinics/aeortho-com/case-before-1780637289783-3eg4ac.png",
-        "afterImage": "/clinics/aeortho-com/case-after-1780637300020-snag4a.png"
+        "beforeImage": "/clinics/aeortho-com/case-before-1780637289783-3eg4ac.webp",
+        "afterImage": "/clinics/aeortho-com/case-after-1780637300020-snag4a.webp"
       },
       {
         "tag": "Invisalign",
         "title": "Crowding Correction",
         "subtitle": "Aligned in 9 months",
-        "beforeImage": "/clinics/aeortho-com/case-before-1780637316719-t7439j.png",
-        "afterImage": "/clinics/aeortho-com/case-after-1780637328093-ovw3ho.png"
+        "beforeImage": "/clinics/aeortho-com/case-before-1780637316719-t7439j.webp",
+        "afterImage": "/clinics/aeortho-com/case-after-1780637328093-ovw3ho.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
@@ -241,22 +241,22 @@
         "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
       }
     ],
-    "heroImagePath": "/clinics/aeortho-com/hero.png",
-    "benefitsImagePath": "/clinics/aeortho-com/benefits.png",
-    "whyChooseImagePath": "/clinics/aeortho-com/whychoose.png"
+    "heroImagePath": "/clinics/aeortho-com/hero.webp",
+    "benefitsImagePath": "/clinics/aeortho-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/aeortho-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. David Alpan",
     "credentials": "DDS, MSD",
     "bio": "Dr. David Alpan is a top-rated orthodontist in Los Angeles and a third-generation dental professional, proudly continuing a legacy of excellence. Since founding Alpan Orthodontics in 1999, he has specialized in advanced treatments like Invisalign, LightForce, and TMJ therapy. As a top-tier Invisalign provider, Dr. Alpan has taught over 10,000 dentists and orthodontists worldwide. His philosophy is to treat every patient like family, creating smiles that function in harmony with the face and jaw.",
-    "photoPath": "/clinics/aeortho-com/doctor.jpg",
+    "photoPath": "/clinics/aeortho-com/doctor.webp",
     "specialistCredentials": [
       "Top-Tier Invisalign Provider",
       "Advanced TMJ Therapy Expert",
       "Smile Designer Specialist",
       "Over 7000+ Cases Treated"
     ],
-    "specialistPortraitPath": "/clinics/aeortho-com/specialist.png"
+    "specialistPortraitPath": "/clinics/aeortho-com/specialist.webp"
   },
   "reviews": [
     {

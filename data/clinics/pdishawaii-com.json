@@ -6,7 +6,7 @@
     "phone": "(808) 737-6150",
     "address": "4211 Waialae Ave #102, Honolulu, HI 96816",
     "hours": "Open Now",
-    "logoPath": "/clinics/pdishawaii-com/logo.png",
+    "logoPath": "/clinics/pdishawaii-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "As an ADA-recognized specialist practice, we provide comprehensive full-mouth restoration using advanced 3D imaging and 17+ years of expertise in dental implants and complex prosthetics.",
@@ -179,22 +179,22 @@
         "tag": "Reconstruction",
         "title": "Full-Mouth Rebuild",
         "subtitle": "Crowns and implants over 6 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Prosthetics",
         "title": "Implant-Supported Bridges",
         "subtitle": "Bite restored in phased treatment",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Bite & TMJ",
         "title": "Bite Rehabilitation",
         "subtitle": "Pain-free chewing within weeks",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
@@ -231,23 +231,23 @@
         "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
       }
     ],
-    "heroImagePath": "/clinics/pdishawaii-com/hero.jpg",
-    "benefitsImagePath": "/clinics/pdishawaii-com/benefits.png",
-    "whyChooseImagePath": "/clinics/pdishawaii-com/whychoose.png"
+    "heroImagePath": "/clinics/pdishawaii-com/hero.webp",
+    "benefitsImagePath": "/clinics/pdishawaii-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/pdishawaii-com/whychoose.webp"
   },
   "doctor": {
     "name": "Jmi Asam",
     "credentials": "DMD, Specialist in Prosthodontics",
     "bio": "Dr. Jmi Lilinoe Bassett Asam is a Harvard-trained, ADA-recognized Prosthodontist with over 17 years of experience in complex full-mouth reconstruction. After graduating summa cum laude from Creighton University and cum laude from Harvard School of Dental Medicine, she completed a three-year specialty residency in Advanced Prosthodontics. As the founder of Pacific Dental & Implant Solutions, she specializes in taking on the cases other dentists turn away, including severe bone loss and failed previous work. Dr. Asam personally manages every case to ensure clinical precision and lasting results.",
     "yearsOfExperience": 17,
-    "photoPath": "/clinics/pdishawaii-com/doctor.jpg",
+    "photoPath": "/clinics/pdishawaii-com/doctor.webp",
     "specialistCredentials": [
       "Harvard-Trained Prosthodontist",
       "17+ Years Implant Experience",
       "Full-Arch Reconstruction Expert",
       "Advanced 3D Guided Surgery"
     ],
-    "specialistPortraitPath": "/clinics/pdishawaii-com/specialist.png"
+    "specialistPortraitPath": "/clinics/pdishawaii-com/specialist.webp"
   },
   "reviews": [
     {

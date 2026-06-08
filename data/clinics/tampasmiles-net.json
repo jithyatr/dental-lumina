@@ -6,7 +6,7 @@
     "phone": "(813) 872-9313",
     "address": "4712 N Armenia Ave STE 100, Tampa, FL 33603",
     "hours": "Mon-Thu 8:30am - 5:00pm, Fri 8:30am - 1:00pm",
-    "logoPath": "/clinics/tampasmiles-net/logo.png",
+    "logoPath": "/clinics/tampasmiles-net/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "Experience a comprehensive approach to full mouth restoration led by a board-certified team. We combine prosthodontic expertise with an in-house digital lab to rebuild your health, comfort, and confidence.",
@@ -175,22 +175,22 @@
         "tag": "Reconstruction",
         "title": "Full-Mouth Rebuild",
         "subtitle": "Crowns and implants over 6 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Prosthetics",
         "title": "Implant-Supported Bridges",
         "subtitle": "Bite restored in phased treatment",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Bite & TMJ",
         "title": "Bite Rehabilitation",
         "subtitle": "Pain-free chewing within weeks",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
@@ -227,17 +227,17 @@
         "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
       }
     ],
-    "heroImagePath": "/clinics/tampasmiles-net/hero.png",
-    "benefitsImagePath": "/clinics/tampasmiles-net/benefits.jpg",
-    "whyChooseImagePath": "/clinics/tampasmiles-net/hero.png"
+    "heroImagePath": "/clinics/tampasmiles-net/hero.webp",
+    "benefitsImagePath": "/clinics/tampasmiles-net/benefits.webp",
+    "whyChooseImagePath": "/clinics/tampasmiles-net/hero.webp"
   },
   "doctor": {
     "name": "C. Edgar Davila",
     "credentials": "DDS, MS, CDT",
     "bio": "Dr. C. Edgar Davila is the founding specialist of Tampa Advanced Dental Solutions, bringing over 30 years of clinical expertise to the Tampa Bay community. As a leader in maxillofacial prosthodontics and implant dentistry, he established a practice rooted in integrity, intention, and exceptional outcomes. He works alongside a dedicated team of specialists, including his children, to provide advanced, purpose-driven care for complex oral rehabilitation. His vision for compassionate, specialty-driven dentistry remains the foundation of the practice's success.",
     "yearsOfExperience": 30,
-    "photoPath": "/clinics/tampasmiles-net/doctor.jpg",
-    "specialistPortraitPath": "/clinics/tampasmiles-net/specialist.png"
+    "photoPath": "/clinics/tampasmiles-net/doctor.webp",
+    "specialistPortraitPath": "/clinics/tampasmiles-net/specialist.webp"
   },
   "reviews": [
     {

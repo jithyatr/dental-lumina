@@ -6,7 +6,7 @@
     "phone": "(207) 236-4740",
     "address": "100 Elm Street, Camden, ME 04843",
     "hours": "Mon-Thu 8 am – 5 pm",
-    "logoPath": "/clinics/seasons-of-smiles-com/logo.png",
+    "logoPath": "/clinics/seasons-of-smiles-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "Restore your confidence and function with permanent, titanium-rooted dental implants. We combine Digital Smile Design and a relaxing atmosphere to replace missing teeth with natural-looking results.",
@@ -175,22 +175,22 @@
         "tag": "Implants",
         "title": "Single-Tooth Implant",
         "subtitle": "Restored function in 3 months",
-        "beforeImage": "/clinics/seasons-of-smiles-com/case-before-1780289962860-k4zbgd.png",
-        "afterImage": "/clinics/seasons-of-smiles-com/case-after-1780289967276-ggnyx9.png"
+        "beforeImage": "/clinics/seasons-of-smiles-com/case-before-1780289962860-k4zbgd.webp",
+        "afterImage": "/clinics/seasons-of-smiles-com/case-after-1780289967276-ggnyx9.webp"
       },
       {
         "tag": "Restoration",
         "title": "Implant-Supported Bridge",
         "subtitle": "Replaces 3 teeth on 2 implants",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Front-Tooth Implant",
         "subtitle": "Indistinguishable from natural",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
@@ -227,22 +227,22 @@
         "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
       }
     ],
-    "heroImagePath": "/clinics/seasons-of-smiles-com/hero.png",
-    "benefitsImagePath": "/clinics/seasons-of-smiles-com/benefits.png",
-    "whyChooseImagePath": "/clinics/seasons-of-smiles-com/whychoose.jpg"
+    "heroImagePath": "/clinics/seasons-of-smiles-com/hero.webp",
+    "benefitsImagePath": "/clinics/seasons-of-smiles-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/seasons-of-smiles-com/whychoose.webp"
   },
   "doctor": {
     "name": "Norman Medina",
     "credentials": "DDS",
     "bio": "Norman Medina, DDS, has been providing high-quality dental care to the Midcoast Maine community for decades. He is known for his professional expertise and commitment to staying updated with the latest advancements in dental technology, including Digital Smile Design and implant restorations. Dr. Medina focuses on making every visit relaxing and enjoyable, particularly for patients with dental anxiety. His patient-first philosophy ensures that comfort is always the primary concern during every procedure.",
-    "photoPath": "/clinics/seasons-of-smiles-com/doctor.jpg",
+    "photoPath": "/clinics/seasons-of-smiles-com/doctor.webp",
     "specialistCredentials": [
       "Advanced Implant Restorations",
       "Digital Smile Design Mastery",
       "Modern Dental Technology",
       "Comfort-Focused Care"
     ],
-    "specialistPortraitPath": "/clinics/seasons-of-smiles-com/specialist.png"
+    "specialistPortraitPath": "/clinics/seasons-of-smiles-com/specialist.webp"
   },
   "reviews": [
     {

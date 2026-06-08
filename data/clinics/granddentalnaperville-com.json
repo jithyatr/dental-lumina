@@ -5,7 +5,7 @@
     "phone": "(630) 576-9970",
     "address": "4425 Montgomery Rd., Ste. 101 Naperville, IL 60564",
     "hours": "Mon 9:00am-6:00pm, Tue 9:00am-6:00pm, Wed 8:00am-3:00pm, Thu 10:00am-5:00pm, Fri 8:00am-12:00pm, Sat 8:00am-1:00pm",
-    "logoPath": "/clinics/granddentalnaperville-com/logo.png",
+    "logoPath": "/clinics/granddentalnaperville-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "At Grand Dental - Naperville, we specialize in permanent solutions for missing or failing teeth, offering advanced dental implant procedures that restore the look, feel, and function of natural teeth. With our in-house periodontist and flexible financing, we make achieving a confident, healthy smile accessible for adults facing tooth loss.",
@@ -189,22 +189,22 @@
         "tag": "Implants",
         "title": "Single-Tooth Implant",
         "subtitle": "Restored function in 3 months",
-        "beforeImage": "/clinics/granddentalnaperville-com/case-before-1780633959245-6dqz07.png",
-        "afterImage": "/clinics/granddentalnaperville-com/case-after-1780634014402-qdbkoq.png"
+        "beforeImage": "/clinics/granddentalnaperville-com/case-before-1780633959245-6dqz07.webp",
+        "afterImage": "/clinics/granddentalnaperville-com/case-after-1780634014402-qdbkoq.webp"
       },
       {
         "tag": "Restoration",
         "title": "Implant-Supported Bridge",
         "subtitle": "Replaces 3 teeth on 2 implants",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Front-Tooth Implant",
         "subtitle": "Indistinguishable from natural",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
@@ -241,20 +241,20 @@
         "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
       }
     ],
-    "heroImagePath": "/clinics/granddentalnaperville-com/hero.png",
-    "benefitsImagePath": "/clinics/granddentalnaperville-com/benefits.png",
-    "whyChooseImagePath": "/clinics/granddentalnaperville-com/whychoose.png"
+    "heroImagePath": "/clinics/granddentalnaperville-com/hero.webp",
+    "benefitsImagePath": "/clinics/granddentalnaperville-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/granddentalnaperville-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. John Micaletti",
     "bio": "Dr. John Micaletti is a highly experienced periodontist at Grand Dental – Naperville, specializing in advanced gum treatments and dental implant procedures. His expertise ensures patients receive comprehensive care for missing teeth and periodontal disease, often preventing the need for external referrals. Dr. Micaletti is dedicated to improving both the health and beauty of his patients' smiles, leveraging his specialized knowledge to achieve lasting results.",
-    "photoPath": "/clinics/granddentalnaperville-com/doctor.jpg",
+    "photoPath": "/clinics/granddentalnaperville-com/doctor.webp",
     "specialistCredentials": [
       "Periodontist Specialist",
       "Dental Implant Expert",
       "Gum Disease Treatment"
     ],
-    "specialistPortraitPath": "/clinics/granddentalnaperville-com/specialist.png"
+    "specialistPortraitPath": "/clinics/granddentalnaperville-com/specialist.webp"
   },
   "reviews": [
     {

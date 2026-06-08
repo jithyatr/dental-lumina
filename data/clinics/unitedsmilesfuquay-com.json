@@ -6,7 +6,7 @@
     "phone": "(919) 557-9970",
     "address": "606 Stellata Dr, Fuquay Varina, NC, 27526, US",
     "hours": "Mon-Tue 7:00 am-3:00 pm, Wed By Appointment, Thu 7:00 am-3:00 pm",
-    "logoPath": "/clinics/unitedsmilesfuquay-com/logo.png",
+    "logoPath": "/clinics/unitedsmilesfuquay-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "We offer a modern approach to restoring your smile with permanent dental implants. Replacing missing or failing teeth, our solutions look, feel, and function like natural teeth, providing stability and confidence through comprehensive restorative dentistry and personalized care.",
@@ -186,22 +186,22 @@
         "tag": "Implants",
         "title": "Single-Tooth Implant",
         "subtitle": "Restored function in 3 months",
-        "beforeImage": "/clinics/unitedsmilesfuquay-com/case-before-1780403033952-fil20w.png",
-        "afterImage": "/clinics/unitedsmilesfuquay-com/case-after-1780403042175-wkzqnc.png"
+        "beforeImage": "/clinics/unitedsmilesfuquay-com/case-before-1780403033952-fil20w.webp",
+        "afterImage": "/clinics/unitedsmilesfuquay-com/case-after-1780403042175-wkzqnc.webp"
       },
       {
         "tag": "Restoration",
         "title": "Implant-Supported Bridge",
         "subtitle": "Replaces 3 teeth on 2 implants",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Front-Tooth Implant",
         "subtitle": "Indistinguishable from natural",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
@@ -238,21 +238,21 @@
         "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
       }
     ],
-    "heroImagePath": "/clinics/unitedsmilesfuquay-com/hero.png",
-    "benefitsImagePath": "/clinics/unitedsmilesfuquay-com/benefits.png",
-    "whyChooseImagePath": "/clinics/unitedsmilesfuquay-com/whychoose.jpg"
+    "heroImagePath": "/clinics/unitedsmilesfuquay-com/hero.webp",
+    "benefitsImagePath": "/clinics/unitedsmilesfuquay-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/unitedsmilesfuquay-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. Priyanka Panthula",
     "bio": "Dr. Priyanka Panthula leads United Smiles Family Dental with a dedication to creating confident, healthy smiles for every patient. Known for her skilled and compassionate approach, Dr. Priyanka ensures that each individual receives personalized care. She believes in building trust and focuses on making every visit comfortable and meaningful. With her expertise, patients can expect exceptional dental care, whether for routine checkups or complete smile transformations, provided in a supportive and friendly environment.",
-    "photoPath": "/clinics/unitedsmilesfuquay-com/doctor.jpg",
+    "photoPath": "/clinics/unitedsmilesfuquay-com/doctor.webp",
     "specialistCredentials": [
       "Compassionate Care Provider",
       "Skilled Dentist",
       "Personalized Treatment Plans",
       "Confident Smile Creator"
     ],
-    "specialistPortraitPath": "/clinics/unitedsmilesfuquay-com/specialist.png"
+    "specialistPortraitPath": "/clinics/unitedsmilesfuquay-com/specialist.webp"
   },
   "reviews": [
     {

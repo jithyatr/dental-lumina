@@ -19,8 +19,8 @@ const LUMINA_DEFAULTS: ClinicConfig = {
     credentials: "DDS",
     bio: "Dr. Sheila Dobee is a highly specialized implantologist with over a decade of experience in dental implants, full-arch restoration, and advanced 3D guided surgery. Her patient-first philosophy and meticulous care have helped hundreds of patients restore confidence in their smile.",
     yearsOfExperience: 12,
-    photoPath: "/images/dr-sheila-dobee.png",
-    specialistPortraitPath: "/images/dr-sheila-dobee.png",
+    photoPath: "/images/dr-sheila-dobee.webp",
+    specialistPortraitPath: "/images/dr-sheila-dobee.webp",
   },
   template: "dentist-landing",
 };

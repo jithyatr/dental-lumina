@@ -178,22 +178,22 @@
         "tag": "Surgery",
         "title": "Routine Wisdom Removal",
         "subtitle": "All four teeth, single visit",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Recovery",
         "title": "Impacted Tooth Extraction",
         "subtitle": "Clean healing at 2-week follow-up",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Comfort",
         "title": "IV-Sedation Procedure",
         "subtitle": "Anxiety-free, awake within minutes",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Wisdom Teeth\nQuick Check",
@@ -230,10 +230,10 @@
         "description": "Our team is reachable after the procedure if you have questions during your recovery."
       }
     ],
-    "heroImagePath": "/clinics/mw-os-com/hero.jpg",
-    "benefitsImagePath": "/clinics/mw-os-com/benefits.jpg",
-    "whyChooseImagePath": "/clinics/mw-os-com/whychoose.jpg",
-    "logoPath": "/clinics/mw-os-com/logo.png"
+    "heroImagePath": "/clinics/mw-os-com/hero.webp",
+    "benefitsImagePath": "/clinics/mw-os-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/mw-os-com/whychoose.webp",
+    "logoPath": "/clinics/mw-os-com/logo.webp"
   },
   "doctor": {
     "name": "Mary DiPirro",
@@ -245,7 +245,7 @@
       "Advanced IV Sedation",
       "3D Imaging Expert"
     ],
-    "specialistPortraitPath": "/clinics/mw-os-com/specialist.png"
+    "specialistPortraitPath": "/clinics/mw-os-com/specialist.webp"
   },
   "reviews": [
     {

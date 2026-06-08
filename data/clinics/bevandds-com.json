@@ -6,7 +6,7 @@
     "phone": "(707) 255-3007",
     "address": "3434 Villa Lane Ste 100, Napa, CA 94558",
     "hours": "Open Now",
-    "logoPath": "/clinics/bevandds-com/logo.png",
+    "logoPath": "/clinics/bevandds-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "Transform your smile with a practice specializing in beautiful esthetic dentistry. From custom porcelain veneers to Invisalign, we deliver smile makeovers in a friendly, uplifting Napa environment.",
@@ -175,22 +175,22 @@
         "tag": "Veneers",
         "title": "Full Smile Veneer Set",
         "subtitle": "10 porcelain veneers, 2 visits",
-        "beforeImage": "/clinics/bevandds-com/case-before-1779947819669-9zy2ec.png",
-        "afterImage": "/clinics/bevandds-com/case-after-1779947822648-edutpm.png"
+        "beforeImage": "/clinics/bevandds-com/case-before-1779947819669-9zy2ec.webp",
+        "afterImage": "/clinics/bevandds-com/case-after-1779947822648-edutpm.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Single-Tooth Veneer",
         "subtitle": "Reshaped and matched in one appointment",
-        "beforeImage": "/clinics/bevandds-com/case-before-1779947986805-1ah0rf.png",
-        "afterImage": "/clinics/bevandds-com/case-after-1779947991050-7yqvew.png"
+        "beforeImage": "/clinics/bevandds-com/case-before-1779947986805-1ah0rf.webp",
+        "afterImage": "/clinics/bevandds-com/case-after-1779947991050-7yqvew.webp"
       },
       {
         "tag": "Makeover",
         "title": "Whitening + Veneer Combo",
         "subtitle": "Brightened and refined in 3 weeks",
-        "beforeImage": "/clinics/bevandds-com/case-before-1779948281824-lim80f.png",
-        "afterImage": "/clinics/bevandds-com/case-after-1779948285634-olpoa8.png"
+        "beforeImage": "/clinics/bevandds-com/case-before-1779948281824-lim80f.webp",
+        "afterImage": "/clinics/bevandds-com/case-after-1779948285634-olpoa8.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
@@ -227,22 +227,22 @@
         "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
       }
     ],
-    "heroImagePath": "/clinics/bevandds-com/hero.png",
-    "benefitsImagePath": "/clinics/bevandds-com/benefits.png",
-    "whyChooseImagePath": "/clinics/bevandds-com/whychoose.png"
+    "heroImagePath": "/clinics/bevandds-com/hero.webp",
+    "benefitsImagePath": "/clinics/bevandds-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/bevandds-com/whychoose.webp"
   },
   "doctor": {
     "name": "Kenneth J Bevan",
     "credentials": "DDS",
     "bio": "Kenneth J Bevan, DDS, provides premier cosmetic and general dental services to the Northern California community. Committed to delivering responsive, personalized care, Dr. Bevan and his team focus on creating a friendly and professional environment that respects each patient's time. With years of  experience, he specializes in esthetic work and smile makeovers, utilizing advanced technology like digital scanners and lasers to ensure beautiful, lasting results.",
-    "photoPath": "/clinics/bevandds-com/doctor.jpg",
+    "photoPath": "/clinics/bevandds-com/doctor.webp",
     "specialistCredentials": [
       "Certified Dentist",
       "Esthetic Dentistry Specialist",
       "Digital Impression Expert",
       "Personalized Care Philosophy"
     ],
-    "specialistPortraitPath": "/clinics/bevandds-com/specialist.png"
+    "specialistPortraitPath": "/clinics/bevandds-com/specialist.webp"
   },
   "reviews": [
     {

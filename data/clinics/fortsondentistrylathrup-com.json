@@ -6,7 +6,7 @@
     "phone": "(248) 609-6317",
     "address": "27347 Southfield Rd, Lathrup Village, MI 48076, United States",
     "hours": "Mon: 8:00 AM–5:00 PM | Tue–Wed: 8:00 AM–6:00 PM | Thu–Fri: 8:00 AM–3:00 PM | Sat–Sun: Closed",
-    "logoPath": "/clinics/fortsondentistrylathrup-com/logo.png",
+    "logoPath": "/clinics/fortsondentistrylathrup-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "Fortson Dentistry provides fast, compassionate emergency dental care, offering immediate relief from pain and addressing urgent dental problems like broken teeth or severe toothaches. With state-of-the-art diagnostic technology and a focus on swift intervention, patients can expect expert treatment to protect their smiles and restore comfort when they need it most.",
@@ -179,22 +179,22 @@
         "tag": "Same-Day",
         "title": "Broken Tooth Repair",
         "subtitle": "Restored on the same visit",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Urgent Care",
         "title": "Abscess Treatment",
         "subtitle": "Pain and swelling gone within hours",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Restoration",
         "title": "Lost Crown Replacement",
         "subtitle": "Re-cemented in a single appointment",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "AI Triage:\nIs It an\nEmergency?",
@@ -231,22 +231,22 @@
         "description": "You'll know the cost before we start. Most insurances accepted and financing available for larger emergencies."
       }
     ],
-    "heroImagePath": "/clinics/fortsondentistrylathrup-com/hero.png",
-    "benefitsImagePath": "/clinics/fortsondentistrylathrup-com/benefits.png",
-    "whyChooseImagePath": "/clinics/fortsondentistrylathrup-com/whychoose.png"
+    "heroImagePath": "/clinics/fortsondentistrylathrup-com/hero.webp",
+    "benefitsImagePath": "/clinics/fortsondentistrylathrup-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/fortsondentistrylathrup-com/whychoose.webp"
   },
   "doctor": {
     "name": "Cory Fortson",
     "bio": "Dr. Cory Fortson is a third-generation dentist, proudly continuing a family legacy started over 30 years ago by his grandfather and father. Graduating from The University of Detroit Mercy Dental School, Dr. Fortson joined the practice in 2014 and took over in 2016. He leads Fortson Dentistry in providing personalized, high-quality dental care, ensuring every patient feels welcomed and receives exceptional treatment.",
     "yearsOfExperience": 30,
-    "photoPath": "/clinics/fortsondentistrylathrup-com/doctor.jpg",
+    "photoPath": "/clinics/fortsondentistrylathrup-com/doctor.webp",
     "specialistCredentials": [
       "Emergency Dental Expert",
       "Advanced Diagnostic Imaging",
       "Trauma Care Specialist",
       "Patient-First Philosophy"
     ],
-    "specialistPortraitPath": "/clinics/fortsondentistrylathrup-com/specialist.png"
+    "specialistPortraitPath": "/clinics/fortsondentistrylathrup-com/specialist.webp"
   },
   "reviews": [
     {

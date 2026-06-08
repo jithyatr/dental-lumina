@@ -31,9 +31,9 @@
         "description": "We provide efficient post-treatment advice and guidelines, building a lifetime relationship to ensure your smile stays healthy and beautiful."
       }
     ],
-    "heroImagePath": "/clinics/jjdental-com/hero.png",
-    "benefitsImagePath": "/clinics/jjdental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/jjdental-com/whychoose.png",
+    "heroImagePath": "/clinics/jjdental-com/hero.webp",
+    "benefitsImagePath": "/clinics/jjdental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/jjdental-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
@@ -41,7 +41,7 @@
     "credentials": "DMD",
     "bio": "Dr. Jonathan Cook is a highly skilled dentist who graduated with honors from Florida State University before earning his Doctorate of Dental Medicine at Nova Southeastern University School of Dentistry. During his training, he participated in dental mission trips to Jamaica and was inducted into the Omicron Kappa Upsilon National Dental Honor Society. Dr. Cook has been recognized with The Southern Academy of Prosthodontics Award and The American Academy of Implant Dentistry Award. He is dedicated to continuous education and uses modern equipment to ensure every patient receives the best possible treatment.",
     "photoPath": "/clinics/jjdental-com/doctor.webp",
-    "specialistPortraitPath": "/clinics/jjdental-com/specialist.png"
+    "specialistPortraitPath": "/clinics/jjdental-com/specialist.webp"
   },
   "reviews": [
     {

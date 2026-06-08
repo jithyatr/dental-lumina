@@ -6,7 +6,7 @@
     "phone": "(817) 696-9080",
     "address": "27379 E. University Dr. Suite 900, Aubrey, TX 76227",
     "hours": "Mon-Fri  9am - 6pm",
-    "logoPath": "/clinics/1385dentalstudio-com/logo.png",
+    "logoPath": "/clinics/1385dentalstudio-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": false,
     "heroSubtitle": "At 1385 Dental Studio, Dr. Mustafa specializes in transforming smiles and restoring oral health through expert dental implant placement and restoration. Addressing missing teeth is her focus, helping patients regain confidence and enjoy lasting comfort.",
@@ -175,22 +175,22 @@
         "tag": "Implants",
         "title": "Single-Tooth Implant",
         "subtitle": "Restored function in 3 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Restoration",
         "title": "Implant-Supported Bridge",
         "subtitle": "Replaces 3 teeth on 2 implants",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Front-Tooth Implant",
         "subtitle": "Indistinguishable from natural",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
@@ -227,21 +227,21 @@
         "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
       }
     ],
-    "heroImagePath": "/clinics/1385dentalstudio-com/hero.png",
-    "benefitsImagePath": "/clinics/1385dentalstudio-com/benefits.png",
-    "whyChooseImagePath": "/clinics/1385dentalstudio-com/whychoose.png"
+    "heroImagePath": "/clinics/1385dentalstudio-com/hero.webp",
+    "benefitsImagePath": "/clinics/1385dentalstudio-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/1385dentalstudio-com/whychoose.webp"
   },
   "doctor": {
     "name": "Mustafa",
     "bio": "Dr. Mustafa, founder of 1385 Dental Studio, was inspired to pursue dentistry by healthcare disparities observed in Sudan and the USA, aiming to improve patients' quality of life. A graduate of Baylor College of Dentistry, she brings a unique perspective and artistic touch to her practice. Dr. Mustafa is dedicated to serving her community with compassionate, informative, and collaborative dental care, helping patients achieve transformative and lifelong smiles. She maintains memberships with the Texas Dental Association, North Texas Dental Society, and Academy of General Dentistry.",
-    "photoPath": "/clinics/1385dentalstudio-com/doctor.jpg",
+    "photoPath": "/clinics/1385dentalstudio-com/doctor.webp",
     "specialistCredentials": [
       "Dental Implants Expert",
       "Restorative Dentistry Focus",
       "Compassionate Patient Care",
       "Baylor College of Dentistry Grad"
     ],
-    "specialistPortraitPath": "/clinics/1385dentalstudio-com/specialist.png"
+    "specialistPortraitPath": "/clinics/1385dentalstudio-com/specialist.webp"
   },
   "reviews": [
     {

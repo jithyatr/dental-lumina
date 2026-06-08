@@ -6,7 +6,7 @@
     "phone": "(650) 321-6911",
     "address": "1765 E Bayshore Road, Suite H East Palo Alto, CA 94303",
     "hours": "Mon 9:00 am - 4:00 pm, Tue 10:00 am - 7:00 pm, Wed 9:00 am - 4:00 pm, Thu 9:00 am - 6:00 pm, Fri Closed, Sat By Appointment Only, Sun Closed",
-    "logoPath": "/clinics/paloaltodentalspa-com/logo.png",
+    "logoPath": "/clinics/paloaltodentalspa-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "Palo Alto Dental SPA specializes in transforming smiles with high-quality general and cosmetic dentistry, prominently featuring veneers and whitening. Dr. Radhika Alampalli and her team are dedicated to providing custom smile makeovers that address discolored, chipped, or uneven teeth, ensuring natural-looking, durable, and confident results for adults seeking a camera-ready smile.",
@@ -187,22 +187,22 @@
         "tag": "Veneers",
         "title": "Full Smile Veneer Set",
         "subtitle": "10 porcelain veneers, 2 visits",
-        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465414209-u4vdgg.png",
-        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465434491-k393pt.png"
+        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465414209-u4vdgg.webp",
+        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465434491-k393pt.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Single-Tooth Veneer",
         "subtitle": "Reshaped and matched in one appointment",
-        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465475783-89g0ir.png",
-        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465480357-zf3itf.png"
+        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465475783-89g0ir.webp",
+        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465480357-zf3itf.webp"
       },
       {
         "tag": "Makeover",
         "title": "Whitening + Veneer Combo",
         "subtitle": "Brightened and refined in 3 weeks",
-        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465503894-udegld.png",
-        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465511434-xrh4db.png"
+        "beforeImage": "/clinics/paloaltodentalspa-com/case-before-1780465503894-udegld.webp",
+        "afterImage": "/clinics/paloaltodentalspa-com/case-after-1780465511434-xrh4db.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
@@ -239,13 +239,13 @@
         "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
       }
     ],
-    "heroImagePath": "/clinics/paloaltodentalspa-com/hero.jpg",
-    "benefitsImagePath": "/clinics/paloaltodentalspa-com/benefits.png",
-    "whyChooseImagePath": "/clinics/paloaltodentalspa-com/whychoose.png"
+    "heroImagePath": "/clinics/paloaltodentalspa-com/hero.webp",
+    "benefitsImagePath": "/clinics/paloaltodentalspa-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/paloaltodentalspa-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. Radhika Alampalli",
-    "photoPath": "/clinics/paloaltodentalspa-com/specialist.png",
+    "photoPath": "/clinics/paloaltodentalspa-com/specialist.webp",
     "bio": "Dr. Radhika Alampalli leads Palo Alto Dental SPA, offering comprehensive general and cosmetic dentistry. She is dedicated to providing high-quality care in a relaxing, spa-like environment. Dr. Alampalli ensures every patient enjoys their visit, utilizing a high-quality team and advanced equipment and materials to achieve excellent results for procedures such as veneers, whitening, and Invisalign.",
     "specialistCredentials": [
       "Cosmetic Smile Makeovers",
@@ -253,7 +253,7 @@
       "Advanced Whitening Techniques",
       "Patient-Centered Care"
     ],
-    "specialistPortraitPath": "/clinics/paloaltodentalspa-com/specialist.png"
+    "specialistPortraitPath": "/clinics/paloaltodentalspa-com/specialist.webp"
   },
   "reviews": [
     {

@@ -5,7 +5,7 @@
     "city": "Billings",
     "phone": "(406) 623-8706",
     "address": "2900 Central Ave., Bldg 2, Billings, MT 59102",
-    "logoPath": "/clinics/brewerdentalcenter-com/logo.png",
+    "logoPath": "/clinics/brewerdentalcenter-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "Transform your smile discreetly with Invisalign at Billings' premier orthodontic practice. Our dedicated team combines 3D scanning technology with flexible financing to make straight teeth easy for the whole family.",
@@ -160,22 +160,22 @@
         "tag": "Invisalign",
         "title": "Comprehensive Invisalign",
         "subtitle": "Aligned in 9 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Orthodontics",
         "title": "Bite Realignment",
         "subtitle": "Balanced occlusion in 12 months",
-        "beforeImage": "/clinics/brewerdentalcenter-com/case-before-1779886167970-j9dd8v.png",
-        "afterImage": "/clinics/brewerdentalcenter-com/case-after-1779886196710-a93u29.png"
+        "beforeImage": "/clinics/brewerdentalcenter-com/case-before-1779886167970-j9dd8v.webp",
+        "afterImage": "/clinics/brewerdentalcenter-com/case-after-1779886196710-a93u29.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Gap Closure",
         "subtitle": "Front-teeth gap closed in 6 months",
-        "beforeImage": "/clinics/brewerdentalcenter-com/case-before-1779886226950-83voiu.png",
-        "afterImage": "/clinics/brewerdentalcenter-com/case-after-1779886231595-fziekk.png"
+        "beforeImage": "/clinics/brewerdentalcenter-com/case-before-1779886226950-83voiu.webp",
+        "afterImage": "/clinics/brewerdentalcenter-com/case-after-1779886231595-fziekk.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
@@ -212,9 +212,9 @@
         "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
       }
     ],
-    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.jpg",
-    "benefitsImagePath": "/clinics/brewerdentalcenter-com/benefits.png",
-    "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.png",
+    "heroImagePath": "/clinics/brewerdentalcenter-com/hero.webp",
+    "benefitsImagePath": "/clinics/brewerdentalcenter-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/brewerdentalcenter-com/whychoose.webp",
     "implantOptions": [
       {
         "title": "Invisalign Full",
@@ -239,7 +239,7 @@
       "Bite Correction Specialist",
       "Patient-Centered Care Focus"
     ],
-    "specialistPortraitPath": "/clinics/brewerdentalcenter-com/specialist.png"
+    "specialistPortraitPath": "/clinics/brewerdentalcenter-com/specialist.webp"
   },
   "reviews": [
     {

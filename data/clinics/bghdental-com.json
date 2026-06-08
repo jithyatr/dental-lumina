@@ -6,7 +6,7 @@
     "phone": "(413) 772-0842",
     "address": "207 Silver St, Greenfield, MA 01301",
     "hours": "Mon-Fri 8:00am - 5:00pm",
-    "logoPath": "/clinics/bghdental-com/logo.png",
+    "logoPath": "/clinics/bghdental-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "Restore your smile with permanent, natural-looking dental implants at Greenfield's award-winning practice. We provide expert implant placement and flexible financing in a comfortable, state-of-the-art office.",
@@ -208,7 +208,7 @@
   "doctor": {
     "name": "M. Sean Hrinda",
     "bio": "Dr. M. Sean Hrinda is a highly educated and experienced dentist dedicated to providing cutting-edge care at Bagley, Goodwin, & Hrinda Dental. He earned his dental degree and maintains a commitment to continuing education to offer the most current treatments in implant and restorative dentistry. Known for his friendly approach and ability to put patients at ease, he treats every individual like family. Dr. Hrinda focuses on delivering high-quality, personal results tailored to each patient's unique smile goals.",
-    "photoPath": "/clinics/bghdental-com/doctor.jpg"
+    "photoPath": "/clinics/bghdental-com/doctor.webp"
   },
   "reviews": [
     {

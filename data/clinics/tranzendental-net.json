@@ -6,7 +6,7 @@
     "phone": "(561) 691-9498",
     "address": "2000 PGA Boulevard #3120 North Palm Beach, FL 33408",
     "hours": "Mon - Fri 8:00 AM - 5:00 PM",
-    "logoPath": "/clinics/tranzendental-net/logo.png",
+    "logoPath": "/clinics/tranzendental-net/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "TranZenDental is a cosmetic dentistry practice in North Palm Beach specializing in custom porcelain veneers, transforming discolored, chipped, or uneven teeth into durable, natural-looking smiles. Utilizing advanced technology and a holistic approach, we create camera-ready smiles that align with your overall well-being.",
@@ -189,22 +189,22 @@
         "tag": "Veneers",
         "title": "Full Smile Veneer Set",
         "subtitle": "10 porcelain veneers, 2 visits",
-        "beforeImage": "/clinics/tranzendental-net/case-before-1780462357221-npzz2z.png",
-        "afterImage": "/clinics/tranzendental-net/case-after-1780462363084-kl71dq.png"
+        "beforeImage": "/clinics/tranzendental-net/case-before-1780462357221-npzz2z.webp",
+        "afterImage": "/clinics/tranzendental-net/case-after-1780462363084-kl71dq.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Single-Tooth Veneer",
         "subtitle": "Reshaped and matched in one appointment",
-        "beforeImage": "/clinics/tranzendental-net/case-before-1780462558874-3i6p5n.png",
-        "afterImage": "/clinics/tranzendental-net/case-after-1780462564635-32ddn2.png"
+        "beforeImage": "/clinics/tranzendental-net/case-before-1780462558874-3i6p5n.webp",
+        "afterImage": "/clinics/tranzendental-net/case-after-1780462564635-32ddn2.webp"
       },
       {
         "tag": "Makeover",
         "title": "Whitening + Veneer Combo",
         "subtitle": "Brightened and refined in 3 weeks",
-        "beforeImage": "/clinics/tranzendental-net/case-before-1780463022598-79etu8.png",
-        "afterImage": "/clinics/tranzendental-net/case-after-1780463025530-m9hrwr.png"
+        "beforeImage": "/clinics/tranzendental-net/case-before-1780463022598-79etu8.webp",
+        "afterImage": "/clinics/tranzendental-net/case-after-1780463025530-m9hrwr.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
@@ -241,21 +241,21 @@
         "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
       }
     ],
-    "heroImagePath": "/clinics/tranzendental-net/hero.png",
-    "benefitsImagePath": "/clinics/tranzendental-net/benefits.png",
-    "whyChooseImagePath": "/clinics/tranzendental-net/whychoose.png"
+    "heroImagePath": "/clinics/tranzendental-net/hero.webp",
+    "benefitsImagePath": "/clinics/tranzendental-net/benefits.webp",
+    "whyChooseImagePath": "/clinics/tranzendental-net/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. Leconte",
     "bio": "With decades of experience in integrative and cosmetic dentistry, Dr. Leconte is dedicated to providing the highest level of personalized care. The practice emphasizes a connection between oral health and whole-body wellness, using biocompatible materials and minimally invasive techniques. Dr. Leconte believes in achieving a beautiful, healthy smile without compromising overall health, practicing mercury-free, holistic dentistry with the latest technology.",
-    "photoPath": "/clinics/tranzendental-net/doctor.jpg",
+    "photoPath": "/clinics/tranzendental-net/doctor.webp",
     "specialistCredentials": [
       "Integrative Dentistry Expertise",
       "Cosmetic Smile Transformations",
       "Biocompatible Material Focus",
       "Minimally Invasive Techniques"
     ],
-    "specialistPortraitPath": "/clinics/tranzendental-net/specialist.png"
+    "specialistPortraitPath": "/clinics/tranzendental-net/specialist.webp"
   },
   "reviews": [
     {

@@ -58,22 +58,22 @@
         "tag": "Reconstruction",
         "title": "Full-Mouth Rebuild",
         "subtitle": "Crowns and implants over 6 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Prosthetics",
         "title": "Implant-Supported Bridges",
         "subtitle": "Bite restored in phased treatment",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Bite & TMJ",
         "title": "Bite Rehabilitation",
         "subtitle": "Pain-free chewing within weeks",
-        "beforeImage": "/clinics/southbayprosthodontics-com/case-before-1780039873122-w95ewn.png",
-        "afterImage": "/clinics/southbayprosthodontics-com/case-after-1780039878969-d9p9rm.png"
+        "beforeImage": "/clinics/southbayprosthodontics-com/case-before-1780039873122-w95ewn.webp",
+        "afterImage": "/clinics/southbayprosthodontics-com/case-after-1780039878969-d9p9rm.webp"
       }
     ],
     "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
@@ -110,9 +110,9 @@
         "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
       }
     ],
-    "heroImagePath": "/clinics/southbayprosthodontics-com/hero.jpg",
-    "benefitsImagePath": "/clinics/southbayprosthodontics-com/benefits.jpg",
-    "whyChooseImagePath": "/clinics/southbayprosthodontics-com/whychoose.png",
+    "heroImagePath": "/clinics/southbayprosthodontics-com/hero.webp",
+    "benefitsImagePath": "/clinics/southbayprosthodontics-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/southbayprosthodontics-com/whychoose.webp",
     "stats": [
       {
         "value": "20+",
@@ -137,14 +137,14 @@
     "credentials": "DDS",
     "bio": "Dr. A. Alejandra Rodriguez, DDS is a highly trained prosthodontist dedicated to restoring healthy, confident smiles through advanced restorative and cosmetic dental care. With specialized training in prosthodontics and expertise in digital dentistry, implant restorations, and full-mouth rehabilitation, she provides personalized treatment solutions tailored to each patient's needs. Known for her attentive approach and commitment to excellence, Dr. Rodriguez combines modern techniques with compassionate care to help patients achieve lasting oral health and beautiful results.",
     "yearsOfExperience": 20,
-    "photoPath": "/clinics/southbayprosthodontics-com/doctor.jpg",
+    "photoPath": "/clinics/southbayprosthodontics-com/doctor.webp",
     "specialistCredentials": [
       "Advanced Prosthodontics Specialist",
       "Expert in Full-Mouth Rehabilitation",
       "Skilled in Implant & Digital Dentistry",
       "Fluent Spanish-Speaking Provider"
     ],
-    "specialistPortraitPath": "/clinics/southbayprosthodontics-com/specialist.jpg"
+    "specialistPortraitPath": "/clinics/southbayprosthodontics-com/specialist.webp"
   },
   "reviews": [
     {

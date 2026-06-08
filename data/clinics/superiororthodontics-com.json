@@ -186,22 +186,22 @@
         "tag": "Cosmetic",
         "title": "Gap Closure",
         "subtitle": "Front-teeth gap closed in 6 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Orthodontics",
         "title": "Bite Realignment",
         "subtitle": "Balanced occlusion in 12 months",
-        "beforeImage": "/clinics/superiororthodontics-com/case-before-1780549634109-g1xje0.png",
-        "afterImage": "/clinics/superiororthodontics-com/case-after-1780549637769-emtb62.png"
+        "beforeImage": "/clinics/superiororthodontics-com/case-before-1780549634109-g1xje0.webp",
+        "afterImage": "/clinics/superiororthodontics-com/case-after-1780549637769-emtb62.webp"
       },
       {
         "tag": "Invisalign",
         "title": "Crowding Correction",
         "subtitle": "Aligned in 9 months",
-        "beforeImage": "/clinics/superiororthodontics-com/case-before-1780549649268-g0iqlm.png",
-        "afterImage": "/clinics/superiororthodontics-com/case-after-1780549651994-703hq8.png"
+        "beforeImage": "/clinics/superiororthodontics-com/case-before-1780549649268-g0iqlm.webp",
+        "afterImage": "/clinics/superiororthodontics-com/case-after-1780549651994-703hq8.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
@@ -238,22 +238,22 @@
         "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
       }
     ],
-    "heroImagePath": "/clinics/superiororthodontics-com/hero.png",
-    "benefitsImagePath": "/clinics/superiororthodontics-com/benefits.png",
-    "whyChooseImagePath": "/clinics/superiororthodontics-com/whychoose.png"
+    "heroImagePath": "/clinics/superiororthodontics-com/hero.webp",
+    "benefitsImagePath": "/clinics/superiororthodontics-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/superiororthodontics-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. Kishawn Kole-James",
     "bio": "Dr. Kishawn Kole-James has been providing dedicated orthodontic care in the Detroit area for over 8 years, driven by a commitment to making quality dental care accessible. He earned his Doctor of Dental Surgery from the University of Detroit Mercy School of Dentistry and further specialized, obtaining his Orthodontics Degree from Howard University in 2016. Before opening Superior Orthodontics, Dr. Kole-James served as Dental Director for three community health clinics in Detroit, focusing on community health. He enjoys spending time with his wife, Uchenna, and their two sons, Samuel and Emmanuel, when not in the office.",
     "yearsOfExperience": 8,
-    "photoPath": "/clinics/superiororthodontics-com/doctor.jpg",
+    "photoPath": "/clinics/superiororthodontics-com/doctor.webp",
     "specialistCredentials": [
       "Orthodontics Degree",
       "Invisalign Certification",
       "Community Health Advocate",
       "Experienced & Trusted"
     ],
-    "specialistPortraitPath": "/clinics/superiororthodontics-com/specialist.png"
+    "specialistPortraitPath": "/clinics/superiororthodontics-com/specialist.webp"
   },
   "reviews": [
     {

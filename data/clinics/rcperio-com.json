@@ -5,7 +5,7 @@
     "city": "Idaho Falls",
     "phone": "(208) 522-6683",
     "address": "2375 E Sunnyside Rd Suite C, Idaho Falls, Idaho 83404",
-    "logoPath": "/clinics/rcperio-com/logo.png",
+    "logoPath": "/clinics/rcperio-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": false,
     "heroSubtitle": "Experience Idaho Falls' premier specialist care for missing teeth. We provide natural-looking dental implants and full-mouth reconstruction using advanced X-nav guided technology and gentle laser treatments.",
@@ -178,22 +178,22 @@
         "tag": "Implants",
         "title": "Single-Tooth Implant",
         "subtitle": "Restored function in 3 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Restoration",
         "title": "Implant-Supported Bridge",
         "subtitle": "Replaces 3 teeth on 2 implants",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Front-Tooth Implant",
         "subtitle": "Indistinguishable from natural",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
@@ -230,9 +230,9 @@
         "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
       }
     ],
-    "heroImagePath": "/clinics/rcperio-com/hero.jpg",
-    "benefitsImagePath": "/clinics/rcperio-com/benefits.jpg",
-    "whyChooseImagePath": "/clinics/rcperio-com/whychoose.jpg"
+    "heroImagePath": "/clinics/rcperio-com/hero.webp",
+    "benefitsImagePath": "/clinics/rcperio-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/rcperio-com/whychoose.webp"
   },
   "doctor": {
     "name": "Ethan Moulton",
@@ -244,7 +244,7 @@
       "Certified LANAP Provider",
       "SPEAR Study Club Leader"
     ],
-    "specialistPortraitPath": "/clinics/rcperio-com/specialist.jpg"
+    "specialistPortraitPath": "/clinics/rcperio-com/specialist.webp"
   },
   "reviews": [
     {

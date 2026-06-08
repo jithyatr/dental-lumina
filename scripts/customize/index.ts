@@ -5,6 +5,11 @@ import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import { crawl } from "./crawl";
+import {
+  DOCTOR_REFERENCE_BASENAME,
+  writeDoctorReferenceJpeg,
+  writeOptimizedPublicImage,
+} from "./assetOptimization";
 import { extractClinicProfile } from "./extract";
 import { generateSceneImage } from "./image";
 import { buildAndBundle } from "./build";
@@ -19,6 +24,7 @@ import type { ClinicConfig, TemplateKind } from "../../src/types/clinic";
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(SCRIPT_DIR, "..", "..");
+const PUBLIC_DIR = path.join(REPO_ROOT, "public");
 const CLINICS_DATA_DIR = path.join(REPO_ROOT, "data", "clinics");
 const CLINICS_PUBLIC_DIR = path.join(REPO_ROOT, "public", "clinics");
 const DEFAULT_DIST_DIR = path.join(REPO_ROOT, "dist", "clinics");
@@ -347,18 +353,14 @@ async function downloadImage(
     const dir = path.join(CLINICS_PUBLIC_DIR, slug);
     await fs.mkdir(dir, { recursive: true });
 
-    // Doctor photos are fed to Gemini as identity references; webp, animated frames,
-    // and Adobe APP14-marked JPEGs cause IMAGE_OTHER bailouts on the specialist scene.
-    // Re-encode to clean baseline JPEG (header ffd8ffdb) at ingest time.
     if (basename === "doctor") {
-      const normalized = await sharp(buf)
-        .rotate()
-        .flatten({ background: "#ffffff" })
-        .jpeg({ progressive: false, quality: 92 })
-        .toBuffer();
-      const filename = "doctor.jpg";
-      await fs.writeFile(path.join(dir, filename), normalized);
-      return `/clinics/${slug}/${filename}`;
+      await writeDoctorReferenceJpeg(buf, dir);
+      return writeOptimizedPublicImage(
+        buf,
+        `/clinics/${slug}/doctor.webp`,
+        PUBLIC_DIR,
+        { maxDimension: 1200 },
+      );
     }
 
     const ext = (() => {
@@ -374,20 +376,30 @@ async function downloadImage(
     // Logos with baked-in flat backgrounds (white JPEG/GIF, opaque PNG)
     // render awkwardly on dark navbars. SVG is left alone (vector). For
     // raster formats we attempt a corner-anchored flood-fill to strip the
-    // background; if it succeeds, the result is saved as PNG with alpha.
-    if (basename === "logo" && ext !== "svg") {
-      const stripped = await stripLogoBackground(buf);
-      if (stripped) {
-        const filename = "logo.png";
-        await fs.writeFile(path.join(dir, filename), stripped);
-        console.log(`      logo background stripped → ${filename}`);
-        return `/clinics/${slug}/${filename}`;
-      }
+    // background before writing an optimized WebP master + variants.
+    if (basename === "logo" && ext === "svg") {
+      const filename = "logo.svg";
+      await fs.writeFile(path.join(dir, filename), buf);
+      return `/clinics/${slug}/${filename}`;
     }
 
-    const filename = `${basename}.${ext}`;
-    await fs.writeFile(path.join(dir, filename), buf);
-    return `/clinics/${slug}/${filename}`;
+    if (basename === "logo") {
+      const stripped = await stripLogoBackground(buf);
+      const optimized = await writeOptimizedPublicImage(
+        stripped ?? buf,
+        `/clinics/${slug}/logo.webp`,
+        PUBLIC_DIR,
+        { lossless: true, maxDimension: 960 },
+      );
+      if (stripped) console.log("      logo background stripped → logo.webp");
+      return optimized;
+    }
+
+    return writeOptimizedPublicImage(
+      buf,
+      `/clinics/${slug}/${basename}.${ext}`,
+      PUBLIC_DIR,
+    );
   } catch (err) {
     console.warn(`[${basename}] download failed: ${(err as Error).message}`);
     return null;
@@ -399,13 +411,13 @@ async function ingestLocalDoctorPhoto(localPath: string, slug: string): Promise<
     const buf = await fs.readFile(localPath);
     const dir = path.join(CLINICS_PUBLIC_DIR, slug);
     await fs.mkdir(dir, { recursive: true });
-    const normalized = await sharp(buf)
-      .rotate()
-      .flatten({ background: "#ffffff" })
-      .jpeg({ progressive: false, quality: 92 })
-      .toBuffer();
-    await fs.writeFile(path.join(dir, "doctor.jpg"), normalized);
-    return `/clinics/${slug}/doctor.jpg`;
+    await writeDoctorReferenceJpeg(buf, dir);
+    return writeOptimizedPublicImage(
+      buf,
+      `/clinics/${slug}/doctor.webp`,
+      PUBLIC_DIR,
+      { maxDimension: 1200 },
+    );
   } catch (err) {
     console.warn(`[doctor] local photo ingest failed (${localPath}): ${(err as Error).message}`);
     return null;
@@ -544,15 +556,28 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
   if (!profile) throw new Error("Gemini returned no profile.");
 
   let photoPath: string | undefined;
+  let doctorReferenceLocalPath: string | undefined;
   if (args.doctorPhoto) {
     const ingested = await ingestLocalDoctorPhoto(args.doctorPhoto, slug);
     if (ingested) {
       photoPath = ingested;
+      doctorReferenceLocalPath = path.join(
+        CLINICS_PUBLIC_DIR,
+        slug,
+        DOCTOR_REFERENCE_BASENAME,
+      );
       console.log(`      doctor photo: using local override ${args.doctorPhoto} → ${ingested}`);
     }
   } else if (profile.doctor.photoUrl) {
     const downloaded = await downloadImage(profile.doctor.photoUrl, slug, "doctor");
-    if (downloaded) photoPath = downloaded;
+    if (downloaded) {
+      photoPath = downloaded;
+      doctorReferenceLocalPath = path.join(
+        CLINICS_PUBLIC_DIR,
+        slug,
+        DOCTOR_REFERENCE_BASENAME,
+      );
+    }
   }
   if (!photoPath) {
     console.log("      no doctor photo found on source — Specialist section will render text-only");
@@ -632,9 +657,10 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
 
   if (generateHero) {
     const doctorLocal =
-      photoPath && photoPath.startsWith("/clinics/")
+      doctorReferenceLocalPath ??
+      (photoPath && photoPath.startsWith("/clinics/")
         ? path.join(REPO_ROOT, "public", photoPath.replace(/^\//, ""))
-        : undefined;
+        : undefined);
     const refSummary = doctorLocal ? "doctor photo as reference" : "text-only";
     console.log(
       `[3/4] Generating hero + benefits${doctorLocal ? " + specialist" : ""} images (Nano Banana, ${refSummary})`,

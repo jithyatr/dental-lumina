@@ -4,6 +4,7 @@ import sharp from "sharp";
 import type { GoogleGenAI } from "@google/genai";
 import { createGenAI } from "../../src/lib/genai";
 import type { ClinicConfig } from "../../src/types/clinic";
+import { writeOptimizedPublicImage } from "./assetOptimization";
 import type { Procedure } from "./procedures";
 
 const IMAGE_MODEL = process.env.GEMINI_IMAGE_MODEL ?? "gemini-2.5-flash-image";
@@ -291,16 +292,19 @@ export async function generateSceneImage(
         return null;
       }
 
-      // Normalize to a 1024x1024 PNG so every scene is square regardless of what
+      // Normalize to a 1024x1024 square so every scene is consistent regardless of what
       // the model returned (see TARGET_SIZE note above).
       const buf = await toSquareOutput(Buffer.from(imagePart.inlineData.data, "base64"));
-
-      const dir = path.join(publicClinicsDir, slug);
-      await fs.mkdir(dir, { recursive: true });
-      const filename = `${options.scene}.png`;
-      await fs.writeFile(path.join(dir, filename), buf);
+      const publicDir = path.dirname(publicClinicsDir);
+      const filename = `${options.scene}.webp`;
+      const publicPath = await writeOptimizedPublicImage(
+        buf,
+        `/clinics/${slug}/${filename}`,
+        publicDir,
+        { maxDimension: TARGET_SIZE },
+      );
       if (attempt > 1) console.log(`[${options.scene}] succeeded on attempt ${attempt}`);
-      return `/clinics/${slug}/${filename}`;
+      return publicPath;
     } catch (err) {
       const message = (err as Error).message;
       if (attempt < maxAttempts) {

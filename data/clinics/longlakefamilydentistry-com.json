@@ -6,7 +6,7 @@
     "phone": "(651) 633-1311",
     "address": "991 9th Ave NW, New Brighton, MN 55112",
     "hours": "Mon-Thu 7:30 AM - 4:00 PM, Fri by appointment",
-    "logoPath": "/clinics/longlakefamilydentistry-com/logo.png",
+    "logoPath": "/clinics/longlakefamilydentistry-com/logo.webp",
     "logoIsLight": true,
     "heroSubtitle": "Nurturing generations of smiles in New Brighton for over 30 years with expert care, state-of-the-art technology, and a specialized focus on Invisalign and family wellness.",
     "differentiators": [
@@ -154,9 +154,9 @@
       }
     ],
     "footerAbout": "Long Lake Family Dentistry has been serving residents of New Brighton for over 30 years, providing expert dental care with a personal touch and state-of-the-art technology.",
-    "heroImagePath": "/clinics/longlakefamilydentistry-com/hero.png",
-    "benefitsImagePath": "/clinics/longlakefamilydentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/longlakefamilydentistry-com/whychoose.png",
+    "heroImagePath": "/clinics/longlakefamilydentistry-com/hero.webp",
+    "benefitsImagePath": "/clinics/longlakefamilydentistry-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/longlakefamilydentistry-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
@@ -164,8 +164,8 @@
     "credentials": "DDS",
     "bio": "Dr. Hossein Jalali has provided exceptional dental care to families in New Brighton and the surrounding area for over 30 years. He graduated with honors from The University of Minnesota School of Dentistry in 1988, where he also held a faculty position as an Associate Professor. As the founder of Long Lake Family Dentistry and a Platinum Plus Invisalign provider, Dr. Jalali is dedicated to combining innovation with a personal touch to help every patient smile brighter.",
     "yearsOfExperience": 30,
-    "photoPath": "/clinics/longlakefamilydentistry-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/longlakefamilydentistry-com/specialist.png"
+    "photoPath": "/clinics/longlakefamilydentistry-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/longlakefamilydentistry-com/specialist.webp"
   },
   "reviews": [
     {

@@ -178,22 +178,22 @@
         "tag": "Invisalign",
         "title": "Crowding Correction",
         "subtitle": "Aligned in 9 months",
-        "beforeImage": "/images/smile-makeover-before.png",
-        "afterImage": "/images/smile-makeover-after.png"
+        "beforeImage": "/images/smile-makeover-before.webp",
+        "afterImage": "/images/smile-makeover-after.webp"
       },
       {
         "tag": "Orthodontics",
         "title": "Bite Realignment",
         "subtitle": "Balanced occlusion in 12 months",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Gap Closure",
         "subtitle": "Front-teeth gap closed in 6 months",
-        "beforeImage": "/images/whitening-before.png",
-        "afterImage": "/images/whitening-after.png"
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nStraightened Smile",
@@ -230,22 +230,22 @@
         "description": "Your treatment ends with custom retainers and a long-term plan to protect your new smile."
       }
     ],
-    "heroImagePath": "/clinics/shersmiles-com/hero.png",
-    "benefitsImagePath": "/clinics/shersmiles-com/benefits.png",
-    "whyChooseImagePath": "/clinics/shersmiles-com/whychoose.png"
+    "heroImagePath": "/clinics/shersmiles-com/hero.webp",
+    "benefitsImagePath": "/clinics/shersmiles-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/shersmiles-com/whychoose.webp"
   },
   "doctor": {
     "name": "Michael Sher",
     "credentials": "DMD, MS",
     "bio": "Dr. Michael Sher, the son of a dentist, trained at the prestigious University of Pennsylvania School of Dental Medicine and completed his postdoctoral training in Orthodontics and Dentofacial Orthopedics at the University of Detroit Mercy Dental School. His focus on cutting-edge tools and techniques, including 3D X-Rays, has helped countless patients achieve beautiful smiles with both braces and Invisalign treatment. Dr. Sher is a Board Certified Orthodontist and has earned the status of \"Gold Provider\" by Invisalign, reflecting his commitment to providing the highest level of patient care. He is happily married to Dr. Deena Sher, and they have three beautiful children.",
-    "photoPath": "/clinics/shersmiles-com/doctor.jpg",
+    "photoPath": "/clinics/shersmiles-com/doctor.webp",
     "specialistCredentials": [
       "Board Certified Orthodontist",
       "Invisalign Gold Provider",
       "3D Orthodontic Imaging",
       "Comprehensive Patient Care"
     ],
-    "specialistPortraitPath": "/clinics/shersmiles-com/specialist.png"
+    "specialistPortraitPath": "/clinics/shersmiles-com/specialist.webp"
   },
   "reviews": [
     {

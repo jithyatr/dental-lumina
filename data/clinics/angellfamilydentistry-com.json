@@ -154,16 +154,16 @@
       }
     ],
     "footerAbout": "Angell Family Dentistry has been serving Columbia Heights families since 2008, providing gentle, patient-focused dental care backed by advanced technology and flexible financing.",
-    "heroImagePath": "/clinics/angellfamilydentistry-com/hero.png",
-    "benefitsImagePath": "/clinics/angellfamilydentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/angellfamilydentistry-com/whychoose.png",
+    "heroImagePath": "/clinics/angellfamilydentistry-com/hero.webp",
+    "benefitsImagePath": "/clinics/angellfamilydentistry-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/angellfamilydentistry-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
     "name": "Steven Angell",
     "bio": "Dr. Steven Angell has been providing high-quality dental care at Angell Family Dentistry since joining the practice in 2008. He earned his undergraduate degree from St. John’s University and his dental degree from the University of Minnesota. An active member of the Minnesota and American Dental Associations, Dr. Angell stays current with the latest advancements through the OMS Study Club. He is passionate about all areas of family dentistry and is dedicated to helping patients achieve healthy, confident smiles.",
     "photoPath": "/clinics/angellfamilydentistry-com/doctor.webp",
-    "specialistPortraitPath": "/clinics/angellfamilydentistry-com/specialist.png"
+    "specialistPortraitPath": "/clinics/angellfamilydentistry-com/specialist.webp"
   },
   "reviews": [
     {

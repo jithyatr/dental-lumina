@@ -6,7 +6,7 @@
     "phone": "(763) 781-6976",
     "address": "3844 Central Avenue NE, Columbia Heights, MN 55421",
     "hours": "Mon-Thurs: 8 a.m. – 5 p.m.",
-    "logoPath": "/clinics/njcdentist-com/logo.png",
+    "logoPath": "/clinics/njcdentist-com/logo.webp",
     "logoIsLight": false,
     "heroSubtitle": "Experience honest, personal dental care in a welcoming, art-filled atmosphere. From pediatric visits to advanced restorative treatments, we serve all ages with a gentle touch.",
     "differentiators": [
@@ -154,17 +154,17 @@
       }
     ],
     "footerAbout": "NJC Dentistry provides comprehensive, eco-friendly dental care to the Northeast Minneapolis and Columbia Heights community with a focus on integrity, health, and beautiful smiles.",
-    "heroImagePath": "/clinics/njcdentist-com/hero.png",
-    "benefitsImagePath": "/clinics/njcdentist-com/benefits.png",
-    "whyChooseImagePath": "/clinics/njcdentist-com/whychoose.png",
+    "heroImagePath": "/clinics/njcdentist-com/hero.webp",
+    "benefitsImagePath": "/clinics/njcdentist-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/njcdentist-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
     "name": "Dr. Nancy Jane Cashman",
     "credentials": "DDS, University of Minnesota Dental School",
     "bio": "Dr. Nancy Jane Cashman graduated from the University of Minnesota Dental School in 2005 and completed a residency at the Minneapolis V.A. Hospital. She is an independent practitioner who views dentistry as a perfect meld of science, art, and people. She is dedicated to conservative care and stays current through Spear study clubs and continuing education. Outside the office, she enjoys painting, cooking, and serving the underserved through local volunteering.",
-    "photoPath": "/clinics/njcdentist-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/njcdentist-com/specialist.png"
+    "photoPath": "/clinics/njcdentist-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/njcdentist-com/specialist.webp"
   },
   "reviews": [
     {

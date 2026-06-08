@@ -23,7 +23,7 @@ export function Specialist({ doctor }: Readonly<{ doctor?: DoctorInfo }>) {
   const photo =
     doctor?.specialistPortraitPath ??
     doctor?.photoPath ??
-    "/images/dr-sheila-dobee.png";
+    "/images/dr-sheila-dobee.webp";
   const label = doctor?.specialistLabel ?? "Our Specialist";
 
   return (

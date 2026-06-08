@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import type { Differentiator, WhyChoosePillar } from "@/types/clinic";
 
-const HERO_IMAGE = "/images/why-choose-image.png";
+const HERO_IMAGE = "/images/why-choose-image.webp";
 
 const DEFAULT_PILLARS = [
   {

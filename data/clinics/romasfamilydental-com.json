@@ -6,7 +6,7 @@
     "phone": "(317) 733-1965",
     "address": "1155 Parkway Drive, Suite 100, Zionsville, IN 46077",
     "hours": "Mon, Wed-Fri 8am-5pm, Alternating Tue 8am-12pm",
-    "logoPath": "/clinics/romasfamilydental-com/logo.png",
+    "logoPath": "/clinics/romasfamilydental-com/logo.webp",
     "logoIsLight": false,
     "heroSubtitle": "Providing high-quality, comprehensive dental services in Zionsville. From preventive care to advanced cosmetic treatments like Invisalign, we offer compassionate care for the whole family.",
     "differentiators": [
@@ -154,17 +154,17 @@
       }
     ],
     "footerAbout": "Romas Family Dental provides high-quality, comprehensive dental services in a comfortable, relaxed setting for families throughout Zionsville.",
-    "heroImagePath": "/clinics/romasfamilydental-com/hero.png",
-    "benefitsImagePath": "/clinics/romasfamilydental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/romasfamilydental-com/whychoose.png",
+    "heroImagePath": "/clinics/romasfamilydental-com/hero.webp",
+    "benefitsImagePath": "/clinics/romasfamilydental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/romasfamilydental-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
     "name": "Chris Romas",
     "credentials": "DDS",
     "bio": "Dr. Chris Romas is a dedicated general, family, and cosmetic dentist practicing in Zionsville, Indiana. At Romas Family Dental, he focuses on providing comprehensive dental services with exceptional attention to detail and a compassionate approach for patients of all ages. Dr. Romas is committed to clinical excellence, personally performing all restorative and cosmetic procedures featured in the practice's work gallery. His philosophy centers on maintaining healthy smiles in a comfortable, relaxed setting while utilizing modern dental technology.",
-    "photoPath": "/clinics/romasfamilydental-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/romasfamilydental-com/specialist.png"
+    "photoPath": "/clinics/romasfamilydental-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/romasfamilydental-com/specialist.webp"
   },
   "reviews": [
     {

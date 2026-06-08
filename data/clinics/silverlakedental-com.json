@@ -5,7 +5,7 @@
     "city": "New Brighton",
     "phone": "(651) 633-6087",
     "address": "580 5th Avenue NW Suite 100, New Brighton, Minnesota 55112",
-    "logoPath": "/clinics/silverlakedental-com/logo.png",
+    "logoPath": "/clinics/silverlakedental-com/logo.webp",
     "logoIsLight": false,
     "treatmentJourney": [
       {
@@ -33,9 +33,9 @@
         "description": "Our hygiene team focuses on education and the vital link between oral health and overall well-being to keep your smile healthy throughout your lifetime."
       }
     ],
-    "heroImagePath": "/clinics/silverlakedental-com/hero.png",
-    "benefitsImagePath": "/clinics/silverlakedental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/silverlakedental-com/whychoose.png",
+    "heroImagePath": "/clinics/silverlakedental-com/hero.webp",
+    "benefitsImagePath": "/clinics/silverlakedental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/silverlakedental-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
@@ -43,7 +43,7 @@
     "credentials": "DDS",
     "bio": "Dr. Theresa Snell is a dedicated leader at Silver Lake Dental who is passionate about cosmetic dentistry and helping patients achieve radiant smiles. She earned her Doctor of Dental Surgery from the University of Washington, where she also completed a Residency and Fellowship in Hospital Dentistry. Recognized as a Top Dentist by Minneapolis St. Paul Magazine multiple times, she is an active member of the ADA and Spear Study Club. Dr. Snell prioritizes a personal touch and genuine care for the New Brighton community.",
     "photoPath": "/clinics/silverlakedental-com/doctor.webp",
-    "specialistPortraitPath": "/clinics/silverlakedental-com/specialist.png"
+    "specialistPortraitPath": "/clinics/silverlakedental-com/specialist.webp"
   },
   "reviews": [
     {

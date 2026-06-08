@@ -55,22 +55,22 @@
         "tag": "Pediatric",
         "title": "Cavity Repair",
         "subtitle": "Restored in a single gentle visit",
-        "beforeImage": "/images/smile-makeover-child-before.jpeg",
-        "afterImage": "/images/smile-makeover-child-after.jpeg"
+        "beforeImage": "/images/smile-makeover-child-before.webp",
+        "afterImage": "/images/smile-makeover-child-after.webp"
       },
       {
         "tag": "Preventive",
         "title": "Sealant & Fluoride Plan",
         "subtitle": "Cavities stopped before they start",
-        "beforeImage": "/images/implant-child-before.jpeg",
-        "afterImage": "/images/implant-child-after.jpeg"
+        "beforeImage": "/images/implant-child-before.webp",
+        "afterImage": "/images/implant-child-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Chipped Tooth Repair",
         "subtitle": "Same-day bonding, no tears",
-        "beforeImage": "/images/whitening-child-before.jpeg",
-        "afterImage": "/images/whitening-child-after.jpeg"
+        "beforeImage": "/images/whitening-child-before.webp",
+        "afterImage": "/images/whitening-child-after.webp"
       }
     ],
     "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
@@ -84,19 +84,19 @@
     ],
     "heroAvatars": [
       {
-        "src": "/images/review-child-1.jpeg",
+        "src": "/images/review-child-1.webp",
         "name": "Emma R"
       },
       {
-        "src": "/images/review-child-2.jpeg",
+        "src": "/images/review-child-2.webp",
         "name": "Noah T"
       },
       {
-        "src": "/images/review-child-3.jpeg",
+        "src": "/images/review-child-3.webp",
         "name": "Liam S"
       },
       {
-        "src": "/images/review-child-4.jpeg",
+        "src": "/images/review-child-4.webp",
         "name": "Mia K"
       }
     ],
@@ -125,10 +125,10 @@
         "description": "Sensory-aware accommodations and extra time for kids who need a little more support to feel safe."
       }
     ],
-    "heroImagePath": "/clinics/mtviewpediatricdentistry-com/hero.png",
-    "benefitsImagePath": "/clinics/mtviewpediatricdentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/mtviewpediatricdentistry-com/whychoose.png",
-    "logoPath": "/clinics/mtviewpediatricdentistry-com/logo.png",
+    "heroImagePath": "/clinics/mtviewpediatricdentistry-com/hero.webp",
+    "benefitsImagePath": "/clinics/mtviewpediatricdentistry-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/mtviewpediatricdentistry-com/whychoose.webp",
+    "logoPath": "/clinics/mtviewpediatricdentistry-com/logo.webp",
     "implantOptions": [
       {
         "iconName": "",
@@ -172,12 +172,12 @@
     "credentials": "DDS",
     "bio": "Dr. Rich is a certified pediatric dentist who has been calling Great Falls home since 2019. After graduating from the Indiana University School of Dentistry in 2012, he spent five years as a general dentist before following his passion for children's care through a specialized two-year residency with NYU Langone Health. Having served as chief resident at Shriners Children’s Hospital, he brings expert-level skill to every visit. Dr. Rich is known for his 'big kid at heart' philosophy, often using magic tricks and jokes to ensure every child leaves with a smile.",
     "yearsOfExperience": 5,
-    "photoPath": "/clinics/mtviewpediatricdentistry-com/doctor.jpg",
+    "photoPath": "/clinics/mtviewpediatricdentistry-com/doctor.webp",
     "specialistCredentials": [
       "Pediatric Dental Specialist",
       "1000+ Children Treated"
     ],
-    "specialistPortraitPath": "/clinics/mtviewpediatricdentistry-com/specialist.png"
+    "specialistPortraitPath": "/clinics/mtviewpediatricdentistry-com/specialist.webp"
   },
   "reviews": [
     {

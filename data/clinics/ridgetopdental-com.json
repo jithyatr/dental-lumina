@@ -5,7 +5,7 @@
     "city": "Sterling",
     "phone": "(703)4449900",
     "address": "21631 Ridgetop Circle, Suite 240 Sterling, VA 20166",
-    "logoPath": "/clinics/ridgetopdental-com/logo.png",
+    "logoPath": "/clinics/ridgetopdental-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "Ridgetop Dental specializes in All-on-4 Dental Implants, offering a full arch of permanent, non-removable teeth supported by just four strategically placed implants, often delivered in a single day. Their comprehensive approach combines over 25 years of experience with advanced technology to ensure personalized, compassionate care for patients seeking lasting smile solutions.",
@@ -189,22 +189,22 @@
         "tag": "All-on-4",
         "title": "Upper-Arch Restoration",
         "subtitle": "Fixed teeth delivered same day",
-        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661054360-wfxi1z.png",
-        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661057267-5ezodd.png"
+        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661054360-wfxi1z.webp",
+        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661057267-5ezodd.webp"
       },
       {
         "tag": "Full-Arch",
         "title": "Both Arches Restored",
         "subtitle": "Complete smile rebuilt in one day",
-        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661066845-zkgmsj.png",
-        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661069416-lyyhta.png"
+        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661066845-zkgmsj.webp",
+        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661069416-lyyhta.webp"
       },
       {
         "tag": "Reconstruction",
         "title": "Denture to Fixed Teeth",
         "subtitle": "Permanent replacement in 6 months",
-        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661077469-nn4od5.png",
-        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661083020-i42qwf.png"
+        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661077469-nn4od5.webp",
+        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661083020-i42qwf.webp"
       }
     ],
     "smileSimulatorHeadline": "Are You an\nAll-on-4 Candidate?",
@@ -237,9 +237,9 @@
         "description": "With proper care, All-on-4 implants are designed to last decades — often a lifetime solution."
       }
     ],
-    "heroImagePath": "/clinics/ridgetopdental-com/hero.png",
-    "benefitsImagePath": "/clinics/ridgetopdental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/ridgetopdental-com/whychoose.png",
+    "heroImagePath": "/clinics/ridgetopdental-com/hero.webp",
+    "benefitsImagePath": "/clinics/ridgetopdental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/ridgetopdental-com/whychoose.webp",
     "hours": "OPEN NOW"
   },
   "doctor": {
@@ -247,14 +247,14 @@
     "credentials": "BDS, DDS, FICOI",
     "bio": "Dr. Datta Malyavantham is an experienced dental implant surgeon and cosmetic dentist in the Northern Virginia and Washington, D.C., metro area, having practiced for over two decades. He earned his Bachelor of Dental Surgery from Bangalore University, India, and his Doctor of Dental Surgery from Case Western Reserve University. Dr. Datta has obtained advanced training and Fellowship status from the International Congress of Oral Implantologists, specializing in implant surgery and restorative treatments. He is passionate about dental rehabilitation and Cosmetic Smile Design, empowering patients about oral health and changing their perception of past dental experiences.",
     "yearsOfExperience": 20,
-    "photoPath": "/clinics/ridgetopdental-com/doctor.jpg",
+    "photoPath": "/clinics/ridgetopdental-com/doctor.webp",
     "specialistCredentials": [
       "Fellow, ICOI",
       "Expert Implant Surgeon",
       "Advanced CBCT Planning",
       "Cosmetic Smile Designer"
     ],
-    "specialistPortraitPath": "/clinics/ridgetopdental-com/specialist.png"
+    "specialistPortraitPath": "/clinics/ridgetopdental-com/specialist.webp"
   },
   "reviews": [
     {

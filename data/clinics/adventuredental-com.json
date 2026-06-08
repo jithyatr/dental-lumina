@@ -6,7 +6,7 @@
     "phone": "(360) 604-9000",
     "address": "900 NE 139th Street, Suite #106, Vancouver, WA 98685",
     "hours": "Mon-Thu 8:00 AM – 4:30 PM, Fri Closed",
-    "logoPath": "/clinics/adventuredental-com/logo.png",
+    "logoPath": "/clinics/adventuredental-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "logoNoPlate": true,
@@ -171,19 +171,19 @@
     "testimonialsSubheading": "Honest words from families who trust us with their kids' smiles.",
     "heroAvatars": [
       {
-        "src": "/images/review-child-1.jpeg",
+        "src": "/images/review-child-1.webp",
         "name": "Emma R"
       },
       {
-        "src": "/images/review-child-2.jpeg",
+        "src": "/images/review-child-2.webp",
         "name": "Noah T"
       },
       {
-        "src": "/images/review-child-3.jpeg",
+        "src": "/images/review-child-3.webp",
         "name": "Liam S"
       },
       {
-        "src": "/images/review-child-4.jpeg",
+        "src": "/images/review-child-4.webp",
         "name": "Mia K"
       }
     ],
@@ -194,22 +194,22 @@
         "tag": "Pediatric",
         "title": "Teen Invisalign",
         "subtitle": "Clear, comfortable aligners",
-        "beforeImage": "/clinics/adventuredental-com/case-before-1779891083855-gc90zt.png",
-        "afterImage": "/clinics/adventuredental-com/case-after-1779891091409-02or1u.png"
+        "beforeImage": "/clinics/adventuredental-com/case-before-1779891083855-gc90zt.webp",
+        "afterImage": "/clinics/adventuredental-com/case-after-1779891091409-02or1u.webp"
       },
       {
         "tag": "Preventive",
         "title": "Cavity Prevention",
         "subtitle": "Preventive dental care stopped future decay and improved oral health.",
-        "beforeImage": "/clinics/adventuredental-com/case-before-1779890351071-1tb6px.png",
-        "afterImage": "/clinics/adventuredental-com/case-after-1779890361471-oebwrz.png"
+        "beforeImage": "/clinics/adventuredental-com/case-before-1779890351071-1tb6px.webp",
+        "afterImage": "/clinics/adventuredental-com/case-after-1779890361471-oebwrz.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Teeth Cleaning",
         "subtitle": "Cleanings help protect teeth and gums",
-        "beforeImage": "/images/whitening-child-before.jpeg",
-        "afterImage": "/images/whitening-child-after.jpeg"
+        "beforeImage": "/images/whitening-child-before.webp",
+        "afterImage": "/images/whitening-child-after.webp"
       }
     ],
     "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
@@ -246,16 +246,16 @@
         "description": "Sensory-aware accommodations and extra time for kids who need a little more support to feel safe."
       }
     ],
-    "heroImagePath": "/clinics/adventuredental-com/hero.jpg",
-    "benefitsImagePath": "/clinics/adventuredental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/adventuredental-com/whychoose.png"
+    "heroImagePath": "/clinics/adventuredental-com/hero.webp",
+    "benefitsImagePath": "/clinics/adventuredental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/adventuredental-com/whychoose.webp"
   },
   "doctor": {
     "name": "Todd Hillyard",
     "credentials": "DDS",
     "bio": "Dr. Todd Hillyard is a dedicated specialist at Adventure Dental, bringing years of expertise to pediatric dentistry and orthodontics. He is committed to providing outstanding care and creating a positive, fun environment where children feel at home. Dr. Hillyard works alongside a skilled team to ensure that every patient leaves with a healthy smile and a sense of adventure.",
-    "photoPath": "/clinics/adventuredental-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/adventuredental-com/specialist.png",
+    "photoPath": "/clinics/adventuredental-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/adventuredental-com/specialist.webp",
     "specialistCredentials": [
       "Expert in children’s dental care",
       "Specialized in braces and Invisalign treatments",

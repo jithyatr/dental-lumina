@@ -25,10 +25,10 @@ type HeroService = {
 };
 
 const DEFAULT_AVATARS = [
-  { src: "/images/review-1.jpg", name: "Rekha M" },
-  { src: "/images/review-2.jpg", name: "Daniel K" },
-  { src: "/images/review-3.jpg", name: "Priya S" },
-  { src: "/images/review-4.jpg", name: "Marcus J" },
+  { src: "/images/review-1.webp", name: "Rekha M" },
+  { src: "/images/review-2.webp", name: "Daniel K" },
+  { src: "/images/review-3.webp", name: "Priya S" },
+  { src: "/images/review-4.webp", name: "Marcus J" },
 ];
 
 const DEFAULT_ASSURANCES = [
@@ -60,7 +60,7 @@ export function Hero({
   const subtitle = clinic?.heroSubtitle ?? DEFAULT_SUBTITLE;
   const ctaLabel = clinic?.heroCta ?? "Book Free Consultation";
   const heroImage =
-    clinic?.heroImagePath ?? "/images/dr-sheila-dobee-hero.png";
+    clinic?.heroImagePath ?? "/images/dr-sheila-dobee-hero.webp";
   const heroImageAlt = doctor?.name
     ? `${doctor.name} treating a patient`
     : "Dr Sheila Dobee treating a patient";

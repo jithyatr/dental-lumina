@@ -5,16 +5,16 @@ import type { BeforeAfterCase, HeroAvatar, TemplateKind } from "../../src/types/
 // sync with DEFAULT_CASES in src/app/components/BeforeAfter.tsx.
 const BA_IMAGES: Array<Pick<BeforeAfterCase, "beforeImage" | "afterImage">> = [
   {
-    beforeImage: "/images/smile-makeover-before.png",
-    afterImage: "/images/smile-makeover-after.png",
+    beforeImage: "/images/smile-makeover-before.webp",
+    afterImage: "/images/smile-makeover-after.webp",
   },
   {
-    beforeImage: "/images/implant-placement-before.png",
-    afterImage: "/images/implant-placement-after.png",
+    beforeImage: "/images/implant-placement-before.webp",
+    afterImage: "/images/implant-placement-after.webp",
   },
   {
-    beforeImage: "/images/whitening-before.png",
-    afterImage: "/images/whitening-after.png",
+    beforeImage: "/images/whitening-before.webp",
+    afterImage: "/images/whitening-after.webp",
   },
 ];
 
@@ -144,22 +144,22 @@ export const PROCEDURES: Record<ProcedureKey, Procedure> = {
           tag: "Pediatric",
           title: "Cavity Repair",
           subtitle: "Restored in a single gentle visit",
-          beforeImage: "/images/smile-makeover-child-before.jpeg",
-          afterImage: "/images/smile-makeover-child-after.jpeg",
+          beforeImage: "/images/smile-makeover-child-before.webp",
+          afterImage: "/images/smile-makeover-child-after.webp",
         },
         {
           tag: "Preventive",
           title: "Sealant & Fluoride Plan",
           subtitle: "Cavities stopped before they start",
-          beforeImage: "/images/implant-child-before.jpeg",
-          afterImage: "/images/implant-child-after.jpeg",
+          beforeImage: "/images/implant-child-before.webp",
+          afterImage: "/images/implant-child-after.webp",
         },
         {
           tag: "Cosmetic",
           title: "Chipped Tooth Repair",
           subtitle: "Same-day bonding, no tears",
-          beforeImage: "/images/whitening-child-before.jpeg",
-          afterImage: "/images/whitening-child-after.jpeg",
+          beforeImage: "/images/whitening-child-before.webp",
+          afterImage: "/images/whitening-child-after.webp",
         },
       ]),
       smileSimulatorHeadline: "AI Pediatric\nSmile Checker",
@@ -169,10 +169,10 @@ export const PROCEDURES: Record<ProcedureKey, Procedure> = {
     },
     heroAssurances: ["Kid-friendly office", "Parents stay with kids", "Most insurances accepted"],
     heroAvatars: [
-      { src: "/images/review-child-1.jpeg", name: "Emma R" },
-      { src: "/images/review-child-2.jpeg", name: "Noah T" },
-      { src: "/images/review-child-3.jpeg", name: "Liam S" },
-      { src: "/images/review-child-4.jpeg", name: "Mia K" },
+      { src: "/images/review-child-1.webp", name: "Emma R" },
+      { src: "/images/review-child-2.webp", name: "Noah T" },
+      { src: "/images/review-child-3.webp", name: "Liam S" },
+      { src: "/images/review-child-4.webp", name: "Mia K" },
     ],
     whyChoosePillars: [
       { title: "Kid-Specialized Team", description: "Every team member is trained specifically for pediatric care, communication, and behavior guidance." },

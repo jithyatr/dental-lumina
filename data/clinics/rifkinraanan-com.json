@@ -9,7 +9,7 @@
     "logoPath": "/clinics/rifkinraanan-com/logo.png",
     "logoIsLight": true,
     "logoIsWordmark": true,
-    "heroSubtitle": "At Rifkin Raanan, time-honored craftsmanship, meticulous artistry, and state-of-the-art dental technology converge to bring you custom-crafted porcelain veneers, transforming discolored, chipped, or uneven teeth into natural-looking, durable results for a confident, camera-ready smile.",
+    "heroSubtitle": "At Rifkin Raanan, expert craftsmanship and advanced dental technology come together to create custom porcelain veneers that transform stained, chipped, or uneven teeth into natural-looking, long-lasting smiles.",
     "differentiators": [
       {
         "title": "World-Renowned Expertise",
@@ -82,28 +82,28 @@
     ],
     "benefits": [
       {
-        "title": "Artistic Smile Enhancements",
-        "description": "Achieve a naturally beautiful smile through meticulous artistry and state-of-the-art dental technology, ensuring your unique qualities are preserved."
+        "title": "Instant Smile Transformation",
+        "description": "Correct multiple cosmetic concerns with a single treatment."
       },
       {
-        "title": "Expert Veneer Craftsmanship",
-        "description": "Benefit from porcelain veneers hand-crafted by master ceramists in our in-house Atelier Aesthetics lab, ensuring exceptional fit and durability."
+        "title": "Natural-Looking Results",
+        "description": "Custom-crafted to match the shape and color of your smile."
       },
       {
-        "title": "Anxiety-Free Environment",
-        "description": "Experience dental care in a calm, luxurious penthouse suite designed to maximize comfort and minimize anxiety, making every visit relaxing."
+        "title": "Covers Imperfections",
+        "description": "Conceals stains, chips, cracks, gaps, and minor misalignment."
       },
       {
-        "title": "Personalized Smile Journey",
-        "description": "Receive a customized treatment plan, guided step-by-step to achieve your one-of-a-kind authentic smile, with transparent details from consultation to completion."
+        "title": "Stain-Resistant Surface",
+        "description": "Porcelain veneers resist discoloration better than natural teeth."
       },
       {
-        "title": "Long-Lasting Transformations",
-        "description": "Invest in durable solutions like porcelain veneers that can last 15-20 years or longer with proper care, maintaining your radiant smile for decades."
+        "title": "Minimally Invasive Treatment",
+        "description": "Requires only a small amount of enamel preparation."
       },
       {
-        "title": "Preview Your New Smile",
-        "description": "Utilize advanced techniques in our Atelier Aesthetics center to see your new smile come to life before treatment, ensuring your vision is perfectly realized."
+        "title": "Long-Lasting Solution",
+        "description": "Durable materials provide beautiful results for many years."
       }
     ],
     "implantOptions": [
@@ -183,22 +183,22 @@
         "tag": "Veneers",
         "title": "Full Smile Veneer Set",
         "subtitle": "10 porcelain veneers, 2 visits",
-        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780893938738-hujl03.png",
-        "afterImage": "/clinics/rifkinraanan-com/case-after-1780893944142-6juaib.png"
+        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780893938738-hujl03.webp",
+        "afterImage": "/clinics/rifkinraanan-com/case-after-1780893944142-6juaib.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Single-Tooth Veneer",
         "subtitle": "Reshaped and matched in one appointment",
-        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780894041249-dhsupg.png",
-        "afterImage": "/clinics/rifkinraanan-com/case-after-1780894043721-sre9ez.png"
+        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780894041249-dhsupg.webp",
+        "afterImage": "/clinics/rifkinraanan-com/case-after-1780894043721-sre9ez.webp"
       },
       {
         "tag": "Makeover",
         "title": "Whitening + Veneer Combo",
         "subtitle": "Brightened and refined in 3 weeks",
-        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780894119734-254e94.png",
-        "afterImage": "/clinics/rifkinraanan-com/case-after-1780894122653-d983p3.png"
+        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780894119734-254e94.webp",
+        "afterImage": "/clinics/rifkinraanan-com/case-after-1780894122653-d983p3.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
@@ -235,22 +235,22 @@
         "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
       }
     ],
-    "heroImagePath": "/clinics/rifkinraanan-com/hero.jpg",
-    "benefitsImagePath": "/clinics/rifkinraanan-com/benefits.png",
-    "whyChooseImagePath": "/clinics/rifkinraanan-com/whychoose.png"
+    "heroImagePath": "/clinics/rifkinraanan-com/hero.webp",
+    "benefitsImagePath": "/clinics/rifkinraanan-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/rifkinraanan-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. Robert Rifkin",
     "credentials": "DDS",
     "bio": "With over four decades of experience, Dr. Robert Rifkin has earned a reputation as one of the best cosmetic dentists in the world, trusted by Hollywood's biggest names. A graduate of St. Louis University School of Dentistry with advanced post-graduate training, he is also an adjunct faculty member at UCLA and a member of prestigious dental academies. Dr. Rifkin's philosophy centers on transforming lives through beautiful, healthy smiles, never producing unnatural-looking results. He has authored papers on full mouth reconstruction, facial analysis, and aesthetic dentistry.",
-    "photoPath": "/clinics/rifkinraanan-com/doctor.jpg",
+    "photoPath": "/clinics/rifkinraanan-com/doctor.webp",
     "specialistCredentials": [
       "Porcelain Veneer Master",
       "Full Mouth Reconstruction Expert",
       "Iconic Smile Architect",
       "Subtle, Natural Results"
     ],
-    "specialistPortraitPath": "/clinics/rifkinraanan-com/specialist.png"
+    "specialistPortraitPath": "/clinics/rifkinraanan-com/specialist.webp"
   },
   "reviews": [
     {

@@ -3,7 +3,7 @@
     "name": "Ascent Family Dentistry",
     "tagline": "Where many have found their Minnesota smile.",
     "phone": "(763) 572-8040",
-    "logoPath": "/clinics/ascentfamilydentistry-com/logo.png",
+    "logoPath": "/clinics/ascentfamilydentistry-com/logo.webp",
     "logoIsLight": false,
     "treatmentJourney": [
       {
@@ -31,17 +31,17 @@
         "description": "We provide ongoing support through our Oral Health Plan to ensure your results last and your oral hygiene remains excellent."
       }
     ],
-    "heroImagePath": "/clinics/ascentfamilydentistry-com/hero.png",
-    "benefitsImagePath": "/clinics/ascentfamilydentistry-com/benefits.png",
-    "whyChooseImagePath": "/clinics/ascentfamilydentistry-com/whychoose.png",
+    "heroImagePath": "/clinics/ascentfamilydentistry-com/hero.webp",
+    "benefitsImagePath": "/clinics/ascentfamilydentistry-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/ascentfamilydentistry-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
     "name": "Taylor Heinlein",
     "credentials": "DDS",
     "bio": "Dr. Taylor Heinlein received his Doctor of Dental Surgery degree with honors from the University of Minnesota. A lifelong learner and member of the Academy of General Dentistry, he loves incorporating the newest technology to better treat patients, including implant placement and clear aligner therapy. He is dedicated to providing caring, professional, and incomparable quality care. Dr. Heinlein credits his early love for science to his 5th grade teacher and is committed to helping others through healthcare.",
-    "photoPath": "/clinics/ascentfamilydentistry-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/ascentfamilydentistry-com/specialist.png"
+    "photoPath": "/clinics/ascentfamilydentistry-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/ascentfamilydentistry-com/specialist.webp"
   },
   "reviews": [
     {

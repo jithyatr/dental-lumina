@@ -5,7 +5,7 @@
     "city": "San Diego",
     "phone": "(858) 676-1845",
     "address": "16466 Bernardo Center Dr, Suite 185, San Diego CA 92128",
-    "logoPath": "/clinics/bernardodentalcare-com/logo.png",
+    "logoPath": "/clinics/bernardodentalcare-com/logo.webp",
     "logoIsLight": true,
     "logoIsWordmark": true,
     "heroSubtitle": "Providing permanent, titanium-rooted dental implants and comprehensive restorative care in San Diego since 1995. We combine modern technology with a wellness-focused approach to create perfect smiles.",
@@ -174,22 +174,22 @@
         "tag": "Implants",
         "title": "Single-Tooth Implant",
         "subtitle": "Restored function in 3 months",
-        "beforeImage": "/clinics/bernardodentalcare-com/case-before-1780046174415-7uf4wr.png",
-        "afterImage": "/clinics/bernardodentalcare-com/case-after-1780046177606-sm484o.png"
+        "beforeImage": "/clinics/bernardodentalcare-com/case-before-1780046174415-7uf4wr.webp",
+        "afterImage": "/clinics/bernardodentalcare-com/case-after-1780046177606-sm484o.webp"
       },
       {
         "tag": "Restoration",
         "title": "Implant-Supported Bridge",
         "subtitle": "Replaces 3 teeth on 2 implants",
-        "beforeImage": "/images/implant-placement-before.png",
-        "afterImage": "/images/implant-placement-after.png"
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Front-Tooth Implant",
         "subtitle": "Indistinguishable from natural",
-        "beforeImage": "/clinics/bernardodentalcare-com/case-before-1780046547635-fyfcrl.png",
-        "afterImage": "/clinics/bernardodentalcare-com/case-after-1780046552611-4yv0d7.png"
+        "beforeImage": "/clinics/bernardodentalcare-com/case-before-1780046547635-fyfcrl.webp",
+        "afterImage": "/clinics/bernardodentalcare-com/case-after-1780046552611-4yv0d7.webp"
       }
     ],
     "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
@@ -226,23 +226,23 @@
         "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
       }
     ],
-    "heroImagePath": "/clinics/bernardodentalcare-com/hero.png",
-    "benefitsImagePath": "/clinics/bernardodentalcare-com/benefits.png",
-    "whyChooseImagePath": "/clinics/bernardodentalcare-com/whychoose.png"
+    "heroImagePath": "/clinics/bernardodentalcare-com/hero.webp",
+    "benefitsImagePath": "/clinics/bernardodentalcare-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/bernardodentalcare-com/whychoose.webp"
   },
   "doctor": {
     "name": "Sandhya Ramanujam",
     "credentials": "DDS",
     "bio": "Dr. Sandhya Ramanujam is a highly trained dental professional with nearly three decades of experience, serving San Diego residents since 1995. She holds a Master's in Psychology and is a Certified Clinical Hypnotherapist and NLP Coach, allowing her to offer a unique, calming dental experience. Known as 'Dr. Delicate' by her patients, she specializes in advanced restorative procedures and permanent dental implants. Her philosophy unifies the mind and body to provide holistic, pain-free dental care.",
     "yearsOfExperience": 30,
-    "photoPath": "/clinics/bernardodentalcare-com/doctor.jpg",
+    "photoPath": "/clinics/bernardodentalcare-com/doctor.webp",
     "specialistCredentials": [
       "Expert Implant Surgeon",
       "Restorative Specialist",
       "Clinical Hypnotherapist",
       "Wellness Focused Care"
     ],
-    "specialistPortraitPath": "/clinics/bernardodentalcare-com/specialist.png"
+    "specialistPortraitPath": "/clinics/bernardodentalcare-com/specialist.webp"
   },
   "reviews": [
     {

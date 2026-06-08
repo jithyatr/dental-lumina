@@ -6,7 +6,7 @@
     "phone": "(248) 780-0220",
     "address": "7755 Highland Rd Unit 2, White Lake, MI 48383",
     "hours": "Mon-Thu 8 am – 4 pm",
-    "logoPath": "/clinics/aquadentalmi-com/logo.png",
+    "logoPath": "/clinics/aquadentalmi-com/logo.webp",
     "logoIsLight": false,
     "logoIsWordmark": true,
     "heroSubtitle": "Save your natural tooth and find relief from pain with microscope-guided root canal therapy. Our White Lake specialists combine advanced CBCT imaging with a gentle, patient-centered approach.",
@@ -179,22 +179,22 @@
         "tag": "Endodontics",
         "title": "Molar Root Canal",
         "subtitle": "Pain gone in a single visit",
-        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780292289208-b3hdht.png",
-        "afterImage": "/clinics/aquadentalmi-com/case-after-1780292297000-1vkwu1.png"
+        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780292289208-b3hdht.webp",
+        "afterImage": "/clinics/aquadentalmi-com/case-after-1780292297000-1vkwu1.webp"
       },
       {
         "tag": "Restoration",
         "title": "Root Canal + Crown",
         "subtitle": "Tooth saved and rebuilt in 2 weeks",
-        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780292835575-nx44ac.png",
-        "afterImage": "/clinics/aquadentalmi-com/case-after-1780292840270-zgivei.png"
+        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780292835575-nx44ac.webp",
+        "afterImage": "/clinics/aquadentalmi-com/case-after-1780292840270-zgivei.webp"
       },
       {
         "tag": "Retreatment",
         "title": "Failed Root Canal Rescue",
         "subtitle": "Re-treated and sealed cleanly",
-        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780293479245-qcgsg4.jpg",
-        "afterImage": "/clinics/aquadentalmi-com/case-after-1780293483006-60hemg.jpg"
+        "beforeImage": "/clinics/aquadentalmi-com/case-before-1780293479245-qcgsg4.webp",
+        "afterImage": "/clinics/aquadentalmi-com/case-after-1780293483006-60hemg.webp"
       }
     ],
     "smileSimulatorHeadline": "Tooth Pain\nQuick Check",
@@ -231,22 +231,22 @@
         "description": "A successful root canal lets you keep your own tooth for decades, often outlasting any replacement."
       }
     ],
-    "heroImagePath": "/clinics/aquadentalmi-com/hero.png",
-    "benefitsImagePath": "/clinics/aquadentalmi-com/benefits.png",
-    "whyChooseImagePath": "/clinics/aquadentalmi-com/whychoose.png"
+    "heroImagePath": "/clinics/aquadentalmi-com/hero.webp",
+    "benefitsImagePath": "/clinics/aquadentalmi-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/aquadentalmi-com/whychoose.webp"
   },
   "doctor": {
     "name": "Zaid Hadi",
     "credentials": "DMD, MS",
     "bio": "Dr. Zaid Hadi is a skilled and experienced endodontist dedicated to providing his patients with the highest quality of root canal therapy. He received his Bachelor of Dental Surgery degree and completed a general practice residency before pursuing advanced specialist training in the United States. Dr. Hadi combines his technical expertise with a patient-centered approach to ensure every procedure is comfortable and effective. He remains committed to modern, evidence-based care.",
-    "photoPath": "/clinics/aquadentalmi-com/doctor.jpg",
+    "photoPath": "/clinics/aquadentalmi-com/doctor.webp",
     "specialistCredentials": [
       "Master of Science in Dentistry",
       "Root Canal Specialist",
       "CBCT Diagnostic Expert",
       "Patient-Centered Care Philosophy"
     ],
-    "specialistPortraitPath": "/clinics/aquadentalmi-com/specialist.png"
+    "specialistPortraitPath": "/clinics/aquadentalmi-com/specialist.webp"
   },
   "reviews": [
     {

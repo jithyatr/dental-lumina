@@ -6,7 +6,7 @@
     "phone": "(612) 332-0559",
     "address": "2677 Innsbruck Drive, New Brighton, MN 55112",
     "hours": "Mon-Thu 7:00 AM — 5:00 PM",
-    "logoPath": "/clinics/parksidedentalpc-com/logo.png",
+    "logoPath": "/clinics/parksidedentalpc-com/logo.webp",
     "logoIsLight": false,
     "heroSubtitle": "Providing gentle, advanced care for New Brighton families. From Invisalign and dental implants to pediatric visits, we combine modern technology with a personalized touch.",
     "differentiators": [
@@ -154,9 +154,9 @@
       }
     ],
     "footerAbout": "Parkside Dental serves families in New Brighton and Fridley with advanced implant and cosmetic dentistry, led by the gentle and highly-trained Dr. Anna Weber.",
-    "heroImagePath": "/clinics/parksidedentalpc-com/hero.png",
-    "benefitsImagePath": "/clinics/parksidedentalpc-com/benefits.png",
-    "whyChooseImagePath": "/clinics/parksidedentalpc-com/whychoose.png",
+    "heroImagePath": "/clinics/parksidedentalpc-com/hero.webp",
+    "benefitsImagePath": "/clinics/parksidedentalpc-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/parksidedentalpc-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
@@ -164,8 +164,8 @@
     "credentials": "DDS",
     "bio": "Dr. Anna Weber has been in practice for over seven years, providing high-quality care with a personal touch. A dedicated member of the American Dental Association and the Academy of General Dentistry, she completes 70 to 90 continuing education credits annually to stay current with the latest techniques. Her advanced training includes Full Mouth Rehab and CO2 Laser Training. Dr. Weber is committed to gentle dentistry, having even presented research on painless anesthesia.",
     "yearsOfExperience": 7,
-    "photoPath": "/clinics/parksidedentalpc-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/parksidedentalpc-com/specialist.png"
+    "photoPath": "/clinics/parksidedentalpc-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/parksidedentalpc-com/specialist.webp"
   },
   "reviews": [
     {

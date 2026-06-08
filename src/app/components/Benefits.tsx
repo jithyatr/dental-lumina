@@ -33,7 +33,7 @@ export function Benefits({
   const benefits = items && items.length > 0 ? items : DEFAULT_BENEFITS;
   const title = headline ?? "Benefits Of Dental\nImplants";
   const titleLines = title.split("\n");
-  const imageSrc = image ?? "/images/benefits-implant.png";
+  const imageSrc = image ?? "/images/benefits-implant.webp";
 
   return (
     <section className="bg-white py-24 lg:py-32">

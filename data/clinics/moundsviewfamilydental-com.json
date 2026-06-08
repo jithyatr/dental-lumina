@@ -6,7 +6,7 @@
     "phone": "(763) 432-3399",
     "address": "2436 Mounds View Blvd. STE 110, Mounds View, MN 55112",
     "hours": "Mon-Thu 7am-5pm, Fri 7am-1pm",
-    "logoPath": "/clinics/moundsviewfamilydental-com/logo.png",
+    "logoPath": "/clinics/moundsviewfamilydental-com/logo.webp",
     "logoIsLight": false,
     "heroSubtitle": "Experience personalized dentistry for all ages in a family-owned environment. We utilize same-day CEREC crowns and advanced laser technology to keep your smile healthy and confident.",
     "differentiators": [
@@ -154,9 +154,9 @@
       }
     ],
     "footerAbout": "Mounds View Family Dental is a family-owned practice dedicated to providing professional, technology-driven care to the Mounds View community and surrounding areas since 2000.",
-    "heroImagePath": "/clinics/moundsviewfamilydental-com/hero.png",
-    "benefitsImagePath": "/clinics/moundsviewfamilydental-com/benefits.png",
-    "whyChooseImagePath": "/clinics/moundsviewfamilydental-com/whychoose.png",
+    "heroImagePath": "/clinics/moundsviewfamilydental-com/hero.webp",
+    "benefitsImagePath": "/clinics/moundsviewfamilydental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/moundsviewfamilydental-com/whychoose.webp",
     "logoIsWordmark": true
   },
   "doctor": {
@@ -164,8 +164,8 @@
     "credentials": "DDS, FICOI",
     "bio": "With clinical experience since 2000, Dr. Sabry Sharara is committed to providing top-quality care through advanced technology. He holds fellowship status with the International Congress of Oral Implantologists and the Academy of Gp Orthodontics. Dr. Sharara enjoys all aspects of dentistry, from general care to complex reconstructive and cosmetic procedures. His primary goal is to build trusted relationships by providing personalized, comfortable, and outstanding care.",
     "yearsOfExperience": 26,
-    "photoPath": "/clinics/moundsviewfamilydental-com/doctor.jpg",
-    "specialistPortraitPath": "/clinics/moundsviewfamilydental-com/specialist.png"
+    "photoPath": "/clinics/moundsviewfamilydental-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/moundsviewfamilydental-com/specialist.webp"
   },
   "reviews": [
     {

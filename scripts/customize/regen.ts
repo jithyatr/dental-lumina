@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { Type } from "@google/genai";
@@ -11,6 +12,7 @@ import type {
   TreatmentStep,
   WhyChoosePillar,
 } from "../../src/types/clinic";
+import { DOCTOR_REFERENCE_BASENAME } from "./assetOptimization";
 import { generateSceneImage, type SceneKind } from "./image";
 import { procedureByKey } from "./procedures";
 
@@ -92,7 +94,12 @@ async function writeConfig(configPath: string, config: ClinicConfig): Promise<vo
 function resolveDoctorPhotoLocal(config: ClinicConfig): string | undefined {
   const p = config.doctor.photoPath;
   if (!p) return undefined;
-  return path.join(REPO_ROOT, "public", p.replace(/^\//, ""));
+  const localPath = path.join(REPO_ROOT, "public", p.replace(/^\//, ""));
+  if (/\/clinics\/[^/]+\/doctor\.(avif|webp|png|jpe?g)$/i.test(p)) {
+    const refPath = path.join(path.dirname(localPath), DOCTOR_REFERENCE_BASENAME);
+    if (existsSync(refPath)) return refPath;
+  }
+  return localPath;
 }
 
 // ---- Image regen ----

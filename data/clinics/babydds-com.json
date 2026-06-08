@@ -158,22 +158,22 @@
         "tag": "Pediatric",
         "title": "Cavity Repair",
         "subtitle": "Restored in a single gentle visit",
-        "beforeImage": "/images/smile-makeover-child-before.jpeg",
-        "afterImage": "/images/smile-makeover-child-after.jpeg"
+        "beforeImage": "/images/smile-makeover-child-before.webp",
+        "afterImage": "/images/smile-makeover-child-after.webp"
       },
       {
         "tag": "Preventive",
         "title": "Sealant & Fluoride Plan",
         "subtitle": "Cavities stopped before they start",
-        "beforeImage": "/images/implant-child-before.jpeg",
-        "afterImage": "/images/implant-child-after.jpeg"
+        "beforeImage": "/images/implant-child-before.webp",
+        "afterImage": "/images/implant-child-after.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Chipped Tooth Repair",
         "subtitle": "Same-day bonding, no tears",
-        "beforeImage": "/images/whitening-child-before.jpeg",
-        "afterImage": "/images/whitening-child-after.jpeg"
+        "beforeImage": "/images/whitening-child-before.webp",
+        "afterImage": "/images/whitening-child-after.webp"
       }
     ],
     "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
@@ -186,10 +186,10 @@
       "Most insurances accepted"
     ],
     "heroAvatars": [
-      { "src": "/images/review-child-1.jpeg", "name": "Emma R" },
-      { "src": "/images/review-child-2.jpeg", "name": "Noah T" },
-      { "src": "/images/review-child-3.jpeg", "name": "Liam S" },
-      { "src": "/images/review-child-4.jpeg", "name": "Mia K" }
+      { "src": "/images/review-child-1.webp", "name": "Emma R" },
+      { "src": "/images/review-child-2.webp", "name": "Noah T" },
+      { "src": "/images/review-child-3.webp", "name": "Liam S" },
+      { "src": "/images/review-child-4.webp", "name": "Mia K" }
     ],
     "smileSimulatorGoals": [
       "Check a possible cavity",
@@ -222,7 +222,7 @@
     "credentials": "D.D.S.",
     "bio": "Dr. Rajneesh K. Dail is a Board Certified Pediatric Dentist dedicated to providing specialized care for infants, children, and teens. Following dental school, he completed two to three years of advanced specialty training to master the unique needs of young patients. Dr. Dail emphasizes child psychology in his practice, creating a friendly and fun social atmosphere. His philosophy focuses on avoiding threatening language to ensure every child has a positive experience in their dental home.",
     "yearsOfExperience": 3,
-    "photoPath": "/clinics/babydds-com/doctor.jpg"
+    "photoPath": "/clinics/babydds-com/doctor.webp"
   },
   "reviews": [
     {
