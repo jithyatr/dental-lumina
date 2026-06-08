@@ -1,0 +1,291 @@
+{
+  "clinic": {
+    "name": "Rifkin Raanan Beverly Hills Cosmetic Dentists",
+    "tagline": "Time-honored craftsmanship. State-of-the-art dental care.",
+    "city": "Beverly Hills",
+    "phone": "(310) 957-5691",
+    "address": "414 N Camden Dr. Suite 1280 Beverly Hills, CA 90210",
+    "hours": "Mon-Fri 9:00am - 5:00pm",
+    "logoPath": "/clinics/rifkinraanan-com/logo.png",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "At Rifkin Raanan, time-honored craftsmanship, meticulous artistry, and state-of-the-art dental technology converge to bring you custom-crafted porcelain veneers, transforming discolored, chipped, or uneven teeth into natural-looking, durable results for a confident, camera-ready smile.",
+    "differentiators": [
+      {
+        "title": "World-Renowned Expertise",
+        "description": "Trusted by some of the most famous smiles in the world, the clinic combines decades of experience with meticulous artistry to deliver natural-looking results."
+      },
+      {
+        "title": "In-House Atelier Aesthetics Lab",
+        "description": "Benefit from a groundbreaking in-house smile creation center where master ceramists hand-craft custom dental solutions, including veneers, with transparent quality."
+      },
+      {
+        "title": "Pioneering Veneer Technology",
+        "description": "Led by Dr. Raanan, the innovator behind NuVeneers&#174;, offering revolutionary alternatives to traditional veneers for a refreshed smile."
+      },
+      {
+        "title": "Luxurious Patient Experience",
+        "description": "Enjoy state-of-the-art dental care in a private 12th-story penthouse suite, designed with every amenity to promote relaxation and anxiety-free dentistry."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation & Smile Analysis",
+        "description": "Begin with a comprehensive evaluation and discussion of your goals, aided by the latest 3D-imaging technology, to assess your mouth and address any outstanding dental issues."
+      },
+      {
+        "title": "Digital Smile Design Preview & Shade Selection",
+        "description": "Preview your new smile on screen using mockups designed around your facial features, and meticulously select the perfect shade to ensure a harmonious, natural-looking result."
+      },
+      {
+        "title": "Gentle Preparation of Teeth & Impressions",
+        "description": "Experience gentle and minimal preparation of your teeth, followed by precise impressions to create the foundation for your custom-crafted porcelain veneers."
+      },
+      {
+        "title": "Custom Porcelain Lab Fabrication with Temporary Veneers",
+        "description": "Our master ceramists at the Atelier Aesthetics in-house lab meticulously fabricate your custom porcelain veneers while you wear temporary veneers for comfort and aesthetics."
+      },
+      {
+        "title": "Bonding & Final Reveal",
+        "description": "Your custom veneers are expertly bonded to your teeth, ensuring a perfect fit and stunning aesthetics, followed by the exciting final reveal of your transformed smile."
+      },
+      {
+        "title": "Follow-Up Adjustments & Long-Term Care Plan",
+        "description": "Receive any necessary follow-up adjustments and a personalized long-term care plan, including gentle hygiene visits, to protect your investment and maintain your beautiful smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "40+",
+        "label": "Years Shaping Iconic Smiles"
+      },
+      {
+        "value": "245+",
+        "label": "Five-Star Reviews"
+      },
+      {
+        "value": "15-20+",
+        "label": "Years Veneers Last"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Artistic Smile Enhancements",
+        "description": "Achieve a naturally beautiful smile through meticulous artistry and state-of-the-art dental technology, ensuring your unique qualities are preserved."
+      },
+      {
+        "title": "Expert Veneer Craftsmanship",
+        "description": "Benefit from porcelain veneers hand-crafted by master ceramists in our in-house Atelier Aesthetics lab, ensuring exceptional fit and durability."
+      },
+      {
+        "title": "Anxiety-Free Environment",
+        "description": "Experience dental care in a calm, luxurious penthouse suite designed to maximize comfort and minimize anxiety, making every visit relaxing."
+      },
+      {
+        "title": "Personalized Smile Journey",
+        "description": "Receive a customized treatment plan, guided step-by-step to achieve your one-of-a-kind authentic smile, with transparent details from consultation to completion."
+      },
+      {
+        "title": "Long-Lasting Transformations",
+        "description": "Invest in durable solutions like porcelain veneers that can last 15-20 years or longer with proper care, maintaining your radiant smile for decades."
+      },
+      {
+        "title": "Preview Your New Smile",
+        "description": "Utilize advanced techniques in our Atelier Aesthetics center to see your new smile come to life before treatment, ensuring your vision is perfectly realized."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Custom-crafted porcelain shells bonded to the front of your teeth for a stain-resistant, lifelike smile that can last 15-20+ years, addressing discoloration, size, shape, and chipping."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "A cost-effective solution using tooth-colored resin to improve the appearance of teeth."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "title": "Lumineers",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "Porcelain veneers typically last 15–20 years or longer with proper care. Our veneers are hand-crafted by master ceramists for exceptional fit, natural translucency, and long-term durability."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "The treatment process for porcelain veneers typically involves a few visits, from initial consultation and design to preparation and final bonding, ensuring a precise and beautiful outcome."
+      },
+      {
+        "question": "Veneers vs. crowns vs. bonding — what's right for me?",
+        "answer": "Veneers cover the front surface of a tooth with minimal reduction for cosmetic improvements, while crowns encase the entire tooth for structural compromise. Bonding is a cost-effective same-day option. Our doctors will recommend the most conservative treatment for your goals."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "Porcelain veneers require minimal tooth reduction, making them a preferred choice for cosmetic enhancements. The goal is to preserve as much natural tooth structure as possible."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "The cost of porcelain veneers varies based on several factors. We provide a detailed, transparent treatment plan during your consultation so you know exactly what to expect. Please contact us for specific pricing details."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "Yes, our Atelier Aesthetics in-house smile creation center allows you to see your new smile come to life through mockups and advanced technology before any work begins."
+      }
+    ],
+    "footerAbout": "Rifkin Raanan Beverly Hills Cosmetic Dentists combine time-honored craftsmanship with state-of-the-art dental technology to bring patients a new breed of cosmetic dentistry, dedicated to enhancing smiles while preserving unique qualities.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780893938738-hujl03.png",
+        "afterImage": "/clinics/rifkinraanan-com/case-after-1780893944142-6juaib.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780894041249-dhsupg.png",
+        "afterImage": "/clinics/rifkinraanan-com/case-after-1780894043721-sre9ez.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/rifkinraanan-com/case-before-1780894119734-254e94.png",
+        "afterImage": "/clinics/rifkinraanan-com/case-after-1780894122653-d983p3.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/rifkinraanan-com/hero.jpg",
+    "benefitsImagePath": "/clinics/rifkinraanan-com/benefits.png",
+    "whyChooseImagePath": "/clinics/rifkinraanan-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Dr. Robert Rifkin",
+    "credentials": "DDS",
+    "bio": "With over four decades of experience, Dr. Robert Rifkin has earned a reputation as one of the best cosmetic dentists in the world, trusted by Hollywood's biggest names. A graduate of St. Louis University School of Dentistry with advanced post-graduate training, he is also an adjunct faculty member at UCLA and a member of prestigious dental academies. Dr. Rifkin's philosophy centers on transforming lives through beautiful, healthy smiles, never producing unnatural-looking results. He has authored papers on full mouth reconstruction, facial analysis, and aesthetic dentistry.",
+    "photoPath": "/clinics/rifkinraanan-com/doctor.jpg",
+    "specialistCredentials": [
+      "Porcelain Veneer Master",
+      "Full Mouth Reconstruction Expert",
+      "Iconic Smile Architect",
+      "Subtle, Natural Results"
+    ],
+    "specialistPortraitPath": "/clinics/rifkinraanan-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "J.F.",
+      "text": "Dr. Robert Rifkin and Dr. Rodney Raanan are exceptional! Their professionalism and knowledge are truly impressive. They pay attention to every detail and were even available on weekends when needed. I highly recommend them for any cosmetic dental needs.",
+      "rating": 5
+    },
+    {
+      "name": "J.T.",
+      "text": "Dr. Rifkin has been my dentist for over 20 years, and he's always available for emergencies. His staff is knowledgeable and friendly, and I always leave without discomfort. Anyone would be lucky to have such a great dentist.",
+      "rating": 5
+    },
+    {
+      "name": "A.B.",
+      "text": "I've never met a dentist as thorough as Dr. Rifkin. He explains everything with visuals and photos, making me feel comfortable and welcomed. The before and afters are amazing, truly inspiring confidence.",
+      "rating": 5
+    },
+    {
+      "name": "M.H.",
+      "text": "Love the office! Dr. Rifkin made my teeth look restored and natural with porcelain veneers. Nikki, the dental hygienist, is the best – fast, painless, and leaves my teeth sparkling. Fantastic experience all around.",
+      "rating": 5
+    },
+    {
+      "name": "K.S.",
+      "text": "I expressed my concerns, and Dr. Raanan carefully listened and addressed each one. He updated me every step of the way during my veneer treatment, and I couldn't be happier with the final result. Truly a transformation!",
+      "rating": 5
+    },
+    {
+      "name": "S.G.",
+      "text": "Dr. Raanan is incredibly compassionate and passionate about dentistry. I was surprised by his expertise and how comfortable he and his staff made me feel, especially since I used to be scared of the dentist. So grateful I found him!",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#c39835"
+}

@@ -1,0 +1,295 @@
+{
+  "clinic": {
+    "name": "Ridgetop Dental",
+    "tagline": "Your Trusted Dental Care Partner in Northern Virginia",
+    "city": "Sterling",
+    "phone": "(703)4449900",
+    "address": "21631 Ridgetop Circle, Suite 240 Sterling, VA 20166",
+    "logoPath": "/clinics/ridgetopdental-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Ridgetop Dental specializes in All-on-4 Dental Implants, offering a full arch of permanent, non-removable teeth supported by just four strategically placed implants, often delivered in a single day. Their comprehensive approach combines over 25 years of experience with advanced technology to ensure personalized, compassionate care for patients seeking lasting smile solutions.",
+    "differentiators": [
+      {
+        "title": "Experienced Implant Surgeons",
+        "description": "With over 25 years of combined experience and advanced training, our doctors specialize in complex implant surgery and full-arch restoration."
+      },
+      {
+        "title": "Modern Technology & Digital Planning",
+        "description": "Utilizing advanced technology like CBCT 3D imaging for precise diagnosis, digital surgical planning, and efficient treatment delivery for All-on-4."
+      },
+      {
+        "title": "Comprehensive Treatment Options",
+        "description": "Offering a full spectrum of dental services, from implant surgery and restorative treatments to cosmetic enhancements, all in one practice."
+      },
+      {
+        "title": "Patient-Centered Care",
+        "description": "Committed to personalized care in a supportive, judgment-free environment, focusing on achieving your smile goals with comfort and understanding."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Imaging",
+        "description": "Begin with a full consultation, including CBCT 3D imaging, to assess your oral health, discuss your goals, and create a comprehensive All-on-4 treatment plan."
+      },
+      {
+        "title": "Digital Planning & Fabrication",
+        "description": "Our team uses digital surgical planning for precise implant placement and fabricates your custom temporary bridge, preparing for your new smile."
+      },
+      {
+        "title": "Surgical Day & Temporary Teeth",
+        "description": "On your surgical day, any remaining teeth are removed, four implants are strategically placed, and your fixed temporary teeth are delivered, all in a single visit."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "Allow 3-6 months for your implants to heal and integrate with your jawbone, ensuring a strong foundation for your permanent prosthesis."
+      },
+      {
+        "title": "Final Prosthesis Design",
+        "description": "Once healed, impressions are taken, and your final, permanent All-on-4 prosthesis is custom-designed for optimal aesthetics and function."
+      },
+      {
+        "title": "Delivery & Long-Term Care",
+        "description": "Receive your custom final All-on-4 teeth, along with a detailed long-term hygiene plan to ensure the lasting health and beauty of your new smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Most Teeth Missing",
+      "Loose Dentures",
+      "Tired of Denture Adhesive",
+      "Failing Teeth Need Extraction",
+      "Bone Loss in Jaw",
+      "Difficulty Eating",
+      "Embarrassed to Smile",
+      "Old Bridge Failing",
+      "Sunken Facial Appearance",
+      "Want Fixed Teeth"
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Combined Experience"
+      },
+      {
+        "value": "338+",
+        "label": "Reviews"
+      },
+      {
+        "value": "4",
+        "label": "-Time Top Cosmetic Dentist"
+      },
+      {
+        "value": "3",
+        "label": "Locations Serving Northern VA"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Fixed & Secure Fit",
+        "description": "Permanently anchored implants eliminate slipping and movement."
+      },
+      {
+        "title": "Natural Look & Feel",
+        "description": "Functions and appears more like natural teeth than removable dentures."
+      },
+      {
+        "title": "Improved Chewing Ability",
+        "description": "Enjoy a wider variety of foods with greater bite strength."
+      },
+      {
+        "title": "Preserves Jawbone Health",
+        "description": "Helps prevent bone loss that commonly occurs with dentures."
+      },
+      {
+        "title": "No Adhesives Required",
+        "description": "No messy creams or daily denture adhesives needed."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Brush and care for them similarly to natural teeth."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Dental Implants",
+        "description": "Replace one missing tooth with a single implant and custom crown."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore a full arch of missing teeth using four strategically placed dental implants."
+      },
+      {
+        "iconName": "",
+        "title": "All-on-6 Dental Implants",
+        "description": "Provide enhanced stability and support for a full arch restoration using six implants."
+      },
+      {
+        "iconName": "",
+        "title": "Full Mouth Dental Implants",
+        "description": "Replace all missing teeth in both upper and lower arches with implant-supported restorations."
+      },
+      {
+        "iconName": "",
+        "title": "Same-Day Dental Implants",
+        "description": "Receive dental implants and temporary teeth in a single appointment, where clinically appropriate."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How is All-on-4 different from regular dentures?",
+        "answer": "All-on-4 provides a permanent, fixed set of teeth supported by just four dental implants, unlike traditional dentures which are removable and can slip. This offers greater stability, comfort, and a more natural feel."
+      },
+      {
+        "question": "Can I really get new teeth in just one day with All-on-4?",
+        "answer": "For many patients, yes. With our 'Teeth-in-a-Day' approach, you can have any remaining teeth extracted, implants placed, and a fixed temporary bridge delivered on the same day, restoring your smile immediately."
+      },
+      {
+        "question": "How much does All-on-4 cost and what financing is available?",
+        "answer": "The cost of All-on-4 varies based on individual needs. We offer financing options and membership plans to make this life-changing treatment accessible, and we'll discuss all costs transparently during your consultation."
+      },
+      {
+        "question": "Am I a candidate for All-on-4 if I have bone loss?",
+        "answer": "Many patients with some bone loss can still be excellent candidates for All-on-4 due to the strategic angulation of the implants. We also offer advanced options like zygomatic implants for severe cases, determined after a thorough CBCT scan."
+      },
+      {
+        "question": "How long do All-on-4 implants last?",
+        "answer": "With proper care and maintenance, All-on-4 implants are designed to be a long-lasting solution, potentially serving you for decades. We'll provide a comprehensive long-term hygiene plan to ensure their durability."
+      },
+      {
+        "question": "How do I clean and care for All-on-4 teeth?",
+        "answer": "Caring for your All-on-4 teeth is similar to natural teeth, involving regular brushing and flossing. We'll provide specific instructions and recommend routine professional cleanings to maintain your oral health and implant longevity."
+      }
+    ],
+    "footerAbout": "Ridgetop Dental is a trusted dental care partner in Northern Virginia, combining over 25 years of experience with advanced technology to provide comprehensive dental services tailored to unique patient needs and smile goals.",
+    "heroHeadline": "New Teeth.\nNew Confidence.\nIn a Single Day.",
+    "heroCta": "Book Your All-on-4 Consultation",
+    "implantOptionsLabel": "All-on-4 Treatment Options",
+    "implantOptionsHeadline": "Full-Arch Implant Solutions Beyond Traditional Dentures",
+    "implantOptionsSubheading": "From single-arch All-on-4 to full-mouth reconstruction, our full-arch implant options give you a fixed, natural-feeling smile in record time.",
+    "whyChooseLabel": "Why Choose Our All-on-4 Team",
+    "whyChooseHeadline": "All-on-4 Done Right — Surgical, Restorative, and Lab Care Under One Roof",
+    "whyChooseSubheading": "All-on-4 only works when every phase — diagnostics, surgery, lab, and restoration — is coordinated by a team that does this every day.",
+    "processHeadline": "Your All-on-4 Journey",
+    "processSubheading": "Most All-on-4 patients walk out the same day with a brand-new set of fixed teeth. Here's how the entire treatment unfolds.",
+    "benefitsHeadline": "Why Patients Choose All-on-4 Over Dentures",
+    "faqLabel": "All-on-4 FAQ",
+    "faqHeadline": "Common Questions About All-on-4 Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Current Situation",
+    "symptomCheckerSubheading": "Tap whichever describes you — All-on-4 transforms many of these situations into a fixed, permanent smile.",
+    "testimonialsHeadline": "Full-Arch Transformations",
+    "testimonialsSubheading": "Real patients who went from failing teeth or dentures to a fixed, full set of teeth — often in a single day.",
+    "beforeAfterHeadline": "Real All-on-4 Transformations",
+    "beforeAfterSubheading": "Before-and-after photos of actual All-on-4 patients — the day they walked in with failing or missing teeth, and the day they walked out with a permanent smile.",
+    "beforeAfterCases": [
+      {
+        "tag": "All-on-4",
+        "title": "Upper-Arch Restoration",
+        "subtitle": "Fixed teeth delivered same day",
+        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661054360-wfxi1z.png",
+        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661057267-5ezodd.png"
+      },
+      {
+        "tag": "Full-Arch",
+        "title": "Both Arches Restored",
+        "subtitle": "Complete smile rebuilt in one day",
+        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661066845-zkgmsj.png",
+        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661069416-lyyhta.png"
+      },
+      {
+        "tag": "Reconstruction",
+        "title": "Denture to Fixed Teeth",
+        "subtitle": "Permanent replacement in 6 months",
+        "beforeImage": "/clinics/ridgetopdental-com/case-before-1780661077469-nn4od5.png",
+        "afterImage": "/clinics/ridgetopdental-com/case-after-1780661083020-i42qwf.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Are You an\nAll-on-4 Candidate?",
+    "smileSimulatorSubheading": "Upload a recent photo of your smile (or describe your current dental situation) and our AI will outline whether All-on-4 is likely a fit for you.",
+    "bookingHeadline": "Book Your All-on-4 Consultation",
+    "bookingSubheading": "Includes a full CBCT 3D scan, candidacy assessment, and clear pricing — at no cost to you.",
+    "heroAssurances": [
+      "New teeth in a day",
+      "Free CBCT 3D scan",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Replace failing teeth",
+      "Move away from dentures",
+      "Restore upper arch",
+      "Restore lower arch",
+      "Full-mouth restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "All Specialties In-House",
+        "description": "Surgery, restoration, and lab fabrication coordinated by one team — no juggling separate offices."
+      },
+      {
+        "title": "Permanent, Fixed Teeth",
+        "description": "Unlike dentures, All-on-4 teeth stay in your mouth. No adhesives, no slipping, no taking them out at night."
+      },
+      {
+        "title": "Long-Term Investment",
+        "description": "With proper care, All-on-4 implants are designed to last decades — often a lifetime solution."
+      }
+    ],
+    "heroImagePath": "/clinics/ridgetopdental-com/hero.png",
+    "benefitsImagePath": "/clinics/ridgetopdental-com/benefits.png",
+    "whyChooseImagePath": "/clinics/ridgetopdental-com/whychoose.png",
+    "hours": "OPEN NOW"
+  },
+  "doctor": {
+    "name": "Dr. Datta Malyavantham",
+    "credentials": "BDS, DDS, FICOI",
+    "bio": "Dr. Datta Malyavantham is an experienced dental implant surgeon and cosmetic dentist in the Northern Virginia and Washington, D.C., metro area, having practiced for over two decades. He earned his Bachelor of Dental Surgery from Bangalore University, India, and his Doctor of Dental Surgery from Case Western Reserve University. Dr. Datta has obtained advanced training and Fellowship status from the International Congress of Oral Implantologists, specializing in implant surgery and restorative treatments. He is passionate about dental rehabilitation and Cosmetic Smile Design, empowering patients about oral health and changing their perception of past dental experiences.",
+    "yearsOfExperience": 20,
+    "photoPath": "/clinics/ridgetopdental-com/doctor.jpg",
+    "specialistCredentials": [
+      "Fellow, ICOI",
+      "Expert Implant Surgeon",
+      "Advanced CBCT Planning",
+      "Cosmetic Smile Designer"
+    ],
+    "specialistPortraitPath": "/clinics/ridgetopdental-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Sarah M.",
+      "text": "After years of struggling with dentures, discovering All-on-4 at Ridgetop Dental was a revelation. Dr. Datta and his team made the process so smooth and I walked out with beautiful, fixed teeth. It's truly life-changing!",
+      "rating": 5
+    },
+    {
+      "name": "James W.",
+      "text": "The thought of dental surgery always made me anxious, but the sedation options here were fantastic. I was comfortable throughout my All-on-4 procedure and couldn't be happier with the results.",
+      "rating": 5
+    },
+    {
+      "name": "Emily R.",
+      "text": "I was told I had too much bone loss for implants elsewhere, but Ridgetop Dental offered solutions. Their expertise in advanced implant techniques gave me hope, and now I have a confident smile again.",
+      "rating": 5
+    },
+    {
+      "name": "Michael T.",
+      "text": "The 'Teeth-in-a-Day' service was incredible. I came in with failing teeth and left with a complete, temporary arch. The speed and efficiency, combined with the excellent care, was outstanding.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "The team at Ridgetop Dental is incredibly compassionate and professional. They explained every step of my All-on-4 journey, and the financing options made it achievable. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "David K.",
+      "text": "From the initial consultation with 3D imaging to the final restoration, the technology and precision at Ridgetop Dental for my All-on-4 implants were top-notch. My new smile looks and feels completely natural.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "all-on-4-dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#471842"
+}

@@ -1,0 +1,285 @@
+{
+  "clinic": {
+    "name": "Fortson Dentistry",
+    "tagline": "Full-Service Dentistry Serving Lathrup Village & Southfield",
+    "city": "Lathrup Village",
+    "phone": "(248) 609-6317",
+    "address": "27347 Southfield Rd, Lathrup Village, MI 48076, United States",
+    "hours": "Mon: 8:00 AM–5:00 PM | Tue–Wed: 8:00 AM–6:00 PM | Thu–Fri: 8:00 AM–3:00 PM | Sat–Sun: Closed",
+    "logoPath": "/clinics/fortsondentistrylathrup-com/logo.png",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Fortson Dentistry provides fast, compassionate emergency dental care, offering immediate relief from pain and addressing urgent dental problems like broken teeth or severe toothaches. With state-of-the-art diagnostic technology and a focus on swift intervention, patients can expect expert treatment to protect their smiles and restore comfort when they need it most.",
+    "differentiators": [
+      {
+        "title": "Immediate Emergency Care",
+        "description": "Fortson Dentistry provides fast, compassionate emergency dental care to relieve pain and address urgent dental problems when you need it most."
+      },
+      {
+        "title": "Advanced Diagnostic Technology",
+        "description": "Utilizing Vatech Green CT&#174; and 3D imaging software for precise diagnosis, ensuring effective emergency treatment with lower radiation."
+      },
+      {
+        "title": "In-House Specialists",
+        "description": "With skilled doctors performing complex procedures like extractions and oral surgery in-house, patients receive comprehensive care without external referrals."
+      },
+      {
+        "title": "Flexible Payment Solutions",
+        "description": "Accepts most major PPO plans, Delta Dental&#174;, and offers financing through CareCredit&#174; and Cherry™ to make emergency care accessible."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Urgent Call or Online Request",
+        "description": "Contact us immediately for your dental emergency. We will triage your situation quickly and schedule you for the fastest possible appointment to address your pain or trauma."
+      },
+      {
+        "title": "Rapid X-ray and Exam",
+        "description": "Upon arrival, a rapid X-ray and comprehensive examination are performed using advanced diagnostic technology to accurately identify the exact source of your pain or injury."
+      },
+      {
+        "title": "Immediate Pain Relief",
+        "description": "Our priority is to provide immediate pain relief and infection control. We will administer necessary treatments to alleviate discomfort and prevent further complications."
+      },
+      {
+        "title": "Same-Day Definitive Treatment",
+        "description": "When possible, we aim for same-day definitive treatment, which may include emergency extractions, temporary restorations, antibiotics, or splinting, to resolve the urgent issue."
+      },
+      {
+        "title": "Clear Next-Step Plan",
+        "description": "If follow-up restorative work is needed, you will receive a clear and detailed plan for subsequent appointments, ensuring continuity of care and optimal recovery."
+      },
+      {
+        "title": "Follow-Up Care & Long-Term Home",
+        "description": "We provide thorough follow-up care and help transition you into a long-term dental home for comprehensive ongoing dental health, ensuring all your needs are met."
+      }
+    ],
+    "commonSymptoms": [
+      "Severe Tooth Pain",
+      "Knocked-Out Tooth",
+      "Broken Tooth",
+      "Lost Filling",
+      "Swollen Face",
+      "Cracked Tooth",
+      "Jaw Trauma",
+      "Object Stuck in Teeth",
+      "Sudden Toothache",
+      "Bleeding Gums"
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years in Practice"
+      },
+      {
+        "value": "5",
+        "label": "Convenient Locations"
+      },
+      {
+        "value": "98%",
+        "label": "Patient Satisfaction"
+      },
+      {
+        "value": "Same-Day",
+        "label": "Emergency Appointments"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Fast Pain Relief",
+        "description": "Get quick, compassionate emergency dental care when you need it most, ensuring urgent dental problems are addressed rapidly."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Fortson Dentistry utilizes top diagnostic technology like Vatech Green CT&#174; and Medit i500&#174; for precise diagnosis and efficient treatment."
+      },
+      {
+        "title": "Emergency Expertise",
+        "description": "The team specializes in handling urgent dental situations, providing immediate care to protect your smile and alleviate discomfort."
+      },
+      {
+        "title": "Flexible Financing",
+        "description": "Cost should never prevent you from getting urgent care. Fortson Dentistry offers flexible financing options through CareCredit&#174; and Cherry™."
+      },
+      {
+        "title": "Patient-Centered Care",
+        "description": "Experience a welcoming, collaborative, and caring environment where your comfort and well-being are the top priorities."
+      },
+      {
+        "title": "Comprehensive Services",
+        "description": "Beyond emergencies, the clinic offers a full range of dental services, making it easy to transition to long-term care after urgent treatment."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Emergency Extractions",
+        "description": "When a tooth is severely damaged or infected beyond repair, gentle and fast extractions are performed with sedation options to ensure patient comfort and immediate pain relief."
+      },
+      {
+        "title": "Same-Day Crowns & Repairs",
+        "description": "For lost crowns, broken fillings, or chipped teeth, the clinic offers same-day repairs, temporary restorations, or permanent solutions to quickly restore function and aesthetics."
+      },
+      {
+        "title": "Trauma & Re-Implantation",
+        "description": "Expert care for knocked-out teeth or jaw trauma, including protocols to re-implant teeth when possible and stabilize injuries with rapid, effective intervention."
+      },
+      {
+        "title": "Urgent Pain Management",
+        "description": "Focused on providing immediate relief from severe toothaches and dental discomfort, utilizing rapid diagnosis and targeted treatments to stop pain today."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Can I be seen today for a dental emergency?",
+        "answer": "Yes, Fortson Dentistry offers swift, compassionate emergency dental care when you need it most. Please call us immediately to schedule your urgent appointment and get relief."
+      },
+      {
+        "question": "What constitutes a dental emergency?",
+        "answer": "A dental emergency includes any situation causing severe pain, trauma like a knocked-out or broken tooth, severe infection, or uncontrolled bleeding. If you're in pain, it's an emergency."
+      },
+      {
+        "question": "How much does an emergency dental visit cost?",
+        "answer": "The cost of an emergency visit depends on the specific treatment needed. Fortson Dentistry accepts most major PPO insurance plans, including Delta Dental&#174;, and offers flexible financing through CareCredit&#174; and Cherry™ to help manage costs."
+      },
+      {
+        "question": "Do you accept walk-ins or offer after-hours appointments for emergencies?",
+        "answer": "While we recommend calling ahead, we provide immediate emergency dental care. Our hours extend to 6 PM on Tuesdays and Wednesdays, and we focus on getting you seen quickly when an emergency strikes."
+      },
+      {
+        "question": "What should I do if a tooth gets knocked out?",
+        "answer": "If a tooth gets knocked out, contact us immediately. Handle the tooth by the crown, rinse it gently if dirty, and try to reinsert it into the socket. If not possible, keep it moist in milk or saline and bring it to our office right away."
+      },
+      {
+        "question": "Do you take dental insurance for emergencies?",
+        "answer": "Yes, Fortson Dentistry welcomes Delta Dental&#174; and most major PPO plans for emergency treatments. Our team can help you understand your benefits and explore payment options."
+      }
+    ],
+    "footerAbout": "Fortson Dentistry in Lathrup Village, MI, offers top-quality dental care for patients of all ages, committed to making a positive difference with personalized, high-quality treatment in a welcoming environment.",
+    "heroHeadline": "In Pain?\nWe'll See You\nToday.",
+    "heroCta": "Call for Same-Day Care",
+    "implantOptionsLabel": "Emergency Services",
+    "implantOptionsHeadline": "Same-Day Emergency Dental Care",
+    "implantOptionsSubheading": "From a knocked-out tooth to a severe abscess, our emergency services get you out of pain today — most patients are seen within hours.",
+    "whyChooseLabel": "Why Choose Us in an Emergency",
+    "whyChooseHeadline": "Pain Relief Today — Not in Three Weeks",
+    "whyChooseSubheading": "When something goes wrong with a tooth, you don't need a referral, a waitlist, or a quote — you need help today. That's all we do.",
+    "processHeadline": "Your Emergency Visit, Step By Step",
+    "processSubheading": "When you're in pain, every minute matters. Here's exactly how our emergency process works, from the moment you call until you're out of pain.",
+    "benefitsHeadline": "Why Patients Choose Us in a Dental Emergency",
+    "faqLabel": "Emergency FAQ",
+    "faqHeadline": "Common Questions About Dental Emergencies",
+    "symptomCheckerHeadline": "What's the Emergency?",
+    "symptomCheckerSubheading": "Tap whichever describes what's happening — we'll get back to you right away with same-day options.",
+    "testimonialsHeadline": "Patients We Got Out of Pain",
+    "testimonialsSubheading": "Real stories from patients who called us in the middle of a dental crisis — and walked out of our office out of pain.",
+    "beforeAfterHeadline": "Real Emergency Outcomes",
+    "beforeAfterSubheading": "From broken teeth to severe infections — see how same-day emergency care quickly resolves problems other offices push out for weeks.",
+    "beforeAfterCases": [
+      {
+        "tag": "Same-Day",
+        "title": "Broken Tooth Repair",
+        "subtitle": "Restored on the same visit",
+        "beforeImage": "/images/smile-makeover-before.png",
+        "afterImage": "/images/smile-makeover-after.png"
+      },
+      {
+        "tag": "Urgent Care",
+        "title": "Abscess Treatment",
+        "subtitle": "Pain and swelling gone within hours",
+        "beforeImage": "/images/implant-placement-before.png",
+        "afterImage": "/images/implant-placement-after.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Lost Crown Replacement",
+        "subtitle": "Re-cemented in a single appointment",
+        "beforeImage": "/images/whitening-before.png",
+        "afterImage": "/images/whitening-after.png"
+      }
+    ],
+    "smileSimulatorHeadline": "AI Triage:\nIs It an\nEmergency?",
+    "smileSimulatorSubheading": "Describe your symptoms or upload a photo of the affected tooth — our AI will help you understand whether this needs a same-day visit, a call tonight, or can safely wait.",
+    "bookingHeadline": "Get Same-Day Help",
+    "bookingSubheading": "Call us now or request a same-day appointment online. Walk-ins welcome during open hours.",
+    "heroAssurances": [
+      "Open 7 days",
+      "Same-day appointments",
+      "Walk-ins welcome"
+    ],
+    "smileSimulatorGoals": [
+      "Severe tooth pain",
+      "Knocked-out tooth",
+      "Broken or chipped tooth",
+      "Swelling or abscess",
+      "Lost filling or crown"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Same-Day Availability",
+        "description": "Most patients are seen within hours of calling — we keep emergency slots open every single day."
+      },
+      {
+        "title": "Pain Relief First",
+        "description": "Our first goal is to get you out of pain. We diagnose, numb, and treat in the same visit whenever possible."
+      },
+      {
+        "title": "All Treatments In-House",
+        "description": "Extractions, repairs, root canals, abscess care — handled by one team, in one visit, in one office."
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "You'll know the cost before we start. Most insurances accepted and financing available for larger emergencies."
+      }
+    ],
+    "heroImagePath": "/clinics/fortsondentistrylathrup-com/hero.png",
+    "benefitsImagePath": "/clinics/fortsondentistrylathrup-com/benefits.png",
+    "whyChooseImagePath": "/clinics/fortsondentistrylathrup-com/whychoose.png"
+  },
+  "doctor": {
+    "name": "Cory Fortson",
+    "bio": "Dr. Cory Fortson is a third-generation dentist, proudly continuing a family legacy started over 30 years ago by his grandfather and father. Graduating from The University of Detroit Mercy Dental School, Dr. Fortson joined the practice in 2014 and took over in 2016. He leads Fortson Dentistry in providing personalized, high-quality dental care, ensuring every patient feels welcomed and receives exceptional treatment.",
+    "yearsOfExperience": 30,
+    "photoPath": "/clinics/fortsondentistrylathrup-com/doctor.jpg",
+    "specialistCredentials": [
+      "Emergency Dental Expert",
+      "Advanced Diagnostic Imaging",
+      "Trauma Care Specialist",
+      "Patient-First Philosophy"
+    ],
+    "specialistPortraitPath": "/clinics/fortsondentistrylathrup-com/specialist.png"
+  },
+  "reviews": [
+    {
+      "name": "Melanie S.",
+      "text": "Dr. C. Fortson is the best. He genuinely cares, immediately responds and followed up with me post surgery. His authentic compassion is unmatched! I highly recommend Fortson Dentistry for urgent care.",
+      "rating": 5
+    },
+    {
+      "name": "LaVerne R.",
+      "text": "We were there today and Dr. Waller serviced us both professionally and courteously! Staff is great and never a long wait time! Highly recommend this dental practice for emergencies.",
+      "rating": 5
+    },
+    {
+      "name": "Ashanti V.",
+      "text": "The experience was real nice. She did not hurt me at all. There was a small pain but once she doped me up with the numbing shot it did the trick. She was very gentle with me during my urgent procedure.",
+      "rating": 5
+    },
+    {
+      "name": "Helena P.",
+      "text": "The office staff is friendly. My dental health is great. Can't ask for much more than that! They make coming in for emergencies stress-free.",
+      "rating": 5
+    },
+    {
+      "name": "Kayla B.",
+      "text": "All of the staff are like family now because they actually get to know their patients! I also appreciate how patient they are with my children during unexpected visits! Seriously the best dentist office!",
+      "rating": 5
+    },
+    {
+      "name": "Wanda K.",
+      "text": "I have anxiety attacks when it comes to the dentist, but this experience was awesome. Everyone was delightful, and I felt SOMEWHAT relaxed even during an emergency. Will refer friends.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "emergency-dentistry"
+}
