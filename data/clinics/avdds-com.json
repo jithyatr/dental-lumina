@@ -1,0 +1,292 @@
+{
+  "clinic": {
+    "name": "AV Dental Associates PA",
+    "tagline": "Top-Rated Care Designed Just for You",
+    "city": "Jersey City",
+    "phone": "(201) 701-6050",
+    "address": "642 Newark Ave., Jersey City, NJ 07306",
+    "hours": "Mon 10:00 am - 6:00 pm, Tue 11:00 am - 7:00 pm, Wed 10:00 am - 6:00 pm, Thu 10:00 am - 8:00 pm, Sat 8:00 am - 2:00 pm",
+    "logoPath": "/clinics/avdds-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "AV Dental Associates in Jersey City specializes in dental implants, a permanent solution for missing teeth. Dental implants restore your smile, improve chewing and speaking ability, and help preserve jawbone health. Dr. Vahid and his team provide natural-looking, long-lasting results that help patients regain confidence and enjoy a better quality of life.",
+    "differentiators": [
+      {
+        "title": "Comprehensive Care In-House",
+        "description": "Dr. Vahid provides a full spectrum of dental services, ensuring all your implant needs are met under one roof without referrals."
+      },
+      {
+        "title": "Patient-Centered Approach",
+        "description": "The team creates a fun, relaxed atmosphere, making patients feel at ease and catered to from check-in to checkout."
+      },
+      {
+        "title": "Expertise in Implants",
+        "description": "With a strong focus on dental implants, the clinic offers advanced solutions for replacing missing or failing teeth."
+      },
+      {
+        "title": "Flexible Financial Solutions",
+        "description": "We offer an in-house discount plan and assist with insurance claims to make high-quality implant care accessible and affordable."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "Your journey begins with a comprehensive exam, 3D scans, and a detailed discussion of your goals to create a personalized implant treatment plan."
+      },
+      {
+        "title": "Preparation & Foundation Work",
+        "description": "Any necessary preliminary treatments like extractions, bone grafting, or gum care are performed to ensure a strong foundation for your implants."
+      },
+      {
+        "title": "Precise Implant Placement",
+        "description": "The titanium implant post is surgically placed into your jawbone with precision, providing a stable anchor for your new tooth."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "Over several months, the implant naturally fuses with your jawbone, creating a strong and permanent bond vital for long-term stability."
+      },
+      {
+        "title": "Abutment & Impressions",
+        "description": "Once healing is complete, an abutment is placed on the implant, and final impressions are taken to custom-craft your permanent crown or bridge."
+      },
+      {
+        "title": "Permanent Restoration & Care",
+        "description": "Your custom-made crown, bridge, or arch is securely attached, and we provide guidance for long-term care to ensure your new smile lasts for years."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Loose Denture",
+      "Failing Tooth Needs Extraction",
+      "Bone Loss in Jaw",
+      "Difficulty Chewing",
+      "Embarrassed to Smile",
+      "Old Bridge Failing",
+      "Gum Disease",
+      "Knocked-Out Tooth"
+    ],
+    "stats": [
+      {
+        "value": "18+",
+        "label": "Years Experience in Dentistry"
+      },
+      {
+        "value": "98%",
+        "label": "Successful Implant Placements"
+      },
+      {
+        "value": "1000+",
+        "label": "Happy Patients"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Natural Appearance",
+        "description": "Designed to look and feel like real teeth."
+      },
+      {
+        "title": "Permanent Tooth Replacement",
+        "description": "A long-lasting solution for missing teeth."
+      },
+      {
+        "title": "Improved Chewing Power",
+        "description": "Eat your favorite foods with confidence."
+      },
+      {
+        "title": "Preserves Jawbone Health",
+        "description": "Helps prevent bone loss after tooth loss."
+      },
+      {
+        "title": "Enhanced Speech",
+        "description": "Provides stability that supports clear, natural speech."
+      },
+      {
+        "title": "Protects Surrounding Teeth",
+        "description": "Doesn't require altering adjacent healthy teeth."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implant",
+        "description": "Replace one missing tooth with a durable implant and natural-looking crown."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Restore several missing teeth with strategically placed implants for a secure, long-lasting solution."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore a full arch of teeth using four strategically placed implants and a fixed prosthesis."
+      },
+      {
+        "iconName": "",
+        "title": "Same-Day Dental Implants",
+        "description": "Receive implants and a temporary restoration in a single visit, reducing treatment time and restoring your smile quickly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How do dental implants work to replace missing teeth?",
+        "answer": "Dental implants are titanium posts surgically placed into the jawbone to act as artificial tooth roots. These posts fuse with the bone, providing a stable foundation for crowns, bridges, or full arches that look and function like natural teeth."
+      },
+      {
+        "question": "Am I a good candidate for dental implants?",
+        "answer": "Most adults with missing or failing teeth are candidates for dental implants. Dr. Vahid will assess your oral health, including bone density, during an initial consultation to determine the best treatment plan for you, even if you have bone loss."
+      },
+      {
+        "question": "How long does the dental implant process take from start to finish?",
+        "answer": "The entire dental implant process typically spans several months. This includes initial consultation and planning, surgical placement, a healing period for osseointegration, and finally, the placement of your permanent restoration."
+      },
+      {
+        "question": "What are my options if I am missing several teeth?",
+        "answer": "If you are missing several teeth, we offer solutions like implant bridges or full arch restorations. Implant bridges can replace multiple adjacent teeth, while full arch options restore an entire set of teeth with just a few implants."
+      },
+      {
+        "question": "What financial options are available for dental implants?",
+        "answer": "We offer an in-house dental discount plan, accept various dental insurances, and can assist with third-party financing to make your dental implant treatment affordable and accessible."
+      },
+      {
+        "question": "Is the dental implant procedure painful?",
+        "answer": "Patient comfort is a top priority. We utilize effective local anesthesia during the surgical placement of implants, and sedation options are available to ensure a comfortable and stress-free experience."
+      }
+    ],
+    "footerAbout": "AV Dental Associates PA offers comprehensive dental care, specializing in advanced dental implant solutions, for individuals and families across Jersey City, ensuring a comfortable experience and lasting results.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/avdds-com/case-before-1781002931276-hbvvdr.png",
+        "afterImage": "/clinics/avdds-com/case-after-1781002955003-kzt33f.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/avdds-com/hero.webp",
+    "benefitsImagePath": "/clinics/avdds-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/avdds-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Arash Vahid",
+    "bio": "Dr. Vahid has nearly 20 years of experience in the dental field, having grown up around dentistry with both parents being dentists. He was drawn to the profession from a young age, inspired by its ability to calm fears and transform lives. Dr. Vahid is dedicated to continuous education, focusing on dental implants, cosmetic procedures, and restorative dentistry to provide high-quality care that uplifts patients as a whole. He strives for excellence in clinical care while fostering a fun and relaxed office environment.",
+    "yearsOfExperience": 20,
+    "photoPath": "/clinics/avdds-com/doctor.webp",
+    "specialistCredentials": [
+      "Dental Implant Expertise",
+      "Advanced Restorative Techniques",
+      "Cosmetic Dentistry Focus",
+      "Patient-First Philosophy"
+    ],
+    "specialistPortraitPath": "/clinics/avdds-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Michael S.",
+      "text": "I had a failing tooth that needed to be extracted, and Dr. Vahid handled the implant process seamlessly. The team was so supportive and made me feel comfortable throughout.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah P.",
+      "text": "My old bridge was failing, and I was hesitant about implants, but the full mouth dental implants here have changed my life. I can finally eat and smile with confidence!",
+      "rating": 5
+    },
+    {
+      "name": "David L.",
+      "text": "The entire team at AV Dental Associates is fantastic. They were clear about the implant process and financing options, making it stress-free. Highly recommend for anyone with missing teeth.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica R.",
+      "text": "After years of struggling with a loose denture, I opted for implant-supported dentures. The difference is incredible! The stability and comfort are unmatched. Thank you, Dr. Vahid!",
+      "rating": 5
+    },
+    {
+      "name": "Tom K.",
+      "text": "I received a single tooth implant, and it looks and feels completely natural. The technology they use is impressive, and the care was gentle and precise.",
+      "rating": 5
+    },
+    {
+      "name": "Emily B.",
+      "text": "The office environment is so welcoming and relaxed, which really helped calm my nerves about getting implants. The results speak for themselves – a perfect, new smile!",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#444954"
+}

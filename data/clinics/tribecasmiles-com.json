@@ -1,0 +1,292 @@
+{
+  "clinic": {
+    "name": "Tribeca Smiles",
+    "tagline": "Comprehensive Dental Care & Acupuncture",
+    "city": "New York",
+    "phone": "(212) 473-4444",
+    "address": "44 Lispenard St Suite 1, New York, NY 10013",
+    "hours": "Mon - Fri 9:00 am - 5:00 pm",
+    "logoPath": "/clinics/tribecasmiles-com/logo.webp",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Tribeca Smiles specializes in porcelain veneers, a transformative cosmetic solution that enhances the shape, color, and appearance of your teeth. Veneers can correct stains, chips, gaps, and minor misalignment, helping patients achieve a brighter, more balanced smile. Using advanced Digital Smile Design technology, Dr. Frederick Solomon and his team create natural-looking results that boost confidence and deliver long-lasting aesthetic benefits.",
+    "differentiators": [
+      {
+        "title": "Holistic Approach to Care",
+        "description": "We combine modern dental techniques with acupuncture to create a relaxing and stress-free environment, addressing dental anxiety and overall well-being."
+      },
+      {
+        "title": "Experienced Cosmetic Dentist",
+        "description": "Dr. Frederick Solomon brings over 20 years of experience as a leading cosmetic dentist, specializing in smile transformations and complex dental restorations."
+      },
+      {
+        "title": "Advanced Cosmetic Solutions",
+        "description": "Utilizing technologies like Digital Smile Design and offering comprehensive options from Porcelain Veneers to Smile Makeovers for predictable, beautiful results."
+      },
+      {
+        "title": "Spa-Like Environment",
+        "description": "Our unique loft space is designed to feel unlike a traditional dentist's office, ensuring comfort and ease during your routine or complex visits."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation & Smile Analysis",
+        "description": "Your journey begins with a thorough consultation and smile analysis to understand your aesthetic goals, evaluate your oral health, and determine the best approach for your custom smile makeover."
+      },
+      {
+        "title": "Digital Smile Design & Shade Selection",
+        "description": "Using advanced Digital Smile Design technology, we create a virtual preview of your new smile, allowing you to visualize and fine-tune the aesthetics before any treatment, along with precise shade selection."
+      },
+      {
+        "title": "Gentle Preparation & Impressions",
+        "description": "A minimal, gentle preparation of your natural teeth is performed, followed by precise impressions. This ensures your custom porcelain veneers will fit perfectly and blend seamlessly with your natural smile."
+      },
+      {
+        "title": "Custom Porcelain Lab Fabrication",
+        "description": "While your custom porcelain veneers are meticulously crafted in a specialized lab, you will wear temporary veneers to protect your prepared teeth and maintain your aesthetic appearance."
+      },
+      {
+        "title": "Bonding & Final Reveal",
+        "description": "Once your permanent veneers arrive, they are carefully bonded to your teeth, and we unveil your beautifully transformed, natural-looking smile. We ensure your bite and comfort are perfect."
+      },
+      {
+        "title": "Follow-Up & Long-Term Care",
+        "description": "We schedule follow-up adjustments and establish a long-term care plan, including hygiene visits and recommendations for nightguards if needed, to protect your investment and maintain your stunning results for years to come."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "98%",
+        "label": "Patient Satisfaction"
+      },
+      {
+        "value": "1000+",
+        "label": "Smiles Transformed"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Instant Smile Transformation",
+        "description": "Correct multiple cosmetic concerns with a single treatment."
+      },
+      {
+        "title": "Natural-Looking Results",
+        "description": "Custom-crafted to match the shape and color of your smile."
+      },
+      {
+        "title": "Covers Imperfections",
+        "description": "Conceals stains, chips, cracks, gaps, and minor misalignment."
+      },
+      {
+        "title": "Stain-Resistant Surface",
+        "description": "Porcelain veneers resist discoloration better than natural teeth."
+      },
+      {
+        "title": "Minimally Invasive Treatment",
+        "description": "Requires only a small amount of enamel preparation."
+      },
+      {
+        "title": "Long-Lasting Solution",
+        "description": "Durable materials provide beautiful results for many years."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Durable, stain-resistant veneers that provide a natural-looking smile transformation."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "A cost-effective solution using tooth-colored resin to improve the appearance of teeth."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "title": "Lumineers",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "Porcelain veneers are highly durable and, with proper care and maintenance, can last for 10-15 years or even longer. Regular dental check-ups and good oral hygiene are key to extending their lifespan."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "Typically, the process for porcelain veneers involves a few visits. This includes an initial consultation and design, preparation of your teeth, placement of temporaries, and the final bonding of your custom-fabricated veneers."
+      },
+      {
+        "question": "Veneers vs. crowns vs. bonding - what's right for me?",
+        "answer": "The best option depends on your specific needs. Veneers are ideal for aesthetic concerns like discoloration or minor misalignment, while crowns are for more significant damage, and bonding for small chips. We'll discuss the best choice during your consultation."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "A small amount of enamel is typically removed to ensure a perfect fit for porcelain veneers, creating a natural look and feel. This preparation is conservative and designed to preserve your tooth structure as much as possible."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "The website does not explicitly state financing options. We recommend contacting our office directly to discuss payment plans and financial arrangements for your cosmetic dental treatments."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "Yes, with Digital Smile Design, you can preview your new smile on screen before any work begins. This allows us to design mockups tailored to your facial features and proportions, ensuring you love your results."
+      }
+    ],
+    "footerAbout": "Tribeca Smiles is a highly regarded New York City dental practice providing exceptional cosmetic and restorative dentistry in a spa-like environment, combining modern techniques with holistic care for patient well-being.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982620584-i5vhy9.png",
+        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982628835-t2j139.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982644346-glldkc.png",
+        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982661576-vpgdgt.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982682472-a2mwte.png",
+        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982689209-36orp1.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/tribecasmiles-com/hero.webp",
+    "benefitsImagePath": "/clinics/tribecasmiles-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/tribecasmiles-com/whychoose.jpg"
+  },
+  "doctor": {
+    "name": "Dr. Frederick E. Solomon",
+    "credentials": "DDS",
+    "bio": "Dr. Frederick E. Solomon is a leading cosmetic dentist in lower Manhattan with over 20 years of experience, dedicated to blending health, science, compassion, and esthetics. He believes in increasing and embellishing one's quality of life through exceptional dental care. Dr. Solomon specializes in cosmetic and restorative dentistry, including transformative smile makeovers, providing patients with confident, beautiful smiles. He is committed to utilizing modern techniques and a patient-centered approach to deliver outstanding results.",
+    "yearsOfExperience": 20,
+    "photoPath": "/clinics/tribecasmiles-com/doctor.webp",
+    "specialistCredentials": [
+      "Leading Cosmetic Dentist",
+      "Expert in Smile Makeovers",
+      "Advanced Digital Smile Design",
+      "Patient-First Philosophy"
+    ],
+    "specialistPortraitPath": "/clinics/tribecasmiles-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Gailanne G.",
+      "text": "\"The Best Dental Practice in New York! Tribeca Smiles consistently provides excellent care, making every visit a positive experience. Dr. Solomon and his team are truly outstanding.\"",
+      "rating": 5
+    },
+    {
+      "name": "Oscar J.",
+      "text": "\"I'm proud of my smile! Thanks to Tribeca Smiles, I finally have the confident, camera-ready smile I've always wanted. The results of my smile makeover are simply incredible.\"",
+      "rating": 5
+    },
+    {
+      "name": "Madison C.",
+      "text": "\"Had the absolute best experience with Dr. Solomon, his staff, and his sweet dog Merlin. They took great care of me and helped me make sure my insurance would cover the work I needed done.\"",
+      "rating": 5
+    },
+    {
+      "name": "Yada V.",
+      "text": "\"Dr. Solomon and his team are amazing!! So sweet and helpful, and know what they are doing. They were able to fix my chipped top teeth with bonding super quickly (I even fell asleep while they were doing it). I couldn’t be happier with my experience.\"",
+      "rating": 5
+    },
+    {
+      "name": "Tess E.",
+      "text": "\"I have been going to Dr. Solomon for almost my whole life. I truly recommend this place for everyone. I have never been scared of going to the dentist because of Tribeca Smiles. They have done an amazing job with my teeth.\"",
+      "rating": 5
+    },
+    {
+      "name": "Elizabeth A.",
+      "text": "\"Dr. Solomon and his staff were kind, thorough, and attentive throughout my entire porcelain veneer process. My new smile looks incredibly natural, and I couldn't be happier with the beautiful outcome.\"",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#7099cf"
+}
