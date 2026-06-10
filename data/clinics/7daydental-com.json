@@ -1,0 +1,296 @@
+{
+  "clinic": {
+    "name": "7 Day Dental",
+    "tagline": "Your Complete Family Dentist and Emergency Dentist in Orange County",
+    "city": "Anaheim",
+    "phone": "(866) 989-1335",
+    "address": "2265 W Lincoln Ave Anaheim, CA 92801",
+    "hours": "Open 7 days a week",
+    "logoPath": "/clinics/7daydental-com/logo.webp",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "logoNoPlate": true,
+    "heroSubtitle": "Achieve your confident, camera-ready smile and enjoy lasting beauty with custom-crafted porcelain veneers from 7 Day Dental. Specializing in cosmetic transformations, we meticulously bond porcelain shells to your teeth, creating a stain-resistant, lifelike smile that corrects discoloration, chips, and unevenness, designed to last 10-15+ years.",
+    "differentiators": [
+      {
+        "title": "Cosmetic Dentistry Focus",
+        "description": "A leader in esthetic dentistry, specializing in procedures like porcelain veneers to transform smiles."
+      },
+      {
+        "title": "Board-Certified Specialists",
+        "description": "Access to a team of board-certified specialists across various dental fields, ensuring comprehensive care."
+      },
+      {
+        "title": "Flexible Appointments",
+        "description": "Convenient appointment times are available 7 days a week, accommodating busy schedules."
+      },
+      {
+        "title": "Payment Plans Available",
+        "description": "Accepts most dental insurance plans and offers payment options for patients without insurance."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation & Analysis",
+        "description": "Your journey begins with a thorough cosmetic consultation and smile analysis to understand your aesthetic goals and assess your oral health."
+      },
+      {
+        "title": "Digital Smile Design Preview",
+        "description": "Experience your future smile with digital smile design, allowing you to preview the results and select the perfect shade and shape for your veneers."
+      },
+      {
+        "title": "Gentle Preparation & Impressions",
+        "description": "We gently prepare your teeth for veneer placement and take precise impressions to ensure a custom, perfect fit."
+      },
+      {
+        "title": "Custom Lab Fabrication",
+        "description": "Your custom porcelain veneers are meticulously fabricated in a dental lab, and temporary veneers are placed to protect your teeth."
+      },
+      {
+        "title": "Bonding & Final Reveal",
+        "description": "Once your custom veneers are ready, they are bonded securely to your teeth, and your transformed smile is revealed."
+      },
+      {
+        "title": "Follow-Up & Long-Term Care",
+        "description": "We schedule follow-up adjustments and provide a long-term care plan to ensure the longevity and beauty of your new smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "4",
+        "label": "Convenient Orange County Locations"
+      },
+      {
+        "value": "7",
+        "label": "Days/Wk Flexible Appointment"
+      },
+      {
+        "value": "100%",
+        "label": "Patient-Focused Care"
+      },
+      {
+        "value": "25+",
+        "label": "Years in Esthetic Dentistry"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Natural Appearance",
+        "description": "Veneers are custom-crafted to blend seamlessly with your natural teeth for a beautiful smile."
+      },
+      {
+        "title": "Stain Resistant",
+        "description": "Porcelain veneers resist staining, keeping your smile bright and vibrant."
+      },
+      {
+        "title": "Durable Results",
+        "description": "Enjoy a long-lasting and resilient smile transformation with quality veneers."
+      },
+      {
+        "title": "Correct Imperfections",
+        "description": "Effectively covers discolored, chipped, or uneven teeth for a flawless look."
+      },
+      {
+        "title": "Boosts Confidence",
+        "description": "Achieve a camera-ready smile that enhances your self-esteem and appearance."
+      },
+      {
+        "title": "Minimally Invasive",
+        "description": "A conservative approach to cosmetic improvement, preserving natural tooth structure."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Durable, stain-resistant veneers that provide a natural-looking smile transformation."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "A cost-effective solution using tooth-colored resin to improve the appearance of teeth."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "title": "Lumineers®",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "Porcelain veneers are designed for durability and can last many years with proper care, often 10-15+ years, providing a long-term smile solution."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "Veneer treatment typically involves multiple visits, including consultation, preparation, and final bonding to ensure a perfect fit and aesthetic result."
+      },
+      {
+        "question": "Veneers vs. bonding — what's right for me?",
+        "answer": "The best option depends on your specific needs. Veneers offer a highly durable and aesthetic solution for significant changes, while bonding is a more conservative, cost-effective option for minor improvements. A consultation can determine which is best for your smile."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "A minimal amount of enamel may be removed to ensure a proper fit for the veneers, creating a natural and seamless appearance."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "Yes, we accept most dental insurance plans and provide payment plans for patients without insurance, making cosmetic dentistry accessible."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "We often utilize Digital Smile Design to allow you to preview your potential new smile before any work begins, ensuring your complete satisfaction with the planned aesthetic."
+      }
+    ],
+    "footerAbout": "7 Day Dental offers complete family dentistry and emergency dental services in Orange County, prioritizing patient safety, health, and peace of mind.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/7daydental-com/case-before-1781069516717-ry41j0.png",
+        "afterImage": "/clinics/7daydental-com/case-after-1781069524112-6g6j7b.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/7daydental-com/case-before-1781069534118-pq1r3r.png",
+        "afterImage": "/clinics/7daydental-com/case-after-1781069542796-fvx1rt.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/7daydental-com/case-before-1781069554652-lilsg5.png",
+        "afterImage": "/clinics/7daydental-com/case-after-1781069575762-oei2eu.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/7daydental-com/hero.webp",
+    "benefitsImagePath": "/clinics/7daydental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/7daydental-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Chuck Le",
+    "credentials": "DDS",
+    "bio": "Dr. Chuck Le is the founder of 7 Day Dental and a recognized leader in the field of dentistry, with extensive experience since graduating from USC in 1989. He has dedicated hundreds of hours to postgraduate specialized education, including a three-year residency in esthetic dentistry at Esthetic Professionals and a one-year residency in implantology at the Boston Dental Institute. Dr. Le is a certified specialist in dental implantology and a master in porcelain veneers, committed to providing the best treatment available to every patient, regardless of financial status.",
+    "photoPath": "/clinics/7daydental-com/doctor.webp",
+    "specialistCredentials": [
+      "Leader in Esthetic Dentistry",
+      "Master in Porcelain Veneers",
+      "Certified Implantologist",
+      "Patient-Centered Care"
+    ],
+    "specialistPortraitPath": "/clinics/7daydental-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Sarah P.",
+      "text": "Dr. Le and the team at 7 Day Dental gave me the most incredible smile makeover with porcelain veneers. I used to be so self-conscious, but now I can't stop smiling. The results are truly natural and beautiful!",
+      "rating": 5
+    },
+    {
+      "name": "Michael T.",
+      "text": "I was hesitant about getting veneers, but the digital smile design preview at 7 Day Dental made me feel so confident. Seeing what my new smile would look like beforehand was amazing, and the final result exceeded my expectations.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "The care I received for my cosmetic dentistry was outstanding. The staff is so welcoming, and Dr. Le is a master at his craft. My new veneers feel completely natural and have completely transformed my appearance.",
+      "rating": 5
+    },
+    {
+      "name": "David R.",
+      "text": "7 Day Dental made it easy to get the cosmetic work I needed. They accepted my insurance, and the payment plan options were very helpful. It's great to find a practice that truly believes everyone deserves professional dental care.",
+      "rating": 5
+    },
+    {
+      "name": "Emily S.",
+      "text": "From the initial consultation to the final bonding, every step of my veneer treatment was handled with such professionalism and care. The team explained everything clearly, and I felt comfortable throughout the entire process.",
+      "rating": 5
+    },
+    {
+      "name": "Robert B.",
+      "text": "I appreciate the convenience of 7 Day Dental's appointments, even on weekends. Getting my veneers done without disrupting my work schedule was a huge plus, and the results are fantastic.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#ad9740"
+}

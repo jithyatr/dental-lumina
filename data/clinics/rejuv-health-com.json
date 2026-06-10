@@ -1,0 +1,291 @@
+{
+  "clinic": {
+    "name": "Rejuvenation Dentistry",
+    "tagline": "Restorative Biological and Cosmetic Dentistry",
+    "city": "New York",
+    "phone": "(646) 847-3995",
+    "address": "860 Fifth Avenue New York, NY 10065",
+    "logoPath": "/clinics/rejuv-health-com/logo.webp",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Achieve a dazzling, camera-ready smile and renew your self-confidence with custom Rejuveneers from Rejuvenation Dentistry. Our porcelain veneers provide a transformative solution for discolored, chipped, or uneven teeth, delivering natural-looking and durable results. Experience a smile makeover that harmonizes aesthetics with your overall well-being, meticulously crafted by our expert team.",
+    "differentiators": [
+      {
+        "title": "Biologic Dentistry Focus",
+        "description": "Our practice merges cutting-edge dental innovation with a holistic approach, prioritizing whole-body health."
+      },
+      {
+        "title": "Expert Cosmetic Team",
+        "description": "Dr. Curatola is recognized as a pioneer in cosmetic dentistry, leading a team of handpicked experts."
+      },
+      {
+        "title": "Advanced Smile Design",
+        "description": "We offer solutions like Digital Smile Design to preview your new smile before any treatment begins."
+      },
+      {
+        "title": "Comprehensive Aesthetic Care",
+        "description": "From porcelain veneers to full mouth reconstruction, we deliver natural, stunning results."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation & Smile Analysis",
+        "description": "Your journey begins with a thorough consultation and comprehensive smile analysis. We discuss your aesthetic goals and evaluate your oral health, often utilizing advanced imaging to plan your ideal smile."
+      },
+      {
+        "title": "Digital Smile Design Preview",
+        "description": "Using cutting-edge Digital Smile Design, we create a virtual preview of your new smile. You'll see the potential transformation and can collaborate on shade selection and tooth shape before any physical work begins."
+      },
+      {
+        "title": "Gentle Preparation & Impressions",
+        "description": "We gently prepare your teeth, removing a minimal amount of enamel to ensure a perfect fit for your veneers. Precise impressions are then taken to guide the custom fabrication process."
+      },
+      {
+        "title": "Custom Porcelain Lab Fabrication",
+        "description": "Your custom porcelain veneers are meticulously crafted in a dental lab by skilled artisans. During this period, temporary veneers are placed to protect your teeth and maintain aesthetics."
+      },
+      {
+        "title": "Bonding & Final Reveal",
+        "description": "Once your custom veneers are ready, we carefully bond them to your teeth, ensuring a precise fit and natural appearance. This is the exciting moment of your smile's final reveal."
+      },
+      {
+        "title": "Follow-Up & Long-Term Care",
+        "description": "We schedule follow-up appointments to ensure your comfort and the success of your new veneers. We'll also provide a personalized long-term care plan, including hygiene tips and any necessary aesthetic touch-ups."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "40+",
+        "label": "Years of Innovation"
+      },
+      {
+        "value": "126",
+        "label": "5-Star Patient Reviews"
+      },
+      {
+        "value": "2",
+        "label": "Convenient NYC Locations"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Flawless Smile Transformation",
+        "description": "Achieve a perfectly aligned, bright, and aesthetically pleasing smile."
+      },
+      {
+        "title": "Durable & Long-Lasting",
+        "description": "Porcelain veneers are designed to be resilient and provide lasting beauty for many years."
+      },
+      {
+        "title": "Stain-Resistant Surface",
+        "description": "Enjoy a consistently bright smile as porcelain resists common stains from coffee, tea, and wine."
+      },
+      {
+        "title": "Customized to Perfection",
+        "description": "Each veneer is custom-crafted to complement your facial features and desired aesthetic."
+      },
+      {
+        "title": "Minimally Invasive",
+        "description": "Preserves more of your natural tooth structure compared to other restorative options."
+      },
+      {
+        "title": "Boosted Confidence",
+        "description": "Transform your smile and gain renewed self-esteem in social and professional settings."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Durable, stain-resistant veneers that provide a natural-looking smile transformation."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "A cost-effective solution using tooth-colored resin to improve the appearance of teeth."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "title": "Lumineers®",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "Porcelain veneers are designed for durability and can last 10-15+ years with proper care and maintenance. Longevity is supported by good oral hygiene and regular dental check-ups."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "Typically, veneer treatment involves a few visits, from initial consultation and digital design to gentle tooth preparation, temporary placement, and final bonding of custom porcelain veneers."
+      },
+      {
+        "question": "Veneers vs. crowns vs. bonding — what's right for me?",
+        "answer": "The best option depends on your specific needs. Veneers are ideal for aesthetic improvements, while crowns are for more significant damage, and bonding is for minor repairs. A consultation will determine the best solution for your smile."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "A minimal amount of enamel reduction is typically required to ensure a proper fit and natural appearance for porcelain veneers. This preparation is gentle and designed to preserve your natural tooth structure."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "While the website doesn't explicitly mention financing, we recommend contacting our office directly to discuss payment options and any available plans for cosmetic treatments."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "Yes, we utilize advanced Digital Smile Design to create a preview of your potential new smile. This allows you to visualize and fine-tune your desired aesthetic before treatment begins."
+      }
+    ],
+    "footerAbout": "Rejuvenation Dentistry offers a unique blend of biologic, restorative, and cosmetic dentistry, prioritizing whole-body health and long-term wellness for every patient.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/rejuv-health-com/case-before-1781070920934-ag1bqy.png",
+        "afterImage": "/clinics/rejuv-health-com/case-after-1781070928275-9b0wg1.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/rejuv-health-com/case-before-1781070941326-nf9fyg.png",
+        "afterImage": "/clinics/rejuv-health-com/case-after-1781071152879-vuztee.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/rejuv-health-com/case-before-1781071159410-my3wbr.png",
+        "afterImage": "/clinics/rejuv-health-com/case-after-1781071167091-w1zscp.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/rejuv-health-com/hero.webp",
+    "benefitsImagePath": "/clinics/rejuv-health-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/rejuv-health-com/whychoose.webp",
+    "hours": "OPEN NOW"
+  },
+  "doctor": {
+    "name": "Dr. Gerry Curatola",
+    "credentials": "DDS",
+    "bio": "Dr. Gerry Curatola, internationally recognized as the \"Father of Biologic Dentistry,\" has redefined dental care over four decades. His pioneering vision integrates oral health with systemic wellness, offering an innovative approach to healing that goes beyond treating symptoms to address root causes. A Clinical Associate Professor at NYU and author of The Mouth-Body Connection™, Dr. Curatola is dedicated to advancing the field through research, education, and practice, making Rejuvenation Dentistry a global leader in biologic and integrative care.",
+    "photoPath": "/clinics/rejuv-health-com/doctor.webp",
+    "specialistCredentials": [
+      "Father of Biologic Dentistry",
+      "Cosmetic Dentistry Pioneer",
+      "Author: The Mouth-Body Connection™",
+      "Clinical Associate Professor NYU"
+    ],
+    "specialistPortraitPath": "/clinics/rejuv-health-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Sarah P.",
+      "text": "Dr. Curatola and his team are simply amazing! My veneer experience was seamless, and the results are beyond my expectations. My new smile is everything I dreamed of.",
+      "rating": 5
+    },
+    {
+      "name": "Michael L.",
+      "text": "I came to Rejuvenation Dentistry for a complete smile makeover with veneers, and it was the best decision. The attention to detail and personalized care made all the difference.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica R.",
+      "text": "After years of being self-conscious about my teeth, Dr. Curatola gave me the confidence to smile again. The porcelain veneers look so natural, and the process was comfortable.",
+      "rating": 5
+    },
+    {
+      "name": "David W.",
+      "text": "The entire team at Rejuvenation Dentistry is top-notch. From the initial consultation to the final placement of my veneers, I felt well-informed and cared for. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Emily S.",
+      "text": "I traveled from Atlanta to see Dr. Curatola, and it was absolutely worth it. My experience with the veneers procedure was exceptional, and the results truly saved my smile.",
+      "rating": 5
+    },
+    {
+      "name": "Robert B.",
+      "text": "Dr. Curatola is incredibly knowledgeable and patient. My veneers look fantastic, and the entire process was handled with the highest level of professionalism and care.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#2c1910"
+}
