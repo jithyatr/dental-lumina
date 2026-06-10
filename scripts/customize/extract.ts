@@ -5,7 +5,7 @@ import { Type } from "@google/genai";
 import { createGenAI } from "../../src/lib/genai";
 import type { ClinicConfig, Review, TemplateKind } from "../../src/types/clinic";
 import type { ImageCandidate } from "./crawl";
-import type { Procedure } from "./procedures";
+import { fixedServiceCategories, type Procedure } from "./procedures";
 
 const MODEL = process.env.GEMINI_TEXT_MODEL ?? "gemini-3-flash-preview";
 
@@ -82,6 +82,18 @@ When generating the procedure-specific arrays below, use these category-specific
 `
     : "";
 
+  // Procedures with a hard-coded service list don't need the AI to generate implantOptions —
+  // skip that rule and its schema field entirely (saves tokens; the list is injected downstream).
+  const skipImplantOptions = procedure ? fixedServiceCategories(procedure.key) !== null : false;
+  const implantOptionsRule = skipImplantOptions
+    ? ""
+    : `- "clinic.implantOptions" is between 3 and 6 ${template === "implants" ? "implant treatment options" : "core treatment categories"} the clinic offers, derived from the source. **Use as many as the source page genuinely supports — do NOT pad to a fixed count.** If the clinic clearly offers 3 prominent services, return 3. If they offer a broad mix of 6, return 6. Each: "title" (2-4 words, title case) and "description" (one sentence, 100-180 chars explaining what it solves for the patient). ${template === "family-dentistry"
+        ? `For a family-dentistry practice, typical service categories include: Preventive Care (cleanings/exams), Restorative Dentistry (fillings/crowns), Cosmetic Dentistry (whitening/veneers), Pediatric Care (kids visits), Implants, and Ortho/Invisalign. Pick the ones the site actually emphasizes.`
+        : template === "implants"
+        ? `For an implants practice, typical implant treatment types include: Single Tooth Implant, Multiple Tooth Implants / Implant Bridge, Full Arch / All-on-4, Implant-Supported Dentures, Mini Implants, Same-Day Implants, Zygomatic Implants. Pick the ones the site actually emphasizes.`
+        : `Examples: General Dentistry, Cosmetic Dentistry, Implant Dentistry, Orthodontics, Emergency Care, Pediatric Dentistry, Periodontal Care. Pick the ones the site actually emphasizes.`}
+`;
+
   const prompt = `You are extracting facts from a dental clinic's existing website to populate a landing page.${procedureBlock}
 
 CRITICAL: Use ONLY information explicitly present in the home/about page text and image candidates below. Do NOT invent phone numbers, addresses, names, or any other data. If a field cannot be filled from the source text, omit it (unless it is in the required list at the bottom of these rules).
@@ -107,16 +119,11 @@ Return a JSON object describing the clinic and its lead dentist. Rules:
 - "clinic.address" is the full street address — must contain a street number AND street name AND city AND state code (e.g. "123 Main St, Springfield, IL 62701" or "5500 Central Ave NE, Minneapolis, MN 55432"). Look in the home page text first (especially toward the bottom — clinic addresses are usually in the footer area), then the about page. Omit if no real postal address appears in either source. Do NOT use video fallback messages, generic location phrases like "in Minneapolis, MN", page titles, or marketing copy. The address must be a real physical location to which mail or visitors can be sent.
 - "clinic.hours" is a short summary of the clinic's open hours as shown on the source page (e.g. "Mon-Fri 8AM-5PM", "Mon-Thu 7AM-5PM, Fri 8AM-12PM", "Open 7 days 9AM-7PM"). Use the format that appears on the site, condensed to one line under 60 chars. Look in the footer/contact areas of the source text. Omit if no opening hours appear in the source — do NOT invent or guess.
 - "clinic.tagline" is a short marketing line. Omit if absent.
-- "clinic.heroSubtitle" is 1-2 sentences (max 220 chars) introducing this clinic's ${heroSubtitleFocus}, naturally weaving in 1-2 specific services/qualities from the source page (e.g., same-day crowns, 3D imaging, flexible financing, multilingual staff, family-friendly). ${procedure ? `Mention the ${procedure.label} focus naturally (not as a tag line).` : ""} Sound like marketing copy, not a list.
+- "clinic.heroSubtitle" is 2-3 sentences (max 360 chars) of warm, benefit-driven marketing copy introducing this clinic's ${heroSubtitleFocus}. The FIRST sentence MUST lead with the patient OUTCOME — what the patient ultimately gains from the ${procedure ? procedure.label : template} treatment (e.g. "Restore your smile, regain full chewing function, and enjoy lasting confidence...") — and name the ${procedure ? procedure.label : "treatment"} together with the clinic at the end of that sentence (e.g. "...with dental implants from [this clinic]."). The following sentence(s) explain what the treatment does FOR the patient (e.g. permanent solution for missing teeth, preserves jawbone health, looks and functions like natural teeth) and may naturally weave in 1-2 specific services/qualities from the source page (e.g. same-day crowns, 3D imaging, flexible financing). ${procedure ? `Keep the ${procedure.label} outcome front and center.` : ""} Sound like marketing copy focused on results the patient gets, not a list of clinic features. Model the structure on: "Restore your smile, regain full chewing function, and enjoy lasting confidence with dental implants. Dental implants provide a permanent solution for missing teeth, helping preserve jawbone health while looking and functioning like natural teeth."
 - "clinic.differentiators" is exactly 4 short reasons to choose this clinic, derived from what the source page actually emphasizes. Each: "title" (2-4 words, title case, e.g., "Same-Day Crown Technology", "Family-Focused Care", "Flexible Financing", "Multilingual Staff") and "description" (one sentence, 80-160 chars). Pick the most concrete, distinctive qualities mentioned on the site — not generic "experienced doctors" filler. If the page doesn't surface 4 distinct qualities, fall back to: experience/credentials, technology used, financing/insurance, patient-experience qualities.
 - "clinic.stats" is exactly 4 short "by the numbers" stats for the marquee strip. Each: "value" (a short string like "20+", "5,000+", "98%", "Same-Day", "7 Days/Wk") and "label" (3-5 words like "Years Serving Patients", "Smiles Restored", "Patient Satisfaction"). Derive numbers from the source where possible: years since founding ("Since 2008" → "18+ Years"), services offered, patient counts the site mentions, ratings, technology stats. If the source is sparse, choose conservative-but-believable numbers (e.g., "18+ Years Experience" from doctor's experience, "10,000+ Smiles Restored" for any established practice, "100%" or "98%" patient satisfaction, "Same-Day" or "5 Star Rated"). DO NOT invent specific counts the site doesn't support — keep them generic and aspirational instead.
-- "clinic.benefits" is exactly 6 short patient-facing benefits of choosing THIS clinic, derived from the source. Each: "title" (2-4 words, title case, e.g., "Same-Day Crowns", "Stress-Free Visits", "Insurance-Friendly", "Gentle Pediatric Care", "Modern Technology", "Flexible Financing") and "description" (one sentence, 80-160 chars, focused on the patient benefit, not the clinic). These should overlap thematically with differentiators but be MORE concrete, patient-outcome-focused, and broader in scope (a clinic can have many benefits but only a few core differentiators). Always include benefits tied to: comfort/experience, technology/quality of care, scheduling/convenience, financial accessibility, and 1-2 service-specific advantages relevant to ${template}.
-- "clinic.implantOptions" is between 3 and 6 ${template === "implants" ? "implant treatment options" : "core treatment categories"} the clinic offers, derived from the source. **Use as many as the source page genuinely supports — do NOT pad to a fixed count.** If the clinic clearly offers 3 prominent services, return 3. If they offer a broad mix of 6, return 6. Each: "title" (2-4 words, title case) and "description" (one sentence, 100-180 chars explaining what it solves for the patient). ${template === "family-dentistry"
-  ? `For a family-dentistry practice, typical service categories include: Preventive Care (cleanings/exams), Restorative Dentistry (fillings/crowns), Cosmetic Dentistry (whitening/veneers), Pediatric Care (kids visits), Implants, and Ortho/Invisalign. Pick the ones the site actually emphasizes.`
-  : template === "implants"
-  ? `For an implants practice, typical implant treatment types include: Single Tooth Implant, Multiple Tooth Implants / Implant Bridge, Full Arch / All-on-4, Implant-Supported Dentures, Mini Implants, Same-Day Implants, Zygomatic Implants. Pick the ones the site actually emphasizes.`
-  : `Examples: General Dentistry, Cosmetic Dentistry, Implant Dentistry, Orthodontics, Emergency Care, Pediatric Dentistry, Periodontal Care. Pick the ones the site actually emphasizes.`}
-- "clinic.faqItems" is exactly 6 patient-facing FAQ entries derived from the source's services and emphasis. Each: "question" (a real question a patient might ask, e.g. "Do you accept my dental insurance?", "How long does an implant procedure take?", "Are you accepting new patients?") and "answer" (1-3 sentences, 120-260 chars, conversational and reassuring, drawn from facts present on the source page when possible). Mix question types: insurance/financing, scheduling/new-patient, a service-specific question tied to the clinic's emphasis, comfort/anxiety, what to expect on a first visit, and one location/hours practical question. Tailor questions to ${template === "family-dentistry" ? "a family-dentistry practice (include kids/pediatric question, insurance, scheduling)" : template === "implants" ? "an implants practice (include implant procedure length, recovery, candidacy, cost/financing)" : "a general dental practice"}.
+- "clinic.benefits" is exactly 6 short patient-facing benefits of the ${procedure ? procedure.label : template} TREATMENT ITSELF — the clinical and lifestyle OUTCOMES a patient gains from undergoing the procedure, NOT the clinic's amenities, scheduling, financing, or service features. Each: "title" (2-4 words, title case) and "description" (one short sentence, 40-90 chars, stating the outcome plainly). Model both the style and the type of content on these dental-implant examples: "Natural Appearance" — "Designed to look and feel like real teeth." | "Permanent Tooth Replacement" — "A long-lasting solution for missing teeth." | "Improved Chewing Power" — "Eat your favorite foods with confidence." | "Preserves Jawbone Health" — "Helps prevent bone loss after tooth loss." | "Enhanced Speech" — "Provides stability that supports clear, natural speech." | "Protects Surrounding Teeth" — "Doesn't require altering adjacent healthy teeth." | "Easy to Maintain" — "Brush and floss just like natural teeth." | "Boosts Confidence" — "Restores a complete smile and improves self-esteem." Choose the 6 outcomes that best fit the ${procedure ? procedure.label : template} this clinic emphasizes (adapt the wording to the source where relevant), but keep every one focused on what the TREATMENT does for the patient — health, function, appearance, longevity, comfort, confidence — never on the clinic.
+${implantOptionsRule}- "clinic.faqItems" is exactly 6 patient-facing FAQ entries derived from the source's services and emphasis. Each: "question" (a real question a patient might ask, e.g. "Do you accept my dental insurance?", "How long does an implant procedure take?", "Are you accepting new patients?") and "answer" (1-3 sentences, 120-260 chars, conversational and reassuring, drawn from facts present on the source page when possible). Mix question types: insurance/financing, scheduling/new-patient, a service-specific question tied to the clinic's emphasis, comfort/anxiety, what to expect on a first visit, and one location/hours practical question. Tailor questions to ${template === "family-dentistry" ? "a family-dentistry practice (include kids/pediatric question, insurance, scheduling)" : template === "implants" ? "an implants practice (include implant procedure length, recovery, candidacy, cost/financing)" : "a general dental practice"}.
 - "clinic.footerAbout" is a single sentence (max 200 chars) describing this clinic for the footer — what they do, who they serve, what they value. Sound warm and confident, not corporate. Weave in 1-2 specifics from the source (e.g., "family-owned since 2008", "serving Minneapolis families with gentle dentistry"). Do NOT use the words "we" or "our" — write in third person about the clinic ("Angell Family Dentistry has been serving...").
 - "clinic.commonSymptoms" is exactly 10 short symptom or concern labels (1-3 words each, title case, e.g. "Tooth Pain", "Sensitivity", "Lost Filling", "Gum Bleeding", "Cracked Tooth", "Crooked Teeth", "Whitening", "Missing Tooth", "Jaw Pain", "Bad Breath") that patients of THIS clinic might click when describing why they're booking. Mix urgent symptoms (pain, swelling, trauma) with routine concerns (sensitivity, cosmetic) AND with concerns specific to the services the clinic emphasizes (e.g., for an implant practice include "Loose Implant"; for a family practice include "Kids' First Visit"; for cosmetic include "Stained Teeth"). Tailor the mix to the clinic's actual service emphasis.
 - "clinic.treatmentJourney" is exactly 6 steps describing what a typical patient experiences at THIS clinic. Each step: "title" (3-5 words, title case) and "description" (1-2 sentences, 100-220 chars). ${template === "family-dentistry"
@@ -196,19 +203,23 @@ Required fields: clinic.name, clinic.phone, doctor.name, doctor.bio. Omit other 
                   required: ["title", "description"],
                 },
               },
-              implantOptions: {
-                type: Type.ARRAY,
-                minItems: 3,
-                maxItems: 6,
-                items: {
-                  type: Type.OBJECT,
-                  properties: {
-                    title: { type: Type.STRING },
-                    description: { type: Type.STRING },
-                  },
-                  required: ["title", "description"],
-                },
-              },
+              ...(skipImplantOptions
+                ? {}
+                : {
+                    implantOptions: {
+                      type: Type.ARRAY,
+                      minItems: 3,
+                      maxItems: 6,
+                      items: {
+                        type: Type.OBJECT,
+                        properties: {
+                          title: { type: Type.STRING },
+                          description: { type: Type.STRING },
+                        },
+                        required: ["title", "description"],
+                      },
+                    },
+                  }),
               faqItems: {
                 type: Type.ARRAY,
                 minItems: 6,

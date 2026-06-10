@@ -14,6 +14,7 @@ import { extractClinicProfile } from "./extract";
 import { generateSceneImage } from "./image";
 import { buildAndBundle } from "./build";
 import {
+  fixedServiceCategories,
   procedureByKey,
   procedureFromDentistType,
   procedureFromSelected,
@@ -625,7 +626,9 @@ export async function runCustomize(args: RunCustomizeArgs): Promise<RunCustomize
       commonSymptoms: profile.clinic.commonSymptoms?.slice(0, 10),
       stats: profile.clinic.stats?.slice(0, 4),
       benefits: profile.clinic.benefits?.slice(0, 6),
-      implantOptions: profile.clinic.implantOptions?.slice(0, 6),
+      implantOptions:
+        (procedure ? fixedServiceCategories(procedure.key) : null) ??
+        profile.clinic.implantOptions?.slice(0, 6),
       faqItems: profile.clinic.faqItems?.slice(0, 6),
       footerAbout: profile.clinic.footerAbout,
     },

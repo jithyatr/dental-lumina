@@ -14,7 +14,7 @@ import type {
 } from "../../src/types/clinic";
 import { DOCTOR_REFERENCE_BASENAME } from "./assetOptimization";
 import { generateSceneImage, type SceneKind } from "./image";
-import { procedureByKey } from "./procedures";
+import { fixedServiceCategories, procedureByKey } from "./procedures";
 
 const REPO_ROOT = path.resolve(__dirname, "..", "..");
 const CLINICS_DATA_DIR = path.join(REPO_ROOT, "data", "clinics");
@@ -269,6 +269,11 @@ Return ONLY a JSON object: {"items":[{"question":"...","answer":"..."}, ...]}`;
 }
 
 async function regenImplantOptions(config: ClinicConfig): Promise<void> {
+  const fixed = fixedServiceCategories(config.procedure);
+  if (fixed) {
+    config.clinic.implantOptions = fixed.map((item) => ({ ...item }));
+    return;
+  }
   const ctx = clinicContext(config);
   const subjectNote =
     config.template === "implants"
