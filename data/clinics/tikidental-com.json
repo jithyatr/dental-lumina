@@ -1,0 +1,311 @@
+{
+  "clinic": {
+    "name": "Tiki Dental",
+    "tagline": "Your Trusted Family Dentist In Paradise",
+    "city": "Hallandale",
+    "phone": "(954) 889-8889",
+    "address": "501 Golden Isles Dr, Suite 202 Hallandale, 33009, Florida, United States",
+    "hours": "Mon – Fri 9:00 am – 5:00 pm, Sat – Sun Closed",
+    "logoPath": "/clinics/tikidental-com/logo.webp",
+    "logoIsLight": false,
+    "logoIsWordmark": false,
+    "heroSubtitle": "Help your child build healthy habits and confident smiles for life with pediatric dentistry at Tiki Dental. Our dedicated team provides gentle, high-quality care in a fun, welcoming, and stress-free environment, ensuring positive dental experiences from their first tooth through their teenage years.",
+    "differentiators": [
+      {
+        "title": "Therapy Dog Assisted Visits",
+        "description": "Our lovable therapy dog, Bailey, helps create a calm and comforting environment, making dental visits easier and more enjoyable for kids."
+      },
+      {
+        "title": "Fluent in Spanish",
+        "description": "Dr. Adelson provides the highest standard of patient care in both English and Spanish, ensuring every family feels welcome."
+      },
+      {
+        "title": "Emphasis on Prevention",
+        "description": "We focus on early prevention and education to stop cavities before they begin, promoting lifelong healthy oral habits."
+      },
+      {
+        "title": "Holistic Oral Health",
+        "description": "Our approach recognizes the deep connection between the mouth and body, prioritizing optimal oral development and overall wellness."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Warm Welcome & Office Tour",
+        "description": "Your child receives a warm welcome and a happy-visit tour of our office, designed to make them feel comfortable and excited about their dental visit."
+      },
+      {
+        "title": "Gentle First Exam & Consultation",
+        "description": "We conduct a gentle first exam and parent consultation to understand your child's unique needs, setting the stage for personalized care."
+      },
+      {
+        "title": "Cleaning & Brushing Coaching",
+        "description": "Children receive age-tailored cleaning, fluoride treatment, and fun brushing coaching to instill healthy oral hygiene habits from an early age."
+      },
+      {
+        "title": "Cavity Treatment & Repair",
+        "description": "If needed, cavities or other repair work are treated using tell-show-do techniques and child-sized tools for a calm and stress-free experience."
+      },
+      {
+        "title": "Preventive Add-Ons",
+        "description": "We offer preventive add-ons like sealants or custom mouthguards to further protect your child's teeth and promote long-term oral health."
+      },
+      {
+        "title": "Ongoing 6-Month Checkups",
+        "description": "Your child will have ongoing 6-month checkups that grow with them through their teenage years, ensuring continuous care and monitoring of their developing smile."
+      }
+    ],
+    "commonSymptoms": [
+      "First Tooth Visit",
+      "Cavity in Baby Tooth",
+      "Tooth Pain",
+      "Chipped Baby Tooth",
+      "Thumb Sucking",
+      "Knocked-Out Tooth",
+      "Pediatric Cleaning",
+      "Sealants Needed",
+      "Anxious About Dentist",
+      "Special Needs Care"
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Pediatric Experience"
+      },
+      {
+        "value": "5+",
+        "label": "Communities Served"
+      },
+      {
+        "value": "4",
+        "label": "Specialized Services"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Healthy Oral Development",
+        "description": "Supports proper growth of teeth and jaws for lifelong wellness."
+      },
+      {
+        "title": "Cavity Prevention",
+        "description": "Proactive measures like sealants shield young teeth from decay."
+      },
+      {
+        "title": "Gentle Care Experience",
+        "description": "Reduces anxiety and builds positive associations with dental visits."
+      },
+      {
+        "title": "Early Problem Detection",
+        "description": "Identifies and addresses dental issues before they become serious."
+      },
+      {
+        "title": "Lifelong Healthy Habits",
+        "description": "Instills good oral hygiene routines from a young age."
+      },
+      {
+        "title": "Confident, Happy Smiles",
+        "description": "Helps children achieve and maintain beautiful, healthy smiles."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Preventive Dental Care",
+        "description": "Regular exams, cleanings, fluoride treatments, and sealants to protect growing smiles and prevent cavities."
+      },
+      {
+        "title": "Infant & Toddler Dental Care",
+        "description": "Early dental visits focused on monitoring oral development and establishing healthy habits from a young age."
+      },
+      {
+        "title": "Tooth-Colored Fillings",
+        "description": "Safe, natural-looking fillings used to repair cavities while preserving the appearance of children's teeth."
+      },
+      {
+        "title": "Emergency Pediatric Dentistry",
+        "description": "Prompt treatment for toothaches, broken teeth, dental injuries, and other unexpected dental emergencies."
+      },
+      {
+        "iconName": "",
+        "title": "Orthodontic Evaluations",
+        "description": "Early assessments to identify bite alignment issues and guide proper jaw and tooth development."
+      },
+      {
+        "iconName": "",
+        "title": "Sedation Dentistry for Children",
+        "description": "Comfort-focused options that help anxious or nervous children receive treatment in a relaxed environment."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "When should my child's first dental visit happen?",
+        "answer": "The initial visit focuses on getting to know your little one, a gentle informative exam, and empowering your family with resources for smiling success. We invite your child to bring their favorite toy for comfort."
+      },
+      {
+        "question": "How do you handle anxious or scared kids?",
+        "answer": "Our team, along with our therapy dog Bailey, creates a fun, welcoming, and stress-free environment. We use gentle techniques and a compassionate approach to make every visit positive."
+      },
+      {
+        "question": "Do you offer laughing gas or sedation for children?",
+        "answer": "The website does not explicitly state that laughing gas or sedation for children is offered. Please contact the office directly for more information on available options."
+      },
+      {
+        "question": "What if my child knocks out a baby tooth?",
+        "answer": "While the website doesn't specify action for a knocked-out baby tooth, for any dental emergency, it's best to contact Tiki Dental immediately for guidance and to schedule an urgent appointment."
+      },
+      {
+        "question": "Do you accept pediatric dental insurance?",
+        "answer": "Tiki Dental accepts various insurance plans. You can email Insurance@TikiDental.com to inquire about specific insurance information and coverage for pediatric dental services."
+      },
+      {
+        "question": "Are dental sealants safe for my child?",
+        "answer": "While not explicitly detailed, the clinic emphasizes early prevention to stop cavities. Dental sealants are generally considered safe and effective for protecting children's teeth from decay. Consult with Dr. Jennifer for personalized advice."
+      }
+    ],
+    "footerAbout": "Tiki Dental creates a fun, welcoming, and stress-free dental experience for every child, dedicated to providing gentle, high-quality care that helps kids build healthy habits and confident smiles for life.",
+    "heroHeadline": "Gentle Dentistry\nKids Actually\nLook Forward To.",
+    "heroCta": "Book Your Child's Visit",
+    "implantOptionsLabel": "Pediatric Services",
+    "implantOptionsHeadline": "Specialized Dental Care for Growing Smiles",
+    "implantOptionsSubheading": "From a baby's first checkup to a teen's orthodontic readiness, we deliver every service in a way that feels safe, friendly, and age-appropriate.",
+    "whyChooseLabel": "Why Families Trust Us",
+    "whyChooseHeadline": "A Pediatric Practice Built Around Your Child's Comfort",
+    "whyChooseSubheading": "Every detail of our practice — from the waiting room toys to our gentle pace — is designed to make kids feel safe and parents feel reassured.",
+    "processHeadline": "Your Child's Visit, Step By Step",
+    "processSubheading": "A predictable, gentle visit helps anxious kids relax. Here's exactly what to expect, from waiting room to high-five on the way out.",
+    "benefitsHeadline": "Why Parents Choose Our Pediatric Practice",
+    "faqLabel": "Pediatric FAQ",
+    "faqHeadline": "What Parents Ask Us Most",
+    "symptomCheckerHeadline": "Tell Us What's Bothering Your Child",
+    "symptomCheckerSubheading": "Tap whichever issue sounds closest — we'll get back to you with the right next step for kids.",
+    "testimonialsHeadline": "What Parents Are Saying",
+    "testimonialsSubheading": "Honest words from families who trust us with their kids' smiles.",
+    "beforeAfterHeadline": "Healthy Smiles, Happy Kids",
+    "beforeAfterSubheading": "Real outcomes from gentle pediatric care — cavities healed, confidence restored, and smiles that stay healthy as your child grows.",
+    "beforeAfterCases": [
+      {
+        "tag": "Pediatric",
+        "title": "Cavity Repair",
+        "subtitle": "Restored in a single gentle visit",
+        "beforeImage": "/clinics/tikidental-com/case-before-1781677394038-fzeki3.jpg",
+        "afterImage": "/clinics/tikidental-com/case-after-1781677408313-tnpe1z.jpg"
+      },
+      {
+        "tag": "Preventive",
+        "title": "Sealant & Fluoride Plan",
+        "subtitle": "Cavities stopped before they start",
+        "beforeImage": "/clinics/tikidental-com/case-before-1781678178421-h5ohze.jpg",
+        "afterImage": "/clinics/tikidental-com/case-after-1781678182428-sm5v36.jpg"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Chipped Tooth Repair",
+        "subtitle": "Same-day bonding, no tears",
+        "beforeImage": "/clinics/tikidental-com/case-before-1781677970568-2f6gd8.jpg",
+        "afterImage": "/clinics/tikidental-com/case-after-1781677987862-wnc726.jpg"
+      }
+    ],
+    "smileSimulatorHeadline": "AI Pediatric\nSmile Checker",
+    "smileSimulatorSubheading": "Upload a photo of your child's smile and tell us what concerns you most. Our AI assessment will flag anything worth a closer look, in plain language for parents.",
+    "bookingHeadline": "Book Your Child's Visit",
+    "bookingSubheading": "Same-week appointments for new pediatric patients. Pick a time that works for your family.",
+    "heroAssurances": [
+      "Kid-friendly office",
+      "Parents stay with kids",
+      "Most insurances accepted"
+    ],
+    "heroAvatars": [
+      {
+        "src": "/images/review-child-1.webp",
+        "name": "Emma R"
+      },
+      {
+        "src": "/images/review-child-2.webp",
+        "name": "Noah T"
+      },
+      {
+        "src": "/images/review-child-3.webp",
+        "name": "Liam S"
+      },
+      {
+        "src": "/images/review-child-4.webp",
+        "name": "Mia K"
+      }
+    ],
+    "smileSimulatorGoals": [
+      "Check a possible cavity",
+      "First-visit prep for my child",
+      "Worried about crooked teeth",
+      "Chipped or knocked-out tooth",
+      "Help with brushing habits"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Kid-Specialized Team",
+        "description": "Every team member is trained specifically for pediatric care, communication, and behavior guidance."
+      },
+      {
+        "title": "Tell-Show-Do Approach",
+        "description": "We explain every tool and step in kid-friendly language before we ever use it — no surprises, no fear."
+      },
+      {
+        "title": "Cavity-Prevention Focus",
+        "description": "Sealants, fluoride, and brushing coaching that stops cavities before they ever need a drill."
+      },
+      {
+        "title": "Special Needs Friendly",
+        "description": "Sensory-aware accommodations and extra time for kids who need a little more support to feel safe."
+      }
+    ],
+    "heroImagePath": "/clinics/tikidental-com/hero.webp",
+    "benefitsImagePath": "/clinics/tikidental-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/tikidental-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Jennifer Adelson",
+    "photoPath": "/clinics/tikidental-com/doctor.webp",
+    "bio": "Dr. Jennifer is a dedicated pediatric dentist and proud owner of Tiki Dental, with over 25 years of experience caring for children. Known for her compassionate approach, she ensures every visit is a fun and comfortable experience, helping kids develop healthy smiles while easing dental anxieties. In addition to comprehensive pediatric services, Dr. Jennifer offers myofunctional therapy, focusing on tongue posture and airway control to support optimal oral development and overall health. Her holistic approach ensures each child receives the highest standard of tailored care, shining through her passion for children.",
+    "yearsOfExperience": 25,
+    "specialistCredentials": [
+      "Pediatric Dentistry Specialist",
+      "Myofunctional Therapy Expert",
+      "Compassionate Patient Care",
+      "Holistic Oral Health Focus"
+    ],
+    "specialistPortraitPath": "/clinics/tikidental-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Sarah P.",
+      "text": "Dr. Jennifer and her team are wonderful! My daughter used to be so anxious about dentist visits, but they make it so fun and comforting. Bailey the therapy dog is a genius idea!",
+      "rating": 5
+    },
+    {
+      "name": "James K.",
+      "text": "We've been coming to Tiki Dental for years, and they always provide excellent care. The staff is friendly, and Dr. Jennifer is truly the best pediatric dentist. Highly recommend their gentle cleanings!",
+      "rating": 5
+    },
+    {
+      "name": "Maria L.",
+      "text": "My son needed a filling, and I was worried, but the team at Tiki Dental made it a breeze. They used kid-friendly methods and he felt totally at ease. Plus, they speak Spanish!",
+      "rating": 5
+    },
+    {
+      "name": "David R.",
+      "text": "The focus on prevention here is fantastic. We appreciate the education on healthy habits and the fluoride treatments for our kids. They really care about long-term oral health.",
+      "rating": 5
+    },
+    {
+      "name": "Emily C.",
+      "text": "The office is so welcoming and cheerful, perfect for kids. From scheduling to the actual visit, Ginna and the dental assistants make everything smooth and stress-free. A truly positive experience.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica M.",
+      "text": "Dr. Jennifer's holistic approach to oral health, including myofunctional therapy, is amazing. It's clear they look at the big picture for a child's development, not just their teeth.",
+      "rating": 5
+    }
+  ],
+  "template": "family-dentistry",
+  "procedure": "pediatric-dentistry",
+  "themeId": "custom",
+  "customThemeColor": "#207a6a"
+}

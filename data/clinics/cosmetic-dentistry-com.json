@@ -1,0 +1,295 @@
+{
+  "clinic": {
+    "name": "Beverly Hills Institute of Dental Esthetics",
+    "tagline": "Some of the most beautiful smiles in the world are created right here.",
+    "city": "Beverly Hills",
+    "phone": "(310) 982-4894",
+    "address": "436 N Roxbury Drive Suite 100, Beverly Hills, CA 90210",
+    "hours": "Mon 8:00 am - 5:00 pm, Tue 10:00 am - 7:00 pm, Wed 8:00 am - 5:00 pm, Thu 8:00 am - 5:00 pm, Fri 8:00 am - 4:00 pm",
+    "logoPath": "/clinics/cosmetic-dentistry-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Achieve the exquisitely beautiful, camera-ready smile you've always dreamed of with custom porcelain veneers from Beverly Hills Institute of Dental Esthetics. Our tailored smile makeovers transform discolored, chipped, or uneven teeth into natural-looking, durable results, giving you lasting confidence. Experience dentistry crafted with a minimally invasive philosophy that prioritizes the preservation of your natural tooth structure.",
+    "differentiators": [
+      {
+        "title": "Minimally Invasive Approach",
+        "description": "Our philosophy focuses on preserving natural tooth structure, ensuring the least amount of reduction for beautiful, functional outcomes."
+      },
+      {
+        "title": "World-Renowned Expertise",
+        "description": "Dr. LeSage is an Accredited Fellow of the American Academy of Cosmetic Dentistry and an international lecturer."
+      },
+      {
+        "title": "Advanced Dental Technology",
+        "description": "We utilize digital x-rays, optically scanned impressions, and CAD-CAM CEREC for precise and efficient treatment."
+      },
+      {
+        "title": "Custom Smile Design",
+        "description": "We craft some of the most beautiful smiles in the world, tailored to each patient's unique esthetic goals."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Cosmetic Consultation & Smile Analysis",
+        "description": "Your journey begins with a thorough evaluation of your oral health and an in-depth discussion of your aesthetic goals. We'll analyze your smile to understand how veneers can best enhance your natural beauty."
+      },
+      {
+        "title": "Digital Smile Design Preview",
+        "description": "We will work with you to design your ideal smile, considering your facial features and preferences. You'll have the opportunity to preview your potential new smile before any treatment begins, ensuring it aligns with your vision."
+      },
+      {
+        "title": "Gentle Preparation & Impressions",
+        "description": "With a focus on minimally invasive techniques, a small amount of enamel is gently prepared from your teeth. Precise digital impressions are then taken to create a perfect mold for your custom veneers."
+      },
+      {
+        "title": "Custom Porcelain Lab Fabrication",
+        "description": "These impressions are sent to a master dental lab where skilled ceramists meticulously craft your porcelain veneers. During this period, you will wear temporary veneers to protect your prepared teeth and maintain aesthetics."
+      },
+      {
+        "title": "Bonding & Final Reveal",
+        "description": "Once your custom veneers arrive, they are carefully bonded to your teeth, creating a strong, natural-looking, and permanent result. We ensure a perfect fit and shade match for your radiant new smile."
+      },
+      {
+        "title": "Follow-Up & Long-Term Care",
+        "description": "After your veneers are placed, we provide detailed instructions for care and schedule follow-up appointments. This ensures the longevity and beauty of your new smile, protecting your investment for years to come."
+      }
+    ],
+    "commonSymptoms": [
+      "Stained Teeth",
+      "Chipped Front Tooth",
+      "Gaps Between Teeth",
+      "Worn Down Teeth",
+      "Slightly Crooked Teeth",
+      "Yellow Discoloration",
+      "Uneven Tooth Shape",
+      "Want Whiter Smile",
+      "Old Bonding Failing",
+      "Smile Makeover"
+    ],
+    "stats": [
+      {
+        "value": "3",
+        "label": "Dentists with Dual Fellowships"
+      },
+      {
+        "value": "60+",
+        "label": "Accredited AACD Fellows"
+      },
+      {
+        "value": "15+",
+        "label": "Years Serving Patients"
+      },
+      {
+        "value": "10,000+",
+        "label": "Smiles Transformed Globally"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Flawless Smile Aesthetics",
+        "description": "Achieve a perfectly shaped, bright, and uniform smile that enhances your overall appearance."
+      },
+      {
+        "title": "Natural-Looking Results",
+        "description": "Custom-crafted porcelain ensures your new smile blends seamlessly with your natural facial features."
+      },
+      {
+        "title": "Durable and Long-Lasting",
+        "description": "Porcelain veneers are highly resistant to stains and wear, offering a beautiful smile for years."
+      },
+      {
+        "title": "Minimally Invasive",
+        "description": "Dr. LeSage's philosophy preserves as much natural tooth structure as possible during treatment."
+      },
+      {
+        "title": "Boosted Confidence",
+        "description": "A radiant, confident smile can transform your self-esteem and how you interact with the world."
+      },
+      {
+        "title": "Corrects Multiple Flaws",
+        "description": "Veneers effectively cover discoloration, chips, gaps, and minor misalignments for a complete makeover."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Porcelain Veneers",
+        "description": "Durable, stain-resistant veneers that provide a natural-looking smile transformation."
+      },
+      {
+        "title": "Composite Veneers",
+        "description": "A cost-effective solution using tooth-colored resin to improve the appearance of teeth."
+      },
+      {
+        "title": "No-Prep Veneers",
+        "description": "Ultra-thin veneers that require little to no removal of natural tooth enamel."
+      },
+      {
+        "title": "Minimal-Prep Veneers",
+        "description": "Conservatively designed veneers that preserve more of the natural tooth structure."
+      },
+      {
+        "title": "Lumineers®",
+        "description": "Thin, custom-made veneers that can often be placed without extensive tooth preparation."
+      },
+      {
+        "title": "Smile Makeover Veneers",
+        "description": "Multiple veneers strategically placed to create a balanced, uniform, and attractive smile."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long do porcelain veneers last?",
+        "answer": "Porcelain veneers are highly durable and can last for many years, often 10-15+ years, with proper care and maintenance. Their longevity depends on individual habits and oral hygiene."
+      },
+      {
+        "question": "How many visits does veneer treatment take?",
+        "answer": "Typically, porcelain veneer treatment involves a few visits: an initial consultation, preparation and impressions, and then the final bonding appointment. Temporary veneers are often worn between visits."
+      },
+      {
+        "question": "Will my teeth be ground down for veneers?",
+        "answer": "Dr. LeSage employs a minimally invasive philosophy, preserving as much natural tooth structure as possible. Preparation is gentle and tailored to achieve a beautiful, functional result."
+      },
+      {
+        "question": "Can I see what my new smile will look like first?",
+        "answer": "While not explicitly stated as 'Digital Smile Design', our practice emphasizes custom smile makeovers and esthetic dentistry, suggesting a preview process to ensure your desired outcome."
+      },
+      {
+        "question": "Do you offer financing for cosmetic dentistry?",
+        "answer": "The website mentions 'Financial Policies' but does not specify financing options for cosmetic dentistry. It is recommended to contact the office directly for detailed financial information."
+      },
+      {
+        "question": "Veneers vs. bonding vs. crowns—what's right for me?",
+        "answer": "The best option depends on your specific needs and goals. We offer comprehensive evaluations to determine whether veneers, bonding, or crowns are the most suitable and conservative solution for your smile transformation."
+      }
+    ],
+    "footerAbout": "Beverly Hills Institute of Dental Esthetics crafts exquisitely beautiful smiles in Beverly Hills, focusing on minimally invasive porcelain veneers and comprehensive cosmetic dentistry.",
+    "heroHeadline": "Custom Veneers.\nNatural Smiles.\nReal Confidence.",
+    "heroCta": "Book a Smile Consultation",
+    "implantOptionsLabel": "Smile Makeover Services",
+    "implantOptionsHeadline": "Cosmetic Solutions Centered on Veneers",
+    "implantOptionsSubheading": "Whether you want one chipped front tooth corrected or a full smile redesigned, our veneer-focused services deliver natural, balanced results.",
+    "whyChooseLabel": "Why Choose Our Veneer Studio",
+    "whyChooseHeadline": "Hand-Crafted Veneers, Designed Around Your Face",
+    "whyChooseSubheading": "Every veneer case is designed with your facial proportions, skin tone, and personality in mind — never a one-shade-fits-all approach.",
+    "processHeadline": "Your Veneer Smile Journey",
+    "processSubheading": "From digital smile preview to your final reveal, here's how a custom veneer treatment unfolds — typically in just a few weeks.",
+    "benefitsHeadline": "Why Patients Choose Veneers Here",
+    "faqLabel": "Veneers FAQ",
+    "faqHeadline": "Common Questions About Porcelain Veneers",
+    "symptomCheckerHeadline": "What Would You Change About Your Smile?",
+    "symptomCheckerSubheading": "Pick the concerns that bother you most — we'll show you whether veneers (or another cosmetic option) would fix them.",
+    "testimonialsHeadline": "Real Smile Transformations",
+    "testimonialsSubheading": "Patients whose veneers gave them a smile they can finally feel proud of.",
+    "beforeAfterHeadline": "See Real Veneer Transformations",
+    "beforeAfterSubheading": "Side-by-side before and after photos of our actual patients — natural-looking porcelain veneers designed and placed in-house.",
+    "beforeAfterCases": [
+      {
+        "tag": "Veneers",
+        "title": "Full Smile Veneer Set",
+        "subtitle": "10 porcelain veneers, 2 visits",
+        "beforeImage": "/clinics/cosmetic-dentistry-com/case-before-1781239287056-znazuo.png",
+        "afterImage": "/clinics/cosmetic-dentistry-com/case-after-1781239294915-m9w87n.png"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Single-Tooth Veneer",
+        "subtitle": "Reshaped and matched in one appointment",
+        "beforeImage": "/clinics/cosmetic-dentistry-com/case-before-1781239321855-mubnes.png",
+        "afterImage": "/clinics/cosmetic-dentistry-com/case-after-1781239330255-rf3ke9.png"
+      },
+      {
+        "tag": "Makeover",
+        "title": "Whitening + Veneer Combo",
+        "subtitle": "Brightened and refined in 3 weeks",
+        "beforeImage": "/clinics/cosmetic-dentistry-com/case-before-1781239350105-xk840a.png",
+        "afterImage": "/clinics/cosmetic-dentistry-com/case-after-1781239358081-tzci3v.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
+    "smileSimulatorSubheading": "Upload a selfie and tell us what you'd like to change — our AI smile preview gives you a sense of how veneers could reshape, brighten, and balance your smile.",
+    "bookingHeadline": "Book Your Veneer Consultation",
+    "bookingSubheading": "Sit down with us, see a digital smile preview, and walk out with a clear plan and timeline.",
+    "heroAssurances": [
+      "Digital smile preview",
+      "Custom porcelain shades",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Whiter, brighter smile",
+      "Fix chipped or uneven teeth",
+      "Close gaps between teeth",
+      "Reshape my smile",
+      "Full smile makeover"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Smile-Design First",
+        "description": "We design your full smile on screen before any tooth is touched, so you approve the look before we commit."
+      },
+      {
+        "title": "Hand-Layered Porcelain",
+        "description": "Premium porcelain shaped and stained by an artisan lab — never a generic, monolithic look."
+      },
+      {
+        "title": "Conservative Preparation",
+        "description": "We remove only what's needed and preserve as much natural tooth as possible for long-term health."
+      },
+      {
+        "title": "Long-Term Care Plan",
+        "description": "Custom nightguards, gentle hygiene visits, and aesthetic touch-ups that protect your investment."
+      }
+    ],
+    "heroImagePath": "/clinics/cosmetic-dentistry-com/hero.webp",
+    "benefitsImagePath": "/clinics/cosmetic-dentistry-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/cosmetic-dentistry-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Brian LeSage",
+    "credentials": "DDS, FAGD, FAACD",
+    "bio": "Dr. Brian LeSage, DDS, FAGD, FAACD, earned his doctor of dental surgery degree from the University of Maryland, Baltimore College of Dental Surgery in 1983, graduating magna cum laude. He then completed a general residency program at the University of California, Los Angeles, School of Dentistry. With a career spanning decades, Dr. LeSage is a world-renowned expert in esthetic and reconstructive dentistry, teaching extensively and establishing the Beverly Hills Institute of Dental Esthetics in 1990. He is dedicated to preserving natural tooth structure and creating exquisitely beautiful smiles.",
+    "photoPath": "/clinics/cosmetic-dentistry-com/doctor.webp",
+    "specialistCredentials": [
+      "Accredited Fellow, AACD",
+      "Fellow, American Academy of Esthetic Dentistry",
+      "Founder, UCLA Aesthetic Continuum",
+      "Minimally Invasive Veneer Specialist"
+    ],
+    "specialistPortraitPath": "/clinics/cosmetic-dentistry-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Samantha B.",
+      "text": "Dr. LeSage and his wife are the two absolute best dentists in the world and two of the best people as well. The entire group of dental technicians and staff are amazing at their jobs, are really great people, and are really nice throughout the sometimes awful dental process. I will never see another dentist again. This practice is perfection.",
+      "rating": 5
+    },
+    {
+      "name": "Karla M.",
+      "text": "Dentists have suggested I could have veneers to fix my front teeth, but I didn’t want to take enamel off my teeth. But Dr. LeSage, with his amazing bonding technique was able to fix them without having to take any enamel at all! The fact that he likes to preserve as much natural teeth structure as possible gave me a reason to trust him. My teeth look amazing!! I can’t stop looking at myself in the mirror!",
+      "rating": 5
+    },
+    {
+      "name": "Dani B.",
+      "text": "I saw Dr. LeSage as a teenager when he was back in Washington DC, and have always received compliments on his work—the fillings which are still as good as when he put them in 25 years ago. Now that I’m in Los Angeles, I’m so glad to be able to see Dr. LeSage again and his team.",
+      "rating": 5
+    },
+    {
+      "name": "Nobu N.",
+      "text": "I have been coming here for more than 15 years now and used to travel all the way from Japan to see him. Probably the best dentist in US, if not the best in the world.",
+      "rating": 5
+    },
+    {
+      "name": "Christine C.",
+      "text": "I highly recommend Dr. LeSage. He is very thorough and does an excellent job. His office is very well-organized.",
+      "rating": 5
+    },
+    {
+      "name": "Lisa B.",
+      "text": "Dr. LeSage is unmatched when it comes to his dental expertise, knowledge, creativity, skill, level of care and professionalism. He is a compassionate provider who cares deeply about each and every patient and their overall oral health. The results he achieves demonstrate this expertise. The staff is efficient and welcoming providing an exceptional overall experience.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "veneers",
+  "themeId": "custom",
+  "customThemeColor": "#e6ccad"
+}
