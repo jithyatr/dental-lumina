@@ -1,0 +1,290 @@
+{
+  "clinic": {
+    "name": "EZ Dental Clinic",
+    "tagline": "Crafting Smiles as Unique as You Are",
+    "city": "Houston",
+    "phone": "(281) 498-2929",
+    "address": "6732 S Texas 6, Houston, TX 77083",
+    "logoPath": "/clinics/ezdentalclinic-com/logo.svg",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with comprehensive full mouth restoration at EZ Dental Clinic. Our advanced treatments, including dental implants and prosthetics, are tailored to your unique needs, offering a permanent solution for extensive dental wear, damage, or loss. With an in-house lab, we streamline your treatment process, ensuring efficient and precise results.",
+    "differentiators": [
+      {
+        "title": "In-House Lab",
+        "description": "Utilizing our state-of-the-art on-site dental laboratory, we streamline treatment, reduce wait times, and deliver faster, more precise results."
+      },
+      {
+        "title": "Personalized Care",
+        "description": "Every patient is treated as a unique individual with distinct needs, ensuring tailored and respectful care like family."
+      },
+      {
+        "title": "Advanced Treatments",
+        "description": "From routine checkups to complete smile makeovers, experience modern dental care with advanced treatments in a welcoming environment."
+      },
+      {
+        "title": "Prosthodontic Expertise",
+        "description": "Dr. Rathi specializes in dental implants and full-mouth rehabilitation, bringing extensive experience and knowledge to complex cases."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "Your journey begins with a thorough consultation, including full records, CBCT scans, and photography to assess your unique needs and determine the best approach for your full mouth restoration."
+      },
+      {
+        "title": "Collaborative Digital Plan",
+        "description": "We develop a customized digital treatment plan with mockups of your final smile and bite, ensuring you are involved in every step and confident in the proposed outcome."
+      },
+      {
+        "title": "Foundation Phase",
+        "description": "This phase involves necessary preparatory work such as extractions, implant placement, and any required gum or bone work, laying a strong foundation for your new smile."
+      },
+      {
+        "title": "Provisional Restorations",
+        "description": "Temporary restorations are placed to test your new bite, aesthetics, and function, allowing for adjustments and ensuring comfort before the final restorations are made."
+      },
+      {
+        "title": "Custom Lab Fabrication",
+        "description": "Utilizing our in-house lab, your final, permanent restorations are custom-fabricated with precision and artistry, ensuring a perfect fit and natural appearance, followed by delivery."
+      },
+      {
+        "title": "Long-Term Maintenance",
+        "description": "We provide a comprehensive maintenance plan, including nightguards, regular hygiene visits, and protective care, to ensure the longevity and continued health of your full mouth restoration."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Multiple Failing Crowns",
+      "Cracked Teeth",
+      "Missing Teeth",
+      "Jaw Pain / TMJ",
+      "Difficulty Chewing",
+      "Old Dentures Failing",
+      "Acid Erosion",
+      "Grinding Damage",
+      "Want Whole Mouth Rebuilt"
+    ],
+    "stats": [
+      {
+        "value": "25,000+",
+        "label": "Implants Placed"
+      },
+      {
+        "value": "1–3",
+        "label": "Days Appointment Availability"
+      },
+      {
+        "value": "20+",
+        "label": "Dental Services Offered"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Restored Chewing Function",
+        "description": "Eat your favorite foods with confidence and comfort again."
+      },
+      {
+        "title": "Enhanced Smile Aesthetics",
+        "description": "Achieve a natural-looking and beautiful smile that complements your facial features."
+      },
+      {
+        "title": "Improved Oral Health",
+        "description": "Replace failing teeth and restorations to prevent further dental issues."
+      },
+      {
+        "title": "Long-Term Solution",
+        "description": "Invest in a durable and lasting restoration for your entire mouth."
+      },
+      {
+        "title": "Increased Confidence",
+        "description": "Regain self-assurance with a fully functional and attractive smile."
+      },
+      {
+        "title": "Preserves Jawbone Integrity",
+        "description": "Implants stimulate the jawbone, preventing bone loss often associated with missing teeth."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "Replace missing teeth with permanent, natural-looking restorations that restore chewing ability, jawbone health, and confidence."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "A secure alternative to traditional dentures that uses dental implants for improved stability, comfort, and function."
+      },
+      {
+        "title": "Dental Crowns & Bridges",
+        "description": "Restore damaged, weakened, or missing teeth with custom-crafted restorations designed for strength, aesthetics, and long-term durability."
+      },
+      {
+        "title": "Porcelain Veneers",
+        "description": "Enhance the appearance of worn, chipped, stained, or uneven teeth with thin, natural-looking porcelain shells."
+      },
+      {
+        "title": "Full & Partial Dentures",
+        "description": "Replace multiple missing teeth with custom dentures that improve speech, chewing efficiency, and smile aesthetics."
+      },
+      {
+        "title": "Bite Reconstruction & TMJ Therapy",
+        "description": "Correct bite misalignment, excessive tooth wear, and jaw discomfort to restore proper function and long-term oral health."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does a full mouth restoration take?",
+        "answer": "The timeline for full mouth restoration varies depending on individual needs and the complexity of your case. Dr. Rathi will provide a detailed treatment plan and estimated timeline during your comprehensive consultation."
+      },
+      {
+        "question": "How much does full mouth reconstruction cost?",
+        "answer": "Full mouth reconstruction is a highly personalized treatment, so costs vary. We will discuss all financial aspects during your consultation and work with most major PPO plans to maximize your benefits."
+      },
+      {
+        "question": "Why do I need a prosthodontist instead of a general dentist for full mouth restoration?",
+        "answer": "A prosthodontist like Dr. Rathi specializes in complex dental restorations, including dental implants and full-mouth rehabilitation. Their advanced training ensures comprehensive planning and execution for optimal results in challenging cases."
+      },
+      {
+        "question": "Will I have to be without teeth at any point during treatment?",
+        "answer": "We prioritize your comfort and appearance throughout the process. During the provisional phase, we provide temporary restorations to ensure you always have a functional and aesthetic smile while your permanent ones are being crafted."
+      },
+      {
+        "question": "How do you handle TMJ pain and bite issues?",
+        "answer": "Dr. Rathi offers TMD treatment to relieve jaw pain, headaches, and clicking joints. Addressing bite issues is a fundamental part of full mouth rehabilitation to ensure proper function and comfort."
+      },
+      {
+        "question": "Do you offer sedation for long appointments?",
+        "answer": "While the website does not explicitly mention sedation, our patient-centered approach ensures your comfort. We encourage you to discuss any anxiety or concerns with our team during your consultation."
+      }
+    ],
+    "footerAbout": "EZ Dental Clinic is dedicated to providing high-quality dental care in Houston, focusing on patient comfort, education, and long-term oral health through comprehensive services and advanced treatments.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/clinics/ezdentalclinic-com/case-before-1781760686706-8hmjny.png",
+        "afterImage": "/clinics/ezdentalclinic-com/case-after-1781760714218-x1k2e5.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/clinics/ezdentalclinic-com/case-before-1781761515109-kc6fmh.png",
+        "afterImage": "/clinics/ezdentalclinic-com/case-after-1781761526963-z72lfi.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/clinics/ezdentalclinic-com/case-before-1781761587826-k5drw3.png",
+        "afterImage": "/clinics/ezdentalclinic-com/case-after-1781761601331-b3e2nb.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/ezdentalclinic-com/hero.webp",
+    "benefitsImagePath": "/clinics/ezdentalclinic-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/ezdentalclinic-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Nakul Rathi",
+    "credentials": "BDS, MS",
+    "bio": "Dr. Nakul Rathi specializes in dental implants and full-mouth rehabilitation, bringing a wealth of expertise to complex cases. He pursued advanced training at New York University College of Dentistry for dental implants and completed his Master of Science and an Advanced Prosthodontics Clinical Residency Program at The Ohio State University. At OSU’s Implant Clinic, one of the oldest implant programs in the U.S., Dr. Rathi gained hands-on experience with diverse implant systems, contributing to over 25,000 implants placed. Recognized by the American Dental Association as a ‘New and Emerging Speaker,’ he teaches continuing education courses globally, lecturing on implant dentistry and CAD-CAM technology. Dr. Rathi is passionate about leveraging technology, including 3D printing and stereolithography, to enhance patient outcomes, ensuring personalized and precise care.",
+    "photoPath": "/clinics/ezdentalclinic-com/doctor.webp",
+    "specialistCredentials": [
+      "Advanced Prosthodontics Specialist",
+      "Full-Mouth Rehabilitation Expert",
+      "Implant Dentistry Focus",
+      "CAD-CAM Technology Lecturer"
+    ],
+    "specialistPortraitPath": "/clinics/ezdentalclinic-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Rodolfo Morales",
+      "text": "I walked into EZ Dental, I felt comfortable and welcomed. The staff was incredibly friendly and professional, and the office was spotless and well-organized. Dr. was thorough and patient during my checkup, explaining...",
+      "rating": 5
+    },
+    {
+      "name": "Abdul Khan",
+      "text": "The office is very well organized and clean. All Doctors and staff are very friendly and cooperative. I wish their every success in future. I recommend them to everyone. I use this office since 2012 for me and my family...",
+      "rating": 5
+    },
+    {
+      "name": "Rizzoli",
+      "text": "I had a really nice experience. Dr. Rathi was very helpful during my appointment. He explained things and answered all my questions. He gave me options and was very polite.",
+      "rating": 5
+    },
+    {
+      "name": "Bukola Komolafe",
+      "text": "Their customer service is exceptional, and I would highly recommend them to anyone dealing with dental issues. I had an implant procedure, and they effectively resolved my dental problems...",
+      "rating": 5
+    },
+    {
+      "name": "Abriana Brown",
+      "text": "Went to see Dr Rathi today he is excellent at what he does, God really blessed him with patience and knowledge, I was so scared and he made everything smooth and painless, Mrs Evelyn...",
+      "rating": 5
+    },
+    {
+      "name": "Sarah P.",
+      "text": "After years of dealing with failing dental work, Dr. Rathi and his team gave me my smile and confidence back. The full mouth restoration process was clearly explained, and the results are incredible.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#478999"
+}
