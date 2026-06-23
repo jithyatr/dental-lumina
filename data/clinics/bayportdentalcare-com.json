@@ -1,0 +1,292 @@
+{
+  "clinic": {
+    "name": "Bayport Dental Care",
+    "tagline": "Happy Patients, Healthy Smiles at Bayport Dental Care",
+    "city": "Bayport",
+    "phone": "(631) 472-3333",
+    "address": "594 Montauk Hwy, Bayport, NY 11705, USA",
+    "hours": "Mon 9 AM - 6 PM, Tue 9 AM - 5 PM, Wed 9 AM - 6 PM, Thu 9 AM - 6 PM, Fri Closed, Sat 8 AM - 1 PM (3 Per Month), Sun Closed",
+    "logoPath": "/clinics/bayportdentalcare-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with Dental implants from Bayport Dental Care. This innovative procedure offers a permanent solution for missing or failing teeth, often delivered in a single day, helping preserve jawbone health and providing teeth that look and function like natural ones. Our use of AI-centric technology and comprehensive imaging ensures precise diagnostics and personalized treatment plans for your optimal oral health.",
+    "differentiators": [
+      {
+        "title": "Advanced Digital Imaging",
+        "description": "Utilizing cone beam computed tomography and 3D imaging for precise diagnostics and implant planning."
+      },
+      {
+        "title": "AI-Powered Dentistry",
+        "description": "Harnessing Artificial Intelligence for accurate diagnostics, personalized plans, and efficient procedures."
+      },
+      {
+        "title": "Flexible Financing Options",
+        "description": "Accepts most PPO insurances and offers an in-house discount plan for uninsured patients."
+      },
+      {
+        "title": "Convenient Saturday Hours",
+        "description": "Open on Saturdays to accommodate busy schedules, ensuring access to essential dental care."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Consultation & 3D Imaging",
+        "description": "Your journey begins with a full consultation, including CBCT 3D imaging, to comprehensively assess your oral health and jawbone structure. This allows for precise digital surgical planning."
+      },
+      {
+        "title": "Digital Surgical Planning",
+        "description": "Based on your 3D scans, a detailed digital surgical plan is created, and your temporary bridge is meticulously fabricated in our lab, tailored to your unique smile."
+      },
+      {
+        "title": "Surgical Day & New Teeth",
+        "description": "On your surgical day, any remaining failing teeth are removed, four dental implants are strategically placed, and your fixed temporary teeth are delivered, often allowing you to walk out with a new smile."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "Over the next 3-6 months, your implants will heal and integrate with your jawbone, a process called osseointegration, ensuring a strong and stable foundation."
+      },
+      {
+        "title": "Final Prosthesis Design",
+        "description": "Once healing is complete, impressions are taken, and your final permanent prosthesis is custom-designed, focusing on aesthetics, comfort, and optimal function."
+      },
+      {
+        "title": "Delivery & Long-Term Care",
+        "description": "The final Implant teeth are delivered, providing you with a beautiful, permanent smile. We then provide a long-term hygiene plan to ensure the lasting success of your new teeth."
+      }
+    ],
+    "commonSymptoms": [
+      "Most Teeth Missing",
+      "Loose Dentures",
+      "Tired of Denture Adhesive",
+      "Failing Teeth",
+      "Bone Loss in Jaw",
+      "Difficulty Eating",
+      "Embarrassed to Smile",
+      "Old Bridge Failing",
+      "Sunken Facial Appearance",
+      "Want Fixed Teeth"
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Expertise"
+      },
+      {
+        "value": "200+",
+        "label": "5-Star Reviews"
+      },
+      {
+        "value": "99.09%",
+        "label": "Implant Success Rate"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Permanent Tooth Replacement",
+        "description": "Enjoy a long-lasting, fixed solution for missing or failing teeth."
+      },
+      {
+        "title": "Restores Chewing Function",
+        "description": "Eat your favorite foods confidently and without discomfort."
+      },
+      {
+        "title": "Natural Look and Feel",
+        "description": "Implants provides teeth that closely mimic your natural smile."
+      },
+      {
+        "title": "Preserves Jawbone Health",
+        "description": "Helps prevent bone loss often associated with missing teeth."
+      },
+      {
+        "title": "Enhanced Confidence",
+        "description": "Smile, speak, and laugh freely with a secure and complete smile."
+      },
+      {
+        "title": "Improved Speech Clarity",
+        "description": "Fixed teeth eliminate the slipping of dentures, promoting clear speech."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implant",
+        "description": "Replace one missing tooth with a durable implant and natural-looking crown."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Restore several missing teeth with strategically placed implants for a secure, long-lasting solution."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "title": "Dental Implants",
+        "description": "Restore a full arch of teeth using four strategically placed implants and a fixed prosthesis."
+      },
+      {
+        "title": "Same-Day Dental Implants",
+        "description": "Receive dental implants and temporary teeth in a single appointment, where clinically appropriate."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How do dental implants work to replace missing teeth?",
+        "answer": "Dental implants are titanium posts surgically placed into the jawbone to act as artificial tooth roots. These posts fuse with the bone, providing a stable foundation for crowns, bridges, or full arches that look and function like natural teeth."
+      },
+      {
+        "question": "Am I a good candidate for dental implants?",
+        "answer": "Most adults with missing or failing teeth are candidates for dental implants. Dr. Modgil will assess your oral health, including bone density, during an initial consultation to determine the best treatment plan for you, even if you have bone loss."
+      },
+      {
+        "question": "How long does the dental implant process take from start to finish?",
+        "answer": "The entire dental implant process typically spans several months. This includes initial consultation and planning, surgical placement, a healing period for osseointegration, and finally, the placement of your permanent restoration."
+      },
+      {
+        "question": "What are my options if I am missing several teeth?",
+        "answer": "If you are missing several teeth, we offer solutions like implant bridges or full arch restorations. Implant bridges can replace multiple adjacent teeth, while full arch options restore an entire set of teeth with just a few implants."
+      },
+      {
+        "question": "What financial options are available for dental implants?",
+        "answer": "We offer an in-house dental discount plan, accept various dental insurances, and can assist with third-party financing to make your dental implant treatment affordable and accessible."
+      },
+      {
+        "question": "Is the dental implant procedure painful?",
+        "answer": "Patient comfort is a top priority. We utilize effective local anesthesia during the surgical placement of implants, and sedation options are available to ensure a comfortable and stress-free experience."
+      }
+    ],
+    "footerAbout": "Bayport Dental Care is a state-of-the-art dental office located in Bayport, NY, dedicated to providing high-quality, compassionate care to individuals and families across the surrounding communities.",
+    "heroHeadline": "New Teeth.\nNew Confidence.\nIn a Single Day.",
+    "heroCta": "Book Your Dental implants  Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Implant Journey",
+    "processSubheading": "Most implant patients walk out the same day with a brand-new set of fixed teeth. Here's how the entire treatment unfolds.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Current Situation",
+    "symptomCheckerSubheading": "Tap whichever describes you — Dental implants transforms many of these situations into a fixed, permanent smile.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "Real Dental implants Transformations",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/bayportdentalcare-com/case-before-1782115689584-3cpg6g.png",
+        "afterImage": "/clinics/bayportdentalcare-com/case-after-1782115702289-eo3pgr.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
+      }
+    ],
+    "smileSimulatorHeadline": "Check YourImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "New teeth in a day",
+      "Free CBCT 3D scan",
+      "Financing available"
+    ],
+    "smileSimulatorGoals": [
+      "Replace failing teeth",
+      "Move away from dentures",
+      "Restore upper arch",
+      "Restore lower arch",
+      "Full-mouth restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Teeth in a Single Day",
+        "description": "Walk in with failing or missing teeth, walk out the same day with a fixed temporary bridge on your new implants."
+      },
+      {
+        "title": "All Specialties In-House",
+        "description": "Surgery, restoration, and lab fabrication coordinated by one team — no juggling separate offices."
+      },
+      {
+        "title": "Permanent, Fixed Teeth",
+        "description": "Unlike dentures,implant teeth stay in your mouth. No adhesives, no slipping, no taking them out at night."
+      },
+      {
+        "title": "Long-Term Investment",
+        "description": "With proper care, Dental implants are designed to last decades — often a lifetime solution."
+      }
+    ],
+    "heroImagePath": "/clinics/bayportdentalcare-com/hero.webp",
+    "benefitsImagePath": "/clinics/bayportdentalcare-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/bayportdentalcare-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Mohit Modgil",
+    "credentials": "D.D.s, AFAAID",
+    "bio": "Dr. Mohit Modgil, known to his patients as Dr. Moe, brings over 15 years of expertise and a passion for modern dentistry to Bayport Dental Care. Graduating with a Doctor of Dental Surgery (D.D.S.) with Perio Honors, he is committed to staying at the forefront of dental advancements. Dr. Moe's practice integrates cutting-edge technology, including AI-centric solutions and 3D imaging, to deliver precise diagnostics and personalized treatment plans. His patient-focused approach ensures comfort, confidence, and optimal oral health for every individual he treats.",
+    "yearsOfExperience": 15,
+    "photoPath": "/clinics/bayportdentalcare-com/doctor.webp",
+    "specialistCredentials": [
+      "Implant Specialist",
+      "Advanced 3D Guided Surgery",
+      "Modern Dental Technology",
+      "Patient-Focused Care"
+    ],
+    "specialistPortraitPath": "/clinics/bayportdentalcare-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Chim Blanco",
+      "text": "My daughter needed an emergency dental service and I came across Bayport Dental Care. It is very far from my area and I did not mind the drive due to their 5 star reviews. True enough, the service was exceptional! I am forever grateful to their team for making us comfortable the entire time.",
+      "rating": 5
+    },
+    {
+      "name": "Rick Martinez",
+      "text": "Always a great experience with Dr. Mohit Modgil. Everyone in his office makes you feel very welcomed. They are friendly and professional. I recommend Bayport Dental highly.",
+      "rating": 5
+    },
+    {
+      "name": "D Steed",
+      "text": "Professional, knowledgeable staff. Dr. Mohit Modgil thoroughly communicates diagnosis Gabriella also is a great communicator and runs a smooth front office",
+      "rating": 5
+    },
+    {
+      "name": "Kim Robinson",
+      "text": "The entire team at Bayport Dental was extremely competent and compassionate today when I went there for an emergency root canal as a first time patient! I was scared and in pain and did not know what was going to happen. They were kind, quick and even called me later in the day to check on me. This is the best medical experience I have ever had in my life! Thank you, You have a patient for life!",
+      "rating": 5
+    },
+    {
+      "name": "Matthew DeMatteo",
+      "text": "New patient. 40yrs old so I’ve been to a few dentists in my life. Just went for a cleaning and check up. As a new patient the receptionist was very polite and helpful. Hygienist was AWESOME and Dr. Mohit Modgil had a great attitude as well. Happy customer.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah P.",
+      "text": "Choosing Bayport Dental Care for my dental implants was the best decision. The team was incredibly supportive, and Dr. Modgil's expertise made the process smooth and comfortable. My new smile feels completely natural!",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "all-on-4-dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#305774"
+}
