@@ -47,7 +47,7 @@ export function buildPrompt({ config, scene, hasDoctorReference, hasPracticeRefe
     // as a portrait crop instead of a consultation scene.
     const editLines: string[] = [
       `EDIT TASK: Restyle the attached photograph of Dr. ${doctorName} into a warm professional in-office portrait for ${config.clinic.name}'s landing page. This portrait will appear alongside other in-office consultation images, so it must match their look and feel.`,
-      "Preserve the person's face, hair, build, and skin tone exactly as in the reference. Do not change their identity or facial features.",
+      "Preserve the person's face, hair, build, and skin tone exactly as in the reference. Do not change their identity or facial features. If the subject is wearing a head covering such as a hijab or headscarf in the reference, keep it on and preserve its style and drape faithfully — never remove it or expose hair that the reference covers.",
       "Background change: place the subject in a warm dental office interior — soft sage-green wall behind them, a glimpse of decorative shelving with a small plant or framed certificates on one side, blurred out with shallow depth of field. Window light from one side suggested through soft highlights. No flat studio backdrop.",
       "Clothing change: dress the subject in a crisp white dental coat worn open over teal or sage-green scrubs (the same uniform style as a typical clinic dentist). NO mask at all — no mask on the face, no mask pulled down around the neck, no mask hanging from one ear, no mask straps visible anywhere. The neck and collar area must be clean. No gloves, no stethoscope.",
       "Lighting and style: warm, cinematic, soft natural light (as if from a side window). Shallow depth of field with the face in sharp focus and the office softly blurred behind. Color palette: warm beige, soft sage green, muted off-white, gentle natural tones — matching the other landing-page scenes.",
@@ -60,7 +60,7 @@ export function buildPrompt({ config, scene, hasDoctorReference, hasPracticeRefe
   const refLines: string[] = [];
   if (hasDoctorReference) {
     refLines.push(
-      `The first attached photo is the dentist (Dr. ${doctorName}). Depict that same person — same face, build, age, hair, skin tone — as the dentist in the generated scene. Show them in professional dental attire (clinic uniform, mask pulled down or off, possibly gloves).`,
+      `The first attached photo is the dentist (Dr. ${doctorName}). Depict that same person — same face, build, age, hair, skin tone — as the dentist in the generated scene. If they wear a head covering such as a hijab or headscarf in the reference, keep it on and preserve its style faithfully. Show them in professional dental attire (clinic uniform, mask pulled down or off, possibly gloves).`,
     );
   }
   if (hasPracticeReference) {

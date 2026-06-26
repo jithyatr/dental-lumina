@@ -162,20 +162,15 @@ export function BookingWidget({
                           <button
                             key={l.name}
                             onClick={() => setLoc(i)}
-                            className={`text-left rounded-2xl p-4 transition ${
+                            className={`text-left rounded-2xl p-5 transition ${
                               on ? "bg-brand ring-1 ring-brand-deep" : "bg-chip hover:bg-chip-2"
                             }`}
                           >
-                            <div className="flex items-start justify-between gap-3">
-                              <span className="grid h-9 w-9 place-items-center rounded-xl bg-white/10 text-white">
-                                <MapPin className="h-4 w-4" />
-                              </span>
-                              <span className="rounded-full bg-teal/15 px-2.5 py-1 text-[10px] uppercase tracking-wider text-teal">
-                                {l.hours}
-                              </span>
+                            <div className="flex items-center gap-2.5">
+                              <MapPin className="h-5 w-5 shrink-0 text-white" />
+                              <span className="text-[18px] font-medium">{l.name}</span>
                             </div>
-                            <div className="mt-3 text-[16px] font-medium">{l.name}</div>
-                            <div className="mt-1 text-[12px] text-white/60">{l.address}</div>
+                            <div className="mt-2.5 text-[13px] text-white/65">{l.address}</div>
                           </button>
                         );
                       })}

@@ -1,0 +1,293 @@
+{
+  "clinic": {
+    "name": "Gentle Endodontics",
+    "tagline": "Take comfort...in a practice that cares Healthy Smiles Start Here.",
+    "city": "Medina",
+    "phone": "(330) 721-1350",
+    "address": "3985 Medina Road, Suite 160 Medina, OH 44256",
+    "hours": "Mon 7am-4pm, Tue 7am-4pm, Wed by appointment, Thu 7am-4pm",
+    "logoPath": "/clinics/gentleendo-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": false,
+    "heroSubtitle": "Regain comfort and preserve your natural tooth with specialized root canal therapy from Gentle Endodontics. Our practice is dedicated to saving teeth through modern techniques, using surgical microscopes and gentle care for a far more comfortable experience than traditionally imagined.",
+    "differentiators": [
+      {
+        "title": "Advanced Technology",
+        "description": "Utilizing state-of-the-art technology like Cone Beam CT and GentleWave for precise, effective treatment."
+      },
+      {
+        "title": "Gentle, Calming Atmosphere",
+        "description": "Patients experience a relaxing visit with amenities like warm blankets and classical music, emphasizing comfort."
+      },
+      {
+        "title": "Experienced & Board-Certified",
+        "description": "Dr. El-Refai is a Diplomate of the American Board of Endodontics with over 20 years of experience."
+      },
+      {
+        "title": "Emergency Care",
+        "description": "Dedicated to seeing emergency patients and those with severe pain on the same day for immediate relief."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Consultation & Diagnosis",
+        "description": "Your visit begins with a thorough consultation, including digital X-rays and Cone Beam CT imaging, to accurately diagnose the affected tooth and plan your personalized root canal treatment."
+      },
+      {
+        "title": "Anesthesia & Isolation",
+        "description": "We ensure your comfort with local anesthesia, and then isolate the tooth with a rubber dam to maintain a sterile environment throughout the procedure."
+      },
+      {
+        "title": "Cleaning & Disinfection",
+        "description": "Using surgical microscopes and advanced GentleWave UltraCleaning technology, we meticulously clean and disinfect each root canal, removing infected pulp and bacteria."
+      },
+      {
+        "title": "Precise Sealing",
+        "description": "Once thoroughly cleaned, the canals are precisely sealed with a biocompatible material to prevent re-infection and protect the integrity of the tooth."
+      },
+      {
+        "title": "Temporary Restoration",
+        "description": "A temporary restoration is placed on the treated tooth, and you will be referred back to your general dentist for the placement of a permanent crown or filling."
+      },
+      {
+        "title": "Follow-Up & Healing",
+        "description": "We schedule follow-up imaging to confirm complete healing of the tooth and surrounding tissues, ensuring the long-term success of your root canal therapy."
+      }
+    ],
+    "commonSymptoms": [
+      "Severe Tooth Pain",
+      "Pain When Chewing",
+      "Sensitivity to Hot/Cold",
+      "Swollen Gum Near Tooth",
+      "Dark or Discolored Tooth",
+      "Cracked Tooth",
+      "Abscess on Gum",
+      "Lingering Pain After Filling",
+      "Referred for Root Canal",
+      "Re-Treatment Needed"
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "14",
+        "label": "Million+ Root Canals Annually"
+      },
+      {
+        "value": "98%",
+        "label": "Success Rate"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Pain Relief",
+        "description": "Eliminate severe tooth pain and discomfort caused by infection or injury."
+      },
+      {
+        "title": "Save Natural Tooth",
+        "description": "Preserve your natural tooth, avoiding extraction and maintaining your natural bite."
+      },
+      {
+        "title": "Prevent Infection Spread",
+        "description": "Remove infected pulp to prevent the spread of bacteria to other teeth or into the bloodstream."
+      },
+      {
+        "title": "Improved Oral Health",
+        "description": "Address the source of infection to improve overall oral hygiene and health."
+      },
+      {
+        "title": "Long-Term Solution",
+        "description": "With proper care, a root canal treated tooth can last a lifetime."
+      },
+      {
+        "title": "Maintain Aesthetics",
+        "description": "Keep your natural smile and facial structure intact without the need for prosthetic replacements."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Root Canal Treatment",
+        "description": "Removes infected pulp, eliminates pain, and preserves your natural tooth with a comfortable, effective procedure."
+      },
+      {
+        "title": "Endodontic Retreatment",
+        "description": "Specialized retreatment for failing or re-infected root canals that may not have healed correctly, offering a second chance to save the tooth."
+      },
+      {
+        "title": "Emergency Root Canal Care",
+        "description": "Provides prompt relief for severe tooth pain, infection, abscesses, and dental trauma requiring immediate treatment."
+      },
+      {
+        "title": "Apicoectomy (Root-End Surgery)",
+        "description": "A minor surgical procedure that removes infection at the root tip when conventional root canal treatment isn't enough."
+      },
+      {
+        "title": "Cracked Tooth Treatment",
+        "description": "Diagnoses and treats cracked or fractured teeth to relieve discomfort and improve the chances of saving the tooth."
+      },
+      {
+        "iconName": "",
+        "title": "Dental Crown Restoration",
+        "description": "Protects and strengthens a tooth after root canal therapy with a custom-made crown for long-lasting durability."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Do root canals really hurt anymore?",
+        "answer": "Modern root canal therapy at Gentle Endodontics uses advanced techniques and anesthesia to ensure a comfortable and pain-free experience, dispelling old myths about the procedure."
+      },
+      {
+        "question": "How long does a root canal take?",
+        "answer": "Many root canal procedures at Gentle Endodontics are completed in a single visit when feasible, thanks to advanced technology and efficient techniques."
+      },
+      {
+        "question": "How much does a root canal cost?",
+        "answer": "The cost of a root canal varies depending on the tooth and complexity. Gentle Endodontics provides financial policies and works with insurance to make treatment accessible, and offers CareCredit."
+      },
+      {
+        "question": "What happens if I don't get the root canal?",
+        "answer": "Without a root canal, the infection will worsen, potentially leading to increased pain, abscess formation, bone loss, and ultimately, the loss of the tooth."
+      },
+      {
+        "question": "Will I need a crown after my root canal?",
+        "answer": "After your root canal, Gentle Endodontics performs a temporary restoration and refers you back to your general dentist for a permanent crown to protect the tooth."
+      },
+      {
+        "question": "Can a root canal save my cracked tooth?",
+        "answer": "Root canal therapy can often save cracked teeth by removing infected pulp and sealing the tooth, preventing further damage and preserving the tooth's structure."
+      }
+    ],
+    "footerAbout": "Gentle Endodontics provides outstanding service in a gentle, calming, and relaxing atmosphere, using advanced evidence-based technologies to save natural teeth through root canal therapy.",
+    "heroHeadline": "Save Your Tooth.\nGentle, Modern\nRoot Canals.",
+    "heroCta": "Book a Same-Day Evaluation",
+    "implantOptionsLabel": "Endodontic Services",
+    "implantOptionsHeadline": "Root Canal & Tooth-Saving Treatments",
+    "implantOptionsSubheading": "Modern endodontic care — microscope-guided, comfortable, and focused on saving your natural tooth whenever possible.",
+    "whyChooseLabel": "Why Choose Our Endodontic Team",
+    "whyChooseHeadline": "Microscope-Guided Root Canals That Actually Feel Comfortable",
+    "whyChooseSubheading": "We use the same technology and techniques that have made modern root canals as routine — and as comfortable — as a filling.",
+    "processHeadline": "Your Root Canal, Step By Step",
+    "processSubheading": "Most modern root canals are completed in one or two visits and feel no different than getting a routine filling. Here's how it works.",
+    "benefitsHeadline": "Why Patients Trust Us With Root Canal Care",
+    "faqLabel": "Root Canal FAQ",
+    "faqHeadline": "Common Questions About Root Canal Therapy",
+    "symptomCheckerHeadline": "Tell Us What You're Feeling",
+    "symptomCheckerSubheading": "Tap whichever describes your symptoms — many of these are classic signs that root canal therapy can save your tooth.",
+    "testimonialsHeadline": "Patients Whose Teeth We Saved",
+    "testimonialsSubheading": "Real stories from patients who came in in pain, got their root canal here, and walked out with their natural tooth intact.",
+    "beforeAfterHeadline": "Saved Teeth, Real Outcomes",
+    "beforeAfterSubheading": "X-ray before-and-afters from real patients — the moment a painful, infected tooth becomes a healthy, restored one.",
+    "beforeAfterCases": [
+      {
+        "tag": "Endodontics",
+        "title": "Molar Root Canal",
+        "subtitle": "Pain gone in a single visit",
+        "beforeImage": "/clinics/gentleendo-com/case-before-1782453448948-6ft7jg.jpg",
+        "afterImage": "/clinics/gentleendo-com/case-after-1782453458960-wo9e8c.jpg"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Root Canal + Crown",
+        "subtitle": "Tooth saved and rebuilt in 2 weeks",
+        "beforeImage": "/clinics/gentleendo-com/case-before-1782453778430-dr2qe7.png",
+        "afterImage": "/clinics/gentleendo-com/case-after-1782453792852-zc898l.png"
+      },
+      {
+        "tag": "Retreatment",
+        "title": "Failed Root Canal Rescue",
+        "subtitle": "Re-treated and sealed cleanly",
+        "beforeImage": "/clinics/gentleendo-com/case-before-1782455171711-p989p1.jpg",
+        "afterImage": "/clinics/gentleendo-com/case-after-1782455177388-qhx35t.jpg"
+      }
+    ],
+    "smileSimulatorHeadline": "Tooth Pain\nQuick Check",
+    "smileSimulatorSubheading": "Describe what you're feeling and our AI will help you understand whether root canal therapy could save your tooth — or whether something else is going on.",
+    "bookingHeadline": "Book a Root Canal Evaluation",
+    "bookingSubheading": "Same-day and next-day appointments available for patients in pain. We'll get you out of pain first, then explain the plan.",
+    "heroAssurances": [
+      "Same-day pain relief",
+      "Microscope-guided care",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Severe tooth pain",
+      "Hot/cold sensitivity",
+      "Swelling near a tooth",
+      "Cracked tooth concern",
+      "Referred for a root canal"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Dental Microscopes",
+        "description": "Every canal is treated under high magnification — better cleaning, better sealing, better long-term outcomes."
+      },
+      {
+        "title": "Truly Comfortable",
+        "description": "Profound anesthesia, isolation with a rubber dam, and a gentle pace mean most patients feel nothing more than a filling."
+      },
+      {
+        "title": "Single-Visit When Possible",
+        "description": "Many cases are completed in one visit so you can put the pain — and the procedure — behind you."
+      },
+      {
+        "title": "Saves Your Natural Tooth",
+        "description": "A successful root canal lets you keep your own tooth for decades, often outlasting any replacement."
+      }
+    ],
+    "heroImagePath": "/clinics/gentleendo-com/hero.webp",
+    "benefitsImagePath": "/clinics/gentleendo-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/gentleendo-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Nivine Y. El-Refai",
+    "credentials": "BDS, DDS, MSD",
+    "photoPath": "/clinics/gentleendo-com/doctor.webp",
+    "bio": "With over 20 years of experience in root canal therapies, Dr. Nivine El-Refai is a Diplomate of the American Board of Endodontics, having achieved this distinction in December 2014 from Case Western Reserve University School of Dentistry. She is dedicated to providing outstanding endodontic care in a gentle, calming, and relaxing atmosphere, utilizing the most advanced evidence-based technologies. Dr. El-Refai prioritizes patient safety and successful treatment outcomes, specializing in severe endodontic issues and making every effort to see emergency patients on the same day.",
+    "yearsOfExperience": 20,
+    "specialistCredentials": [
+      "Board-Certified Endodontist",
+      "Microscope-Guided Specialist",
+      "Advanced Imaging Expert",
+      "Emergency Pain Relief"
+    ],
+    "specialistPortraitPath": "/clinics/gentleendo-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Sarah M.",
+      "text": "I was so nervous about my root canal, but Dr. El-Refai and her team at Gentle Endodontics were amazing. The warm blanket and classical music really helped me relax. The whole process was far more comfortable than I ever imagined!",
+      "rating": 5
+    },
+    {
+      "name": "James W.",
+      "text": "Dr. El-Refai truly lives up to the 'Gentle' in their name. My endodontic retreatment was handled with such care and precision, and the GentleWave technology made a noticeable difference. My pain is gone, and I'm so grateful.",
+      "rating": 5
+    },
+    {
+      "name": "Emily R.",
+      "text": "After experiencing severe tooth pain, Gentle Endodontics saw me the same day. Dr. El-Refai quickly diagnosed my issue using their advanced CBCT scanner and performed a root canal that relieved my pain almost instantly. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Michael T.",
+      "text": "The entire team at Gentle Endodontics is professional and kind. They clearly explained the apicoectomy procedure and what to expect with the costs and insurance. It's refreshing to find a dental office that cares so much.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "I was so worried my cracked tooth couldn't be saved, but Dr. El-Refai's expertise and diagnostic tools identified the problem accurately. Thanks to her skillful root canal, my tooth is saved, and I can chew comfortably again.",
+      "rating": 5
+    },
+    {
+      "name": "David K.",
+      "text": "Gentle Endodontics provides exceptional care. Dr. El-Refai's experience and advanced technology like the GentleWave made my root canal procedure efficient and thorough. I felt well-informed and comfortable throughout my visit.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "root-canal-therapy",
+  "themeId": "custom",
+  "customThemeColor": "#5c1540"
+}
