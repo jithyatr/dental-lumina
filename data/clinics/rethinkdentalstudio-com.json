@@ -1,0 +1,290 @@
+{
+  "clinic": {
+    "name": "reThink Dentistry",
+    "tagline": "[re] THINK YOUR TEETH",
+    "city": "Bozeman",
+    "phone": "(406) 587-9700",
+    "address": "438 E Mendenhall St, Unit 1 Bozeman, MT 59715",
+    "logoPath": "/clinics/rethinkdentalstudio-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with comprehensive Full Mouth Restoration from reThink Dentistry. This specialized treatment rehabilitates patients with widespread tooth damage, wear, or loss, utilizing a combination of implants, crowns, bridges, and prosthetics to rebuild a healthy, functional, and beautiful smile.",
+    "differentiators": [
+      {
+        "title": "Licensed Prosthodontist",
+        "description": "The only licensed Prosthodontist in the Gallatin Valley, Dr. Helley offers specialized care for complex cases."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "The practice uses advanced dental technology to ensure precise and effective treatments."
+      },
+      {
+        "title": "Comprehensive Care",
+        "description": "From general dentistry to advanced prosthetic and implant needs, all your dental requirements are covered."
+      },
+      {
+        "title": "Craftsmanship & Precision",
+        "description": "Dr. Helley is known for his unwavering skill in creating long-lasting, comfortable, and beautiful dental restorations."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "Your journey begins with a thorough examination, including full records, CBCT scans, and detailed photography, to accurately assess your oral health and understand your unique needs for full mouth restoration."
+      },
+      {
+        "title": "Digital Treatment Plan",
+        "description": "We collaborate with you to develop a personalized digital treatment plan, including mockups of your final smile and bite, ensuring your vision is incorporated into the design."
+      },
+      {
+        "title": "Foundation Phase",
+        "description": "This stage involves any necessary preparatory work, such as extractions, implant placement, and gum or bone work, establishing a stable foundation for your new restorations."
+      },
+      {
+        "title": "Provisional Restorations",
+        "description": "You'll receive temporary restorations to test the aesthetics, function, and bite, allowing for adjustments and ensuring comfort before permanent prosthetics are created."
+      },
+      {
+        "title": "Final Restoration Delivery",
+        "description": "Our lab-crafted, permanent restorations are meticulously fabricated and then delivered, providing you with a beautiful, durable, and fully functional new smile."
+      },
+      {
+        "title": "Long-Term Maintenance",
+        "description": "We establish a comprehensive long-term care plan, including custom nightguards, regular hygiene visits, and protective measures to ensure the longevity and health of your new restorations."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Multiple Failing Crowns",
+      "Cracked Teeth",
+      "Missing Teeth",
+      "Difficulty Chewing",
+      "Old Dentures Failing",
+      "Acid Erosion",
+      "Grinding Damage",
+      "Jaw Pain / TMJ",
+      "Want Whole Mouth Rebuilt"
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Commitment to Craftsmanship"
+      },
+      {
+        "value": "5,000+",
+        "label": "Smiles Restored"
+      },
+      {
+        "value": "3+",
+        "label": "Core Dental Specialties"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Restored Functionality",
+        "description": "Regain the ability to eat properly and comfortably, enhancing your daily life."
+      },
+      {
+        "title": "Enhanced Aesthetics",
+        "description": "Achieve a beautiful, natural-looking smile that boosts your confidence."
+      },
+      {
+        "title": "Long-Lasting Solutions",
+        "description": "Benefit from durable restorations designed to last for many years."
+      },
+      {
+        "title": "Improved Oral Health",
+        "description": "Maintain a healthy mouth, crucial for overall well-being and nutrient ingestion."
+      },
+      {
+        "title": "Comprehensive Rehabilitation",
+        "description": "Address widespread tooth damage, wear, or loss with a unified treatment plan."
+      },
+      {
+        "title": "Reduced Jaw Pain",
+        "description": "Restore proper bite alignment, which can alleviate discomfort from TMJ issues."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "Replace missing teeth with permanent, natural-looking restorations that restore chewing ability, jawbone health, and confidence."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "A secure alternative to traditional dentures that uses dental implants for improved stability, comfort, and function."
+      },
+      {
+        "title": "Dental Crowns & Bridges",
+        "description": "Restore damaged, weakened, or missing teeth with custom-crafted restorations designed for strength, aesthetics, and long-term durability."
+      },
+      {
+        "title": "Porcelain Veneers",
+        "description": "Enhance the appearance of worn, chipped, stained, or uneven teeth with thin, natural-looking porcelain shells."
+      },
+      {
+        "title": "Full & Partial Dentures",
+        "description": "Replace multiple missing teeth with custom dentures that improve speech, chewing efficiency, and smile aesthetics."
+      },
+      {
+        "title": "Bite Reconstruction & TMJ Therapy",
+        "description": "Correct bite misalignment, excessive tooth wear, and jaw discomfort to restore proper function and long-term oral health."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does a full mouth restoration take?",
+        "answer": "The duration of a full mouth restoration varies greatly depending on the complexity of your case and the specific treatments involved. Dr. Helley will provide a detailed timeline during your comprehensive consultation, ensuring you understand each step."
+      },
+      {
+        "question": "How much does full mouth reconstruction cost?",
+        "answer": "The cost of full mouth reconstruction is highly individualized, based on the specific procedures needed to restore your smile and function. We will discuss all financial aspects and help you explore solutions during your visit."
+      },
+      {
+        "question": "Why do I need a prosthodontist instead of a general dentist for complex cases?",
+        "answer": "A prosthodontist is a dental specialist trained in the replacement of missing teeth and the restoration of natural teeth. Dr. Helley's advanced training allows him to handle complex full-mouth rehabilitation cases that go beyond the scope of general dentistry, ensuring optimal outcomes."
+      },
+      {
+        "question": "Will I have to be without teeth at any point during treatment?",
+        "answer": "Dr. Helley strives to ensure you are never without teeth during your full mouth restoration process. Provisional restorations are often used to maintain aesthetics and function while your permanent restorations are being crafted."
+      },
+      {
+        "question": "How do you handle TMJ pain and bite issues?",
+        "answer": "Restoring proper bite alignment is a foundational aspect of full mouth reconstruction. Dr. Helley is a specialist in this area, focusing on creating a balanced bite to alleviate TMJ pain and improve overall oral comfort and function."
+      },
+      {
+        "question": "Do you offer sedation for long appointments?",
+        "answer": "The comfort of our patients is paramount, especially during longer appointments often associated with full mouth restorations. Please discuss your concerns about dental anxiety with us, and we will explore options to make your experience as comfortable as possible."
+      }
+    ],
+    "footerAbout": "reThink Dentistry in Bozeman is a dedicated practice specializing in advanced prosthetic and implant dentistry, committed to crafting exceptional results for every patient.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/clinics/rethinkdentalstudio-com/case-before-1782708457819-zmve5k.png",
+        "afterImage": "/clinics/rethinkdentalstudio-com/case-after-1782708474955-p8ix2f.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/clinics/rethinkdentalstudio-com/case-before-1782708516849-7qstfa.png",
+        "afterImage": "/clinics/rethinkdentalstudio-com/case-after-1782708528844-29xfvg.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/clinics/rethinkdentalstudio-com/case-before-1782708549260-691lk9.png",
+        "afterImage": "/clinics/rethinkdentalstudio-com/case-after-1782708608408-865e66.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/rethinkdentalstudio-com/hero.webp",
+    "benefitsImagePath": "/clinics/rethinkdentalstudio-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/rethinkdentalstudio-com/whychoose.webp",
+    "hours": "OPEN NOW"
+  },
+  "doctor": {
+    "name": "Dr. Chris Helley",
+    "bio": "Dr. Chris Helley is Bozeman's leading dentist and the only licensed Prosthodontist in the Gallatin Valley. He specializes in the replacement of missing teeth and related oral structures using crowns, bridges, implants, partial, and full dentures. A trained specialist in aesthetic, restorative, and implant dentistry, Dr. Helley offers solutions for complex full-mouth rehabilitation cases as well as single-tooth replacement. Known for his unwavering skill in creating long-lasting, comfortable, and beautiful dental restorations, he is a perfectionist committed to his craft, ensuring patients receive the absolute best service available.",
+    "photoPath": "/clinics/rethinkdentalstudio-com/doctor.webp",
+    "specialistCredentials": [
+      "Licensed Prosthodontist",
+      "Full-Mouth Rehabilitation Expert",
+      "Implant & Restorative Dentistry",
+      "Complex Reconstruction Specialist"
+    ],
+    "specialistPortraitPath": "/clinics/rethinkdentalstudio-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Allen P.",
+      "text": "Dr. Helley, along with his teammates, Ashley and Kara did a phenomenal job restoring my upper anterior teeth with crowns and veneers. I had prior trauma to the front tooth resulting in discoloration and the need for root canal therapy. Not only was each visit enjoyable, but the results are amazing. I couldn’t be happier with my new smile.",
+      "rating": 5
+    },
+    {
+      "name": "Hailey K.",
+      "text": "I went to Rethink Dentistry to receive my bi annual cleaning after finding them online. Summer was great! Chris (Dr. Helley) did my cleaning and x-rays. He was fast, knowledgeable, and very gentle. He was very thorough throughout my visit. I recommend going to Rethink dentistry, it was the best dental cleaning I have ever received.",
+      "rating": 5
+    },
+    {
+      "name": "Anastasia D.",
+      "text": "We’ve been to dentists all over the US and in Europe and this has been one of our best experiences yet! Dr. Helley would definitely be our primary dentist if we lived in the area. Gentle, thorough hygienist. Everyone super kind and friendly. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Cindy O.",
+      "text": "While vacationing, one of my gold onlays popped off. Dr Helley was the only dentist that was able to get me in quickly that same day. My background is in dentistry, and I gave Dr. Helley highest marks for congeniality, knowledge, technical skill and a wonderfully caring attitude. His facility is immaculate and comfortable.",
+      "rating": 5
+    },
+    {
+      "name": "Michael S.",
+      "text": "Dr. Helley completely transformed my smile and my ability to chew. The full mouth restoration process was handled with such precision and care, and the final results exceeded all my expectations. Truly a master of his craft!",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "I had multiple failing restorations and was worried about the complexity of treatment. Dr. Helley's expertise as a prosthodontist gave me immense confidence. The team was incredibly supportive, and I now have a beautiful, functional smile.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#4d4f54"
+}
