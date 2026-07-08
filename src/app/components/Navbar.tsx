@@ -93,7 +93,7 @@ function parseHours(hours: string): Period[] {
   const out: Period[] = [];
   const segments = hours.split(/[,;]/).map((s) => s.trim()).filter(Boolean);
   for (const seg of segments) {
-    const split = seg.match(/^([A-Za-z][A-Za-z\s\-–]*?)\s+(\d.*)$/);
+    const split = seg.match(/^([A-Za-z][A-Za-z\s\-–]*?)[\s:]+(\d.*)$/);
     if (!split) continue;
     const days = parseDays(split[1]);
     if (days.length === 0) continue;

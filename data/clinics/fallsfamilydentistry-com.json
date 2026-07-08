@@ -1,0 +1,292 @@
+{
+  "clinic": {
+    "name": "Falls Family Dental",
+    "tagline": "We’re Fully Invested in Your Smile",
+    "city": "Raleigh",
+    "phone": "(919) 659-0015",
+    "address": "10450 Durant Road, Suite 102 Raleigh, NC 27614",
+    "hours": "Mon 9:00am-5:00pm, Tue 8:00am-5:00pm, Wed 8:00am-5:00pm, Thu 8:00am-5:00pm, Sat 9:00am-1:00pm",
+    "logoPath": "/clinics/fallsfamilydentistry-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with dental implants from Falls Family Dental. Our advanced solutions offer a permanent replacement for missing or failing teeth, designed to look, feel, and function just like your natural smile. We focus on ensuring your comfort and providing personalized attention throughout your journey to a healthier, more complete smile.",
+    "differentiators": [
+      {
+        "title": "Patient-Centered Care",
+        "description": "This practice invests fully in your smile, ensuring your comfort and satisfaction with personalized attention."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Utilizing digital X-rays and laser treatment for precise and effective dental care."
+      },
+      {
+        "title": "Flexible Financing Options",
+        "description": "Accepts most major insurance, offers CareCredit and Sunbit, and an in-house savings plan for affordability."
+      },
+      {
+        "title": "Free Second Opinions",
+        "description": "Provides complimentary second opinions to ensure certainty and confidence in your treatment decisions."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "Your journey begins with a thorough examination, including digital X-rays and 3D scans, to assess your oral health and precisely plan your implant placement."
+      },
+      {
+        "title": "Preparation & Foundation Work",
+        "description": "Any necessary preliminary treatments, such as extractions or bone grafting, will be performed to create a healthy and strong foundation for your dental implants."
+      },
+      {
+        "title": "Implant Surgical Placement",
+        "description": "The titanium implant post is precisely and gently placed into your jawbone, acting as a stable root for your new tooth."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "A crucial healing period follows, during which the implant integrates with your jawbone, forming a strong and permanent bond."
+      },
+      {
+        "title": "Abutment Placement & Impressions",
+        "description": "Once healed, a small connector (abutment) is attached to the implant, and impressions are taken to custom-create your new restoration."
+      },
+      {
+        "title": "Permanent Restoration & Care",
+        "description": "Your custom crown, bridge, or arch is securely attached, completing your new smile. We'll then provide a long-term care plan for optimal longevity."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Loose Denture",
+      "Failing Tooth Needs Extraction",
+      "Bone Loss in Jaw",
+      "Difficulty Chewing",
+      "Embarrassed to Smile",
+      "Old Bridge Failing",
+      "Gum Disease",
+      "Knocked-Out Tooth"
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "5",
+        "label": "Star Rated Patient Care"
+      },
+      {
+        "value": "$99",
+        "label": "New Patient Special"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Permanent Tooth Replacement",
+        "description": "Dental implants offer a long-lasting and durable solution for missing teeth."
+      },
+      {
+        "title": "Restores Chewing Function",
+        "description": "Regain the ability to eat all your favorite foods with comfort and confidence."
+      },
+      {
+        "title": "Preserves Jawbone Health",
+        "description": "Implants stimulate the jawbone, preventing the bone loss common after tooth extraction."
+      },
+      {
+        "title": "Natural Look and Feel",
+        "description": "Designed to seamlessly blend with your natural teeth in appearance and function."
+      },
+      {
+        "title": "Enhanced Speech Clarity",
+        "description": "Stable implants eliminate the speech impediments often associated with missing teeth or dentures."
+      },
+      {
+        "title": "Boosts Self-Confidence",
+        "description": "Enjoy a complete and beautiful smile, significantly improving your self-esteem."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implants",
+        "description": "Replace one missing tooth with a durable implant and natural-looking crown."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Restore several missing teeth with strategically placed implants for a secure, long-lasting solution."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore a full arch of teeth using four strategically placed implants and a fixed prosthesis."
+      },
+      {
+        "title": "Same-Day Dental Implants",
+        "description": "Receive implants and a temporary restoration in a single visit, reducing treatment time and restoring your smile quickly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does the entire implant process take?",
+        "answer": "The complete dental implant process typically spans several months, allowing for proper healing and osseointegration after implant placement. Your individual timeline will be discussed during your initial consultation."
+      },
+      {
+        "question": "Am I a candidate for dental implants if I have bone loss?",
+        "answer": "Many patients with bone loss can still be candidates for dental implants. We can assess your specific situation and discuss potential solutions like bone grafting during your consultation to determine eligibility."
+      },
+      {
+        "question": "How much do dental implants cost, and what financing options are available?",
+        "answer": "The cost of dental implants varies based on individual needs. Falls Family Dental works with most major insurance providers, offers CareCredit and Sunbit financing, and has an in-house dental savings plan to make treatment affordable."
+      },
+      {
+        "question": "How long do dental implants last?",
+        "answer": "With proper care and oral hygiene, dental implants can last for many decades, often a lifetime. They are a durable and long-term solution for tooth replacement."
+      },
+      {
+        "question": "Is implant surgery painful, and what sedation do you offer?",
+        "answer": "Our team prioritizes your comfort during implant procedures. We offer various sedation options to ensure a pain-free and relaxing experience, which will be discussed during your treatment planning."
+      },
+      {
+        "question": "What is the best option for replacing missing teeth: implants, bridges, or dentures?",
+        "answer": "The best option depends on your individual needs and oral health. Dental implants offer a permanent, stable solution that closely mimics natural teeth, while bridges and dentures are also viable. We will help you choose the best treatment for your situation."
+      }
+    ],
+    "footerAbout": "Falls Family Dental is dedicated to providing quality dental care with excellent customer service, fostering lasting patient relationships within a relaxing environment.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/fallsfamilydentistry-com/case-before-1783314801888-r54i0w.png",
+        "afterImage": "/clinics/fallsfamilydentistry-com/case-after-1783314814586-nxhjsw.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/fallsfamilydentistry-com/hero.webp",
+    "benefitsImagePath": "/clinics/fallsfamilydentistry-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/fallsfamilydentistry-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Sandra Thore",
+    "credentials": "DMD",
+    "bio": "For over 30 years, Dr. Sandra Thore has dedicated herself to providing exceptional dental care, ensuring every patient receives her full attention. She believes in empowering patients by thoroughly explaining their treatment options, allowing them to make informed decisions with complete confidence. Dr. Thore's gentle nature and commitment to making sure everything is \"absolutely perfect\" have earned the trust of multiple generations of families in Raleigh, making each visit a positive and comforting experience.",
+    "yearsOfExperience": 30,
+    "photoPath": "/clinics/fallsfamilydentistry-com/doctor.webp",
+    "specialistCredentials": [
+      "Experienced Implant Restorations",
+      "Patient-Centered Care",
+      "Advanced Digital X-rays",
+      "Long-Term Patient Relationships"
+    ],
+    "specialistPortraitPath": "/clinics/fallsfamilydentistry-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Study B.",
+      "text": "I can’t say enough good things about Dr. Thore and the entire team at this dental office. From the moment you walk in, you're welcomed into a clean, professional, and friendly environment that immediately puts you at ease.",
+      "rating": 5
+    },
+    {
+      "name": "Cynthia W.",
+      "text": "I took my 93 year old mother to see Dr. Thore. First of all she was very accommodating to see her on Saturday PM. Dr. Thore was extremely compassionate, kind, and gentle to my elderly mother.",
+      "rating": 5
+    },
+    {
+      "name": "Fatima S.",
+      "text": "From the moment I walked in very warm environment! Front deak receptionist was very prompt with checking me in and he was warm/ friendly.",
+      "rating": 5
+    },
+    {
+      "name": "Isla B.",
+      "text": "First time with Karina (hygienist), she took her time and was very caring. This is my 5th year with Dr Thore she is wonderful. Everyone in the practice is very knowledgeable and professional.",
+      "rating": 5
+    },
+    {
+      "name": "James D.",
+      "text": "Dr. Thor and team are wonderful! Great care and attention to detail. Thank you!",
+      "rating": 5
+    },
+    {
+      "name": "Robert L.",
+      "text": "I came to Falls Family Dental for implant restoration and was so impressed. The process was clearly explained, and the results are amazing. I can finally eat comfortably again, and my new tooth looks perfectly natural. The team here truly cares about patient satisfaction.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#4c9eba"
+}

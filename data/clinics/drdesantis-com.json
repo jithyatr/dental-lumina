@@ -1,0 +1,290 @@
+{
+  "clinic": {
+    "name": "Louis F. DeSantis DDS, FACP and Associates",
+    "city": "Staten Island",
+    "phone": "(718) 980-9769",
+    "address": "216 Rose Ave, Staten Island, NY 10306-2919",
+    "hours": "Mon-Wed: 9:00 am-5:00 pm, Thu: 9:00 am-2:00 pm, Fri: Full/half day procedures only",
+    "logoIsLight": false,
+    "logoIsWordmark": false,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with comprehensive full mouth restoration. Our board-certified prosthodontists specialize in rehabilitating extensive dental damage, offering advanced solutions like implants, crowns, and custom prosthetics to rebuild your oral health, aesthetics, and bite harmony. Experience a revitalized life with a beautiful, functional smile built to last.",
+    "differentiators": [
+      {
+        "title": "Board-Certified Specialists",
+        "description": "Our prosthodontists have undergone extensive advanced training and meet nationally recognized standards of excellence."
+      },
+      {
+        "title": "Advanced Treatment Planning",
+        "description": "We utilize the latest techniques and digital technology to create personalized, efficient, and beautiful treatment plans."
+      },
+      {
+        "title": "Collaborative Care",
+        "description": "Specialists work together seamlessly to offer multidisciplinary solutions under one roof, ensuring lasting results."
+      },
+      {
+        "title": "Dedicated to Excellence",
+        "description": "Our practice demonstrates a lifelong commitment to professional development, quality outcomes, and patient-centered care."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation & Records",
+        "description": "Your journey begins with a thorough evaluation, including full records, CBCT scans, and detailed photography to understand your unique needs and goals for full mouth rehabilitation."
+      },
+      {
+        "title": "Collaborative Digital Treatment Plan",
+        "description": "We create a personalized digital treatment plan, complete with mockups of your final smile and bite, ensuring you are an active participant in designing your ideal outcome."
+      },
+      {
+        "title": "Foundation Phase Preparations",
+        "description": "This stage involves any necessary extractions, implant placements, and foundational gum or bone work to prepare your mouth for the upcoming restorative phases."
+      },
+      {
+        "title": "Provisional Restorations & Testing",
+        "description": "You'll receive temporary restorations to test your new bite, aesthetics, and overall function, allowing for adjustments and ensuring comfort before permanent placement."
+      },
+      {
+        "title": "Custom Fabrication & Final Delivery",
+        "description": "Once perfected, your custom lab-fabricated permanent restorations are meticulously crafted and then precisely delivered, bringing your reconstructed smile to life."
+      },
+      {
+        "title": "Long-Term Maintenance & Care",
+        "description": "We provide a comprehensive long-term maintenance plan, including nightguards, regular hygiene visits, and protective care to ensure the longevity and health of your new smile."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Multiple Failing Crowns",
+      "Cracked Teeth",
+      "Missing Teeth",
+      "Jaw Pain / TMJ",
+      "Difficulty Chewing",
+      "Old Dentures Failing",
+      "Acid Erosion",
+      "Grinding Damage",
+      "Want Whole Mouth Rebuilt"
+    ],
+    "stats": [
+      {
+        "value": "35+",
+        "label": "Years in Prosthodontics"
+      },
+      {
+        "value": "1000+",
+        "label": "Restored Smiles"
+      },
+      {
+        "value": "22",
+        "label": "Years Proven Restoration Longevity"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Natural Appearance",
+        "description": "Restorations are designed to flawlessly blend with your natural smile, enhancing aesthetics."
+      },
+      {
+        "title": "Comprehensive Function",
+        "description": "Regain full chewing power and bite stability, allowing you to enjoy all your favorite foods."
+      },
+      {
+        "title": "Long-Term Solution",
+        "description": "Full mouth restorations provide durable, lasting results for extensive dental needs."
+      },
+      {
+        "title": "Preserves Oral Health",
+        "description": "Rehabilitation supports healthy jawbone and gum tissue, preventing further deterioration."
+      },
+      {
+        "title": "Enhanced Confidence",
+        "description": "Achieve a complete, beautiful smile that boosts self-esteem and social interaction."
+      },
+      {
+        "title": "Integrated Treatment",
+        "description": "Receive a unified treatment plan addressing all aspects of your oral health for optimal outcomes."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "Replace missing teeth with permanent, natural-looking restorations that restore chewing ability, jawbone health, and confidence."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "A secure alternative to traditional dentures that uses dental implants for improved stability, comfort, and function."
+      },
+      {
+        "title": "Dental Crowns & Bridges",
+        "description": "Restore damaged, weakened, or missing teeth with custom-crafted restorations designed for strength, aesthetics, and long-term durability."
+      },
+      {
+        "title": "Porcelain Veneers",
+        "description": "Enhance the appearance of worn, chipped, stained, or uneven teeth with thin, natural-looking porcelain shells."
+      },
+      {
+        "title": "Full & Partial Dentures",
+        "description": "Replace multiple missing teeth with custom dentures that improve speech, chewing efficiency, and smile aesthetics."
+      },
+      {
+        "title": "Bite Reconstruction & TMJ Therapy",
+        "description": "Correct bite misalignment, excessive tooth wear, and jaw discomfort to restore proper function and long-term oral health."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does a full mouth restoration take?",
+        "answer": "The duration of a full mouth restoration varies greatly depending on the complexity of your case and the specific treatments involved. We'll outline a detailed timeline during your personalized treatment planning phase."
+      },
+      {
+        "question": "Will I have to be without teeth at any point during treatment?",
+        "answer": "Our goal is to ensure you always have functional and aesthetic provisional restorations. We plan carefully to minimize any time you might be without teeth, allowing you to maintain your daily life with confidence."
+      },
+      {
+        "question": "Why choose a prosthodontist for full mouth restoration?",
+        "answer": "Prosthodontists are specialists in complex dental and facial conditions, with extensive training in restoring and replacing teeth. Their expertise ensures the highest standard of comprehensive care for full mouth reconstruction."
+      },
+      {
+        "question": "How do you ensure my comfort during long appointments?",
+        "answer": "We prioritize your comfort and prompt attention throughout your treatment. Our staff is dedicated to making your experience as pleasant as possible, and we discuss options to manage any anxiety during your consultation."
+      },
+      {
+        "question": "Do you offer solutions for bite problems and TMJ issues?",
+        "answer": "Yes, our practice offers a full scope of occlusal and aesthetic treatment. Restoring proper bite alignment is a foundational component of full mouth rehabilitation, and we address TMJ concerns within our treatment plans."
+      },
+      {
+        "question": "How much does full mouth reconstruction cost?",
+        "answer": "The cost of full mouth reconstruction is highly individualized, depending on the scope of work needed. We provide a detailed treatment plan and discuss all financial aspects transparently during your consultation."
+      }
+    ],
+    "footerAbout": "Louis F. DeSantis DDS, FACP and Associates is a leading prosthodontics practice in Staten Island, dedicated to comprehensive full mouth restoration, implant, and aesthetic dental care for patients in the tri-state area.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/clinics/drdesantis-com/case-before-1783487475459-xa9ym1.png",
+        "afterImage": "/clinics/drdesantis-com/case-after-1783487486699-yh2zne.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/clinics/drdesantis-com/case-before-1783487505546-9khxfo.png",
+        "afterImage": "/clinics/drdesantis-com/case-after-1783487519019-wg0gsa.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/clinics/drdesantis-com/case-before-1783487535595-bbuok3.png",
+        "afterImage": "/clinics/drdesantis-com/case-after-1783487547532-4tvivi.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/drdesantis-com/hero.webp",
+    "benefitsImagePath": "/clinics/drdesantis-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/drdesantis-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Louis F. DeSantis",
+    "credentials": "DDS, FACP",
+    "bio": "With over 40 years of dental and prosthodontic experience, Dr. Louis F. DeSantis is Staten Island's first Board-Certified Prosthodontist. He is a former Associate Professor in Post Doctoral Prosthodontics and a national lecturer. Dr. DeSantis is dedicated to providing the ultimate restorative, implant, and aesthetic dental care, ensuring patients receive the highest standard of treatment for complex oral health needs. His expertise is coupled with a genuine concern for patient comfort and achieving natural-looking, functional results.",
+    "yearsOfExperience": 40,
+    "photoPath": "/clinics/drdesantis-com/doctor.webp",
+    "specialistCredentials": [
+      "Board Certified Prosthodontist",
+      "Expert in Full Mouth Rehabilitation",
+      "Advanced Implant Dentistry",
+      "Occlusal & Aesthetic Treatment"
+    ],
+    "specialistPortraitPath": "/clinics/drdesantis-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Lisa P.",
+      "text": "Wonderful Dr. & staff, so grateful to have found such a skilled expert, professional & pleasant dentist. It was so refreshing to find a dentist who assessed and corrected a dental issue I was having for several years which previous dentists were incapable of doing. I am so very pleased with the excellent dental work I received from Dr DeSantis. I highly recommend.",
+      "rating": 5
+    },
+    {
+      "name": "Lynn R.",
+      "text": "I can’t say enough great things about my dental experience with Dr. Louis DeSantis and his staff. He’s a professional and compassionate prosthodontist which I was in need of. I had dental work done which included implants and Dr. DeSantis did all the work himself; I didn’t need a second dentist. Implants can be very costly but I found his fees were very reasonable",
+      "rating": 5
+    },
+    {
+      "name": "Gail J.",
+      "text": "Thrilled beyond words with the care i have received. Doctor is a magician; absolutely painless! His work is perfection. Professional, skilled and compassionate, can't say enough glowing compliments. Staff are wonderful! Entire experience so exceeded my expectations. So glad i found them!",
+      "rating": 5
+    },
+    {
+      "name": "Cate M.",
+      "text": "When I began coming to the Dr. I was fairly traumatized by going to other dentists who, frankly, didn’t know what they were doing. Dr. DeSantis couldn’t be further from that. He’s the most skilled professional with the kindest heart. His work is impeccable - my teeth look beautiful, and it’s hard to believe he does it all with the gentlest touch, no pain whatsoever.",
+      "rating": 5
+    },
+    {
+      "name": "Sheila C.",
+      "text": "Best Dentist ever, very skilled and very talented. My bridge he told me might last 10 years actually lasted 22 years! And it would have lasted even longer if I didn’t have a tooth decay. The new ones are even prettier. Also he’s the best Novocain giver. He’s very confident and steady when giving it. I hardly feel any pain.",
+      "rating": 5
+    },
+    {
+      "name": "Myriam D.",
+      "text": "Dr Desantis was extremely helpful, very friendly, and took me in on very short notice for a complicated procedure. When he did the procedure, all of my pain went away, and it was if I was back to normal as if no Work was even done. I would highly recommend him for anyone who needs anything done with their dental needs. Thank you Dr. Desantis!",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#30a9de"
+}

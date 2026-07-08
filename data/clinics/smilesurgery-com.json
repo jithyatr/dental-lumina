@@ -1,0 +1,209 @@
+{
+  "clinic": {
+    "name": "North Shore Smile Surgery",
+    "tagline": "ROBOTIC IMPLANT & ORAL SURGERY CENTER",
+    "phone": "(847) 276-2500",
+    "logoPath": "/clinics/smilesurgery-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "treatmentJourney": [
+      {
+        "title": "Consultation & Assessment",
+        "description": "Our journey begins with a thorough consultation, including 3D x-rays and digital impressions, to assess each wisdom tooth and understand your unique needs."
+      },
+      {
+        "title": "Sedation Planning & Review",
+        "description": "We'll discuss your sedation options and conduct a pre-operative medical review to ensure your safety and comfort during the wisdom teeth removal procedure."
+      },
+      {
+        "title": "The Procedure",
+        "description": "Your wisdom teeth removal will be performed in our accredited surgical suite, utilizing advanced technology and your chosen sedation for a comfortable experience."
+      },
+      {
+        "title": "Immediate Post-Op Monitoring",
+        "description": "Following your procedure, our team will provide immediate post-operative monitoring and clear discharge instructions to guide your initial recovery at home."
+      },
+      {
+        "title": "Guided Recovery: First 72 Hours",
+        "description": "We provide dedicated support for the first 72 hours of your recovery, with our team on call to address any concerns and ensure a smooth healing process."
+      },
+      {
+        "title": "Follow-Up & Next Steps",
+        "description": "A follow-up appointment will confirm clean healing and address any remaining questions, discussing next steps for your continued oral health."
+      }
+    ],
+    "heroHeadline": "Safe, Comfortable\nWisdom Teeth\nRemoval.",
+    "heroCta": "Book a Surgical Consultation",
+    "implantOptionsLabel": "Oral Surgery Services",
+    "implantOptionsHeadline": "Wisdom Teeth & Oral Surgery Options",
+    "implantOptionsSubheading": "From a single erupting wisdom tooth to all four impacted molars under IV sedation, our oral surgery options cover every scenario safely.",
+    "whyChooseLabel": "Why Choose Our Surgical Team",
+    "whyChooseHeadline": "Board-Certified Oral Surgery, With Sedation Done Right",
+    "whyChooseSubheading": "Hospital-grade IV sedation administered by anesthesia-trained specialists — most patients remember nothing about the procedure.",
+    "processHeadline": "Your Wisdom Teeth Procedure, Step By Step",
+    "processSubheading": "Most patients are home and resting within a few hours. Here's exactly what happens, from consultation through recovery.",
+    "benefitsHeadline": "Why Patients Trust Us for Wisdom Teeth Removal",
+    "faqLabel": "Wisdom Teeth FAQ",
+    "faqHeadline": "Common Questions About Wisdom Teeth Removal",
+    "symptomCheckerHeadline": "Tell Us What You're Feeling",
+    "symptomCheckerSubheading": "Tap whichever symptom describes you — wisdom-teeth issues often present in surprising ways, and we'll get back to you fast.",
+    "testimonialsHeadline": "What Our Surgical Patients Say",
+    "testimonialsSubheading": "Patients and parents who chose us for wisdom teeth removal and walked away calm, safe, and on the mend.",
+    "beforeAfterHeadline": "Outcomes You Can Trust",
+    "beforeAfterSubheading": "From routine eruption cases to deeply impacted teeth — safe, clean removals with predictable healing and minimal downtime.",
+    "beforeAfterCases": [
+      {
+        "tag": "Surgery",
+        "title": "Routine Wisdom Removal",
+        "subtitle": "All four teeth, single visit",
+        "beforeImage": "/clinics/smilesurgery-com/case-before-1783398568071-0e7wlg.png",
+        "afterImage": "/clinics/smilesurgery-com/case-after-1783398581085-wfml0c.png"
+      },
+      {
+        "tag": "Recovery",
+        "title": "Impacted Tooth Extraction",
+        "subtitle": "Clean healing at 2-week follow-up",
+        "beforeImage": "/clinics/smilesurgery-com/case-before-1783398988217-zw5l4j.png",
+        "afterImage": "/clinics/smilesurgery-com/case-after-1783398991368-2uxhgs.png"
+      },
+      {
+        "tag": "Comfort",
+        "title": "Bone Grafting & Socket Preservation",
+        "subtitle": "Helps preserve jawbone structure",
+        "beforeImage": "/clinics/smilesurgery-com/case-before-1783399722261-62q2gr.png",
+        "afterImage": "/clinics/smilesurgery-com/case-after-1783399728123-ima8x4.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Wisdom Teeth\nQuick Check",
+    "smileSimulatorSubheading": "Upload a recent dental X-ray (or describe your symptoms) and our AI will help you understand whether your wisdom teeth likely need removal — and how soon.",
+    "bookingHeadline": "Book Your Wisdom Teeth Consultation",
+    "bookingSubheading": "Includes a panoramic X-ray and a clear plan for sedation, cost, and recovery. Most procedures scheduled within the same week.",
+    "heroAssurances": [
+      "IV sedation available",
+      "In-house surgical suite",
+      "Most insurances accepted"
+    ],
+    "smileSimulatorGoals": [
+      "Painful wisdom tooth",
+      "Impacted or sideways tooth",
+      "Pre-orthodontic extraction",
+      "Routine wisdom teeth check",
+      "Second opinion before surgery"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Board-Certified Surgeons",
+        "description": "Oral & maxillofacial surgeons with the training to handle even the most complex impacted cases safely."
+      },
+      {
+        "title": "Real Sedation Options",
+        "description": "Nitrous, oral, or IV sedation administered by anesthesia-trained specialists — not just numbing shots."
+      },
+      {
+        "title": "Predictable Recovery",
+        "description": "Most patients eat soft food the same evening and are back to normal life within 3-4 days."
+      },
+      {
+        "title": "On-Call Support",
+        "description": "Our team is reachable after the procedure if you have questions during your recovery."
+      }
+    ],
+    "heroImagePath": "/clinics/smilesurgery-com/hero.webp",
+    "benefitsImagePath": "/clinics/smilesurgery-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/smilesurgery-com/whychoose.webp",
+    "city": " Buffalo Grove",
+    "hours": "Open Now",
+    "address": " Buffalo Grove",
+    "implantOptions": [
+      {
+        "iconName": "",
+        "title": "Impacted Wisdom Teeth Removal",
+        "description": "Safely removes wisdom teeth trapped beneath the gums or jawbone to prevent pain, infection, and damage to nearby teeth."
+      },
+      {
+        "iconName": "",
+        "title": "Surgical Tooth Extractions",
+        "description": "Expert surgical removal of complex or partially erupted wisdom teeth using advanced techniques for optimal healing."
+      },
+      {
+        "iconName": "",
+        "title": "Sedation Dentistry",
+        "description": "Comfort-focused sedation options, including IV sedation and nitrous oxide, for a relaxed, stress-free procedure."
+      },
+      {
+        "iconName": "",
+        "title": "Emergency Wisdom Tooth Care",
+        "description": "Prompt treatment for severe pain, swelling, infection, or other urgent wisdom tooth complications."
+      },
+      {
+        "iconName": "",
+        "title": "Bone Grafting & Socket Preservation",
+        "description": "Helps preserve jawbone structure and supports future restorative treatment when needed after extraction."
+      },
+      {
+        "iconName": "",
+        "title": "Post-Extraction Recovery & Aftercare",
+        "description": "Personalized recovery guidance to promote healing, minimize discomfort, and reduce the risk of complications."
+      }
+    ],
+    "stats": [
+      {
+        "value": "98%",
+        "label": "Customer Retention Rate"
+      },
+      {
+        "value": "20+",
+        "label": "Years Serving Community"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed Successfully"
+      }
+    ]
+  },
+  "doctor": {
+    "name": "Dr. Scott Frank",
+    "bio": "With decades of experience since opening his practice in 1988, Dr. Scott Frank is an expert in oral surgery services, including wisdom teeth removal. He has served thousands of patients in the north and northwest Chicago suburbs with compassion, dedication, and surgical excellence. Dr. Frank continually improves his knowledge through CE courses and directs the premier study club, Elite Dental Group, for dental professionals in the area. His commitment to advanced techniques and patient comfort ensures a confident smile for all.",
+    "photoPath": "/clinics/smilesurgery-com/doctor.webp",
+    "specialistPortraitPath": "/clinics/smilesurgery-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Gwen Smoot",
+      "text": "Dr. Frank is very friendly, very informative, and he made me very comfortable in a situation where I was in pain and needed to have a tooth extracted. I can say that Dr. Frank really helped me out in this situation.",
+      "rating": 5
+    },
+    {
+      "name": "Christine",
+      "text": "I would say if you want to go to the best oral surgeon in Lake County, come to Dr. Frank, because he is very professional, dedicated, does perfect work, and he’s very caring and he’s a wonderful doctor and person. He follows up to make sure you're okay. Dr. Frank is the best.",
+      "rating": 5
+    },
+    {
+      "name": "Dr. Lynn Marie Konzen",
+      "text": "I love coming to this practice because the staff is very friendly. I enjoy coming in there. They’re nice people. The atmosphere is very warm, very clean office, and of course, Dr. Frank is a very nice person. I’ve worked with him for many years and I’m also a patient of his. He makes you feel at ease.",
+      "rating": 5
+    },
+    {
+      "name": "Marty Singer",
+      "text": "[Dr. Frank] personally called me each time I had a procedure and he seemed genuinely interested in how I was faring. He is exceptional in explaining what the procedure is going to be like. He really seems to care.",
+      "rating": 5
+    },
+    {
+      "name": "Anne Grego",
+      "text": "From the minute I called, they made it very simple to come in and very easy for me to work with my insurance company; they did everything before I had to come. I've recommended Dr. Frank to so many people already, and they've all had good experiences too.",
+      "rating": 5
+    },
+    {
+      "name": "Nancy J.",
+      "text": "He never gets upset, nothing seems too difficult for him. He’s always willing to see me, or any of his patients, whenever you have a problem. You never feel like you’re bothering Dr. Frank.",
+      "rating": 5
+    }
+  ],
+  "template": "dentist-landing",
+  "procedure": "wisdom-teeth-removal",
+  "themeId": "custom",
+  "customThemeColor": "#34647e",
+  "hiddenSections": [
+    "beforeafter"
+  ]
+}

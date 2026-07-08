@@ -1,0 +1,286 @@
+{
+  "clinic": {
+    "name": "Anthony Dental Care",
+    "tagline": "Dentistry is our Ministry",
+    "city": "Sunbury",
+    "phone": "(740) 660-3127",
+    "address": "257 W Granville St, Sunbury, OH 43074",
+    "hours": "Mon 7:00am-5:00pm,Tue 7:00am-5:00pm,Wed 7:00am-5:00pm,Thu 7:00am-5:00pm,Fri 7:00am-2:00pm",
+    "logoPath": "/clinics/anthonydentalcare-com/logo.webp",
+    "logoIsLight": true,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with dental implants from Anthony Dental Care. Dental implants provide a permanent solution for missing teeth, helping preserve jawbone health while looking and functioning like natural teeth. We offer comprehensive implant options including All-on-4 to help you achieve a healthier, happier smile.",
+    "differentiators": [
+      {
+        "title": "Modern Technology",
+        "description": "Utilizing digital scans and advanced options to enhance precision and accuracy in treatments."
+      },
+      {
+        "title": "Personalized Care",
+        "description": "Comfort for dental anxiety with pain-free care, cozy blankets, pillows, and TVs in treatment rooms."
+      },
+      {
+        "title": "Patient Focused",
+        "description": "Personalized treatment plans and online patient forms ensure a smooth and respectful experience."
+      },
+      {
+        "title": "Community Focused Ministry",
+        "description": "Serving others through compassionate, high-quality dental care since 1976, treating patients like family."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Initial Consultation & Planning",
+        "description": "We begin with a thorough examination, including 3D scans and digital X-rays, to assess your oral health and plan the optimal placement of your dental implants. Your personalized treatment plan will be discussed in detail."
+      },
+      {
+        "title": "Preparation Work",
+        "description": "Any necessary preparatory steps, such as tooth extractions, bone grafting to ensure sufficient jawbone support, or gum care, will be completed to create a healthy foundation for your implants."
+      },
+      {
+        "title": "Implant Placement",
+        "description": "The titanium implant post is precisely and surgically placed into your jawbone. This forms a stable foundation for your new tooth, mimicking the root of a natural tooth."
+      },
+      {
+        "title": "Healing & Osseointegration",
+        "description": "A healing period of several months allows the implant to fuse with your jawbone through a process called osseointegration, ensuring a strong and permanent bond."
+      },
+      {
+        "title": "Abutment Placement & Impressions",
+        "description": "Once osseointegration is complete, a small connector piece called an abutment is attached to the implant. We then take final impressions to design your custom crown, bridge, or arch."
+      },
+      {
+        "title": "Final Restoration & Care Plan",
+        "description": "Your custom-fabricated crown, bridge, or full arch is securely attached to the abutment, completing your new smile. We will then provide you with a long-term care plan to maintain your implant."
+      }
+    ],
+    "commonSymptoms": [
+      "Missing Tooth",
+      "Multiple Missing Teeth",
+      "Loose Denture",
+      "Failing Tooth Needs Extraction",
+      "Bone Loss in Jaw",
+      "Difficulty Chewing",
+      "Embarrassed to Smile",
+      "Old Bridge Failing",
+      "Gum Disease",
+      "Knocked-Out Tooth"
+    ],
+    "stats": [
+      {
+        "value": "3800+",
+        "label": "Patient Reviews"
+      },
+      {
+        "value": "100%",
+        "label": "Personalized Treatment Plans"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Permanent Tooth Replacement",
+        "description": "Dental implants offer a durable and long-lasting solution for missing teeth."
+      },
+      {
+        "title": "Improved Chewing Function",
+        "description": "Eat your favorite foods with confidence and comfort, just like with natural teeth."
+      },
+      {
+        "title": "Preserves Jawbone Health",
+        "description": "Implants stimulate the jawbone, preventing bone loss that often occurs after tooth extraction."
+      },
+      {
+        "title": "Natural Look and Feel",
+        "description": "Custom crowns on implants blend seamlessly with your existing teeth for a natural appearance."
+      },
+      {
+        "title": "Enhanced Speech Clarity",
+        "description": "Stable implants support clear speech, unlike ill-fitting dentures that can slip."
+      },
+      {
+        "title": "Boosts Confidence",
+        "description": "Regain a complete, beautiful smile and feel more confident in social and professional settings."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Single Tooth Implants",
+        "description": "Replace one missing tooth with a durable implant and natural-looking crown."
+      },
+      {
+        "title": "Multiple Tooth Implants",
+        "description": "Restore several missing teeth with strategically placed implants for a secure, long-lasting solution."
+      },
+      {
+        "title": "Implant-Supported Bridges",
+        "description": "Replace multiple adjacent missing teeth without relying on natural teeth for support."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "Secure dentures to dental implants for improved comfort, stability, and chewing function."
+      },
+      {
+        "title": "All-on-4 Dental Implants",
+        "description": "Restore a full arch of teeth using four strategically placed implants and a fixed prosthesis."
+      },
+      {
+        "title": "Same-Day Dental Implants",
+        "description": "Receive implants and a temporary restoration in a single visit, reducing treatment time and restoring your smile quickly."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the process for dental implants?",
+        "answer": "The dental implant process typically involves an initial consultation, preparation work like extractions or bone grafting, surgical placement of the implant, a healing period, and finally, attachment of the permanent crown or bridge. We will guide you through each step."
+      },
+      {
+        "question": "Do you offer financing options for dental implants?",
+        "answer": "Yes, we accept various payment methods including Cash, Check, Visa, Mastercard, Discover, and Care Credit. We are committed to making your dental implant treatment accessible and affordable."
+      },
+      {
+        "question": "Am I a candidate for dental implants if I have bone loss?",
+        "answer": "Bone loss can sometimes affect candidacy for dental implants, but with modern techniques like bone grafting, many patients who have experienced bone loss can still receive implants. We offer initial consultations to assess your specific situation and recommend the best course of action."
+      },
+      {
+        "question": "How long do dental implants typically last?",
+        "answer": "With proper care and maintenance, dental implants are designed to be a long-term solution and can last for many years, often a lifetime. Regular dental check-ups and good oral hygiene are key to their longevity."
+      },
+      {
+        "question": "Is dental implant surgery painful and what sedation do you offer?",
+        "answer": "We prioritize your comfort with pain-free dental care and personalized treatment plans. While the surgery itself is performed under anesthesia, we also offer various sedation options to ensure you have a comfortable and relaxed experience during your procedure."
+      },
+      {
+        "question": "How do dental implants compare to bridges or dentures for tooth replacement?",
+        "answer": "Dental implants offer a permanent and stable solution that acts like a natural tooth, preserving jawbone health and not relying on neighboring teeth for support. Bridges are fixed but require altering adjacent teeth, while traditional dentures are removable and may not offer the same stability as implants."
+      }
+    ],
+    "footerAbout": "Anthony Dental Care has been providing exceptional dental care to generations of patients since 1976, rooted in a ministry of compassionate, high-quality service across central Ohio.",
+    "heroHeadline": "Strong, Natural,\nLong-Lasting\nDental Implants.",
+    "heroCta": "Book a Free Implant Consultation",
+    "implantOptionsLabel": "Implant Treatment Options",
+    "implantOptionsHeadline": "Dental Implant Solutions for Every Situation",
+    "implantOptionsSubheading": "From replacing a single missing tooth to rebuilding a full arch, our implant options give you a permanent, natural-feeling solution.",
+    "whyChooseLabel": "Why Choose Our Implant Team",
+    "whyChooseHeadline": "Experienced Implant Care, Start to Finish, Under One Roof",
+    "whyChooseSubheading": "From your first 3D scan to your final crown — every step handled in-house by a team that does implants every day.",
+    "processHeadline": "Your Dental Implant Journey",
+    "processSubheading": "Every implant case follows a careful, evidence-based path — from your first consultation to a fully restored bite. Here's what to expect.",
+    "benefitsHeadline": "Why Patients Choose Dental Implants",
+    "faqLabel": "Implant FAQ",
+    "faqHeadline": "Common Questions About Dental Implants",
+    "symptomCheckerHeadline": "Tell Us About Your Missing or Failing Teeth",
+    "symptomCheckerSubheading": "Tap whichever issue applies — we'll show you which implant solution makes the most sense for your situation.",
+    "testimonialsHeadline": "Implant Patient Stories",
+    "testimonialsSubheading": "Real patients sharing how dental implants gave them back the confidence to eat, speak, and smile.",
+    "beforeAfterHeadline": "See Real Implant Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos from our own implant patients — from single-tooth replacement to full-arch restoration.",
+    "beforeAfterCases": [
+      {
+        "tag": "Implants",
+        "title": "Single-Tooth Implant",
+        "subtitle": "Restored function in 3 months",
+        "beforeImage": "/clinics/anthonydentalcare-com/case-before-1783402540072-zcp100.png",
+        "afterImage": "/clinics/anthonydentalcare-com/case-after-1783402565408-a0z4ox.png"
+      },
+      {
+        "tag": "Restoration",
+        "title": "Implant-Supported Bridge",
+        "subtitle": "Replaces 3 teeth on 2 implants",
+        "beforeImage": "/images/implant-placement-before.webp",
+        "afterImage": "/images/implant-placement-after.webp"
+      },
+      {
+        "tag": "Cosmetic",
+        "title": "Front-Tooth Implant",
+        "subtitle": "Indistinguishable from natural",
+        "beforeImage": "/images/whitening-before.webp",
+        "afterImage": "/images/whitening-after.webp"
+      }
+    ],
+    "smileSimulatorHeadline": "Check Your\nImplant Candidacy",
+    "smileSimulatorSubheading": "Upload a photo of your smile and tell us about the missing teeth or failing restorations — our AI will outline which implant options likely fit your situation.",
+    "bookingHeadline": "Book Your Free Implant Consultation",
+    "bookingSubheading": "Include a 3D scan and treatment plan at no cost. Walk out knowing exactly what's possible.",
+    "heroAssurances": [
+      "Free consultation",
+      "0% financing available",
+      "In-house 3D imaging"
+    ],
+    "smileSimulatorGoals": [
+      "Replace a missing tooth",
+      "Replace several missing teeth",
+      "Move away from dentures",
+      "Save a failing tooth",
+      "Full arch restoration"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Surgical Precision",
+        "description": "Guided implant surgery planned from your CBCT scan for accurate, predictable placement and faster healing."
+      },
+      {
+        "title": "All Phases In-House",
+        "description": "Surgery, restoration, and lab work all under one roof — no juggling referrals between offices."
+      },
+      {
+        "title": "Permanent Solution",
+        "description": "Titanium implants fuse to your jawbone and last decades — not a temporary fix you'll have to redo."
+      },
+      {
+        "title": "Sedation Comfort Options",
+        "description": "Choose from nitrous, oral sedation, or IV sedation so your implant procedure feels easy and stress-free."
+      }
+    ],
+    "heroImagePath": "/clinics/anthonydentalcare-com/hero.webp",
+    "benefitsImagePath": "/clinics/anthonydentalcare-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/anthonydentalcare-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. David Anthony",
+    "bio": "Dr. David Anthony expanded the mission of Anthony Dental Care in 2022 by opening a second location in Centerburg, continuing the legacy of high-quality dental care founded by Dr. Michael Anthony in 1976. Dr. Anthony is dedicated to serving others through compassionate and professional dentistry, treating every patient like family. He is committed to providing personalized treatment plans and utilizing modern technology to ensure the best possible outcomes for all patients.",
+    "photoPath": "/clinics/anthonydentalcare-com/doctor.webp",
+    "specialistCredentials": [
+      "General Dentist",
+      "Implant Restorative Expert",
+      "Modern Technology User",
+      "Patient-Focused Philosophy"
+    ],
+    "specialistPortraitPath": "/clinics/anthonydentalcare-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Maria G.",
+      "text": "Comforted by the staff. Practical and solid advice from Dr. Anthony. Considerate of my age and condition, especially when discussing options for my missing teeth.",
+      "rating": 5
+    },
+    {
+      "name": "Dani W.",
+      "text": "I love going to get my teeth cleaned! Especially when you have wonderful folks like those at Anthony dental care. They make every visit pleasant.",
+      "rating": 5
+    },
+    {
+      "name": "Robert S.",
+      "text": "The team at Anthony Dental Care is truly exceptional. They explained my implant options clearly and made me feel at ease throughout the entire process. My new implant feels fantastic!",
+      "rating": 5
+    },
+    {
+      "name": "Jessica L.",
+      "text": "I had a failing tooth and was worried about the extraction and replacement. Dr. Anthony and his staff were incredibly supportive and made the experience much smoother than I anticipated. Highly recommend their implant services.",
+      "rating": 5
+    },
+    {
+      "name": "Mark T.",
+      "text": "The modern technology used here is impressive. They were able to diagnose my issue quickly and provided a comprehensive plan for my missing teeth. Payment options were also clearly explained.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah P.",
+      "text": "After years of struggling with a loose denture, I decided to explore implant-supported options. The results are amazing! I can eat and speak with so much more confidence now. Thank you, Anthony Dental Care!",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "dental-implants",
+  "themeId": "custom",
+  "customThemeColor": "#393939"
+}

@@ -1,0 +1,291 @@
+{
+  "clinic": {
+    "name": "Smile Pro Studio",
+    "tagline": "DESIGNING SMILES THAT CHANGE LIVES",
+    "city": "Schaumburg",
+    "phone": "(847) 437-3533",
+    "address": "1701 E. Woodfield Rd. Ste. 510, Schaumburg, IL 60173",
+    "hours": "Mon 9am-5pm, Tue 9am-5pm, Wed CLOSED, Thu 8am-2pm, Fri 9am-4pm",
+    "logoPath": "/clinics/dentistschaumburg-com/logo.webp",
+    "logoIsLight": false,
+    "logoIsWordmark": true,
+    "heroSubtitle": "Restore your smile, regain full chewing function, and enjoy lasting confidence with full mouth rehabilitation from Smile Pro Studio. This comprehensive approach addresses widespread tooth damage, wear, or loss, utilizing a combination of advanced techniques to rebuild your bite and aesthetics. The result is a healthy, beautiful smile that looks and feels natural, providing a permanent solution for complex dental needs.",
+    "differentiators": [
+      {
+        "title": "Prosthodontist Expertise",
+        "description": "Benefit from specialized care in full mouth rehabilitation, ensuring precise and lasting results."
+      },
+      {
+        "title": "Comprehensive Services",
+        "description": "From implants to crowns, the clinic offers all services needed for complex reconstructions."
+      },
+      {
+        "title": "Patient-Centered Care",
+        "description": "Receive highly personalized attention and a comfortable experience, tailored to your individual needs."
+      },
+      {
+        "title": "Advanced Education",
+        "description": "The doctors are committed to continuing education, utilizing the latest techniques and technologies in dentistry."
+      }
+    ],
+    "treatmentJourney": [
+      {
+        "title": "Comprehensive Consultation",
+        "description": "Your journey begins with a thorough examination, including full records, CBCT scans, and detailed photography to assess your oral health and understand your goals."
+      },
+      {
+        "title": "Collaborative Treatment Plan",
+        "description": "Work with the prosthodontist to create a digital treatment plan, including mockups, ensuring your final smile and bite meet your expectations."
+      },
+      {
+        "title": "Foundation Phase",
+        "description": "This stage involves necessary preparatory work such as extractions, implant placement, and any required gum or bone grafting to create a strong foundation."
+      },
+      {
+        "title": "Provisional Restorations",
+        "description": "Temporary restorations are placed to allow you to test the new bite, aesthetics, and function, providing a preview of your final results."
+      },
+      {
+        "title": "Final Restoration Fabrication",
+        "description": "Custom, lab-crafted permanent restorations are meticulously designed and fabricated to ensure a precise fit and natural appearance."
+      },
+      {
+        "title": "Long-Term Maintenance",
+        "description": "After your new smile is delivered, the clinic provides guidance on long-term care, including nightguards, hygiene visits, and protective measures to maintain your results."
+      }
+    ],
+    "commonSymptoms": [
+      "Worn Down Teeth",
+      "Multiple Failing Crowns",
+      "Cracked Teeth",
+      "Missing Teeth",
+      "Jaw Pain / TMJ",
+      "Difficulty Chewing",
+      "Old Dentures Failing",
+      "Acid Erosion",
+      "Grinding Damage",
+      "Want Whole Mouth Rebuilt"
+    ],
+    "stats": [
+      {
+        "value": "5",
+        "label": "Stars Google Reviews"
+      },
+      {
+        "value": "20+",
+        "label": "Years Combined Experience"
+      },
+      {
+        "value": "100%",
+        "label": "Personalized Care"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Restore Full Function",
+        "description": "Regain the ability to chew, speak, and smile with comfort and confidence."
+      },
+      {
+        "title": "Enhanced Aesthetics",
+        "description": "Achieve a beautiful, natural-looking smile that complements your facial features."
+      },
+      {
+        "title": "Long-Term Solution",
+        "description": "Full mouth rehabilitation provides durable and lasting results for your oral health."
+      },
+      {
+        "title": "Improved Oral Health",
+        "description": "Address underlying issues like extensive wear and missing teeth for a healthier mouth."
+      },
+      {
+        "title": "Boosted Self-Confidence",
+        "description": "A revitalized smile can significantly improve your self-esteem and quality of life."
+      },
+      {
+        "title": "Comprehensive Care",
+        "description": "Benefit from a unified approach to complex dental issues, tailored to your needs."
+      }
+    ],
+    "implantOptions": [
+      {
+        "title": "Dental Implants",
+        "description": "Replace missing teeth with permanent, natural-looking restorations that restore chewing ability, jawbone health, and confidence."
+      },
+      {
+        "title": "Implant-Supported Dentures",
+        "description": "A secure alternative to traditional dentures that uses dental implants for improved stability, comfort, and function."
+      },
+      {
+        "title": "Dental Crowns & Bridges",
+        "description": "Restore damaged, weakened, or missing teeth with custom-crafted restorations designed for strength, aesthetics, and long-term durability."
+      },
+      {
+        "title": "Porcelain Veneers",
+        "description": "Enhance the appearance of worn, chipped, stained, or uneven teeth with thin, natural-looking porcelain shells."
+      },
+      {
+        "title": "Full & Partial Dentures",
+        "description": "Replace multiple missing teeth with custom dentures that improve speech, chewing efficiency, and smile aesthetics."
+      },
+      {
+        "title": "Bite Reconstruction & TMJ Therapy",
+        "description": "Correct bite misalignment, excessive tooth wear, and jaw discomfort to restore proper function and long-term oral health."
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How long does a full mouth restoration take?",
+        "answer": "The duration of full mouth restoration varies greatly depending on the complexity of your case and the specific treatments involved. We will provide a detailed timeline during your comprehensive consultation."
+      },
+      {
+        "question": "How much does full mouth reconstruction cost?",
+        "answer": "The cost of full mouth reconstruction is highly individualized, as it depends on the extent of treatment needed. We will discuss all financial aspects and options during your treatment planning phase."
+      },
+      {
+        "question": "Why do I need a prosthodontist instead of a general dentist for full mouth rehabilitation?",
+        "answer": "A prosthodontist, like Dr. Zomorrodian, has undergone three additional years of advanced training specifically in the restoration and replacement of teeth, making them highly qualified for complex full mouth rehabilitation cases."
+      },
+      {
+        "question": "Will I have to be without teeth at any point during treatment?",
+        "answer": "The clinic strives to ensure you are never without teeth during your treatment journey. Provisional restorations are often used to maintain aesthetics and function while your permanent restorations are being crafted."
+      },
+      {
+        "question": "How do you handle TMJ pain and bite issues?",
+        "answer": "The clinic addresses TMJ/TMD issues as part of a comprehensive treatment plan, aiming to restore proper bite alignment and alleviate discomfort during your full mouth rehabilitation."
+      },
+      {
+        "question": "Do you offer sedation for long appointments?",
+        "answer": "Yes, sedation dentistry is offered to ensure your comfort during longer appointments and complex procedures, making your experience as relaxed as possible."
+      }
+    ],
+    "footerAbout": "Smile Pro Studio provides excellent dentistry in Schaumburg, specializing in full mouth rehabilitation for patients of all ages, ensuring personalized and comprehensive care.",
+    "heroHeadline": "Rebuild Your\nMouth. Restore\nYour Bite.",
+    "heroCta": "Book a Reconstruction Consultation",
+    "implantOptionsLabel": "Full Mouth Restoration Services",
+    "implantOptionsHeadline": "Comprehensive Reconstruction Tailored to Your Mouth",
+    "implantOptionsSubheading": "Every full mouth restoration plan combines the right mix of implants, crowns, bridges, and prosthetics for your specific case.",
+    "whyChooseLabel": "Why Choose Our Prosthodontist",
+    "whyChooseHeadline": "Board-Certified Prosthodontics for the Most Complex Cases",
+    "whyChooseSubheading": "Full mouth reconstruction is one of the hardest things in dentistry — it should be done by someone with the specialty training to match.",
+    "processHeadline": "Your Full Mouth Restoration Journey",
+    "processSubheading": "Full mouth reconstruction is a phased process — diagnosed carefully, planned digitally, and delivered in stages your body can heal between.",
+    "benefitsHeadline": "Why Patients Trust Us With Full Mouth Restoration",
+    "faqLabel": "Restoration FAQ",
+    "faqHeadline": "Common Questions About Full Mouth Restoration",
+    "symptomCheckerHeadline": "Tell Us What's Going On",
+    "symptomCheckerSubheading": "Tap whichever applies — most full mouth restoration patients have several of these issues at once, and we can solve them together.",
+    "testimonialsHeadline": "Reconstruction Patient Stories",
+    "testimonialsSubheading": "Real patients who arrived with extensive damage and walked away with a fully restored, functional smile.",
+    "beforeAfterHeadline": "Real Reconstruction Outcomes",
+    "beforeAfterSubheading": "Before-and-after photos of complete full-mouth rebuilds — restored bites, rebuilt smiles, and natural-looking results.",
+    "beforeAfterCases": [
+      {
+        "tag": "Reconstruction",
+        "title": "Full-Mouth Rebuild",
+        "subtitle": "Crowns and implants over 6 months",
+        "beforeImage": "/clinics/dentistschaumburg-com/case-before-1783056527200-9b1pk6.png",
+        "afterImage": "/clinics/dentistschaumburg-com/case-after-1783057297441-3olxr2.png"
+      },
+      {
+        "tag": "Prosthetics",
+        "title": "Implant-Supported Bridges",
+        "subtitle": "Bite restored in phased treatment",
+        "beforeImage": "/clinics/dentistschaumburg-com/case-before-1783057763957-cwelb9.png",
+        "afterImage": "/clinics/dentistschaumburg-com/case-after-1783057780392-gfyw8j.png"
+      },
+      {
+        "tag": "Bite & TMJ",
+        "title": "Bite Rehabilitation",
+        "subtitle": "Pain-free chewing within weeks",
+        "beforeImage": "/clinics/dentistschaumburg-com/case-before-1783057795735-8un0dl.png",
+        "afterImage": "/clinics/dentistschaumburg-com/case-after-1783057818225-fslql8.png"
+      }
+    ],
+    "smileSimulatorHeadline": "Plan Your\nSmile Rebuild",
+    "smileSimulatorSubheading": "Upload a photo of your current smile and tell us what's broken, missing, or worn down — our AI will outline the kind of reconstruction plan you'd likely need.",
+    "bookingHeadline": "Book Your Reconstruction Consultation",
+    "bookingSubheading": "Includes full records, CBCT scans, and photography — everything we need to design your complete reconstruction plan.",
+    "heroAssurances": [
+      "Board-certified prosthodontist",
+      "Free reconstruction consult",
+      "In-house digital lab"
+    ],
+    "smileSimulatorGoals": [
+      "Worn down teeth",
+      "Multiple failing restorations",
+      "TMJ or bite pain",
+      "Rebuild entire smile",
+      "Replace old dentures"
+    ],
+    "whyChoosePillars": [
+      {
+        "title": "Specialty-Trained",
+        "description": "Prosthodontics is a recognized dental specialty — extra years of training specifically for complex cases like yours."
+      },
+      {
+        "title": "Phased Treatment Plan",
+        "description": "We work in stages your body can heal between, so you never go without teeth and the work is built to last."
+      },
+      {
+        "title": "In-House Digital Lab",
+        "description": "Custom restorations designed and fabricated in-house for precise fit, predictable results, and faster timelines."
+      },
+      {
+        "title": "Bite & TMJ Expertise",
+        "description": "A correct bite is the foundation of any reconstruction — we treat the cause, not just the broken teeth."
+      }
+    ],
+    "heroImagePath": "/clinics/dentistschaumburg-com/hero.webp",
+    "benefitsImagePath": "/clinics/dentistschaumburg-com/benefits.webp",
+    "whyChooseImagePath": "/clinics/dentistschaumburg-com/whychoose.webp"
+  },
+  "doctor": {
+    "name": "Dr. Sahand Zomorrodian",
+    "credentials": "D.M.D.",
+    "bio": "Dr. Sahand Zomorrodian, a Prosthodontist, was drawn to dentistry by the blend of skill and artistry he observed in dental treatments. After earning his D.M.D. from Tufts University, Dr. Zomorrodian completed three additional years of advanced training in Prosthodontics at the University of Illinois at Chicago, specializing in complex restorative cases. With a personable approach, he focuses on developing strong relationships with patients, ensuring they feel heard and comfortable. Dr. Zomorrodian is dedicated to providing specialized care, particularly for those with missing teeth, to achieve their desired smile. He is fluent in English, Farsi, and Spanish, enhancing communication with a diverse patient base.",
+    "photoPath": "/clinics/dentistschaumburg-com/doctor.webp",
+    "specialistCredentials": [
+      "Board-Certified Prosthodontist",
+      "Full Mouth Rehabilitation Expert",
+      "Advanced Implant Solutions",
+      "Patient-Centered Approach"
+    ],
+    "specialistPortraitPath": "/clinics/dentistschaumburg-com/specialist.webp"
+  },
+  "reviews": [
+    {
+      "name": "Kim L.",
+      "text": "Enid was great! Gentle and very kind! My full mouth rehabilitation journey has been so smooth because of the caring team here. I'm so happy with my progress!",
+      "rating": 5
+    },
+    {
+      "name": "Joe S.",
+      "text": "Friendly staff and excellent service. They made me feel very comfortable even though I was nervous about my complex dental needs. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Raf F.",
+      "text": "Very knowledgeable and professional. Dr. Zomorrodian explained every step of my full mouth restoration, and the results are truly life-changing.",
+      "rating": 5
+    },
+    {
+      "name": "Joanne R.",
+      "text": "Dr. Z is wonderful and so smart, the office is so clean. I felt confident in their expertise for my full mouth reconstruction from day one.",
+      "rating": 5
+    },
+    {
+      "name": "Silviu C.",
+      "text": "Professional and friendly. The team at Smile Pro Studio truly cares and makes you feel at ease throughout the entire process.",
+      "rating": 5
+    },
+    {
+      "name": "Marie T.",
+      "text": "Very personable, professional, and truly cares about helping. They explain everything and help with all paperwork, making my extensive treatment much easier to manage.",
+      "rating": 5
+    }
+  ],
+  "template": "implants",
+  "procedure": "full-mouth-restoration",
+  "themeId": "custom",
+  "customThemeColor": "#575757"
+}
