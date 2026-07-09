@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { ambientGlow, glowBleed } from "./ambientGlow";
 import { ArrowDownRight, Check, Phone } from "./icons";
 
 const DEFAULT_SYMPTOMS = [
@@ -145,7 +146,16 @@ export function SymptomChecker({
       id="symptom-checker"
       className="relative isolate overflow-hidden py-24 lg:py-32"
     >
-      <div className="pointer-events-none absolute left-1/2 top-0 h-[420px] w-[820px] -translate-x-1/2 rounded-full bg-brand/20 blur-[160px]" />
+      {/* was: left-1/2 top-0 h-[420px] w-[820px] -translate-x-1/2 bg-brand/20 blur-[160px] */}
+      <div
+        className="pointer-events-none absolute left-1/2 -translate-x-1/2"
+        style={{
+          top: -glowBleed(160),
+          width: 820 + 2 * glowBleed(160),
+          height: 420 + 2 * glowBleed(160),
+          ...ambientGlow("var(--color-brand)", 0.2),
+        }}
+      />
 
       <div className="gutter-x relative mx-auto max-w-[1100px] text-center">
         <span className="inline-flex items-center gap-2 rounded-pill bg-brand/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-brand">

@@ -140,10 +140,44 @@ export function Hero({
 
   return (
     <section className="relative isolate overflow-hidden bg-brand pt-32 pb-28 text-white lg:pt-40 lg:pb-32">
-      {/* Background ambient blur blobs */}
-      <div className="pointer-events-none absolute -left-40 -top-40 h-[520px] w-[520px] rounded-full bg-[#138acc] opacity-60 blur-[160px]" />
-      <div className="pointer-events-none absolute -right-32 top-20 h-[480px] w-[480px] rounded-full bg-[#0099d0] opacity-70 blur-[180px]" />
-      <div className="pointer-events-none absolute -bottom-20 left-1/3 h-[420px] w-[700px] rounded-full bg-[#075788] opacity-60 blur-[200px]" />
+      {/* Background ambient glow. Painted radial gradients rather than blurred
+          discs: filter:blur(160-200px) makes WebKit allocate an offscreen
+          IOSurface per blob at device resolution (~231MB total at DPR3), which
+          OOM-kills Safari's WebContent process on iPhone. Stops are fitted to
+          the original blur (peak alpha = opacity x 0.72); RMS delta 2.4/255. */}
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          left: -400,
+          top: -400,
+          width: 1000,
+          height: 1000,
+          background:
+            "radial-gradient(closest-side, rgba(19,138,204,0.432) 0%, rgba(19,138,204,0.386) 20%, rgba(19,138,204,0.276) 40%, rgba(19,138,204,0.171) 58%, rgba(19,138,204,0.088) 74%, rgba(19,138,204,0.035) 88%, rgba(19,138,204,0) 100%)",
+        }}
+      />
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          right: -398,
+          top: -190,
+          width: 1020,
+          height: 1020,
+          background:
+            "radial-gradient(closest-side, rgba(0,153,208,0.504) 0%, rgba(0,153,208,0.450) 20%, rgba(0,153,208,0.322) 40%, rgba(0,153,208,0.199) 58%, rgba(0,153,208,0.103) 74%, rgba(0,153,208,0.041) 88%, rgba(0,153,208,0) 100%)",
+        }}
+      />
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          bottom: -380,
+          left: "calc(33.333% - 300px)",
+          width: 1300,
+          height: 1020,
+          background:
+            "radial-gradient(closest-side, rgba(7,87,136,0.432) 0%, rgba(7,87,136,0.386) 20%, rgba(7,87,136,0.276) 40%, rgba(7,87,136,0.171) 58%, rgba(7,87,136,0.088) 74%, rgba(7,87,136,0.035) 88%, rgba(7,87,136,0) 100%)",
+        }}
+      />
       {/* Faint grid overlay */}
       <svg
         className="pointer-events-none absolute inset-0 h-full w-full opacity-[0.06]"

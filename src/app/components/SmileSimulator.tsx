@@ -1,5 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
+import { ambientGlow, glowBleed } from "./ambientGlow";
 import { ArrowDownRight, Check, Sparkle, Upload } from "./icons";
 import type { SimulatorStep } from "@/types/clinic";
 
@@ -124,8 +125,28 @@ export function SmileSimulator({
       id="smile-simulator"
       className="relative isolate overflow-hidden bg-brand py-24 text-white lg:py-32"
     >
-      <div className="pointer-events-none absolute -left-40 top-10 h-[420px] w-[420px] rounded-full bg-brand-2 opacity-40 blur-[160px]" />
-      <div className="pointer-events-none absolute -right-32 top-1/3 h-[520px] w-[520px] rounded-full bg-brand-deep opacity-50 blur-[200px]" />
+      {/* was: -left-40 top-10 h-[420px] w-[420px] bg-brand-2 opacity-40 blur-[160px] */}
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          left: -160 - glowBleed(160),
+          top: 40 - glowBleed(160),
+          width: 420 + 2 * glowBleed(160),
+          height: 420 + 2 * glowBleed(160),
+          ...ambientGlow("var(--color-brand-2)", 0.4),
+        }}
+      />
+      {/* was: -right-32 top-1/3 h-[520px] w-[520px] bg-brand-deep opacity-50 blur-[200px] */}
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          right: -128 - glowBleed(200),
+          top: `calc(33.333% - ${glowBleed(200)}px)`,
+          width: 520 + 2 * glowBleed(200),
+          height: 520 + 2 * glowBleed(200),
+          ...ambientGlow("var(--color-brand-deep)", 0.5),
+        }}
+      />
 
       <div className="gutter-x relative grid gap-14 lg:grid-cols-12 lg:gap-16">
         {/* Left — copy + steps */}

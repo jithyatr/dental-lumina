@@ -11,6 +11,7 @@ import {
   Star,
 } from "../components/icons";
 import { Footer } from "../components/Footer";
+import { ambientGlow } from "../components/ambientGlow";
 
 const CALENDLY_URL = "https://calendly.com/renish-tw-webandcrafts/30min";
 
@@ -322,10 +323,22 @@ function PreviewFrame({
 function FakeSite({ topOffset = false }: { topOffset?: boolean } = {}) {
   return (
     <div className={`absolute inset-0 bg-brand-deep text-white ${topOffset ? "pt-9" : ""}`}>
-      {/* Atmosphere */}
-      <div className="pointer-events-none absolute -left-32 -top-24 h-[360px] w-[360px] rounded-full bg-[#138acc] opacity-60 blur-[120px]" />
-      <div className="pointer-events-none absolute -right-20 top-10 h-[320px] w-[320px] rounded-full bg-[#0099d0] opacity-70 blur-[120px]" />
-      <div className="pointer-events-none absolute -bottom-10 left-1/3 h-[260px] w-[460px] rounded-full bg-brand-deep opacity-70 blur-[140px]" />
+      {/* Atmosphere — painted radial gradients fitted to the original blur
+          (peak alpha = opacity x 0.72), boxes grown by 1.5 x blurRadius per side
+          so the ellipse centre stays put. Avoids the offscreen IOSurface that
+          filter:blur() allocates. See components/ambientGlow.ts. */}
+      <div
+        className="pointer-events-none absolute"
+        style={{ left: -308, top: -276, width: 720, height: 720, ...ambientGlow("#138acc", 0.6) }}
+      />
+      <div
+        className="pointer-events-none absolute"
+        style={{ right: -260, top: -140, width: 680, height: 680, ...ambientGlow("#0099d0", 0.7) }}
+      />
+      <div
+        className="pointer-events-none absolute"
+        style={{ bottom: -250, left: "calc(33.333% - 210px)", width: 880, height: 680, ...ambientGlow("var(--color-brand-deep)", 0.7) }}
+      />
 
       {/* Faux navbar */}
       <div className="relative flex items-center justify-between px-8 py-5">
@@ -688,8 +701,14 @@ function FakeSiteWithInterlude() {
     <div className="absolute inset-0 overflow-y-hidden bg-mute">
       {/* Compressed hero (top) */}
       <div className="relative h-[200px] overflow-hidden bg-brand-deep text-white">
-        <div className="pointer-events-none absolute -left-32 -top-24 h-[260px] w-[260px] rounded-full bg-[#138acc] opacity-60 blur-[110px]" />
-        <div className="pointer-events-none absolute -right-20 top-10 h-[220px] w-[220px] rounded-full bg-[#0099d0] opacity-70 blur-[110px]" />
+        <div
+          className="pointer-events-none absolute"
+          style={{ left: -293, top: -261, width: 590, height: 590, ...ambientGlow("#138acc", 0.6) }}
+        />
+        <div
+          className="pointer-events-none absolute"
+          style={{ right: -245, top: -125, width: 550, height: 550, ...ambientGlow("#0099d0", 0.7) }}
+        />
 
         <div className="relative flex items-center justify-between px-8 py-5">
           <div className="flex items-center gap-3">

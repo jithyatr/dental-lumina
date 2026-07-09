@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { ComponentType, SVGProps } from "react";
+import { ambientGlow, glowBleed } from "./ambientGlow";
 import { Carousel, MapPin, Sparkle, Stethoscope } from "./icons";
 import { CtaWide } from "./Cta";
 import type { BookingLocation, BookingService } from "@/types/clinic";
@@ -108,8 +109,28 @@ export function BookingWidget({
 
   return (
     <section id="booking" className="relative isolate overflow-hidden bg-section-gradient py-24 text-white lg:py-32">
-      <div className="pointer-events-none absolute -left-32 top-1/4 h-[420px] w-[420px] rounded-full bg-white/10 blur-[180px]" />
-      <div className="pointer-events-none absolute -right-32 bottom-1/4 h-[480px] w-[480px] rounded-full bg-white/10 blur-[200px]" />
+      {/* was: -left-32 top-1/4 h-[420px] w-[420px] bg-white/10 blur-[180px] */}
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          left: -128 - glowBleed(180),
+          top: `calc(25% - ${glowBleed(180)}px)`,
+          width: 420 + 2 * glowBleed(180),
+          height: 420 + 2 * glowBleed(180),
+          ...ambientGlow("#ffffff", 0.1),
+        }}
+      />
+      {/* was: -right-32 bottom-1/4 h-[480px] w-[480px] bg-white/10 blur-[200px] */}
+      <div
+        className="pointer-events-none absolute"
+        style={{
+          right: -128 - glowBleed(200),
+          bottom: `calc(25% - ${glowBleed(200)}px)`,
+          width: 480 + 2 * glowBleed(200),
+          height: 480 + 2 * glowBleed(200),
+          ...ambientGlow("#ffffff", 0.1),
+        }}
+      />
 
       <div className="gutter-x relative">
         <div className="mx-auto max-w-3xl text-center">
