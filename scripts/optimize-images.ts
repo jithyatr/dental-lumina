@@ -72,6 +72,30 @@ function isDoctorPhoto(publicPath: string): boolean {
   return /\/clinics\/[^/]+\/doctor\.(avif|webp|png|jpe?g)$/i.test(publicPath);
 }
 
+async function exists(absPath: string): Promise<boolean> {
+  try {
+    await fs.access(absPath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// A conversion renames `hero.png` -> `hero.webp`. Several clinics ship BOTH, and the
+// existing `.webp` is a different image, not an encoding of the `.png`. Writing the
+// conversion would silently destroy it. Likewise, `hero.png` and `hero.jpg` in one
+// directory both claim `hero.webp`, so the second write clobbers the first. Never
+// overwrite a destination we did not create in this run.
+async function findCollision(
+  newAbsolutePath: string,
+  claimedBy: Map<string, string>,
+): Promise<string | undefined> {
+  const claimant = claimedBy.get(newAbsolutePath);
+  if (claimant) return `already produced from ${toPublicPath(claimant)}`;
+  if (await exists(newAbsolutePath)) return "destination already exists";
+  return undefined;
+}
+
 async function convertImage(absPath: string): Promise<Conversion> {
   const oldPublicPath = toPublicPath(absPath);
   const newPublicPath = buildOptimizedPublicPath(oldPublicPath);
@@ -183,8 +207,38 @@ async function main() {
   console.log(`Optimizing ${sourceFiles.length} raster images...`);
 
   const conversions: Conversion[] = [];
+  const collisions: string[] = [];
+  const claimedBy = new Map<string, string>();
+  let alreadyOptimized = 0;
+
   for (const filePath of sourceFiles) {
+    const oldPublicPath = toPublicPath(filePath);
+    const newPublicPath = buildOptimizedPublicPath(oldPublicPath);
+
+    // Re-encoding a .webp in place is lossy and makes the script non-idempotent:
+    // every run degrades the same file a little further. Leave them alone.
+    if (oldPublicPath === newPublicPath) {
+      alreadyOptimized += 1;
+      continue;
+    }
+
+    const newAbsolutePath = path.join(PUBLIC_DIR, newPublicPath);
+    const collision = await findCollision(newAbsolutePath, claimedBy);
+    if (collision) {
+      collisions.push(`${oldPublicPath} -> ${newPublicPath} (${collision})`);
+      continue;
+    }
+    claimedBy.set(newAbsolutePath, filePath);
+
     conversions.push(await convertImage(filePath));
+  }
+
+  console.log(`Converted ${conversions.length}, left ${alreadyOptimized} already-optimized files untouched.`);
+
+  if (collisions.length > 0) {
+    console.log(`\nSkipped ${collisions.length} conversions that would overwrite an existing image:`);
+    for (const line of collisions) console.log(`  ${line}`);
+    console.log("Resolve by deleting or renaming the stale source, then re-run.\n");
   }
 
   const touchedFiles = await updateReferences(conversions);

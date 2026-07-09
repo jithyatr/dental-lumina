@@ -183,22 +183,22 @@
         "tag": "Veneers",
         "title": "Full Smile Veneer Set",
         "subtitle": "10 porcelain veneers, 2 visits",
-        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982620584-i5vhy9.png",
-        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982628835-t2j139.png"
+        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982620584-i5vhy9.webp",
+        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982628835-t2j139.webp"
       },
       {
         "tag": "Cosmetic",
         "title": "Single-Tooth Veneer",
         "subtitle": "Reshaped and matched in one appointment",
-        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982644346-glldkc.png",
-        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982661576-vpgdgt.png"
+        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982644346-glldkc.webp",
+        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982661576-vpgdgt.webp"
       },
       {
         "tag": "Makeover",
         "title": "Whitening + Veneer Combo",
         "subtitle": "Brightened and refined in 3 weeks",
-        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982682472-a2mwte.png",
-        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982689209-36orp1.png"
+        "beforeImage": "/clinics/tribecasmiles-com/case-before-1780982682472-a2mwte.webp",
+        "afterImage": "/clinics/tribecasmiles-com/case-after-1780982689209-36orp1.webp"
       }
     ],
     "smileSimulatorHeadline": "Preview Your\nNew Veneer Smile",
@@ -237,7 +237,7 @@
     ],
     "heroImagePath": "/clinics/tribecasmiles-com/hero.webp",
     "benefitsImagePath": "/clinics/tribecasmiles-com/benefits.webp",
-    "whyChooseImagePath": "/clinics/tribecasmiles-com/whychoose.jpg"
+    "whyChooseImagePath": "/clinics/tribecasmiles-com/whychoose.webp"
   },
   "doctor": {
     "name": "Dr. Frederick E. Solomon",
